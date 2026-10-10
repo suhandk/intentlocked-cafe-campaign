@@ -1,0 +1,108 @@
+{
+  "timestamp": "2026-10-09T22:45:43.252682+00:00",
+  "mode": "live",
+  "schema_version": "b0.1",
+  "text_endpoint": "https://openrouter.ai/api/v1",
+  "image_provider": "openai",
+  "capabilities": [
+    {
+      "capability": "text",
+      "model": "openai/gpt-4o-mini",
+      "status": "VERIFIED",
+      "details": {
+        "nonempty_text": true,
+        "response_text_omitted": true
+      }
+    },
+    {
+      "capability": "structured_tools",
+      "model": "openai/gpt-4o-mini",
+      "status": "VERIFIED",
+      "details": {
+        "strategy": "tools",
+        "validated": true
+      }
+    },
+    {
+      "capability": "local_truncation_rejection",
+      "status": "LOCAL_PASSED"
+    },
+    {
+      "capability": "image_1k_download",
+      "model": "gpt-image-2.5-flare-2026-09-08",
+      "status": "NOT_TESTED",
+      "reason": "Image key or supported transport is missing"
+    },
+    {
+      "capability": "public_image_vision",
+      "status": "NOT_TESTED",
+      "reason": "Vision needs --vision, an image and supported configured vision"
+    },
+    {
+      "capability": "video",
+      "status": "UNSUPPORTED",
+      "reason": "No video model is configured"
+    },
+    {
+      "capability": "usage",
+      "status": "VERIFIED",
+      "returned_usage_calls": 2,
+      "unknown_usage_calls": 0
+    }
+  ],
+  "calls": [
+    {
+      "id": "5a7c015499bc4eafa31bae97b907c26c",
+      "trace_id": "54d8871091c64e909b8449971bcea8a1",
+      "run_id": "266f4a98a10446c5bfe6facac9937b77",
+      "work_id": null,
+      "timestamp": "2026-10-09T22:45:44.389142+00:00",
+      "mode": "live",
+      "model": "openai/gpt-4o-mini",
+      "provider": "OpenRouter",
+      "transport_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.13770000077784061,
+      "duration_ms": 1136.806099995738,
+      "usage": {
+        "prompt_tokens": 19,
+        "completion_tokens": 9,
+        "total_tokens": 28
+      },
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": 8.25e-06
+    },
+    {
+      "id": "a7cca451b5e34b7faa0e9e8ae5cadee7",
+      "trace_id": "8915a1ee654349518cb0b9f8aa7b7c7d",
+      "run_id": "266f4a98a10446c5bfe6facac9937b77",
+      "work_id": null,
+      "timestamp": "2026-10-09T22:45:51.665003+00:00",
+      "mode": "live",
+      "model": "openai/gpt-4o-mini",
+      "provider": "OpenRouter",
+      "transport_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 6363.2029999862425,
+      "duration_ms": 910.0661000120454,
+      "usage": {
+        "prompt_tokens": 150,
+        "completion_tokens": 12,
+        "total_tokens": 162
+      },
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": 2.97e-05
+    }
+  ],
+  "authenticated_status": "SEE_CAPABILITIES"
+}

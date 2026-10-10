@@ -1,0 +1,16 @@
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="16.526519">
+<testsuite name="approval-recovery.spec.ts" timestamp="2026-10-09T15:34:19.841Z" hostname="" tests="1" failures="0" skipped="0" time="2.161" errors="0">
+<testcase name="failed audit recovers; exact review, approval, export and reload remain usable" classname="approval-recovery.spec.ts" time="2.161">
+</testcase>
+</testsuite>
+<testsuite name="meta.spec.ts" timestamp="2026-10-09T15:34:19.841Z" hostname="" tests="1" failures="0" skipped="0" time="5.359" errors="0">
+<testcase name="manual publishing persists links, exports exact copy, handles clipboard failure and never calls Meta" classname="meta.spec.ts" time="5.359">
+</testcase>
+</testsuite>
+<testsuite name="planning.spec.ts" timestamp="2026-10-09T15:34:19.841Z" hostname="" tests="2" failures="0" skipped="0" time="3.863" errors="0">
+<testcase name="owner plans before generation: correct calendar, persistence, edit, review and no automatic publish" classname="planning.spec.ts" time="2.234">
+</testcase>
+<testcase name="approved output attaches to the original future plan without a duplicate" classname="planning.spec.ts" time="1.629">
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,791 @@
+{
+  "mode": "offline-local",
+  "results": [
+    {
+      "name": "pinterest-square-en",
+      "validation": {
+        "passed": true,
+        "reasons": [],
+        "font_loaded": true,
+        "grapheme_engine": true,
+        "contrast": 12.7899518055565,
+        "offer_area_ratio": 0.005854032042912822,
+        "safe_area": [
+          64,
+          64,
+          952,
+          952
+        ],
+        "lines": [
+          {
+            "field": "headline",
+            "text": "A little pause,",
+            "x": 345.1900634765625,
+            "y": 64,
+            "width": 389.619873046875,
+            "height": 61,
+            "font_size": 60
+          },
+          {
+            "field": "headline",
+            "text": "just for you",
+            "x": 374.7100524902344,
+            "y": 150.60000000000002,
+            "width": 330.57989501953125,
+            "height": 61,
+            "font_size": 60
+          },
+          {
+            "field": "body",
+            "text": "20% off · coffee",
+            "x": 357.3360290527344,
+            "y": 698.4,
+            "width": 365.32794189453125,
+            "height": 38,
+            "font_size": 48
+          },
+          {
+            "field": "body",
+            "text": "Namma Cafe · Bengaluru",
+            "x": 380.4841003417969,
+            "y": 768.68,
+            "width": 319.03179931640625,
+            "height": 28,
+            "font_size": 27
+          },
+          {
+            "field": "body",
+            "text": "2026-10-10 – 2026-10-11",
+            "x": 385.2900085449219,
+            "y": 810.4,
+            "width": 309.41998291015625,
+            "height": 21,
+            "font_size": 27
+          },
+          {
+            "field": "body",
+            "text": "Saturday / Sunday",
+            "x": 424.21656799316406,
+            "y": 852.12,
+            "width": 231.56686401367188,
+            "height": 28,
+            "font_size": 27
+          },
+          {
+            "field": "body",
+            "text": "Open to all",
+            "x": 470.59654998779297,
+            "y": 893.8399999999999,
+            "width": 138.80690002441406,
+            "height": 28,
+            "font_size": 27
+          },
+          {
+            "field": "cta",
+            "text": "Come say hello",
+            "x": 433.3960418701172,
+            "y": 946.56,
+            "width": 213.20791625976562,
+            "height": 29,
+            "font_size": 29
+          }
+        ],
+        "logo_bounds": null,
+        "renderer_version": "canvas-pinterest-b1.0"
+      }
+    },
+    {
+      "name": "pinterest-square-kn",
+      "validation": {
+        "passed": true,
+        "reasons": [],
+        "font_loaded": true,
+        "grapheme_engine": true,
+        "contrast": 12.7899518055565,
+        "offer_area_ratio": 0.01144005313658747,
+        "safe_area": [
+          64,
+          64,
+          952,
+          952
+        ],
+        "lines": [
+          {
+            "field": "headline",
+            "text": "ನಿಮ್ಮದೇ ಪುಟ್ಟ ವಿರಾಮ",
+            "x": 266.4000244140625,
+            "y": 64,
+            "width": 547.199951171875,
+            "height": 74,
+            "font_size": 60
+          },
+          {
+            "field": "body",
+            "text": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+            "x": 305.3520812988281,
+            "y": 694.6800000000001,
+            "width": 469.29583740234375,
+            "height": 46,
+            "font_size": 48
+          },
+          {
+            "field": "body",
+            "text": "ನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು",
+            "x": 418.3465576171875,
+            "y": 764.96,
+            "width": 243.306884765625,
+            "height": 33,
+            "font_size": 27
+          },
+          {
+            "field": "body",
+            "text": "2026-10-10 – 2026-10-11",
+            "x": 385.2900085449219,
+            "y": 808.3600000000001,
+            "width": 309.41998291015625,
+            "height": 21,
+            "font_size": 27
+          },
+          {
+            "field": "body",
+            "text": "ಶನಿವಾರ / ಭಾನುವಾರ",
+            "x": 426.8565673828125,
+            "y": 850.08,
+            "width": 226.286865234375,
+            "height": 26,
+            "font_size": 27
+          },
+          {
+            "field": "body",
+            "text": "ಎಲ್ಲರಿಗೂ",
+            "x": 490.6710205078125,
+            "y": 891.8000000000001,
+            "width": 98.657958984375,
+            "height": 32,
+            "font_size": 27
+          },
+          {
+            "field": "cta",
+            "text": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+            "x": 401.26405334472656,
+            "y": 945.2,
+            "width": 277.4718933105469,
+            "height": 35,
+            "font_size": 29
+          }
+        ],
+        "logo_bounds": null,
+        "renderer_version": "canvas-pinterest-b1.0"
+      }
+    },
+    {
+      "name": "pinterest-square-kn-Latn",
+      "validation": {
+        "passed": true,
+        "reasons": [],
+        "font_loaded": true,
+        "grapheme_engine": true,
+        "contrast": 12.7899518055565,
+        "offer_area_ratio": 0.005854032042912822,
+        "safe_area": [
+          64,
+          64,
+          952,
+          952
+        ],
+        "lines": [
+          {
+            "field": "headline",
+            "text": "Nimma putta viraama",
+            "x": 225.60006713867188,
+            "y": 64,
+            "width": 628.7998657226562,
+            "height": 60,
+            "font_size": 60
+          },
+          {
+            "field": "body",
+            "text": "20% off · coffee",
+            "x": 357.3360290527344,
+            "y": 698.4,
+            "width": 365.32794189453125,
+            "height": 38,
+            "font_size": 48
+          },
+          {
+            "field": "body",
+            "text": "Namma Cafe · Bengaluru",
+            "x": 380.4841003417969,
+            "y": 768.68,
+            "width": 319.03179931640625,
+            "height": 28,
+            "font_size": 27
+          },
+          {
+            "field": "body",
+            "text": "2026-10-10 – 2026-10-11",
+            "x": 385.2900085449219,
+            "y": 810.4,
+            "width": 309.41998291015625,
+            "height": 21,
+            "font_size": 27
+          },
+          {
+            "field": "body",
+            "text": "Shanivara / Bhanuvara",
+            "x": 396.80560302734375,
+            "y": 852.12,
+            "width": 286.3887939453125,
+            "height": 22,
+            "font_size": 27
+          },
+          {
+            "field": "body",
+            "text": "Open to all",
+            "x": 470.59654998779297,
+            "y": 893.8399999999999,
+            "width": 138.80690002441406,
+            "height": 28,
+            "font_size": 27
+          },
+          {
+            "field": "cta",
+            "text": "Banni, joteyaagona!",
+            "x": 399.72706604003906,
+            "y": 946.56,
+            "width": 280.5458679199219,
+            "height": 29,
+            "font_size": 29
+          }
+        ],
+        "logo_bounds": null,
+        "renderer_version": "canvas-pinterest-b1.0"
+      }
+    },
+    {
+      "name": "pinterest-story-en",
+      "validation": {
+        "passed": true,
+        "reasons": [],
+        "font_loaded": true,
+        "grapheme_engine": true,
+        "contrast": 12.7899518055565,
+        "offer_area_ratio": 0.0050739865906444595,
+        "safe_area": [
+          72,
+          200,
+          936,
+          1480
+        ],
+        "lines": [
+          {
+            "field": "headline",
+            "text": "A little pause,",
+            "x": 306.3280792236328,
+            "y": 200,
+            "width": 467.3438415527344,
+            "height": 73,
+            "font_size": 72
+          },
+          {
+            "field": "headline",
+            "text": "just for you",
+            "x": 341.55206298828125,
+            "y": 302.92,
+            "width": 396.8958740234375,
+            "height": 73,
+            "font_size": 72
+          },
+          {
+            "field": "body",
+            "text": "20% off · coffee",
+            "x": 311.6700439453125,
+            "y": 1303.92,
+            "width": 456.659912109375,
+            "height": 47,
+            "font_size": 60
+          },
+          {
+            "field": "body",
+            "text": "Namma Cafe · Bengaluru",
+            "x": 345.0360565185547,
+            "y": 1390.52,
+            "width": 389.9278869628906,
+            "height": 34,
+            "font_size": 33
+          },
+          {
+            "field": "body",
+            "text": "2026-10-10 – 2026-10-11",
+            "x": 350.91009521484375,
+            "y": 1440.4,
+            "width": 378.1798095703125,
+            "height": 25,
+            "font_size": 33
+          },
+          {
+            "field": "body",
+            "text": "Saturday / Sunday",
+            "x": 398.65354919433594,
+            "y": 1490.2800000000002,
+            "width": 282.6929016113281,
+            "height": 33,
+            "font_size": 33
+          },
+          {
+            "field": "body",
+            "text": "Open to all",
+            "x": 455.1735305786133,
+            "y": 1540.16,
+            "width": 169.65293884277344,
+            "height": 33,
+            "font_size": 33
+          },
+          {
+            "field": "cta",
+            "text": "Come say hello",
+            "x": 407.6640625,
+            "y": 1601.04,
+            "width": 264.671875,
+            "height": 37,
+            "font_size": 36
+          }
+        ],
+        "logo_bounds": null,
+        "renderer_version": "canvas-pinterest-b1.0"
+      }
+    },
+    {
+      "name": "pinterest-story-kn",
+      "validation": {
+        "passed": true,
+        "reasons": [],
+        "font_loaded": true,
+        "grapheme_engine": true,
+        "contrast": 12.7899518055565,
+        "offer_area_ratio": 0.009812286135591106,
+        "safe_area": [
+          72,
+          200,
+          936,
+          1480
+        ],
+        "lines": [
+          {
+            "field": "headline",
+            "text": "ನಿಮ್ಮದೇ ಪುಟ್ಟ ವಿರಾಮ",
+            "x": 211.6800537109375,
+            "y": 200,
+            "width": 656.639892578125,
+            "height": 89,
+            "font_size": 72
+          },
+          {
+            "field": "body",
+            "text": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+            "x": 246.6900634765625,
+            "y": 1298.96,
+            "width": 586.619873046875,
+            "height": 57,
+            "font_size": 60
+          },
+          {
+            "field": "body",
+            "text": "ನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು",
+            "x": 391.4175720214844,
+            "y": 1385.56,
+            "width": 297.16485595703125,
+            "height": 41,
+            "font_size": 33
+          },
+          {
+            "field": "body",
+            "text": "2026-10-10 – 2026-10-11",
+            "x": 350.91009521484375,
+            "y": 1438.16,
+            "width": 378.1798095703125,
+            "height": 25,
+            "font_size": 33
+          },
+          {
+            "field": "body",
+            "text": "ಶನಿವಾರ / ಭಾನುವಾರ",
+            "x": 401.7135772705078,
+            "y": 1488.04,
+            "width": 276.5728454589844,
+            "height": 31,
+            "font_size": 33
+          },
+          {
+            "field": "body",
+            "text": "ಎಲ್ಲರಿಗೂ",
+            "x": 479.70902252197266,
+            "y": 1537.92,
+            "width": 120.58195495605469,
+            "height": 38,
+            "font_size": 33
+          },
+          {
+            "field": "cta",
+            "text": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+            "x": 367.7760467529297,
+            "y": 1598.8000000000002,
+            "width": 344.4479064941406,
+            "height": 44,
+            "font_size": 36
+          }
+        ],
+        "logo_bounds": null,
+        "renderer_version": "canvas-pinterest-b1.0"
+      }
+    },
+    {
+      "name": "pinterest-story-kn-Latn",
+      "validation": {
+        "passed": true,
+        "reasons": [],
+        "font_loaded": true,
+        "grapheme_engine": true,
+        "contrast": 12.7899518055565,
+        "offer_area_ratio": 0.0050739865906444595,
+        "safe_area": [
+          72,
+          200,
+          936,
+          1480
+        ],
+        "lines": [
+          {
+            "field": "headline",
+            "text": "Nimma putta viraama",
+            "x": 162.7200927734375,
+            "y": 200,
+            "width": 754.559814453125,
+            "height": 72,
+            "font_size": 72
+          },
+          {
+            "field": "body",
+            "text": "20% off · coffee",
+            "x": 311.6700439453125,
+            "y": 1303.92,
+            "width": 456.659912109375,
+            "height": 47,
+            "font_size": 60
+          },
+          {
+            "field": "body",
+            "text": "Namma Cafe · Bengaluru",
+            "x": 345.0360565185547,
+            "y": 1390.52,
+            "width": 389.9278869628906,
+            "height": 34,
+            "font_size": 33
+          },
+          {
+            "field": "body",
+            "text": "2026-10-10 – 2026-10-11",
+            "x": 350.91009521484375,
+            "y": 1440.4,
+            "width": 378.1798095703125,
+            "height": 25,
+            "font_size": 33
+          },
+          {
+            "field": "body",
+            "text": "Shanivara / Bhanuvara",
+            "x": 364.98455810546875,
+            "y": 1490.2800000000002,
+            "width": 350.0308837890625,
+            "height": 26,
+            "font_size": 33
+          },
+          {
+            "field": "body",
+            "text": "Open to all",
+            "x": 455.1735305786133,
+            "y": 1540.16,
+            "width": 169.65293884277344,
+            "height": 33,
+            "font_size": 33
+          },
+          {
+            "field": "cta",
+            "text": "Banni, joteyaagona!",
+            "x": 365.8680725097656,
+            "y": 1601.04,
+            "width": 348.26385498046875,
+            "height": 36,
+            "font_size": 36
+          }
+        ],
+        "logo_bounds": null,
+        "renderer_version": "canvas-pinterest-b1.0"
+      }
+    },
+    {
+      "name": "pinterest-landscape-en",
+      "validation": {
+        "passed": true,
+        "reasons": [],
+        "font_loaded": true,
+        "grapheme_engine": true,
+        "contrast": 12.7899518055565,
+        "offer_area_ratio": 0.005649919661264571,
+        "safe_area": [
+          48,
+          48,
+          1104,
+          534
+        ],
+        "lines": [
+          {
+            "field": "headline",
+            "text": "A little pause,",
+            "x": 48,
+            "y": 48,
+            "width": 253.60292053222656,
+            "height": 40,
+            "font_size": 39
+          },
+          {
+            "field": "headline",
+            "text": "just for you",
+            "x": 48,
+            "y": 106.04,
+            "width": 215.2769317626953,
+            "height": 40,
+            "font_size": 39
+          },
+          {
+            "field": "body",
+            "text": "20% off · coffee",
+            "x": 48,
+            "y": 177.08,
+            "width": 289.2178955078125,
+            "height": 30,
+            "font_size": 38
+          },
+          {
+            "field": "body",
+            "text": "Namma Cafe · Bengaluru",
+            "x": 48,
+            "y": 233.76000000000002,
+            "width": 295.39990234375,
+            "height": 26,
+            "font_size": 25
+          },
+          {
+            "field": "body",
+            "text": "2026-10-10 – 2026-10-11",
+            "x": 48,
+            "y": 272.76,
+            "width": 286.499755859375,
+            "height": 20,
+            "font_size": 25
+          },
+          {
+            "field": "body",
+            "text": "Saturday / Sunday",
+            "x": 48,
+            "y": 311.76,
+            "width": 214.52493286132812,
+            "height": 25,
+            "font_size": 25
+          },
+          {
+            "field": "body",
+            "text": "Open to all",
+            "x": 48,
+            "y": 350.76,
+            "width": 128.52496337890625,
+            "height": 25,
+            "font_size": 25
+          },
+          {
+            "field": "cta",
+            "text": "Come say hello",
+            "x": 48,
+            "y": 400.76,
+            "width": 191.15188598632812,
+            "height": 27,
+            "font_size": 26
+          }
+        ],
+        "logo_bounds": null,
+        "renderer_version": "canvas-pinterest-b1.0"
+      }
+    },
+    {
+      "name": "pinterest-landscape-kn",
+      "validation": {
+        "passed": true,
+        "reasons": [],
+        "font_loaded": true,
+        "grapheme_engine": true,
+        "contrast": 12.7899518055565,
+        "offer_area_ratio": 0.011155637710813493,
+        "safe_area": [
+          48,
+          48,
+          1104,
+          534
+        ],
+        "lines": [
+          {
+            "field": "headline",
+            "text": "ನಿಮ್ಮದೇ ಪುಟ್ಟ ವಿರಾಮ",
+            "x": 48,
+            "y": 48,
+            "width": 355.679931640625,
+            "height": 48,
+            "font_size": 39
+          },
+          {
+            "field": "body",
+            "text": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+            "x": 48,
+            "y": 121.8,
+            "width": 371.52593994140625,
+            "height": 37,
+            "font_size": 38
+          },
+          {
+            "field": "body",
+            "text": "ನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು",
+            "x": 48,
+            "y": 178.48000000000002,
+            "width": 225.12493896484375,
+            "height": 32,
+            "font_size": 25
+          },
+          {
+            "field": "body",
+            "text": "2026-10-10 – 2026-10-11",
+            "x": 48,
+            "y": 220.48000000000002,
+            "width": 286.499755859375,
+            "height": 20,
+            "font_size": 25
+          },
+          {
+            "field": "body",
+            "text": "ಶನಿವಾರ / ಭಾನುವಾರ",
+            "x": 48,
+            "y": 259.48,
+            "width": 209.52490234375,
+            "height": 24,
+            "font_size": 25
+          },
+          {
+            "field": "body",
+            "text": "ಎಲ್ಲರಿಗೂ",
+            "x": 48,
+            "y": 298.48,
+            "width": 91.34996032714844,
+            "height": 29,
+            "font_size": 25
+          },
+          {
+            "field": "cta",
+            "text": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+            "x": 48,
+            "y": 348.48,
+            "width": 248.76791381835938,
+            "height": 31,
+            "font_size": 26
+          }
+        ],
+        "logo_bounds": null,
+        "renderer_version": "canvas-pinterest-b1.0"
+      }
+    },
+    {
+      "name": "pinterest-landscape-kn-Latn",
+      "validation": {
+        "passed": true,
+        "reasons": [],
+        "font_loaded": true,
+        "grapheme_engine": true,
+        "contrast": 12.7899518055565,
+        "offer_area_ratio": 0.005649919661264571,
+        "safe_area": [
+          48,
+          48,
+          1104,
+          534
+        ],
+        "lines": [
+          {
+            "field": "headline",
+            "text": "Nimma putta viraama",
+            "x": 48,
+            "y": 48,
+            "width": 408.7199401855469,
+            "height": 39,
+            "font_size": 39
+          },
+          {
+            "field": "body",
+            "text": "20% off · coffee",
+            "x": 48,
+            "y": 119.04,
+            "width": 289.2178955078125,
+            "height": 30,
+            "font_size": 38
+          },
+          {
+            "field": "body",
+            "text": "Namma Cafe · Bengaluru",
+            "x": 48,
+            "y": 175.72000000000003,
+            "width": 295.39990234375,
+            "height": 26,
+            "font_size": 25
+          },
+          {
+            "field": "body",
+            "text": "2026-10-10 – 2026-10-11",
+            "x": 48,
+            "y": 214.72000000000003,
+            "width": 286.499755859375,
+            "height": 20,
+            "font_size": 25
+          },
+          {
+            "field": "body",
+            "text": "Shanivara / Bhanuvara",
+            "x": 48,
+            "y": 253.72000000000003,
+            "width": 265.1749267578125,
+            "height": 20,
+            "font_size": 25
+          },
+          {
+            "field": "body",
+            "text": "Open to all",
+            "x": 48,
+            "y": 292.72,
+            "width": 128.52496337890625,
+            "height": 25,
+            "font_size": 25
+          },
+          {
+            "field": "cta",
+            "text": "Banni, joteyaagona!",
+            "x": 48,
+            "y": 342.72,
+            "width": 251.5238494873047,
+            "height": 27,
+            "font_size": 26
+          }
+        ],
+        "logo_bounds": null,
+        "renderer_version": "canvas-pinterest-b1.0"
+      }
+    }
+  ],
+  "external_url_block": "PASS",
+  "overflow_block": "PASS",
+  "old_renderer_block": "PASS"
+}

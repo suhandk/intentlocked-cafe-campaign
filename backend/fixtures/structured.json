@@ -1,0 +1,1 @@
+{"choices":[{"message":{"content":null,"tool_calls":[{"type":"function","function":{"name":"deliver_result","arguments":"{\"message\":\"MOCK structured result\"}"}}]},"finish_reason":"tool_calls"}],"usage":{"prompt_tokens":20,"completion_tokens":8,"total_tokens":28}}

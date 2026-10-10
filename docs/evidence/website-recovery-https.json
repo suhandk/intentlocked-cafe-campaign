@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-10-09T23:42:25.573678+00:00",
+  "mode": "MOCK",
+  "hosting": "isolated fake Netlify, not live publishing",
+  "exit_code": 0,
+  "elapsed_seconds": 19.81,
+  "live_provider_calls": 0
+}

@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "reasons": [],
+  "font_loaded": true,
+  "grapheme_engine": true,
+  "contrast": 14.933308959426848,
+  "offer_area_ratio": null,
+  "safe_area": [
+    64,
+    64,
+    952,
+    952
+  ],
+  "lines": [
+    {
+      "field": "headline",
+      "text": "Coffee, with a creative twist",
+      "x": 64,
+      "y": 80,
+      "width": 865.581787109375,
+      "height": 56,
+      "font_size": 62
+    },
+    {
+      "field": "body",
+      "text": "Sample artwork preview",
+      "x": 64,
+      "y": 200.10000000000002,
+      "width": 408.3319091796875,
+      "height": 37,
+      "font_size": 36
+    },
+    {
+      "field": "cta",
+      "text": "Drop by this weekend",
+      "x": 64,
+      "y": 279.90000000000003,
+      "width": 389.2678527832031,
+      "height": 37,
+      "font_size": 36
+    }
+  ],
+  "logo_bounds": null,
+  "renderer_version": "canvas-b5.2"
+}

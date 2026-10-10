@@ -1,0 +1,23 @@
+{
+  "captured_at": "2026-10-09T21:59:53.629760+00:00",
+  "mode": "read_only_runtime_check",
+  "inference_requests": 0,
+  "8000": {
+    "http_status": 200,
+    "text_model": "openai/gpt-4o-mini",
+    "provider": "OpenRouter",
+    "mode": "LIVE"
+  },
+  "3000": {
+    "http_status": 200,
+    "text_model": "openai/gpt-4o-mini",
+    "provider": "OpenRouter",
+    "mode": "LIVE"
+  },
+  "original_campaign": {
+    "revision": 6,
+    "status": "canonical_confirmed",
+    "approved_at": null
+  },
+  "active_jobs": 0
+}

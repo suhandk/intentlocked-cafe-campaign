@@ -1,0 +1,8 @@
+{
+  "frontend_http": 200,
+  "backend_http": 200,
+  "profiles_http": 200,
+  "profile_version": 0,
+  "real_urls_configured": false,
+  "real_publishing_performed": false
+}

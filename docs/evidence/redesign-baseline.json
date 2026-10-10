@@ -1,0 +1,24 @@
+{
+  "capturedAt": "2026-10-09T04:10:52.128Z",
+  "source": "Existing production build, real local backend in MOCK mode; no inference invoked",
+  "results": [
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "mode": "◈ Intent Locked\nMOCK\nB7 · Owner workflow and recovery",
+      "screenshot": "redesign-baseline-1440.png"
+    },
+    {
+      "width": 820,
+      "documentWidth": 820,
+      "mode": "◈ Intent Locked\nMOCK\nB7 · Owner workflow and recovery",
+      "screenshot": "redesign-baseline-820.png"
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "mode": "◈ Intent Locked\nMOCK\nB7 · Owner workflow and recovery",
+      "screenshot": "redesign-baseline-390.png"
+    }
+  ]
+}

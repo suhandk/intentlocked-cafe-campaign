@@ -1,0 +1,9 @@
+{
+  "operation": "read-only model catalogue",
+  "mode": "mock",
+  "text_model": "upstage/solar-mini4",
+  "image_model": "bytedance-seed/seedream-5-0-flash",
+  "video_enabled": false,
+  "inference_calls": 0,
+  "status": "GATEWAY_UNREACHABLE"
+}

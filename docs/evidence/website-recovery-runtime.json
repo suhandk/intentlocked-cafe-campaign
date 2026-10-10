@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-10-09T23:43:54.935452+00:00",
+  "status": "PASS",
+  "checks": {
+    "ready_8000": {
+      "http_status": 200,
+      "mode": "LIVE",
+      "image_provider": "gateway"
+    },
+    "ready_3000": {
+      "http_status": 200,
+      "mode": "LIVE",
+      "image_provider": "gateway"
+    },
+    "homepage": 200,
+    "website_config": {
+      "http_status": 200,
+      "publish_enabled": false
+    },
+    "persisted_test_website_zip": {
+      "http_status": 200,
+      "sha256_match": true,
+      "published": false
+    },
+    "runtime_log_secrets": {
+      "status": "PASS",
+      "logs_checked": 4
+    }
+  },
+  "campaign_mutations": "NONE; original campaigns not edited by verification",
+  "live_inference_requests": 0
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-10-09T03:42:07.571749+00:00",
+  "mode": "live",
+  "signed_url_omitted": true,
+  "returned_host": "platform-outputs.agnes-ai.space",
+  "returned_scheme": "https",
+  "query_present": false,
+  "download_status": "FAIL",
+  "code": "MEDIA_INVALID",
+  "calls": [
+    {
+      "id": "2710a316e7464ef9891ffd3535f921e2",
+      "trace_id": "696b4460f33b445586e828f404513476",
+      "run_id": "f931b4c36784461ea6dd738259abf1fb",
+      "work_id": null,
+      "timestamp": "2026-10-09T03:42:16.542164+00:00",
+      "mode": "live",
+      "model": "agnes-image-2.5-flash",
+      "operation": "image",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.13499999477062374,
+      "duration_ms": 8970.357500002137,
+      "usage": null,
+      "list_price_estimate_usd": 0.01
+    }
+  ]
+}

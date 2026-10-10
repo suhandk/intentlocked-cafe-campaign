@@ -1,0 +1,198 @@
+{
+  "timestamp": "2026-10-09T06:16:46.673333+00:00",
+  "mode": "MOCK",
+  "provider": "Meta",
+  "inference_provider": "Agnes; unchanged",
+  "model": "not applicable to delivery",
+  "candidate_graph_pin": "v25.0; support/retirement NOT_VERIFIED",
+  "documentation": {
+    "status": "DOCUMENTATION_UNAVAILABLE",
+    "outcome": "Official fetches returned 429/inaccessible; live contracts not verified",
+    "attempt_date": "2026-10-09"
+  },
+  "backend_suite": {
+    "total": 401,
+    "failed": 0
+  },
+  "meta_tests": [
+    {
+      "name": "test_confirmed_mock_raw_message_replay_and_no_recipient_in_jobs",
+      "seconds": 0.272,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_preview_cannot_bypass_existing_gate[hash]",
+      "seconds": 0.209,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_preview_cannot_bypass_existing_gate[revision]",
+      "seconds": 0.189,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_preview_cannot_bypass_existing_gate[approval]",
+      "seconds": 0.177,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_preview_cannot_bypass_existing_gate[audit]",
+      "seconds": 0.187,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_preview_cannot_bypass_existing_gate[consent]",
+      "seconds": 0.223,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_preview_cannot_bypass_existing_gate[recipient]",
+      "seconds": 0.193,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_forged_confirm_and_cancel_pending",
+      "seconds": 0.198,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_configuration_changed_between_preview_and_confirmation",
+      "seconds": 0.195,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_queued_fact_change_sends_nothing",
+      "seconds": 0.216,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_restart_never_repeats_unknown_submission",
+      "seconds": 0.283,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_error_redaction[401-META_AUTH]",
+      "seconds": 0.005,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_error_redaction[403-META_PERMISSION]",
+      "seconds": 0.005,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_error_redaction[400-META_REJECTED]",
+      "seconds": 0.005,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_fake_clock_retry_after_and_bounded_reads",
+      "seconds": 0.007,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_timeout_is_persisted_unknown_and_never_retried",
+      "seconds": 0.269,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_verified_webhook_dedupe_out_of_order_and_unknown_ids",
+      "seconds": 0.274,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_templates_are_explicit_exact_static_bodies",
+      "seconds": 0.305,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_configuration_defaults_and_live_gate",
+      "seconds": 0.007,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_owner_route_and_generic_work_cannot_authorize",
+      "seconds": 0.146,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_platform_raw_shapes_and_authorized_media[facebook-False]",
+      "seconds": 0.423,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_platform_raw_shapes_and_authorized_media[facebook-True]",
+      "seconds": 0.852,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_platform_raw_shapes_and_authorized_media[instagram-True]",
+      "seconds": 1.042,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_platform_raw_shapes_and_authorized_media[whatsapp-True]",
+      "seconds": 0.872,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_instagram_polling_has_finite_stop",
+      "seconds": 1.246,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_cancel_during_submission_is_unknown_and_attempt_is_retained",
+      "seconds": 0.259,
+      "outcome": "PASS"
+    },
+    {
+      "name": "test_idempotency_payload_conflict",
+      "seconds": 0.202,
+      "outcome": "PASS"
+    }
+  ],
+  "raw_transport": [
+    {
+      "platform": "whatsapp",
+      "endpoint": "POST /[version]/[phone-id]/messages",
+      "mode": "MOCK",
+      "http_status": "fixture 200",
+      "outcome": "MOCK_TESTED; see raw-shape assertions",
+      "authenticated_outcome": "NOT_TESTED"
+    },
+    {
+      "platform": "facebook",
+      "endpoint": "POST /[version]/[page-id]/feed or photos",
+      "mode": "MOCK",
+      "http_status": "fixture 200",
+      "outcome": "MOCK_TESTED; see raw-shape assertions",
+      "authenticated_outcome": "NOT_TESTED"
+    },
+    {
+      "platform": "instagram",
+      "endpoint": "POST /[version]/[ig-id]/media; GET status; POST media_publish",
+      "mode": "MOCK",
+      "http_status": "fixture 200",
+      "outcome": "MOCK_TESTED; see raw-shape assertions",
+      "authenticated_outcome": "NOT_TESTED"
+    }
+  ],
+  "authenticated": {
+    "whatsapp": "NOT_TESTED",
+    "facebook": "NOT_TESTED",
+    "instagram": "NOT_TESTED"
+  },
+  "live_messages_or_posts": 0,
+  "live_gate": "BLOCKED until documentation/account/live checks and exact live-action authorization",
+  "browser": {
+    "timestamp": "2026-10-09T06:13:13.167Z",
+    "mode": "MOCK",
+    "outcome": "PASS",
+    "preview_before_submit": true,
+    "explicit_confirmation": true,
+    "rapid_clicks": "one operation / one attempt",
+    "reload": "no new attempt",
+    "mobile_width": 390,
+    "live_delivery": "NOT_TESTED"
+  }
+}

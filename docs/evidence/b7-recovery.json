@@ -1,0 +1,15 @@
+{
+  "mode": "MOCK",
+  "provider_live_checks": "NOT_TESTED",
+  "abrupt_restart": "PASS",
+  "completed_cells_retained": [
+    "35c6955f48af67874e24be861c0566b9aab0ea27edaa6a060fc0807075a3ed51"
+  ],
+  "interrupted_job": "aea4280dc58a44dc8d7d593c4fa2fb92",
+  "persistent_asset_sha256": "997e5b3cf97322ad6a943b0624e8f16208eaf9eed3176b7dcc9c1922899ac326",
+  "asset_bytes_restored": "PASS",
+  "sse_last_event_id_raw_http": "PASS",
+  "replay_no_new_calls_or_costs": "PASS",
+  "calls_before_and_after": 2,
+  "timestamp": "2026-10-09T01:39:21.404686+00:00"
+}

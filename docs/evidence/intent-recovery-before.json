@@ -1,0 +1,40 @@
+{
+  "phase": "before_fix",
+  "original_work_id": "058fdfca20cb48958a6864372e7229d2",
+  "model": "openai/gpt-4o-mini",
+  "mode": "live",
+  "responses": [
+    {
+      "http_status": 200,
+      "envelope_keys": [
+        "result"
+      ],
+      "result_type": "dict",
+      "status": "success",
+      "reason": null,
+      "fact_keys": [
+        "CAFE",
+        "LOCATION",
+        "OFFER",
+        "DATES",
+        "ELIGIBILITY",
+        "DINE_IN_RULE"
+      ]
+    },
+    {
+      "http_status": 200,
+      "envelope_keys": [
+        "result"
+      ],
+      "result_type": "dict",
+      "status": "error",
+      "reason": "unable_to_interpret",
+      "fact_keys": []
+    }
+  ],
+  "outcome": "FAILED",
+  "code": "INTENT_UNAVAILABLE",
+  "details": {},
+  "elapsed_seconds": 8.59,
+  "calls": 2
+}

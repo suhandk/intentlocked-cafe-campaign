@@ -1,0 +1,1274 @@
+[
+  {
+    "input": {
+      "width": 1080,
+      "height": 1350,
+      "size": "feed",
+      "language": "en",
+      "fields": {
+        "headline": "A warm little pause",
+        "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+        "cta": "Come say hello",
+        "alt_text": ""
+      },
+      "offer_forms": [],
+      "background_url": "/api/assets/mock-feed",
+      "logo_url": null,
+      "font_urls": {
+        "latin": "/api/render/fonts/NotoSans.ttf",
+        "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+      },
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "validation": {
+      "passed": true,
+      "reasons": [],
+      "font_loaded": true,
+      "grapheme_engine": true,
+      "contrast": 11.438639323089712,
+      "offer_area_ratio": null,
+      "safe_area": [
+        64,
+        64,
+        952,
+        1222
+      ],
+      "lines": [
+        {
+          "field": "headline",
+          "text": "A warm little pause",
+          "x": 263.11004638671875,
+          "y": 64,
+          "width": 553.7799072265625,
+          "height": 61,
+          "font_size": 60
+        },
+        {
+          "field": "body",
+          "text": "20% off · coffee",
+          "x": 266.0040588378906,
+          "y": 935.76,
+          "width": 547.9918823242188,
+          "height": 56,
+          "font_size": 72
+        },
+        {
+          "field": "body",
+          "text": "Namma Cafe · Bengaluru",
+          "x": 380.4841003417969,
+          "y": 1038.68,
+          "width": 319.03179931640625,
+          "height": 28,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "2026-10-10 – 2026-10-11",
+          "x": 385.2900085449219,
+          "y": 1080.4,
+          "width": 309.41998291015625,
+          "height": 21,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "Saturday / Sunday",
+          "x": 424.21656799316406,
+          "y": 1122.12,
+          "width": 231.56686401367188,
+          "height": 28,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "Open to all",
+          "x": 470.59654998779297,
+          "y": 1163.84,
+          "width": 138.80690002441406,
+          "height": 28,
+          "font_size": 27
+        },
+        {
+          "field": "cta",
+          "text": "Come say hello",
+          "x": 433.3960418701172,
+          "y": 1216.56,
+          "width": 213.20791625976562,
+          "height": 29,
+          "font_size": 29
+        }
+      ],
+      "logo_bounds": null,
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "mode": "mock",
+    "outcome": "PASS",
+    "backend_validation": "PASS"
+  },
+  {
+    "input": {
+      "width": 1080,
+      "height": 1080,
+      "size": "square",
+      "language": "en",
+      "fields": {
+        "headline": "A warm little pause",
+        "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+        "cta": "Come say hello",
+        "alt_text": ""
+      },
+      "offer_forms": [],
+      "background_url": "/api/assets/mock-square",
+      "logo_url": null,
+      "font_urls": {
+        "latin": "/api/render/fonts/NotoSans.ttf",
+        "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+      },
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "validation": {
+      "passed": true,
+      "reasons": [],
+      "font_loaded": true,
+      "grapheme_engine": true,
+      "contrast": 11.438639323089712,
+      "offer_area_ratio": null,
+      "safe_area": [
+        64,
+        64,
+        952,
+        952
+      ],
+      "lines": [
+        {
+          "field": "headline",
+          "text": "A warm little pause",
+          "x": 263.11004638671875,
+          "y": 64,
+          "width": 553.7799072265625,
+          "height": 61,
+          "font_size": 60
+        },
+        {
+          "field": "body",
+          "text": "20% off · coffee",
+          "x": 266.0040588378906,
+          "y": 665.76,
+          "width": 547.9918823242188,
+          "height": 56,
+          "font_size": 72
+        },
+        {
+          "field": "body",
+          "text": "Namma Cafe · Bengaluru",
+          "x": 380.4841003417969,
+          "y": 768.68,
+          "width": 319.03179931640625,
+          "height": 28,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "2026-10-10 – 2026-10-11",
+          "x": 385.2900085449219,
+          "y": 810.4,
+          "width": 309.41998291015625,
+          "height": 21,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "Saturday / Sunday",
+          "x": 424.21656799316406,
+          "y": 852.12,
+          "width": 231.56686401367188,
+          "height": 28,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "Open to all",
+          "x": 470.59654998779297,
+          "y": 893.84,
+          "width": 138.80690002441406,
+          "height": 28,
+          "font_size": 27
+        },
+        {
+          "field": "cta",
+          "text": "Come say hello",
+          "x": 433.3960418701172,
+          "y": 946.56,
+          "width": 213.20791625976562,
+          "height": 29,
+          "font_size": 29
+        }
+      ],
+      "logo_bounds": null,
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "mode": "mock",
+    "outcome": "PASS",
+    "backend_validation": "PASS"
+  },
+  {
+    "input": {
+      "width": 1080,
+      "height": 1920,
+      "size": "story",
+      "language": "en",
+      "fields": {
+        "headline": "A warm little pause",
+        "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+        "cta": "Come say hello",
+        "alt_text": ""
+      },
+      "offer_forms": [],
+      "background_url": "/api/assets/mock-story",
+      "logo_url": null,
+      "font_urls": {
+        "latin": "/api/render/fonts/NotoSans.ttf",
+        "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+      },
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "validation": {
+      "passed": true,
+      "reasons": [],
+      "font_loaded": true,
+      "grapheme_engine": true,
+      "contrast": 11.438639323089712,
+      "offer_area_ratio": null,
+      "safe_area": [
+        72,
+        200,
+        936,
+        1480
+      ],
+      "lines": [
+        {
+          "field": "headline",
+          "text": "A warm little pause",
+          "x": 207.83212280273438,
+          "y": 200,
+          "width": 664.3357543945312,
+          "height": 73,
+          "font_size": 72
+        },
+        {
+          "field": "body",
+          "text": "20% off · coffee",
+          "x": 205.11605834960938,
+          "y": 1265.8400000000001,
+          "width": 669.7678833007812,
+          "height": 69,
+          "font_size": 88
+        },
+        {
+          "field": "body",
+          "text": "Namma Cafe · Bengaluru",
+          "x": 345.0360565185547,
+          "y": 1390.5200000000002,
+          "width": 389.9278869628906,
+          "height": 34,
+          "font_size": 33
+        },
+        {
+          "field": "body",
+          "text": "2026-10-10 – 2026-10-11",
+          "x": 350.91009521484375,
+          "y": 1440.4,
+          "width": 378.1798095703125,
+          "height": 25,
+          "font_size": 33
+        },
+        {
+          "field": "body",
+          "text": "Saturday / Sunday",
+          "x": 398.65354919433594,
+          "y": 1490.2800000000002,
+          "width": 282.6929016113281,
+          "height": 33,
+          "font_size": 33
+        },
+        {
+          "field": "body",
+          "text": "Open to all",
+          "x": 455.1735305786133,
+          "y": 1540.16,
+          "width": 169.65293884277344,
+          "height": 33,
+          "font_size": 33
+        },
+        {
+          "field": "cta",
+          "text": "Come say hello",
+          "x": 407.6640625,
+          "y": 1601.0400000000002,
+          "width": 264.671875,
+          "height": 37,
+          "font_size": 36
+        }
+      ],
+      "logo_bounds": null,
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "mode": "mock",
+    "outcome": "PASS",
+    "backend_validation": "PASS"
+  },
+  {
+    "input": {
+      "width": 1200,
+      "height": 630,
+      "size": "landscape",
+      "language": "en",
+      "fields": {
+        "headline": "A warm little pause",
+        "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+        "cta": "Come say hello",
+        "alt_text": ""
+      },
+      "offer_forms": [],
+      "background_url": "/api/assets/mock-landscape",
+      "logo_url": null,
+      "font_urls": {
+        "latin": "/api/render/fonts/NotoSans.ttf",
+        "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+      },
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "validation": {
+      "passed": true,
+      "reasons": [],
+      "font_loaded": true,
+      "grapheme_engine": true,
+      "contrast": 11.438639323089712,
+      "offer_area_ratio": null,
+      "safe_area": [
+        48,
+        48,
+        1104,
+        534
+      ],
+      "lines": [
+        {
+          "field": "headline",
+          "text": "A warm little pause",
+          "x": 48,
+          "y": 48,
+          "width": 360.3069152832031,
+          "height": 40,
+          "font_size": 39
+        },
+        {
+          "field": "body",
+          "text": "20% off · coffee",
+          "x": 48,
+          "y": 119.04,
+          "width": 365.32794189453125,
+          "height": 38,
+          "font_size": 48
+        },
+        {
+          "field": "body",
+          "text": "Namma Cafe · Bengaluru",
+          "x": 48,
+          "y": 189.32,
+          "width": 295.39990234375,
+          "height": 26,
+          "font_size": 25
+        },
+        {
+          "field": "body",
+          "text": "2026-10-10 – 2026-10-11",
+          "x": 48,
+          "y": 228.32,
+          "width": 286.499755859375,
+          "height": 20,
+          "font_size": 25
+        },
+        {
+          "field": "body",
+          "text": "Saturday / Sunday",
+          "x": 48,
+          "y": 267.32,
+          "width": 214.52493286132812,
+          "height": 25,
+          "font_size": 25
+        },
+        {
+          "field": "body",
+          "text": "Open to all",
+          "x": 48,
+          "y": 306.32,
+          "width": 128.52496337890625,
+          "height": 25,
+          "font_size": 25
+        },
+        {
+          "field": "cta",
+          "text": "Come say hello",
+          "x": 48,
+          "y": 356.32,
+          "width": 191.15188598632812,
+          "height": 27,
+          "font_size": 26
+        }
+      ],
+      "logo_bounds": null,
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "mode": "mock",
+    "outcome": "PASS",
+    "backend_validation": "PASS"
+  },
+  {
+    "input": {
+      "width": 1080,
+      "height": 1350,
+      "size": "feed",
+      "language": "kn",
+      "fields": {
+        "headline": "A warm little pause",
+        "body": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ\nನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು\n2026-10-10 – 2026-10-11\nಶನಿವಾರ / ಭಾನುವಾರ\nಎಲ್ಲರಿಗೂ",
+        "cta": "Come say hello",
+        "alt_text": ""
+      },
+      "offer_forms": [],
+      "background_url": "/api/assets/mock-feed",
+      "logo_url": null,
+      "font_urls": {
+        "latin": "/api/render/fonts/NotoSans.ttf",
+        "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+      },
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "validation": {
+      "passed": true,
+      "reasons": [],
+      "font_loaded": true,
+      "grapheme_engine": true,
+      "contrast": 11.438639323089712,
+      "offer_area_ratio": null,
+      "safe_area": [
+        64,
+        64,
+        952,
+        1222
+      ],
+      "lines": [
+        {
+          "field": "headline",
+          "text": "A warm little pause",
+          "x": 263.11004638671875,
+          "y": 64,
+          "width": 553.7799072265625,
+          "height": 61,
+          "font_size": 60
+        },
+        {
+          "field": "body",
+          "text": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+          "x": 188.028076171875,
+          "y": 933.4,
+          "width": 703.94384765625,
+          "height": 69,
+          "font_size": 72
+        },
+        {
+          "field": "body",
+          "text": "ನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು",
+          "x": 418.3465576171875,
+          "y": 1036.32,
+          "width": 243.306884765625,
+          "height": 33,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "2026-10-10 – 2026-10-11",
+          "x": 385.2900085449219,
+          "y": 1079.72,
+          "width": 309.41998291015625,
+          "height": 21,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "ಶನಿವಾರ / ಭಾನುವಾರ",
+          "x": 426.8565673828125,
+          "y": 1121.44,
+          "width": 226.286865234375,
+          "height": 26,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "ಎಲ್ಲರಿಗೂ",
+          "x": 490.6710205078125,
+          "y": 1163.1599999999999,
+          "width": 98.657958984375,
+          "height": 32,
+          "font_size": 27
+        },
+        {
+          "field": "cta",
+          "text": "Come say hello",
+          "x": 433.3960418701172,
+          "y": 1216.56,
+          "width": 213.20791625976562,
+          "height": 29,
+          "font_size": 29
+        }
+      ],
+      "logo_bounds": null,
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "mode": "mock",
+    "outcome": "PASS",
+    "backend_validation": "PASS"
+  },
+  {
+    "input": {
+      "width": 1080,
+      "height": 1080,
+      "size": "square",
+      "language": "kn",
+      "fields": {
+        "headline": "A warm little pause",
+        "body": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ\nನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು\n2026-10-10 – 2026-10-11\nಶನಿವಾರ / ಭಾನುವಾರ\nಎಲ್ಲರಿಗೂ",
+        "cta": "Come say hello",
+        "alt_text": ""
+      },
+      "offer_forms": [],
+      "background_url": "/api/assets/mock-square",
+      "logo_url": null,
+      "font_urls": {
+        "latin": "/api/render/fonts/NotoSans.ttf",
+        "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+      },
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "validation": {
+      "passed": true,
+      "reasons": [],
+      "font_loaded": true,
+      "grapheme_engine": true,
+      "contrast": 11.438639323089712,
+      "offer_area_ratio": null,
+      "safe_area": [
+        64,
+        64,
+        952,
+        952
+      ],
+      "lines": [
+        {
+          "field": "headline",
+          "text": "A warm little pause",
+          "x": 263.11004638671875,
+          "y": 64,
+          "width": 553.7799072265625,
+          "height": 61,
+          "font_size": 60
+        },
+        {
+          "field": "body",
+          "text": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+          "x": 188.028076171875,
+          "y": 663.4,
+          "width": 703.94384765625,
+          "height": 69,
+          "font_size": 72
+        },
+        {
+          "field": "body",
+          "text": "ನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು",
+          "x": 418.3465576171875,
+          "y": 766.3199999999999,
+          "width": 243.306884765625,
+          "height": 33,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "2026-10-10 – 2026-10-11",
+          "x": 385.2900085449219,
+          "y": 809.72,
+          "width": 309.41998291015625,
+          "height": 21,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "ಶನಿವಾರ / ಭಾನುವಾರ",
+          "x": 426.8565673828125,
+          "y": 851.4399999999999,
+          "width": 226.286865234375,
+          "height": 26,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "ಎಲ್ಲರಿಗೂ",
+          "x": 490.6710205078125,
+          "y": 893.16,
+          "width": 98.657958984375,
+          "height": 32,
+          "font_size": 27
+        },
+        {
+          "field": "cta",
+          "text": "Come say hello",
+          "x": 433.3960418701172,
+          "y": 946.56,
+          "width": 213.20791625976562,
+          "height": 29,
+          "font_size": 29
+        }
+      ],
+      "logo_bounds": null,
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "mode": "mock",
+    "outcome": "PASS",
+    "backend_validation": "PASS"
+  },
+  {
+    "input": {
+      "width": 1080,
+      "height": 1920,
+      "size": "story",
+      "language": "kn",
+      "fields": {
+        "headline": "A warm little pause",
+        "body": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ\nನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು\n2026-10-10 – 2026-10-11\nಶನಿವಾರ / ಭಾನುವಾರ\nಎಲ್ಲರಿಗೂ",
+        "cta": "Come say hello",
+        "alt_text": ""
+      },
+      "offer_forms": [],
+      "background_url": "/api/assets/mock-story",
+      "logo_url": null,
+      "font_urls": {
+        "latin": "/api/render/fonts/NotoSans.ttf",
+        "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+      },
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "validation": {
+      "passed": true,
+      "reasons": [],
+      "font_loaded": true,
+      "grapheme_engine": true,
+      "contrast": 11.438639323089712,
+      "offer_area_ratio": null,
+      "safe_area": [
+        72,
+        200,
+        936,
+        1480
+      ],
+      "lines": [
+        {
+          "field": "headline",
+          "text": "A warm little pause",
+          "x": 207.83212280273438,
+          "y": 200,
+          "width": 664.3357543945312,
+          "height": 73,
+          "font_size": 72
+        },
+        {
+          "field": "body",
+          "text": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+          "x": 109.81201171875,
+          "y": 1263.1200000000001,
+          "width": 860.3759765625,
+          "height": 83,
+          "font_size": 88
+        },
+        {
+          "field": "body",
+          "text": "ನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು",
+          "x": 391.4175720214844,
+          "y": 1387.8000000000002,
+          "width": 297.16485595703125,
+          "height": 41,
+          "font_size": 33
+        },
+        {
+          "field": "body",
+          "text": "2026-10-10 – 2026-10-11",
+          "x": 350.91009521484375,
+          "y": 1440.4,
+          "width": 378.1798095703125,
+          "height": 25,
+          "font_size": 33
+        },
+        {
+          "field": "body",
+          "text": "ಶನಿವಾರ / ಭಾನುವಾರ",
+          "x": 401.7135772705078,
+          "y": 1490.2800000000002,
+          "width": 276.5728454589844,
+          "height": 31,
+          "font_size": 33
+        },
+        {
+          "field": "body",
+          "text": "ಎಲ್ಲರಿಗೂ",
+          "x": 479.70902252197266,
+          "y": 1540.16,
+          "width": 120.58195495605469,
+          "height": 38,
+          "font_size": 33
+        },
+        {
+          "field": "cta",
+          "text": "Come say hello",
+          "x": 407.6640625,
+          "y": 1601.0400000000002,
+          "width": 264.671875,
+          "height": 37,
+          "font_size": 36
+        }
+      ],
+      "logo_bounds": null,
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "mode": "mock",
+    "outcome": "PASS",
+    "backend_validation": "PASS"
+  },
+  {
+    "input": {
+      "width": 1200,
+      "height": 630,
+      "size": "landscape",
+      "language": "kn",
+      "fields": {
+        "headline": "A warm little pause",
+        "body": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ\nನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು\n2026-10-10 – 2026-10-11\nಶನಿವಾರ / ಭಾನುವಾರ\nಎಲ್ಲರಿಗೂ",
+        "cta": "Come say hello",
+        "alt_text": ""
+      },
+      "offer_forms": [],
+      "background_url": "/api/assets/mock-landscape",
+      "logo_url": null,
+      "font_urls": {
+        "latin": "/api/render/fonts/NotoSans.ttf",
+        "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+      },
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "validation": {
+      "passed": true,
+      "reasons": [],
+      "font_loaded": true,
+      "grapheme_engine": true,
+      "contrast": 11.438639323089712,
+      "offer_area_ratio": null,
+      "safe_area": [
+        48,
+        48,
+        1104,
+        534
+      ],
+      "lines": [
+        {
+          "field": "headline",
+          "text": "A warm little pause",
+          "x": 48,
+          "y": 48,
+          "width": 360.3069152832031,
+          "height": 40,
+          "font_size": 39
+        },
+        {
+          "field": "body",
+          "text": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+          "x": 48,
+          "y": 119.04,
+          "width": 469.29583740234375,
+          "height": 46,
+          "font_size": 48
+        },
+        {
+          "field": "body",
+          "text": "ನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು",
+          "x": 48,
+          "y": 189.32,
+          "width": 225.12493896484375,
+          "height": 32,
+          "font_size": 25
+        },
+        {
+          "field": "body",
+          "text": "2026-10-10 – 2026-10-11",
+          "x": 48,
+          "y": 231.32,
+          "width": 286.499755859375,
+          "height": 20,
+          "font_size": 25
+        },
+        {
+          "field": "body",
+          "text": "ಶನಿವಾರ / ಭಾನುವಾರ",
+          "x": 48,
+          "y": 270.32,
+          "width": 209.52490234375,
+          "height": 24,
+          "font_size": 25
+        },
+        {
+          "field": "body",
+          "text": "ಎಲ್ಲರಿಗೂ",
+          "x": 48,
+          "y": 309.32,
+          "width": 91.34996032714844,
+          "height": 29,
+          "font_size": 25
+        },
+        {
+          "field": "cta",
+          "text": "Come say hello",
+          "x": 48,
+          "y": 359.32,
+          "width": 191.15188598632812,
+          "height": 27,
+          "font_size": 26
+        }
+      ],
+      "logo_bounds": null,
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "mode": "mock",
+    "outcome": "PASS",
+    "backend_validation": "PASS"
+  },
+  {
+    "input": {
+      "width": 1080,
+      "height": 1350,
+      "size": "feed",
+      "language": "kn-Latn",
+      "fields": {
+        "headline": "A warm little pause",
+        "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nShanivara / Bhanuvara\nOpen to all",
+        "cta": "Come say hello",
+        "alt_text": ""
+      },
+      "offer_forms": [],
+      "background_url": "/api/assets/mock-feed",
+      "logo_url": null,
+      "font_urls": {
+        "latin": "/api/render/fonts/NotoSans.ttf",
+        "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+      },
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "validation": {
+      "passed": true,
+      "reasons": [],
+      "font_loaded": true,
+      "grapheme_engine": true,
+      "contrast": 11.438639323089712,
+      "offer_area_ratio": null,
+      "safe_area": [
+        64,
+        64,
+        952,
+        1222
+      ],
+      "lines": [
+        {
+          "field": "headline",
+          "text": "A warm little pause",
+          "x": 263.11004638671875,
+          "y": 64,
+          "width": 553.7799072265625,
+          "height": 61,
+          "font_size": 60
+        },
+        {
+          "field": "body",
+          "text": "20% off · coffee",
+          "x": 266.0040588378906,
+          "y": 935.76,
+          "width": 547.9918823242188,
+          "height": 56,
+          "font_size": 72
+        },
+        {
+          "field": "body",
+          "text": "Namma Cafe · Bengaluru",
+          "x": 380.4841003417969,
+          "y": 1038.68,
+          "width": 319.03179931640625,
+          "height": 28,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "2026-10-10 – 2026-10-11",
+          "x": 385.2900085449219,
+          "y": 1080.4,
+          "width": 309.41998291015625,
+          "height": 21,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "Shanivara / Bhanuvara",
+          "x": 396.80560302734375,
+          "y": 1122.12,
+          "width": 286.3887939453125,
+          "height": 22,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "Open to all",
+          "x": 470.59654998779297,
+          "y": 1163.84,
+          "width": 138.80690002441406,
+          "height": 28,
+          "font_size": 27
+        },
+        {
+          "field": "cta",
+          "text": "Come say hello",
+          "x": 433.3960418701172,
+          "y": 1216.56,
+          "width": 213.20791625976562,
+          "height": 29,
+          "font_size": 29
+        }
+      ],
+      "logo_bounds": null,
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "mode": "mock",
+    "outcome": "PASS",
+    "backend_validation": "PASS"
+  },
+  {
+    "input": {
+      "width": 1080,
+      "height": 1080,
+      "size": "square",
+      "language": "kn-Latn",
+      "fields": {
+        "headline": "A warm little pause",
+        "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nShanivara / Bhanuvara\nOpen to all",
+        "cta": "Come say hello",
+        "alt_text": ""
+      },
+      "offer_forms": [],
+      "background_url": "/api/assets/mock-square",
+      "logo_url": null,
+      "font_urls": {
+        "latin": "/api/render/fonts/NotoSans.ttf",
+        "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+      },
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "validation": {
+      "passed": true,
+      "reasons": [],
+      "font_loaded": true,
+      "grapheme_engine": true,
+      "contrast": 11.438639323089712,
+      "offer_area_ratio": null,
+      "safe_area": [
+        64,
+        64,
+        952,
+        952
+      ],
+      "lines": [
+        {
+          "field": "headline",
+          "text": "A warm little pause",
+          "x": 263.11004638671875,
+          "y": 64,
+          "width": 553.7799072265625,
+          "height": 61,
+          "font_size": 60
+        },
+        {
+          "field": "body",
+          "text": "20% off · coffee",
+          "x": 266.0040588378906,
+          "y": 665.76,
+          "width": 547.9918823242188,
+          "height": 56,
+          "font_size": 72
+        },
+        {
+          "field": "body",
+          "text": "Namma Cafe · Bengaluru",
+          "x": 380.4841003417969,
+          "y": 768.68,
+          "width": 319.03179931640625,
+          "height": 28,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "2026-10-10 – 2026-10-11",
+          "x": 385.2900085449219,
+          "y": 810.4,
+          "width": 309.41998291015625,
+          "height": 21,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "Shanivara / Bhanuvara",
+          "x": 396.80560302734375,
+          "y": 852.12,
+          "width": 286.3887939453125,
+          "height": 22,
+          "font_size": 27
+        },
+        {
+          "field": "body",
+          "text": "Open to all",
+          "x": 470.59654998779297,
+          "y": 893.84,
+          "width": 138.80690002441406,
+          "height": 28,
+          "font_size": 27
+        },
+        {
+          "field": "cta",
+          "text": "Come say hello",
+          "x": 433.3960418701172,
+          "y": 946.56,
+          "width": 213.20791625976562,
+          "height": 29,
+          "font_size": 29
+        }
+      ],
+      "logo_bounds": null,
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "mode": "mock",
+    "outcome": "PASS",
+    "backend_validation": "PASS"
+  },
+  {
+    "input": {
+      "width": 1080,
+      "height": 1920,
+      "size": "story",
+      "language": "kn-Latn",
+      "fields": {
+        "headline": "A warm little pause",
+        "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nShanivara / Bhanuvara\nOpen to all",
+        "cta": "Come say hello",
+        "alt_text": ""
+      },
+      "offer_forms": [],
+      "background_url": "/api/assets/mock-story",
+      "logo_url": null,
+      "font_urls": {
+        "latin": "/api/render/fonts/NotoSans.ttf",
+        "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+      },
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "validation": {
+      "passed": true,
+      "reasons": [],
+      "font_loaded": true,
+      "grapheme_engine": true,
+      "contrast": 11.438639323089712,
+      "offer_area_ratio": null,
+      "safe_area": [
+        72,
+        200,
+        936,
+        1480
+      ],
+      "lines": [
+        {
+          "field": "headline",
+          "text": "A warm little pause",
+          "x": 207.83212280273438,
+          "y": 200,
+          "width": 664.3357543945312,
+          "height": 73,
+          "font_size": 72
+        },
+        {
+          "field": "body",
+          "text": "20% off · coffee",
+          "x": 205.11605834960938,
+          "y": 1265.8400000000001,
+          "width": 669.7678833007812,
+          "height": 69,
+          "font_size": 88
+        },
+        {
+          "field": "body",
+          "text": "Namma Cafe · Bengaluru",
+          "x": 345.0360565185547,
+          "y": 1390.5200000000002,
+          "width": 389.9278869628906,
+          "height": 34,
+          "font_size": 33
+        },
+        {
+          "field": "body",
+          "text": "2026-10-10 – 2026-10-11",
+          "x": 350.91009521484375,
+          "y": 1440.4,
+          "width": 378.1798095703125,
+          "height": 25,
+          "font_size": 33
+        },
+        {
+          "field": "body",
+          "text": "Shanivara / Bhanuvara",
+          "x": 364.98455810546875,
+          "y": 1490.2800000000002,
+          "width": 350.0308837890625,
+          "height": 26,
+          "font_size": 33
+        },
+        {
+          "field": "body",
+          "text": "Open to all",
+          "x": 455.1735305786133,
+          "y": 1540.16,
+          "width": 169.65293884277344,
+          "height": 33,
+          "font_size": 33
+        },
+        {
+          "field": "cta",
+          "text": "Come say hello",
+          "x": 407.6640625,
+          "y": 1601.0400000000002,
+          "width": 264.671875,
+          "height": 37,
+          "font_size": 36
+        }
+      ],
+      "logo_bounds": null,
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "mode": "mock",
+    "outcome": "PASS",
+    "backend_validation": "PASS"
+  },
+  {
+    "input": {
+      "width": 1200,
+      "height": 630,
+      "size": "landscape",
+      "language": "kn-Latn",
+      "fields": {
+        "headline": "A warm little pause",
+        "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nShanivara / Bhanuvara\nOpen to all",
+        "cta": "Come say hello",
+        "alt_text": ""
+      },
+      "offer_forms": [],
+      "background_url": "/api/assets/mock-landscape",
+      "logo_url": null,
+      "font_urls": {
+        "latin": "/api/render/fonts/NotoSans.ttf",
+        "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+      },
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "validation": {
+      "passed": true,
+      "reasons": [],
+      "font_loaded": true,
+      "grapheme_engine": true,
+      "contrast": 11.438639323089712,
+      "offer_area_ratio": null,
+      "safe_area": [
+        48,
+        48,
+        1104,
+        534
+      ],
+      "lines": [
+        {
+          "field": "headline",
+          "text": "A warm little pause",
+          "x": 48,
+          "y": 48,
+          "width": 360.3069152832031,
+          "height": 40,
+          "font_size": 39
+        },
+        {
+          "field": "body",
+          "text": "20% off · coffee",
+          "x": 48,
+          "y": 119.04,
+          "width": 365.32794189453125,
+          "height": 38,
+          "font_size": 48
+        },
+        {
+          "field": "body",
+          "text": "Namma Cafe · Bengaluru",
+          "x": 48,
+          "y": 189.32,
+          "width": 295.39990234375,
+          "height": 26,
+          "font_size": 25
+        },
+        {
+          "field": "body",
+          "text": "2026-10-10 – 2026-10-11",
+          "x": 48,
+          "y": 228.32,
+          "width": 286.499755859375,
+          "height": 20,
+          "font_size": 25
+        },
+        {
+          "field": "body",
+          "text": "Shanivara / Bhanuvara",
+          "x": 48,
+          "y": 267.32,
+          "width": 265.1749267578125,
+          "height": 20,
+          "font_size": 25
+        },
+        {
+          "field": "body",
+          "text": "Open to all",
+          "x": 48,
+          "y": 306.32,
+          "width": 128.52496337890625,
+          "height": 25,
+          "font_size": 25
+        },
+        {
+          "field": "cta",
+          "text": "Come say hello",
+          "x": 48,
+          "y": 356.32,
+          "width": 191.15188598632812,
+          "height": 27,
+          "font_size": 26
+        }
+      ],
+      "logo_bounds": null,
+      "renderer_version": "canvas-commercial-b1.0"
+    },
+    "mode": "mock",
+    "outcome": "PASS",
+    "backend_validation": "PASS"
+  }
+]

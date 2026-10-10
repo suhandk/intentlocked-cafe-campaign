@@ -1,0 +1,5 @@
+OPENROUTER ERROR HTTP 400: sensitive provider error
+OPENROUTER ERROR HTTP 422: sensitive provider error
+OPENROUTER ERROR HTTP 400: {'usage': {'prompt_tokens': 12, 'completion_tokens': 6, 'total_tokens': 18}}
+OPENROUTER ERROR HTTP 400: {'error': 'test failure'}
+OPENROUTER ERROR HTTP 400: {'error': 'test failure'}

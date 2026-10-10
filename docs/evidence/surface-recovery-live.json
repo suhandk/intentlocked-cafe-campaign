@@ -1,0 +1,32 @@
+{
+  "phase": "after_fix",
+  "captured_at": "2026-10-09T21:54:23.856905+00:00",
+  "work_id": "9b8bd9d2730d4020a1ba1fa39d15cae2",
+  "mode": "live",
+  "model": "openai/gpt-4o-mini",
+  "source_revision": 6,
+  "original_campaign_changed": false,
+  "owner_approval": "PENDING",
+  "outcome": "PASS",
+  "status": "forms_review",
+  "forms_count": 10,
+  "languages": [
+    "en"
+  ],
+  "forms_validated": true,
+  "canonical_values_unchanged": true,
+  "unknown_conditions_unchanged": true,
+  "review_warnings": 0,
+  "elapsed_seconds": 3.48,
+  "calls": [
+    {
+      "model": "openai/gpt-4o-mini",
+      "repair": 0,
+      "attempt": 1,
+      "status": "http_completed",
+      "http_status": 200,
+      "duration_ms": 3448.164800007362,
+      "list_price_estimate_usd": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-10T00:01:52.617Z",
+  "mode": "MOCK",
+  "source": "Mock inference; real Chrome poster rendering and real FFmpeg animation",
+  "result": "PASS",
+  "video_bytes": 160909,
+  "video_sha256": "a14450cdf8a6af3471ca7af6055e4df0ba93592a78c1b0eef6dc089a82389cf8",
+  "video_approval": "SIMULATED_TEST_OPERATOR",
+  "website_zip_bytes": 1020,
+  "rapid_clicks": "one job",
+  "reload": "PASS",
+  "live_image": "NOT_TESTED"
+}

@@ -1,0 +1,16 @@
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="10.352725">
+<testsuite name="approval-recovery.spec.ts" timestamp="2026-10-09T21:39:10.537Z" hostname="" tests="1" failures="0" skipped="0" time="3.093" errors="0">
+<testcase name="failed audit recovers; exact review, approval, export and reload remain usable" classname="approval-recovery.spec.ts" time="3.093">
+</testcase>
+</testsuite>
+<testsuite name="screenshot-recovery.spec.ts" timestamp="2026-10-09T21:39:10.537Z" hostname="" tests="2" failures="0" skipped="0" time="2.083" errors="0">
+<testcase name="blocked copy explains poster and score dependencies; explicit retry preserves selection" classname="screenshot-recovery.spec.ts" time="1.357">
+</testcase>
+<testcase name="a ready non-hero audience is explicitly selected and sent as its own group" classname="screenshot-recovery.spec.ts" time="0.726">
+</testcase>
+</testsuite>
+<testsuite name="video-option.spec.ts" timestamp="2026-10-09T21:39:10.537Z" hostname="" tests="1" failures="0" skipped="0" time="1.863" errors="0">
+<testcase name="unsupported video is explicit and cannot submit despite locked facts" classname="video-option.spec.ts" time="1.863">
+</testcase>
+</testsuite>
+</testsuites>

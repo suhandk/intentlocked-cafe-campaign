@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-10-09T02:37:45.946411+00:00",
+  "mode": "LOCAL_DATABASE_CHECK",
+  "empty_migrations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "empty_integrity": "ok",
+  "idempotent_reopen": true,
+  "existing_source": "data\\b4-browser.sqlite3",
+  "existing_before": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "existing_after": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "existing_integrity": "ok",
+  "foreign_key_violations": 0,
+  "campaigns_preserved": [
+    3,
+    3
+  ],
+  "source_not_modified": true
+}

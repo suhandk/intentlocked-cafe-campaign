@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-09T20:49:16.069249+00:00",
+  "source": "LOCAL_ARTWORK_WITH_LIVE_COPY",
+  "work_id": "f7772eaf69c3423fa4186fe845015e82",
+  "status": "completed",
+  "error_code": null,
+  "poster_count": 1,
+  "provider_calls": 0,
+  "owner_approval_granted": false,
+  "artifacts": [
+    {
+      "id": "bf40de7aca34429ebd610ed990b22560",
+      "sha256": "e1f16aff9328653af4a0751d80d00c8433c0245677a58444a2e71280aef28374",
+      "status": "ready",
+      "validation_passed": true
+    }
+  ]
+}

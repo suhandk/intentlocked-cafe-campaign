@@ -1,0 +1,27 @@
+Version t1-modern-cafe-b1.0
+Create a photorealistic café advertising photograph for a modern editorial layout: premium
+Pinterest-style art direction with tactile cream paper, deep forest-green brush
+accents and mustard yellow highlights added later by code. The hero photograph
+must match the permitted visual subject below. Only when coffee is explicitly
+permitted, depict appetizing and realistic close-up ceramic coffee, glossy coffee,
+subtle steam, cinematic amber side lighting, espresso shadows, shallow depth of
+field and soft anonymous bokeh. Give the cup generous visual weight on the right,
+with its full handle and rim visible. Avoid the tiny centered mug-icon look.
+If no product is permitted, use only the requested decorative studio textures;
+do not add coffee, food or any other identifiable product.
+Do not generate the paper panel, offer badge or lettering yourself. This layer
+must be a genuine-looking beverage photograph, not a flat vector illustration,
+cartoon, clip art, paper-cut 3D sculpture or empty abstract gradient.
+Use only these inputs:
+{visual_subject}; palette {palette}; theme {theme}; composition {composition};
+aspect ratio {aspect_ratio}. Composition guidance: {text_safe_region}.
+The anonymous studio surface and abstract bokeh are decoration, not evidence of
+any real café interior. Do not depict a specific venue, furniture, amenities,
+people, plants, wall signs, menus, extra food, gifts or additional beverages.
+No text, letters, numbers, branding, logos, watermarks, prices, discount badges,
+writing on objects or promotional claims. Do not depict unsupported product
+sizes, flavours or menu claims. Code adds exact approved typography, a forest-green
+brush offer highlight, mustard accents and CTA over cream paper. Reference style
+does not authorize copying its café name, discount, food, claims, venue or wording.
+
+Only the explicitly requested hero object is permitted.

@@ -1,0 +1,2494 @@
+{
+  "timestamp": "2026-10-09T04:00:18.856Z",
+  "outcome": "PASS",
+  "mode": "mock",
+  "live_R8": "NOT_TESTED",
+  "native_Kannada_voice": "NOT_TESTED",
+  "snapshot": {
+    "campaign_revision": 6,
+    "items": [
+      {
+        "id": "e25e8aa98aa440e79b265fbec4c6862f",
+        "campaign_id": "340743ea1b844271aaebb6597125adac",
+        "created_revision": 6,
+        "kind": "text",
+        "variant": {
+          "id": "e25e8aa98aa440e79b265fbec4c6862f",
+          "campaign_id": "340743ea1b844271aaebb6597125adac",
+          "campaign_revision": 6,
+          "audience_id": "be51b7679b704de5b9e43bad10ecf1d6-a0",
+          "language": "en",
+          "channel": "whatsapp",
+          "template": {
+            "headline": "Make room for a shared pause",
+            "body": "Shall we meet?\n{{CAFE}} · {{DATES}} · {{DAYS}} · {{ELIGIBILITY}} · {{LOCATION}} · {{OFFER}} · {{PRODUCT}}",
+            "cta": "Come along!",
+            "hashtags": [],
+            "alt_text": "{{CAFE}} · {{PRODUCT}} · {{OFFER}}"
+          },
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ],
+          "fact_hash": "e260edbbdd6e9c5bc0d4f402916db09364b9e0146d67f31928d87f59530029a0",
+          "dependency_hash": "b338289105357eb49aa5166268e1d0e2b4a48c86a009deec4170d55cb54fc200",
+          "content_hash": "141ef643761c96d108552147d4a243f609c40508d07b9a1025ab39cb55477b02",
+          "render_hash": null,
+          "status": "pending",
+          "parent_id": "bcb23c4a137ea37c85a18958e8205e1e33666bcba62d4bee0046a7856b7c1165",
+          "dependencies": {
+            "facts": {
+              "CAFE": 4,
+              "LOCATION": 4,
+              "OFFER": 5,
+              "PRODUCT": 4,
+              "DAYS": 4,
+              "DATES": 4,
+              "ELIGIBILITY": 4,
+              "ID_RULE": 2,
+              "TIME_WINDOW": 2,
+              "DINE_IN_RULE": 2,
+              "MIN_PURCHASE_RULE": 2,
+              "COMBINE_RULE": 2
+            },
+            "brand_revision": 1,
+            "prompt_version": "b3.1",
+            "policy_version": "guardian-policy-2.1",
+            "renderer_version": null,
+            "font_hash": null,
+            "background_hash": null,
+            "layout_hash": null
+          }
+        },
+        "audience": "students",
+        "fields": {
+          "headline": "Make room for a shared pause",
+          "body": "Shall we meet?\nNamma Cafe · 2026-10-10 – 2026-10-11 · Saturday / Sunday · Open to all · Bengaluru · 15% off · coffee",
+          "cta": "Come along!",
+          "alt_text": "Namma Cafe · coffee · 15% off"
+        },
+        "dependency_hash": "959db5b800483097b7aef7983698e1355ea9d976c53835048ea88f747fdc2365",
+        "sha256": "f2d1196ac6e96d1da1b75c0237d5716cbeec4d8e7c03648a64610371339a3ae3",
+        "byte_count": 197,
+        "source_table": "derived",
+        "source_id": "e25e8aa98aa440e79b265fbec4c6862f",
+        "source_hash": "22cbaaf5918029009e2f563c25de5ad69191868537788a7aacd1602a6b6ef455",
+        "poster_id": null,
+        "snapshot_hash": "9595871e96c14cf5ff2f402e80184632ddf3278e55437ab2aeffb344ca40cfab",
+        "mode": "mock",
+        "status": "approved",
+        "audit_id": "3baaf476a97048a9b828654222df4d6f",
+        "audit_status": "PASS",
+        "approval_id": "814fd2eceedc4788b694e6bc21dd95f0",
+        "warnings": [],
+        "report": {
+          "schema_version": "guardian-report-2.1",
+          "policy_version": "guardian-policy-2.1",
+          "campaign_id": "340743ea1b844271aaebb6597125adac",
+          "campaign_revision": 6,
+          "mode": "asset",
+          "content_hash": "141ef643761c96d108552147d4a243f609c40508d07b9a1025ab39cb55477b02",
+          "dependency_hash": "b338289105357eb49aa5166268e1d0e2b4a48c86a009deec4170d55cb54fc200",
+          "rendered": {
+            "fields": {
+              "headline": "Make room for a shared pause",
+              "body": "Shall we meet?\nNamma Cafe · 2026-10-10 – 2026-10-11 · Saturday / Sunday · Open to all · Bengaluru · 15% off · coffee",
+              "cta": "Come along!",
+              "alt_text": "Namma Cafe · coffee · 15% off"
+            },
+            "spans": [
+              {
+                "field": "body",
+                "start": 15,
+                "end": 25,
+                "template_start": 15,
+                "template_end": 23,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "body",
+                "start": 28,
+                "end": 51,
+                "template_start": 26,
+                "template_end": 35,
+                "key": "DATES",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "2026-10-10 – 2026-10-11",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "body",
+                "start": 54,
+                "end": 71,
+                "template_start": 38,
+                "template_end": 46,
+                "key": "DAYS",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Saturday / Sunday",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "body",
+                "start": 74,
+                "end": 85,
+                "template_start": 49,
+                "template_end": 64,
+                "key": "ELIGIBILITY",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Open to all",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "body",
+                "start": 88,
+                "end": 97,
+                "template_start": 67,
+                "template_end": 79,
+                "key": "LOCATION",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Bengaluru",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "body",
+                "start": 100,
+                "end": 107,
+                "template_start": 82,
+                "template_end": 91,
+                "key": "OFFER",
+                "version": 5,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "15% off",
+                "approval_id": "adcc0326236349e4ab4b4ecb1d30c60a"
+              },
+              {
+                "field": "body",
+                "start": 110,
+                "end": 116,
+                "template_start": 94,
+                "template_end": 105,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "alt_text",
+                "start": 0,
+                "end": 10,
+                "template_start": 0,
+                "template_end": 8,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "alt_text",
+                "start": 13,
+                "end": 19,
+                "template_start": 11,
+                "template_end": 22,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "alt_text",
+                "start": 22,
+                "end": 29,
+                "template_start": 25,
+                "template_end": 34,
+                "key": "OFFER",
+                "version": 5,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "15% off",
+                "approval_id": "adcc0326236349e4ab4b4ecb1d30c60a"
+              }
+            ],
+            "slots_used": [
+              "CAFE",
+              "DATES",
+              "DAYS",
+              "ELIGIBILITY",
+              "LOCATION",
+              "OFFER",
+              "PRODUCT"
+            ]
+          },
+          "checks": [
+            {
+              "rule": "G01",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G02",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G03",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G04",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G05",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G06",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G07",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G08",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G09",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G10",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G11",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "WARN",
+              "findings": []
+            },
+            {
+              "rule": "G12",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G13",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G14",
+              "applicable": true,
+              "completed": false,
+              "passed": null,
+              "severity": "BLOCK",
+              "findings": [
+                {
+                  "field": "*",
+                  "source": "policy",
+                  "start": null,
+                  "end": null,
+                  "quote": "",
+                  "message": "Blinded Agnes R7 reader pending B5"
+                }
+              ]
+            },
+            {
+              "rule": "G15",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            }
+          ],
+          "status": "INCOMPLETE",
+          "missing_checks": [
+            "G14"
+          ],
+          "warning_ids": [],
+          "integrity": null,
+          "approval_ready": false,
+          "native_review": "PENDING"
+        }
+      },
+      {
+        "id": "e7fc6a657e5847799d58b731c9b90941",
+        "campaign_id": "340743ea1b844271aaebb6597125adac",
+        "created_revision": 6,
+        "kind": "poster",
+        "variant": {
+          "id": "e25e8aa98aa440e79b265fbec4c6862f",
+          "campaign_id": "340743ea1b844271aaebb6597125adac",
+          "campaign_revision": 6,
+          "audience_id": "be51b7679b704de5b9e43bad10ecf1d6-a0",
+          "language": "en",
+          "channel": "whatsapp",
+          "template": {
+            "headline": "Make room for a shared pause",
+            "body": "Shall we meet?\n{{CAFE}} · {{DATES}} · {{DAYS}} · {{ELIGIBILITY}} · {{LOCATION}} · {{OFFER}} · {{PRODUCT}}",
+            "cta": "Come along!",
+            "hashtags": [],
+            "alt_text": "{{CAFE}} · {{PRODUCT}} · {{OFFER}}"
+          },
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ],
+          "fact_hash": "e260edbbdd6e9c5bc0d4f402916db09364b9e0146d67f31928d87f59530029a0",
+          "dependency_hash": "b338289105357eb49aa5166268e1d0e2b4a48c86a009deec4170d55cb54fc200",
+          "content_hash": "141ef643761c96d108552147d4a243f609c40508d07b9a1025ab39cb55477b02",
+          "render_hash": null,
+          "status": "pending",
+          "parent_id": "bcb23c4a137ea37c85a18958e8205e1e33666bcba62d4bee0046a7856b7c1165",
+          "dependencies": {
+            "facts": {
+              "CAFE": 4,
+              "LOCATION": 4,
+              "OFFER": 5,
+              "PRODUCT": 4,
+              "DAYS": 4,
+              "DATES": 4,
+              "ELIGIBILITY": 4,
+              "ID_RULE": 2,
+              "TIME_WINDOW": 2,
+              "DINE_IN_RULE": 2,
+              "MIN_PURCHASE_RULE": 2,
+              "COMBINE_RULE": 2
+            },
+            "brand_revision": 1,
+            "prompt_version": "b3.1",
+            "policy_version": "guardian-policy-2.1",
+            "renderer_version": null,
+            "font_hash": null,
+            "background_hash": null,
+            "layout_hash": null
+          }
+        },
+        "audience": "students",
+        "fields": {
+          "headline": "Make room for a shared pause",
+          "body": "Shall we meet?\nNamma Cafe · 2026-10-10 – 2026-10-11 · Saturday / Sunday · Open to all · Bengaluru · 15% off · coffee",
+          "cta": "Come along!",
+          "alt_text": "Namma Cafe · coffee · 15% off"
+        },
+        "dependency_hash": "a94199f4735541688db1b8d95a5b1a5b7eb710d36b61d6018d33fc1e2fda981f",
+        "sha256": "a8fdcd9da65044a84e166258ac0fbae477ca70c37cd14ad4352d87a94dfcdf16",
+        "byte_count": 52773,
+        "source_table": "poster_artifacts",
+        "source_id": "e7fc6a657e5847799d58b731c9b90941",
+        "source_hash": "4ed4d358fa6c1d62fedf4b33aec56caeccea209886a89ee375279cb42caabd52",
+        "poster_id": "e7fc6a657e5847799d58b731c9b90941",
+        "snapshot_hash": "43dc022af4be05e52e8f189c95665a874a81df5aa2801b80d61ca36ee2cf8a13",
+        "mode": "mock",
+        "status": "approved",
+        "audit_id": "427ffd3a60d84c29986f926dbf4642e2",
+        "audit_status": "PASS",
+        "approval_id": "8a1c4e8183704430b9b21c700f1e66cc",
+        "warnings": [],
+        "report": {
+          "schema_version": "guardian-report-2.1",
+          "policy_version": "guardian-policy-2.1",
+          "campaign_id": "340743ea1b844271aaebb6597125adac",
+          "campaign_revision": 6,
+          "mode": "asset",
+          "content_hash": "141ef643761c96d108552147d4a243f609c40508d07b9a1025ab39cb55477b02",
+          "dependency_hash": "b338289105357eb49aa5166268e1d0e2b4a48c86a009deec4170d55cb54fc200",
+          "rendered": {
+            "fields": {
+              "headline": "Make room for a shared pause",
+              "body": "Shall we meet?\nNamma Cafe · 2026-10-10 – 2026-10-11 · Saturday / Sunday · Open to all · Bengaluru · 15% off · coffee",
+              "cta": "Come along!",
+              "alt_text": "Namma Cafe · coffee · 15% off"
+            },
+            "spans": [
+              {
+                "field": "body",
+                "start": 15,
+                "end": 25,
+                "template_start": 15,
+                "template_end": 23,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "body",
+                "start": 28,
+                "end": 51,
+                "template_start": 26,
+                "template_end": 35,
+                "key": "DATES",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "2026-10-10 – 2026-10-11",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "body",
+                "start": 54,
+                "end": 71,
+                "template_start": 38,
+                "template_end": 46,
+                "key": "DAYS",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Saturday / Sunday",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "body",
+                "start": 74,
+                "end": 85,
+                "template_start": 49,
+                "template_end": 64,
+                "key": "ELIGIBILITY",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Open to all",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "body",
+                "start": 88,
+                "end": 97,
+                "template_start": 67,
+                "template_end": 79,
+                "key": "LOCATION",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Bengaluru",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "body",
+                "start": 100,
+                "end": 107,
+                "template_start": 82,
+                "template_end": 91,
+                "key": "OFFER",
+                "version": 5,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "15% off",
+                "approval_id": "adcc0326236349e4ab4b4ecb1d30c60a"
+              },
+              {
+                "field": "body",
+                "start": 110,
+                "end": 116,
+                "template_start": 94,
+                "template_end": 105,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "alt_text",
+                "start": 0,
+                "end": 10,
+                "template_start": 0,
+                "template_end": 8,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "alt_text",
+                "start": 13,
+                "end": 19,
+                "template_start": 11,
+                "template_end": 22,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+              },
+              {
+                "field": "alt_text",
+                "start": 22,
+                "end": 29,
+                "template_start": 25,
+                "template_end": 34,
+                "key": "OFFER",
+                "version": 5,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "15% off",
+                "approval_id": "adcc0326236349e4ab4b4ecb1d30c60a"
+              }
+            ],
+            "slots_used": [
+              "CAFE",
+              "DATES",
+              "DAYS",
+              "ELIGIBILITY",
+              "LOCATION",
+              "OFFER",
+              "PRODUCT"
+            ]
+          },
+          "checks": [
+            {
+              "rule": "G01",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G02",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G03",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G04",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G05",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G06",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G07",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G08",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G09",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G10",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G11",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "WARN",
+              "findings": []
+            },
+            {
+              "rule": "G12",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": [
+                {
+                  "field": "*",
+                  "source": "policy",
+                  "start": null,
+                  "end": null,
+                  "quote": "",
+                  "message": "Measured canvas bounds validated against safe areas; artifact bound to render hash"
+                }
+              ]
+            },
+            {
+              "rule": "G13",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G14",
+              "applicable": true,
+              "completed": false,
+              "passed": null,
+              "severity": "BLOCK",
+              "findings": [
+                {
+                  "field": "*",
+                  "source": "policy",
+                  "start": null,
+                  "end": null,
+                  "quote": "",
+                  "message": "Blinded Agnes R7 reader pending B5"
+                }
+              ]
+            },
+            {
+              "rule": "G15",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            }
+          ],
+          "status": "INCOMPLETE",
+          "missing_checks": [
+            "G14"
+          ],
+          "warning_ids": [],
+          "integrity": null,
+          "approval_ready": false,
+          "native_review": "PENDING"
+        }
+      }
+    ],
+    "proposals": [
+      {
+        "id": "97c611d86cb8447a8cdbab251ad5f3f6",
+        "campaign_id": "340743ea1b844271aaebb6597125adac",
+        "expected_revision": 6,
+        "request": {
+          "expected_revision": 6,
+          "text": "Make it 25%",
+          "scope_ids": [],
+          "idempotency_key": "426a1dcc-0e0a-4ee9-8629-2624ad97e034"
+        },
+        "classification": "immutable",
+        "status": "cancelled",
+        "operations": [
+          {
+            "target": "FACT:OFFER",
+            "canonical": {
+              "kind": "percent_off",
+              "value": 25,
+              "unit": "percent"
+            },
+            "value": null,
+            "surface": null,
+            "scope_ids": [],
+            "evidence": {
+              "start": 8,
+              "end": 11,
+              "quote": "25%"
+            }
+          }
+        ],
+        "diffs": [
+          {
+            "target": "FACT:OFFER",
+            "before": "{\"canonical\": {\"kind\": \"percent_off\", \"unit\": \"percent\", \"value\": 15.0}, \"surface\": {\"en\": {\"dat\": null, \"gen\": null, \"loc\": null, \"nom\": [\"15% off\"]}}}",
+            "after": "{\"canonical\": {\"kind\": \"percent_off\", \"unit\": \"percent\", \"value\": 25.0}, \"proposed_surface\": {}}",
+            "affected_ids": [
+              "e25e8aa98aa440e79b265fbec4c6862f",
+              "e7fc6a657e5847799d58b731c9b90941"
+            ],
+            "consequence": "refill"
+          }
+        ],
+        "questions": [],
+        "candidate": {
+          "id": "340743ea1b844271aaebb6597125adac",
+          "revision": 6,
+          "status": "locked",
+          "mode": "mock",
+          "languages": [
+            "en"
+          ],
+          "channels": [
+            "whatsapp"
+          ],
+          "target_audiences": [],
+          "transcript": "Café name: Namma Cafe. Bengaluru. 20 percent off coffee this weekend. Open to all.",
+          "facts": [
+            {
+              "key": "CAFE",
+              "canonical": {
+                "kind": "text",
+                "value": "Namma Cafe"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 0,
+                "end": 21,
+                "quote": "Café name: Namma Cafe"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Namma Cafe"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "7b65cb11f4a45f75922f90cf253ab5be5624f0da46a08ab499e5ff82c050def7",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "LOCATION",
+              "canonical": {
+                "kind": "text",
+                "value": "Bengaluru"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 23,
+                "end": 32,
+                "quote": "Bengaluru"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Bengaluru"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "de4c06030f4f532cc1cd7f757bea1f4a0230c0181223a9d9b358926d00c8ed4a",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "OFFER",
+              "canonical": {
+                "kind": "percent_off",
+                "value": 25,
+                "unit": "percent"
+              },
+              "version": 6,
+              "status": "proposed",
+              "source_span": {
+                "start": 8,
+                "end": 11,
+                "quote": "25%"
+              },
+              "source": "owner",
+              "surface": {},
+              "canonical_hash": "9144b118718e48c8953a93bcc522f3110e22e8fef665bf452a6d02c40ccf73d5",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "PRODUCT",
+              "canonical": {
+                "kind": "text",
+                "value": "coffee"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 49,
+                "end": 55,
+                "quote": "coffee"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "coffee"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "a3085ac0dadb0ab1d4a88030b832e18c2532edd7884c252cfee17541a8977de6",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "DAYS",
+              "canonical": {
+                "kind": "days",
+                "weekdays": [
+                  "SAT",
+                  "SUN"
+                ]
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 56,
+                "end": 68,
+                "quote": "this weekend"
+              },
+              "source": "derived",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Saturday / Sunday"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "38afaceecb9070a29830e0ce0ad06e1020c5d6bb1454a55f1dee999078049cf7",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "DATES",
+              "canonical": {
+                "kind": "dates",
+                "start": "2026-10-10",
+                "end": "2026-10-11",
+                "original_phrase": "this weekend",
+                "timezone": "Asia/Kolkata"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 56,
+                "end": 68,
+                "quote": "this weekend"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "2026-10-10 – 2026-10-11"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "25025c589c257717e6b8404fd71acb1a1cc649c96959e6e321f4926adecdb1c4",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "ELIGIBILITY",
+              "canonical": {
+                "kind": "eligibility",
+                "scope": "all",
+                "description": ""
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 70,
+                "end": 81,
+                "quote": "Open to all"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Open to all"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "26f9eff5fc2fbfac7fb9c19f5842f96e43a48ee858ae3f28c035cdbdf345a8a6",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "ID_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "TIME_WINDOW",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "DINE_IN_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "MIN_PURCHASE_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "COMBINE_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            }
+          ],
+          "brand": {
+            "colors": [],
+            "tone": "",
+            "theme": "",
+            "must_say": [],
+            "must_not_say": []
+          },
+          "brand_revision": 1,
+          "warnings": [
+            {
+              "id": "r2_cbaddd673d9c",
+              "message": "MOCK forms are local test data. Review all wording; unsupported translations retain the source language."
+            }
+          ],
+          "clarifications": [
+            {
+              "key": "ID_RULE",
+              "question": "Is an ID required? Leave unknown unless decided.",
+              "required": false
+            },
+            {
+              "key": "TIME_WINDOW",
+              "question": "Any daily time window?",
+              "required": false
+            },
+            {
+              "key": "DINE_IN_RULE",
+              "question": "Any dine-in or takeaway restriction?",
+              "required": false
+            },
+            {
+              "key": "MIN_PURCHASE_RULE",
+              "question": "Any minimum purchase?",
+              "required": false
+            },
+            {
+              "key": "COMBINE_RULE",
+              "question": "Can this combine with other offers?",
+              "required": false
+            }
+          ],
+          "agent_questions": [],
+          "acknowledged_warning_ids": [
+            "r2_cbaddd673d9c"
+          ],
+          "reference_date": "2026-10-09",
+          "timezone": "Asia/Kolkata",
+          "demo_clock": false,
+          "fact_hash": "e260edbbdd6e9c5bc0d4f402916db09364b9e0146d67f31928d87f59530029a0",
+          "approved_at": "2026-10-09T03:59:54.480677+00:00",
+          "native_review": "NOT_REVIEWED",
+          "prompt_version": "b1.1"
+        },
+        "changed_keys": [
+          "OFFER"
+        ],
+        "forms": [],
+        "published_revision": null,
+        "mode": "mock",
+        "captured_at": "2026-10-09T04:00:15.694790+00:00",
+        "prompt_hash": "3cce4322798da7eb2ae2100a50206097602a9b1a3b1665bda56e0dcb91338c48"
+      },
+      {
+        "id": "adcc0326236349e4ab4b4ecb1d30c60a",
+        "campaign_id": "340743ea1b844271aaebb6597125adac",
+        "expected_revision": 5,
+        "request": {
+          "expected_revision": 5,
+          "text": "Make it 15%",
+          "scope_ids": [
+            "bcb23c4a137ea37c85a18958e8205e1e33666bcba62d4bee0046a7856b7c1165"
+          ],
+          "idempotency_key": "0749041d-689b-4a04-b566-44a09d795cb9"
+        },
+        "classification": "immutable",
+        "status": "published",
+        "operations": [
+          {
+            "target": "FACT:OFFER",
+            "canonical": {
+              "kind": "percent_off",
+              "value": 15,
+              "unit": "percent"
+            },
+            "value": null,
+            "surface": null,
+            "scope_ids": [
+              "bcb23c4a137ea37c85a18958e8205e1e33666bcba62d4bee0046a7856b7c1165"
+            ],
+            "evidence": {
+              "start": 8,
+              "end": 11,
+              "quote": "15%"
+            }
+          }
+        ],
+        "diffs": [
+          {
+            "target": "FACT:OFFER",
+            "before": "{\"canonical\": {\"kind\": \"percent_off\", \"unit\": \"percent\", \"value\": 20.0}, \"surface\": {\"en\": {\"dat\": null, \"gen\": null, \"loc\": null, \"nom\": [\"20% off\"]}}}",
+            "after": "{\"canonical\": {\"kind\": \"percent_off\", \"unit\": \"percent\", \"value\": 15.0}, \"proposed_surface\": {}}",
+            "affected_ids": [
+              "bcb23c4a137ea37c85a18958e8205e1e33666bcba62d4bee0046a7856b7c1165"
+            ],
+            "consequence": "refill"
+          }
+        ],
+        "questions": [],
+        "candidate": {
+          "id": "340743ea1b844271aaebb6597125adac",
+          "revision": 5,
+          "status": "locked",
+          "mode": "mock",
+          "languages": [
+            "en"
+          ],
+          "channels": [
+            "whatsapp"
+          ],
+          "target_audiences": [],
+          "transcript": "Café name: Namma Cafe. Bengaluru. 20 percent off coffee this weekend. Open to all.",
+          "facts": [
+            {
+              "key": "CAFE",
+              "canonical": {
+                "kind": "text",
+                "value": "Namma Cafe"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 0,
+                "end": 21,
+                "quote": "Café name: Namma Cafe"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Namma Cafe"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "7b65cb11f4a45f75922f90cf253ab5be5624f0da46a08ab499e5ff82c050def7",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "LOCATION",
+              "canonical": {
+                "kind": "text",
+                "value": "Bengaluru"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 23,
+                "end": 32,
+                "quote": "Bengaluru"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Bengaluru"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "de4c06030f4f532cc1cd7f757bea1f4a0230c0181223a9d9b358926d00c8ed4a",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "OFFER",
+              "canonical": {
+                "kind": "percent_off",
+                "value": 15,
+                "unit": "percent"
+              },
+              "version": 5,
+              "status": "proposed",
+              "source_span": {
+                "start": 8,
+                "end": 11,
+                "quote": "15%"
+              },
+              "source": "owner",
+              "surface": {},
+              "canonical_hash": "7acd66a9a54c6e15f2f8c020182de97630cc7adf5aa93549adfeb3daf3accbfb",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "PRODUCT",
+              "canonical": {
+                "kind": "text",
+                "value": "coffee"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 49,
+                "end": 55,
+                "quote": "coffee"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "coffee"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "a3085ac0dadb0ab1d4a88030b832e18c2532edd7884c252cfee17541a8977de6",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "DAYS",
+              "canonical": {
+                "kind": "days",
+                "weekdays": [
+                  "SAT",
+                  "SUN"
+                ]
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 56,
+                "end": 68,
+                "quote": "this weekend"
+              },
+              "source": "derived",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Saturday / Sunday"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "38afaceecb9070a29830e0ce0ad06e1020c5d6bb1454a55f1dee999078049cf7",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "DATES",
+              "canonical": {
+                "kind": "dates",
+                "start": "2026-10-10",
+                "end": "2026-10-11",
+                "original_phrase": "this weekend",
+                "timezone": "Asia/Kolkata"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 56,
+                "end": 68,
+                "quote": "this weekend"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "2026-10-10 – 2026-10-11"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "25025c589c257717e6b8404fd71acb1a1cc649c96959e6e321f4926adecdb1c4",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "ELIGIBILITY",
+              "canonical": {
+                "kind": "eligibility",
+                "scope": "all",
+                "description": ""
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 70,
+                "end": 81,
+                "quote": "Open to all"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Open to all"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "26f9eff5fc2fbfac7fb9c19f5842f96e43a48ee858ae3f28c035cdbdf345a8a6",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "ID_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "TIME_WINDOW",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "DINE_IN_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "MIN_PURCHASE_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "COMBINE_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            }
+          ],
+          "brand": {
+            "colors": [],
+            "tone": "",
+            "theme": "",
+            "must_say": [],
+            "must_not_say": []
+          },
+          "brand_revision": 1,
+          "warnings": [
+            {
+              "id": "r2_cbaddd673d9c",
+              "message": "MOCK forms are local test data. Review all wording; unsupported translations retain the source language."
+            }
+          ],
+          "clarifications": [
+            {
+              "key": "ID_RULE",
+              "question": "Is an ID required? Leave unknown unless decided.",
+              "required": false
+            },
+            {
+              "key": "TIME_WINDOW",
+              "question": "Any daily time window?",
+              "required": false
+            },
+            {
+              "key": "DINE_IN_RULE",
+              "question": "Any dine-in or takeaway restriction?",
+              "required": false
+            },
+            {
+              "key": "MIN_PURCHASE_RULE",
+              "question": "Any minimum purchase?",
+              "required": false
+            },
+            {
+              "key": "COMBINE_RULE",
+              "question": "Can this combine with other offers?",
+              "required": false
+            }
+          ],
+          "agent_questions": [],
+          "acknowledged_warning_ids": [
+            "r2_cbaddd673d9c"
+          ],
+          "reference_date": "2026-10-09",
+          "timezone": "Asia/Kolkata",
+          "demo_clock": false,
+          "fact_hash": "5b450a9a7dda20eb9b1f06318e10dbece6d3b0c261e3d4f235ae4cd713264c98",
+          "approved_at": "2026-10-09T03:59:15.718333+00:00",
+          "native_review": "NOT_REVIEWED",
+          "prompt_version": "b1.1"
+        },
+        "changed_keys": [
+          "OFFER"
+        ],
+        "forms": [
+          {
+            "key": "CAFE",
+            "surface": {
+              "en": {
+                "nom": [
+                  "Namma Cafe"
+                ],
+                "dat": null,
+                "gen": null,
+                "loc": null
+              }
+            }
+          },
+          {
+            "key": "LOCATION",
+            "surface": {
+              "en": {
+                "nom": [
+                  "Bengaluru"
+                ],
+                "dat": null,
+                "gen": null,
+                "loc": null
+              }
+            }
+          },
+          {
+            "key": "OFFER",
+            "surface": {
+              "en": {
+                "nom": [
+                  "15% off"
+                ],
+                "dat": null,
+                "gen": null,
+                "loc": null
+              }
+            }
+          },
+          {
+            "key": "PRODUCT",
+            "surface": {
+              "en": {
+                "nom": [
+                  "coffee"
+                ],
+                "dat": null,
+                "gen": null,
+                "loc": null
+              }
+            }
+          },
+          {
+            "key": "DAYS",
+            "surface": {
+              "en": {
+                "nom": [
+                  "Saturday / Sunday"
+                ],
+                "dat": null,
+                "gen": null,
+                "loc": null
+              }
+            }
+          },
+          {
+            "key": "DATES",
+            "surface": {
+              "en": {
+                "nom": [
+                  "2026-10-10 – 2026-10-11"
+                ],
+                "dat": null,
+                "gen": null,
+                "loc": null
+              }
+            }
+          },
+          {
+            "key": "ELIGIBILITY",
+            "surface": {
+              "en": {
+                "nom": [
+                  "Open to all"
+                ],
+                "dat": null,
+                "gen": null,
+                "loc": null
+              }
+            }
+          }
+        ],
+        "published_revision": 6,
+        "mode": "mock",
+        "captured_at": "2026-10-09T03:59:45.700811+00:00",
+        "prompt_hash": "3cce4322798da7eb2ae2100a50206097602a9b1a3b1665bda56e0dcb91338c48"
+      }
+    ],
+    "versions": [
+      {
+        "revision": 6,
+        "current": true,
+        "campaign": {
+          "id": "340743ea1b844271aaebb6597125adac",
+          "revision": 6,
+          "status": "locked",
+          "mode": "mock",
+          "languages": [
+            "en"
+          ],
+          "channels": [
+            "whatsapp"
+          ],
+          "target_audiences": [],
+          "transcript": "Café name: Namma Cafe. Bengaluru. 20 percent off coffee this weekend. Open to all.",
+          "facts": [
+            {
+              "key": "CAFE",
+              "canonical": {
+                "kind": "text",
+                "value": "Namma Cafe"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 0,
+                "end": 21,
+                "quote": "Café name: Namma Cafe"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Namma Cafe"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "7b65cb11f4a45f75922f90cf253ab5be5624f0da46a08ab499e5ff82c050def7",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "LOCATION",
+              "canonical": {
+                "kind": "text",
+                "value": "Bengaluru"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 23,
+                "end": 32,
+                "quote": "Bengaluru"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Bengaluru"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "de4c06030f4f532cc1cd7f757bea1f4a0230c0181223a9d9b358926d00c8ed4a",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "OFFER",
+              "canonical": {
+                "kind": "percent_off",
+                "value": 15,
+                "unit": "percent"
+              },
+              "version": 5,
+              "status": "locked",
+              "source_span": {
+                "start": 8,
+                "end": 11,
+                "quote": "15%"
+              },
+              "source": "owner",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "15% off"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "7acd66a9a54c6e15f2f8c020182de97630cc7adf5aa93549adfeb3daf3accbfb",
+              "approved_at": "2026-10-09T03:59:54.480677+00:00",
+              "approval_id": "adcc0326236349e4ab4b4ecb1d30c60a"
+            },
+            {
+              "key": "PRODUCT",
+              "canonical": {
+                "kind": "text",
+                "value": "coffee"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 49,
+                "end": 55,
+                "quote": "coffee"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "coffee"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "a3085ac0dadb0ab1d4a88030b832e18c2532edd7884c252cfee17541a8977de6",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "DAYS",
+              "canonical": {
+                "kind": "days",
+                "weekdays": [
+                  "SAT",
+                  "SUN"
+                ]
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 56,
+                "end": 68,
+                "quote": "this weekend"
+              },
+              "source": "derived",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Saturday / Sunday"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "38afaceecb9070a29830e0ce0ad06e1020c5d6bb1454a55f1dee999078049cf7",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "DATES",
+              "canonical": {
+                "kind": "dates",
+                "start": "2026-10-10",
+                "end": "2026-10-11",
+                "original_phrase": "this weekend",
+                "timezone": "Asia/Kolkata"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 56,
+                "end": 68,
+                "quote": "this weekend"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "2026-10-10 – 2026-10-11"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "25025c589c257717e6b8404fd71acb1a1cc649c96959e6e321f4926adecdb1c4",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "ELIGIBILITY",
+              "canonical": {
+                "kind": "eligibility",
+                "scope": "all",
+                "description": ""
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 70,
+                "end": 81,
+                "quote": "Open to all"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Open to all"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "26f9eff5fc2fbfac7fb9c19f5842f96e43a48ee858ae3f28c035cdbdf345a8a6",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "ID_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "TIME_WINDOW",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "DINE_IN_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "MIN_PURCHASE_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "COMBINE_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            }
+          ],
+          "brand": {
+            "colors": [],
+            "tone": "",
+            "theme": "",
+            "must_say": [],
+            "must_not_say": []
+          },
+          "brand_revision": 1,
+          "warnings": [
+            {
+              "id": "r2_cbaddd673d9c",
+              "message": "MOCK forms are local test data. Review all wording; unsupported translations retain the source language."
+            }
+          ],
+          "clarifications": [
+            {
+              "key": "ID_RULE",
+              "question": "Is an ID required? Leave unknown unless decided.",
+              "required": false
+            },
+            {
+              "key": "TIME_WINDOW",
+              "question": "Any daily time window?",
+              "required": false
+            },
+            {
+              "key": "DINE_IN_RULE",
+              "question": "Any dine-in or takeaway restriction?",
+              "required": false
+            },
+            {
+              "key": "MIN_PURCHASE_RULE",
+              "question": "Any minimum purchase?",
+              "required": false
+            },
+            {
+              "key": "COMBINE_RULE",
+              "question": "Can this combine with other offers?",
+              "required": false
+            }
+          ],
+          "agent_questions": [],
+          "acknowledged_warning_ids": [
+            "r2_cbaddd673d9c"
+          ],
+          "reference_date": "2026-10-09",
+          "timezone": "Asia/Kolkata",
+          "demo_clock": false,
+          "fact_hash": "e260edbbdd6e9c5bc0d4f402916db09364b9e0146d67f31928d87f59530029a0",
+          "approved_at": "2026-10-09T03:59:54.480677+00:00",
+          "native_review": "NOT_REVIEWED",
+          "prompt_version": "b1.1"
+        }
+      },
+      {
+        "revision": 5,
+        "current": false,
+        "campaign": {
+          "id": "340743ea1b844271aaebb6597125adac",
+          "revision": 5,
+          "status": "locked",
+          "mode": "mock",
+          "languages": [
+            "en"
+          ],
+          "channels": [
+            "whatsapp"
+          ],
+          "target_audiences": [],
+          "transcript": "Café name: Namma Cafe. Bengaluru. 20 percent off coffee this weekend. Open to all.",
+          "facts": [
+            {
+              "key": "CAFE",
+              "canonical": {
+                "kind": "text",
+                "value": "Namma Cafe"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 0,
+                "end": 21,
+                "quote": "Café name: Namma Cafe"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Namma Cafe"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "7b65cb11f4a45f75922f90cf253ab5be5624f0da46a08ab499e5ff82c050def7",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "LOCATION",
+              "canonical": {
+                "kind": "text",
+                "value": "Bengaluru"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 23,
+                "end": 32,
+                "quote": "Bengaluru"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Bengaluru"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "de4c06030f4f532cc1cd7f757bea1f4a0230c0181223a9d9b358926d00c8ed4a",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "OFFER",
+              "canonical": {
+                "kind": "percent_off",
+                "value": 20,
+                "unit": "percent"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 34,
+                "end": 44,
+                "quote": "20 percent"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "20% off"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "ebdf5ce45b6a0d971ee7651a875bd319f293b71c932ba92bbf7618446e5a03e3",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "PRODUCT",
+              "canonical": {
+                "kind": "text",
+                "value": "coffee"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 49,
+                "end": 55,
+                "quote": "coffee"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "coffee"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "a3085ac0dadb0ab1d4a88030b832e18c2532edd7884c252cfee17541a8977de6",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "DAYS",
+              "canonical": {
+                "kind": "days",
+                "weekdays": [
+                  "SAT",
+                  "SUN"
+                ]
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 56,
+                "end": 68,
+                "quote": "this weekend"
+              },
+              "source": "derived",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Saturday / Sunday"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "38afaceecb9070a29830e0ce0ad06e1020c5d6bb1454a55f1dee999078049cf7",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "DATES",
+              "canonical": {
+                "kind": "dates",
+                "start": "2026-10-10",
+                "end": "2026-10-11",
+                "original_phrase": "this weekend",
+                "timezone": "Asia/Kolkata"
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 56,
+                "end": 68,
+                "quote": "this weekend"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "2026-10-10 – 2026-10-11"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "25025c589c257717e6b8404fd71acb1a1cc649c96959e6e321f4926adecdb1c4",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "ELIGIBILITY",
+              "canonical": {
+                "kind": "eligibility",
+                "scope": "all",
+                "description": ""
+              },
+              "version": 4,
+              "status": "locked",
+              "source_span": {
+                "start": 70,
+                "end": 81,
+                "quote": "Open to all"
+              },
+              "source": "R1",
+              "surface": {
+                "en": {
+                  "nom": [
+                    "Open to all"
+                  ],
+                  "dat": null,
+                  "gen": null,
+                  "loc": null
+                }
+              },
+              "canonical_hash": "26f9eff5fc2fbfac7fb9c19f5842f96e43a48ee858ae3f28c035cdbdf345a8a6",
+              "approved_at": "2026-10-09T03:59:15.718333+00:00",
+              "approval_id": "2cb86fa213d74100951b4bdf8d70b6e4"
+            },
+            {
+              "key": "ID_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "TIME_WINDOW",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "DINE_IN_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "MIN_PURCHASE_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            },
+            {
+              "key": "COMBINE_RULE",
+              "canonical": null,
+              "version": 2,
+              "status": "not_specified",
+              "source_span": null,
+              "source": "unspecified",
+              "surface": {},
+              "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "approved_at": null,
+              "approval_id": null
+            }
+          ],
+          "brand": {
+            "colors": [],
+            "tone": "",
+            "theme": "",
+            "must_say": [],
+            "must_not_say": []
+          },
+          "brand_revision": 1,
+          "warnings": [
+            {
+              "id": "r2_cbaddd673d9c",
+              "message": "MOCK forms are local test data. Review all wording; unsupported translations retain the source language."
+            }
+          ],
+          "clarifications": [
+            {
+              "key": "ID_RULE",
+              "question": "Is an ID required? Leave unknown unless decided.",
+              "required": false
+            },
+            {
+              "key": "TIME_WINDOW",
+              "question": "Any daily time window?",
+              "required": false
+            },
+            {
+              "key": "DINE_IN_RULE",
+              "question": "Any dine-in or takeaway restriction?",
+              "required": false
+            },
+            {
+              "key": "MIN_PURCHASE_RULE",
+              "question": "Any minimum purchase?",
+              "required": false
+            },
+            {
+              "key": "COMBINE_RULE",
+              "question": "Can this combine with other offers?",
+              "required": false
+            }
+          ],
+          "agent_questions": [],
+          "acknowledged_warning_ids": [
+            "r2_cbaddd673d9c"
+          ],
+          "reference_date": "2026-10-09",
+          "timezone": "Asia/Kolkata",
+          "demo_clock": false,
+          "fact_hash": "5b450a9a7dda20eb9b1f06318e10dbece6d3b0c261e3d4f235ae4cd713264c98",
+          "approved_at": "2026-10-09T03:59:15.718333+00:00",
+          "native_review": "NOT_REVIEWED",
+          "prompt_version": "b1.1"
+        }
+      }
+    ],
+    "ledger": [
+      {
+        "id": 17,
+        "revision": 6,
+        "timestamp": "2026-10-09T04:00:16.610386+00:00",
+        "event": "change_cancelled",
+        "decision": "No partial operation committed",
+        "invalidated_ids": [],
+        "preserved_ids": []
+      },
+      {
+        "id": 16,
+        "revision": 6,
+        "timestamp": "2026-10-09T04:00:15.694790+00:00",
+        "event": "change_proposed",
+        "decision": "immutable",
+        "invalidated_ids": [],
+        "preserved_ids": []
+      },
+      {
+        "id": 15,
+        "revision": 6,
+        "timestamp": "2026-10-09T04:00:09.287653+00:00",
+        "event": "owner_approved",
+        "decision": "Exact content, dependencies and bytes approved",
+        "invalidated_ids": [],
+        "preserved_ids": []
+      },
+      {
+        "id": 14,
+        "revision": 6,
+        "timestamp": "2026-10-09T04:00:01.737492+00:00",
+        "event": "owner_approved",
+        "decision": "Exact content, dependencies and bytes approved",
+        "invalidated_ids": [],
+        "preserved_ids": []
+      },
+      {
+        "id": 13,
+        "revision": 6,
+        "timestamp": "2026-10-09T03:59:54.494224+00:00",
+        "event": "revision_published",
+        "decision": "Owner diff and forms approved atomically",
+        "invalidated_ids": [
+          "bcb23c4a137ea37c85a18958e8205e1e33666bcba62d4bee0046a7856b7c1165"
+        ],
+        "preserved_ids": []
+      },
+      {
+        "id": 12,
+        "revision": 5,
+        "timestamp": "2026-10-09T03:59:47.344929+00:00",
+        "event": "change_confirmed",
+        "decision": "No partial operation committed",
+        "invalidated_ids": [],
+        "preserved_ids": []
+      },
+      {
+        "id": 11,
+        "revision": 5,
+        "timestamp": "2026-10-09T03:59:45.700811+00:00",
+        "event": "change_proposed",
+        "decision": "immutable",
+        "invalidated_ids": [],
+        "preserved_ids": []
+      },
+      {
+        "id": 10,
+        "revision": 5,
+        "timestamp": "2026-10-09T03:59:39.761882+00:00",
+        "event": "owner_approved",
+        "decision": "Exact content, dependencies and bytes approved",
+        "invalidated_ids": [],
+        "preserved_ids": []
+      }
+    ]
+  },
+  "authorized_pack": {
+    "campaign_id": "340743ea1b844271aaebb6597125adac",
+    "campaign_revision": 6,
+    "generated_at": "2026-10-09T04:00:09.576085+00:00",
+    "mode": "mock",
+    "files": [
+      {
+        "item_id": "e25e8aa98aa440e79b265fbec4c6862f",
+        "filename": "en-whatsapp-e25e8aa98aa440e79b265fbec4c6862f.txt",
+        "sha256": "f2d1196ac6e96d1da1b75c0237d5716cbeec4d8e7c03648a64610371339a3ae3",
+        "byte_count": 197,
+        "language": "en",
+        "channel": "whatsapp",
+        "approved_revision": 6,
+        "approval_id": "814fd2eceedc4788b694e6bc21dd95f0",
+        "dependency_hash": "959db5b800483097b7aef7983698e1355ea9d976c53835048ea88f747fdc2365",
+        "content_hash": "141ef643761c96d108552147d4a243f609c40508d07b9a1025ab39cb55477b02",
+        "artifact_url": null,
+        "mode": "mock",
+        "source_fact_versions": {
+          "CAFE": 4,
+          "LOCATION": 4,
+          "OFFER": 5,
+          "PRODUCT": 4,
+          "DAYS": 4,
+          "DATES": 4,
+          "ELIGIBILITY": 4,
+          "ID_RULE": 2,
+          "TIME_WINDOW": 2,
+          "DINE_IN_RULE": 2,
+          "MIN_PURCHASE_RULE": 2,
+          "COMBINE_RULE": 2
+        },
+        "source_mode": "mock",
+        "cached_evidence": [],
+        "captured_at": "2026-10-09T04:00:04.003320+00:00",
+        "provider": "Agnes",
+        "prompt_hashes": {
+          "R0": "c7634c3f819ed14e2f56b09e5ae447339f95cf2e8770961a73573c5edc2ac458",
+          "R1": "0e2ff93e4436269da8dbbce6af724d637ab1befda8b7fa5fd54fec153cb76f47",
+          "R2": "b618c3ebc0a9d225b22d45456ee5f8c5d9f10bc252f20c9a9b53b2dc44feb272",
+          "R3": "218355c2a783e9d35b60f2e2445172cd301e2266d1adb2d91958b8e8a274eb91",
+          "R4": "5483145a0850231704c4747f9bd985d17e105585f3af04389858070c7177c296",
+          "R5": "c91187607ee5c88afcc0c46bf5b5e2d240079c228b303b3ae680d6592db94f48",
+          "R6": "df7a64ab2d663f177d57cc4466e10f63e5f6e5b7b286ae8db535296672b6cbb2",
+          "R7": "cbdb36f882622c5d23b08b526bf121a9dc170189f7712b1d5a0fa6bf747e49b5",
+          "R8": "cc50146ddc1e85fb66e564b3f516ce5d4232c7f4d87e7a2366c41e33461bf009",
+          "R9": "ac0019a5fc5fd0363280d95c52a34100d40433503be75c2ee6afcd1d30c999ca"
+        },
+        "cache_hits": []
+      },
+      {
+        "item_id": "e7fc6a657e5847799d58b731c9b90941",
+        "filename": "en-whatsapp-e7fc6a657e5847799d58b731c9b90941.png",
+        "sha256": "a8fdcd9da65044a84e166258ac0fbae477ca70c37cd14ad4352d87a94dfcdf16",
+        "byte_count": 52773,
+        "language": "en",
+        "channel": "whatsapp",
+        "approved_revision": 6,
+        "approval_id": "8a1c4e8183704430b9b21c700f1e66cc",
+        "dependency_hash": "a94199f4735541688db1b8d95a5b1a5b7eb710d36b61d6018d33fc1e2fda981f",
+        "content_hash": "141ef643761c96d108552147d4a243f609c40508d07b9a1025ab39cb55477b02",
+        "artifact_url": "/api/campaigns/340743ea1b844271aaebb6597125adac/export/files/e7fc6a657e5847799d58b731c9b90941?expected_revision=6",
+        "mode": "mock",
+        "source_fact_versions": {
+          "CAFE": 4,
+          "LOCATION": 4,
+          "OFFER": 5,
+          "PRODUCT": 4,
+          "DAYS": 4,
+          "DATES": 4,
+          "ELIGIBILITY": 4,
+          "ID_RULE": 2,
+          "TIME_WINDOW": 2,
+          "DINE_IN_RULE": 2,
+          "MIN_PURCHASE_RULE": 2,
+          "COMBINE_RULE": 2
+        },
+        "source_mode": "mock",
+        "cached_evidence": [],
+        "captured_at": "2026-10-09T04:00:04.003320+00:00",
+        "provider": "Agnes",
+        "prompt_hashes": {
+          "R0": "c7634c3f819ed14e2f56b09e5ae447339f95cf2e8770961a73573c5edc2ac458",
+          "R1": "0e2ff93e4436269da8dbbce6af724d637ab1befda8b7fa5fd54fec153cb76f47",
+          "R2": "b618c3ebc0a9d225b22d45456ee5f8c5d9f10bc252f20c9a9b53b2dc44feb272",
+          "R3": "218355c2a783e9d35b60f2e2445172cd301e2266d1adb2d91958b8e8a274eb91",
+          "R4": "5483145a0850231704c4747f9bd985d17e105585f3af04389858070c7177c296",
+          "R5": "c91187607ee5c88afcc0c46bf5b5e2d240079c228b303b3ae680d6592db94f48",
+          "R6": "df7a64ab2d663f177d57cc4466e10f63e5f6e5b7b286ae8db535296672b6cbb2",
+          "R7": "cbdb36f882622c5d23b08b526bf121a9dc170189f7712b1d5a0fa6bf747e49b5",
+          "R8": "cc50146ddc1e85fb66e564b3f516ce5d4232c7f4d87e7a2366c41e33461bf009",
+          "R9": "ac0019a5fc5fd0363280d95c52a34100d40433503be75c2ee6afcd1d30c999ca"
+        },
+        "cache_hits": []
+      }
+    ],
+    "copy_text": {
+      "e25e8aa98aa440e79b265fbec4c6862f": "Make room for a shared pause\nShall we meet?\nNamma Cafe · 2026-10-10 – 2026-10-11 · Saturday / Sunday · Open to all · Bengaluru · 15% off · coffee\nCome along!\nNamma Cafe · coffee · 15% off"
+    },
+    "whatsapp_drafts": {
+      "e25e8aa98aa440e79b265fbec4c6862f": "https://wa.me/?text=Make%20room%20for%20a%20shared%20pause%0AShall%20we%20meet%3F%0ANamma%20Cafe%20%C2%B7%202026-10-10%20%E2%80%93%202026-10-11%20%C2%B7%20Saturday%20%2F%20Sunday%20%C2%B7%20Open%20to%20all%20%C2%B7%20Bengaluru%20%C2%B7%2015%25%20off%20%C2%B7%20coffee%0ACome%20along%21%0ANamma%20Cafe%20%C2%B7%20coffee%20%C2%B7%2015%25%20off"
+    },
+    "warning_acknowledgments": [],
+    "current_fact_versions": {
+      "CAFE": 4,
+      "LOCATION": 4,
+      "OFFER": 5,
+      "PRODUCT": 4,
+      "DAYS": 4,
+      "DATES": 4,
+      "ELIGIBILITY": 4,
+      "ID_RULE": 2,
+      "TIME_WINDOW": 2,
+      "DINE_IN_RULE": 2,
+      "MIN_PURCHASE_RULE": 2,
+      "COMBINE_RULE": 2
+    },
+    "source_mode": "mock",
+    "view_label": "Current authorized output",
+    "disclaimer": "WhatsApp opens a prefilled draft; it sends nothing and attaches no files."
+  }
+}

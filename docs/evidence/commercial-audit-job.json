@@ -1,0 +1,12 @@
+{
+  "id": "559648d71fa74427afc9e7d6aec320e1",
+  "status": "completed",
+  "mode": "live",
+  "calls": 1,
+  "elapsed_seconds": 17.191271,
+  "error_code": null,
+  "list_price_estimate_usd": 0.0004327,
+  "unknown_cost_calls": 0,
+  "audit_status": "PASS",
+  "checked_at": "2026-10-09T13:46:30.675538+00:00"
+}

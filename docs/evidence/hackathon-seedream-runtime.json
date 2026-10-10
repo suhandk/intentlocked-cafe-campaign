@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-10-09T23:06:53.345112+00:00",
+  "status": "PASS",
+  "settings": {
+    "image_provider": "gateway",
+    "image_model": "bytedance-seed/seedream-5-0-flash",
+    "text_model": "openai/gpt-4o-mini",
+    "vision_supported": true,
+    "openai_key_unused": true
+  },
+  "checks": {
+    "ready_8000": {
+      "http_status": 200,
+      "mode": "LIVE",
+      "image_provider": "gateway"
+    },
+    "ready_3000": {
+      "http_status": 200,
+      "mode": "LIVE",
+      "image_provider": "gateway"
+    },
+    "frontend_page": 200,
+    "persisted_mp4": {
+      "status": 200,
+      "sha256_match": true,
+      "mode": "cached",
+      "source_mode": "live"
+    },
+    "persisted_website_zip": {
+      "status": 200,
+      "sha256_match": true,
+      "published": false
+    }
+  },
+  "authenticated_image": "FAILED_HTTP_402; not a verified success"
+}

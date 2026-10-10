@@ -1,0 +1,10 @@
+{
+  "mode": "mock",
+  "outcome": "PASS",
+  "calendar_alignment": "PASS",
+  "month_navigation": "PASS",
+  "save_reload_edit": "PASS",
+  "mobile": "PASS",
+  "draft_handoff": "PASS",
+  "inference_or_publish_calls": 0
+}

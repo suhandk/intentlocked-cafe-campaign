@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-10",
+  "source": "ACTUAL_RUNNING_APP_READ_ONLY",
+  "model": "openai/gpt-4o-mini",
+  "ready_drafts": 1,
+  "blocked_drafts": 1,
+  "selected_audience_optimization_enabled": true,
+  "local_poster_render_enabled": true,
+  "stored_poster_visible": true,
+  "video_disabled": true,
+  "draft_download_status": 200,
+  "draft_bytes": 140135,
+  "draft_hash_matches": true,
+  "artifact_approval_header": "pending",
+  "ui_write_requests": 0
+}

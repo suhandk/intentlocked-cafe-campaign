@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-10-09T04:01:44.518059+00:00",
+  "mode": "live",
+  "role": "R2",
+  "strategy": "json",
+  "campaign_id": "733212b8816f4dc488a26280c4dd7e9d",
+  "values_omitted": true,
+  "result_status": "error",
+  "calls": [
+    {
+      "id": "8bd0b9db36df475e9c20877ae00f64f7",
+      "trace_id": "51f88918ec9b454f806ee8fe008ca4f8",
+      "run_id": "ea506fe46c774e0dba185870843ab1e3",
+      "work_id": null,
+      "timestamp": "2026-10-09T04:01:58.637604+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.11809999705292284,
+      "duration_ms": 14117.441400005191,
+      "usage": {
+        "prompt_tokens": 1649,
+        "completion_tokens": 915,
+        "total_tokens": 2564
+      },
+      "list_price_estimate_usd": 0.0002197
+    },
+    {
+      "id": "34f84bbd97f04d4e956d1f5556b8ccb2",
+      "trace_id": "d27506fa8af5483ebcfba40171ea0fdc",
+      "run_id": "ea506fe46c774e0dba185870843ab1e3",
+      "work_id": null,
+      "timestamp": "2026-10-09T04:02:03.424299+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 1,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.17050000315066427,
+      "duration_ms": 4794.330099997751,
+      "usage": {
+        "prompt_tokens": 1666,
+        "completion_tokens": 24,
+        "total_tokens": 1690
+      },
+      "list_price_estimate_usd": 8.690000000000001e-05
+    },
+    {
+      "id": "c065da764d9a4536968fbd250580d20c",
+      "trace_id": "260c103aab49444e8071e7b8144e6767",
+      "run_id": "ea506fe46c774e0dba185870843ab1e3",
+      "work_id": null,
+      "timestamp": "2026-10-09T04:02:08.564399+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 2,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 2714.4410999972024,
+      "duration_ms": 2412.569500003883,
+      "usage": {
+        "prompt_tokens": 1698,
+        "completion_tokens": 14,
+        "total_tokens": 1712
+      },
+      "list_price_estimate_usd": 8.7e-05
+    }
+  ]
+}

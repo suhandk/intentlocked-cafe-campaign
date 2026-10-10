@@ -1,0 +1,66 @@
+{
+  "health": {
+    "status": 200,
+    "body": {
+      "status": "ok",
+      "stage": "B7",
+      "mode": "MOCK",
+      "provider": "Agnes",
+      "live_contract": "NOT_TESTED",
+      "schema_version": "b7.1",
+      "video_enabled": false
+    }
+  },
+  "ready": {
+    "status": 200,
+    "body": {
+      "status": "ok",
+      "stage": "B7",
+      "mode": "MOCK",
+      "provider": "Agnes",
+      "live_contract": "NOT_TESTED",
+      "schema_version": "b7.1",
+      "video_enabled": false
+    }
+  },
+  "video/config": {
+    "status": 200,
+    "body": {
+      "model": "agnes-video-2.5-flash",
+      "mode": "mock",
+      "price_verified": false,
+      "approval_enabled": false
+    }
+  },
+  "public_host_rejected": true,
+  "migrations": {
+    "empty": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "existing": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "idempotent": true
+  },
+  "backup_restore": {
+    "status": "PASS",
+    "source": "temporary test fixture, not live campaign"
+  },
+  "temporary_cleanup": "PASS"
+}

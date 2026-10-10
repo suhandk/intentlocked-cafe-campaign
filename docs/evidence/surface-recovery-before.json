@@ -1,0 +1,108 @@
+{
+  "phase": "before_fix",
+  "captured_at": "2026-10-09T21:49:16.557110+00:00",
+  "work_id": "9b8bd9d2730d4020a1ba1fa39d15cae2",
+  "model": "openai/gpt-4o-mini",
+  "responses": [
+    {
+      "http_status": 200,
+      "status": "success",
+      "reason": null,
+      "form_keys": [
+        "CAFE",
+        "LOCATION",
+        "OFFER",
+        "PRODUCT",
+        "DAYS",
+        "DATES",
+        "ELIGIBILITY",
+        "ID_RULE",
+        "DINE_IN_RULE",
+        "MIN_PURCHASE_RULE"
+      ],
+      "validation_errors": [
+        {
+          "type": "literal_error",
+          "path": [
+            "result",
+            "*",
+            "forms",
+            2,
+            "surface",
+            "dat",
+            "*"
+          ]
+        },
+        {
+          "type": "model_type",
+          "path": [
+            "result",
+            "*",
+            "forms",
+            2,
+            "surface",
+            "dat"
+          ]
+        },
+        {
+          "type": "literal_error",
+          "path": [
+            "result",
+            "*",
+            "forms",
+            2,
+            "surface",
+            "gen",
+            "*"
+          ]
+        },
+        {
+          "type": "model_type",
+          "path": [
+            "result",
+            "*",
+            "forms",
+            2,
+            "surface",
+            "gen"
+          ]
+        },
+        {
+          "type": "literal_error",
+          "path": [
+            "result",
+            "*",
+            "forms",
+            2,
+            "surface",
+            "loc",
+            "*"
+          ]
+        },
+        {
+          "type": "model_type",
+          "path": [
+            "result",
+            "*",
+            "forms",
+            2,
+            "surface",
+            "loc"
+          ]
+        }
+      ]
+    },
+    {
+      "http_status": 200,
+      "status": "error",
+      "reason": "uncertain_forms",
+      "form_keys": []
+    }
+  ],
+  "original_campaign_changed": false,
+  "outcome": "FAILED",
+  "code": "SURFACES_UNAVAILABLE",
+  "details": {},
+  "elapsed_seconds": 9.1,
+  "calls": 2
+}

@@ -1,0 +1,12 @@
+{
+  "live_image": "NOT_TESTED; last authenticated image request returned HTTP 402",
+  "browser_tests": 8,
+  "reference_pixels_submitted": false,
+  "backend_tests": 74,
+  "modern_renderer": true,
+  "frontend_status": 200,
+  "browser_inference": "MOCK",
+  "preview": "UNAPPROVED deterministic local illustration",
+  "timestamp": "2026-10-10T00:03:21.2584173Z",
+  "backend_status": 200
+}

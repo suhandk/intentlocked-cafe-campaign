@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-10-09T22:22:11.018856+00:00",
+  "model": "openai/gpt-4o-mini",
+  "mode": "live",
+  "status": "PASS",
+  "response": "Demo connectivity OK",
+  "calls": [
+    {
+      "id": "41d526c62c6940edbd55eedcc3f5c263",
+      "trace_id": "bb0858ba327d4f488e322851ba016918",
+      "run_id": "2920e8a6d62245d3b6ae2a75713a019c",
+      "work_id": null,
+      "timestamp": "2026-10-09T22:22:12.116248+00:00",
+      "mode": "live",
+      "model": "openai/gpt-4o-mini",
+      "provider": "OpenRouter",
+      "transport_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.16830000095069408,
+      "duration_ms": 1097.2929999988992,
+      "usage": null,
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": 3.9e-06
+    }
+  ]
+}

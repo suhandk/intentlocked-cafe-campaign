@@ -1,0 +1,167 @@
+{
+  "timestamp": "2026-10-09T23:05:38.398415+00:00",
+  "mode": "mock",
+  "schema_version": "b0.1",
+  "text_endpoint": "https://openrouter.ai/api/v1",
+  "image_provider": "gateway",
+  "capabilities": [
+    {
+      "capability": "text",
+      "model": "openai/gpt-4o-mini",
+      "status": "MOCK_PASSED",
+      "details": {
+        "nonempty_text": true,
+        "response_text_omitted": true
+      }
+    },
+    {
+      "capability": "structured_tools",
+      "model": "openai/gpt-4o-mini",
+      "status": "MOCK_PASSED",
+      "details": {
+        "strategy": "tools",
+        "validated": true
+      }
+    },
+    {
+      "capability": "local_truncation_rejection",
+      "status": "LOCAL_PASSED"
+    },
+    {
+      "capability": "image_1k_download",
+      "model": "bytedance-seed/seedream-5-0-flash",
+      "status": "MOCK_PASSED",
+      "details": {
+        "filename": "16640687003648a19f45d80c030b7cc7.png",
+        "sha256": "2962bb20817bf5b765507bae1a8d91feb2d838e87eb3ff0de409d191d107fce0",
+        "bytes": 5339,
+        "width": 1024,
+        "height": 1024,
+        "mime": "image/png"
+      }
+    },
+    {
+      "capability": "public_image_vision",
+      "model": "openai/gpt-4o-mini",
+      "status": "MOCK_PASSED",
+      "details": {
+        "nonempty_response": true,
+        "quality_approval": false
+      }
+    },
+    {
+      "capability": "video",
+      "status": "UNSUPPORTED",
+      "reason": "No video model is configured"
+    },
+    {
+      "capability": "usage",
+      "status": "MOCK_PASSED",
+      "returned_usage_calls": 3,
+      "unknown_usage_calls": 1
+    }
+  ],
+  "calls": [
+    {
+      "id": "60e8962964bd473bb64a8e1e404571be",
+      "trace_id": "2a088d211cfe445ea0450db27cbda052",
+      "run_id": "fa580ea9c4e74c37901e9dbdcf716cd1",
+      "work_id": null,
+      "timestamp": "2026-10-09T23:05:38.402423+00:00",
+      "mode": "mock",
+      "model": "openai/gpt-4o-mini",
+      "provider": "OpenRouter",
+      "transport_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.1435000158380717,
+      "duration_ms": 3.128699987428263,
+      "usage": {
+        "prompt_tokens": 12,
+        "completion_tokens": 6,
+        "total_tokens": 18
+      },
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": null
+    },
+    {
+      "id": "1c10a25aadbf4db9a9f56d479b0eb585",
+      "trace_id": "2c0c273977b94b908f17efee6ee2c5aa",
+      "run_id": "fa580ea9c4e74c37901e9dbdcf716cd1",
+      "work_id": null,
+      "timestamp": "2026-10-09T23:05:45.905552+00:00",
+      "mode": "mock",
+      "model": "openai/gpt-4o-mini",
+      "provider": "OpenRouter",
+      "transport_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 7496.848400012823,
+      "duration_ms": 4.122000013012439,
+      "usage": {
+        "prompt_tokens": 20,
+        "completion_tokens": 8,
+        "total_tokens": 28
+      },
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": null
+    },
+    {
+      "id": "647b43eb812f423b89306639299b91ec",
+      "trace_id": "814c48691e154d6eb520a152f420a4a1",
+      "run_id": "fa580ea9c4e74c37901e9dbdcf716cd1",
+      "work_id": null,
+      "timestamp": "2026-10-09T23:05:45.942890+00:00",
+      "mode": "mock",
+      "model": "bytedance-seed/seedream-5-0-flash",
+      "provider": "OpenRouter",
+      "transport_endpoint": "https://openrouter.ai/api/v1/images",
+      "operation": "image",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.11270001414231956,
+      "duration_ms": 36.356199998408556,
+      "usage": null,
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": null
+    },
+    {
+      "id": "49bcb7beea7e451289c536c7613f2c5c",
+      "trace_id": "854f5e7afc104bd0aad02b29bd978cb1",
+      "run_id": "fa580ea9c4e74c37901e9dbdcf716cd1",
+      "work_id": null,
+      "timestamp": "2026-10-09T23:05:53.418045+00:00",
+      "mode": "mock",
+      "model": "openai/gpt-4o-mini",
+      "provider": "OpenRouter",
+      "transport_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 7465.476700017462,
+      "duration_ms": 3.9346999838016927,
+      "usage": {
+        "prompt_tokens": 12,
+        "completion_tokens": 6,
+        "total_tokens": 18
+      },
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": null
+    }
+  ],
+  "authenticated_status": "NOT_TESTED"
+}

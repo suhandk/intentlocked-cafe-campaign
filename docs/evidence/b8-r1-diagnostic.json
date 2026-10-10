@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-10-09T03:49:10.510548+00:00",
+  "mode": "live",
+  "role": "R1",
+  "raw_values_omitted": true,
+  "schema": "FAIL",
+  "errors": [
+    {
+      "loc": [
+        "result"
+      ],
+      "type": "model_attributes_type"
+    }
+  ],
+  "calls": [
+    {
+      "id": "6a529592781d417e9b76f4d95474867b",
+      "trace_id": "f0ea9e5e08a24069bb1c5f72dc09250c",
+      "run_id": "fed378af721c462685786bec0e395a6a",
+      "work_id": null,
+      "timestamp": "2026-10-09T03:49:20.848286+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.13689999468624592,
+      "duration_ms": 10343.282599998929,
+      "usage": null,
+      "list_price_estimate_usd": null
+    }
+  ]
+}

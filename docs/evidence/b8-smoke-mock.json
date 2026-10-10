@@ -1,0 +1,154 @@
+{
+  "timestamp": "2026-10-09T02:43:48.434457+00:00",
+  "mode": "mock",
+  "schema_version": "b0.1",
+  "provider": "Agnes",
+  "capabilities": [
+    {
+      "capability": "text",
+      "model": "agnes-3.0-flash",
+      "status": "MOCK_PASSED",
+      "details": {
+        "nonempty_text": true,
+        "response_text_omitted": true
+      }
+    },
+    {
+      "capability": "structured_tools",
+      "model": "agnes-3.0-flash",
+      "status": "MOCK_PASSED",
+      "details": {
+        "strategy": "tools",
+        "validated": true
+      }
+    },
+    {
+      "capability": "local_truncation_rejection",
+      "status": "LOCAL_PASSED"
+    },
+    {
+      "capability": "image_1k_download",
+      "model": "agnes-image-2.5-flash",
+      "status": "MOCK_PASSED",
+      "details": {
+        "filename": "5f2293dcffdd40f696dee9d341562a96.png",
+        "sha256": "2962bb20817bf5b765507bae1a8d91feb2d838e87eb3ff0de409d191d107fce0",
+        "bytes": 5339,
+        "width": 1024,
+        "height": 1024,
+        "mime": "image/png"
+      }
+    },
+    {
+      "capability": "public_image_vision",
+      "model": "agnes-3.0-flash",
+      "status": "MOCK_PASSED",
+      "details": {
+        "nonempty_response": true,
+        "quality_approval": false
+      }
+    },
+    {
+      "capability": "video",
+      "status": "NOT_TESTED",
+      "reason": "Disabled by default"
+    },
+    {
+      "capability": "usage",
+      "status": "MOCK_PASSED",
+      "returned_usage_calls": 3,
+      "unknown_usage_calls": 1
+    }
+  ],
+  "calls": [
+    {
+      "id": "e8a9d5582b494bd299cec2a93ee01d97",
+      "trace_id": "294c1744ddf8437b8c4b0caa42dd1ed9",
+      "run_id": "e4cbadc9c2fd4beba671c584bbd59094",
+      "work_id": null,
+      "timestamp": "2026-10-09T02:43:48.434457+00:00",
+      "mode": "mock",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.11829999857582152,
+      "duration_ms": 1.1721999981091358,
+      "usage": {
+        "prompt_tokens": 12,
+        "completion_tokens": 6,
+        "total_tokens": 18
+      },
+      "list_price_estimate_usd": 1.5e-06
+    },
+    {
+      "id": "4f22f407db474eb0af7827a1e37cbb33",
+      "trace_id": "4323f41be12f4ea98bc067bcfa27a04d",
+      "run_id": "e4cbadc9c2fd4beba671c584bbd59094",
+      "work_id": null,
+      "timestamp": "2026-10-09T02:43:55.937270+00:00",
+      "mode": "mock",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 7486.938299996837,
+      "duration_ms": 2.4439999979222193,
+      "usage": {
+        "prompt_tokens": 20,
+        "completion_tokens": 8,
+        "total_tokens": 28
+      },
+      "list_price_estimate_usd": 2.2e-06
+    },
+    {
+      "id": "ed66ffc48288478491d107245d052405",
+      "trace_id": "1931a2b65813471eb2a3ae14fa46264e",
+      "run_id": "e4cbadc9c2fd4beba671c584bbd59094",
+      "work_id": null,
+      "timestamp": "2026-10-09T02:43:55.937270+00:00",
+      "mode": "mock",
+      "model": "agnes-image-2.5-flash",
+      "operation": "image",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.12289999722270295,
+      "duration_ms": 2.63499999709893,
+      "usage": null,
+      "list_price_estimate_usd": 0.01
+    },
+    {
+      "id": "66fa489b522e470aa31ca90c52bcfef8",
+      "trace_id": "fbdc6ceff3034046937e93a73d3231b8",
+      "run_id": "e4cbadc9c2fd4beba671c584bbd59094",
+      "work_id": null,
+      "timestamp": "2026-10-09T02:44:03.432724+00:00",
+      "mode": "mock",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 7393.440499996359,
+      "duration_ms": 4.6398000049521215,
+      "usage": {
+        "prompt_tokens": 12,
+        "completion_tokens": 6,
+        "total_tokens": 18
+      },
+      "list_price_estimate_usd": 1.5e-06
+    }
+  ],
+  "authenticated_status": "NOT_TESTED"
+}

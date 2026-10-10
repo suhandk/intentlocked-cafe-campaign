@@ -1,0 +1,167 @@
+{
+  "timestamp": "2026-10-09T22:37:31.026912+00:00",
+  "mode": "mock",
+  "schema_version": "b0.1",
+  "text_endpoint": "https://openrouter.ai/api/v1",
+  "image_provider": "openai",
+  "capabilities": [
+    {
+      "capability": "text",
+      "model": "openai/gpt-4o-mini",
+      "status": "MOCK_PASSED",
+      "details": {
+        "nonempty_text": true,
+        "response_text_omitted": true
+      }
+    },
+    {
+      "capability": "structured_tools",
+      "model": "openai/gpt-4o-mini",
+      "status": "MOCK_PASSED",
+      "details": {
+        "strategy": "tools",
+        "validated": true
+      }
+    },
+    {
+      "capability": "local_truncation_rejection",
+      "status": "LOCAL_PASSED"
+    },
+    {
+      "capability": "image_1k_download",
+      "model": "gpt-image-2.5-flare-2026-09-08",
+      "status": "MOCK_PASSED",
+      "details": {
+        "filename": "793657e12a1f48478f6410ae3e83869f.png",
+        "sha256": "2962bb20817bf5b765507bae1a8d91feb2d838e87eb3ff0de409d191d107fce0",
+        "bytes": 5339,
+        "width": 1024,
+        "height": 1024,
+        "mime": "image/png"
+      }
+    },
+    {
+      "capability": "public_image_vision",
+      "model": "openai/gpt-4o-mini",
+      "status": "MOCK_PASSED",
+      "details": {
+        "nonempty_response": true,
+        "quality_approval": false
+      }
+    },
+    {
+      "capability": "video",
+      "status": "UNSUPPORTED",
+      "reason": "No video model is configured"
+    },
+    {
+      "capability": "usage",
+      "status": "MOCK_PASSED",
+      "returned_usage_calls": 3,
+      "unknown_usage_calls": 1
+    }
+  ],
+  "calls": [
+    {
+      "id": "9b9e27c48a8942e0bef1ca19a7828c12",
+      "trace_id": "0423852374954a16944797566c7342e4",
+      "run_id": "dcee0bd16dc845278ea51b73cbc401ff",
+      "work_id": null,
+      "timestamp": "2026-10-09T22:37:31.029432+00:00",
+      "mode": "mock",
+      "model": "openai/gpt-4o-mini",
+      "provider": "OpenRouter",
+      "transport_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.16140000661835074,
+      "duration_ms": 3.5470000002533197,
+      "usage": {
+        "prompt_tokens": 12,
+        "completion_tokens": 6,
+        "total_tokens": 18
+      },
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": null
+    },
+    {
+      "id": "c6cc977712c94a0ea535132528b021fe",
+      "trace_id": "e83ef6c39bea4a85a8fcf870f48770e9",
+      "run_id": "dcee0bd16dc845278ea51b73cbc401ff",
+      "work_id": null,
+      "timestamp": "2026-10-09T22:37:38.528331+00:00",
+      "mode": "mock",
+      "model": "openai/gpt-4o-mini",
+      "provider": "OpenRouter",
+      "transport_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 7496.314299991354,
+      "duration_ms": 1.5342000115197152,
+      "usage": {
+        "prompt_tokens": 20,
+        "completion_tokens": 8,
+        "total_tokens": 28
+      },
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": null
+    },
+    {
+      "id": "46ced90c2e754448a6358d7fa8c7adcc",
+      "trace_id": "d86881568e824ce8bb4d44ffba04426a",
+      "run_id": "dcee0bd16dc845278ea51b73cbc401ff",
+      "work_id": null,
+      "timestamp": "2026-10-09T22:37:38.562637+00:00",
+      "mode": "mock",
+      "model": "gpt-image-2.5-flare-2026-09-08",
+      "provider": "OpenAI",
+      "transport_endpoint": "https://api.openai.com/v1/images/generations",
+      "operation": "image",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.08830000297166407,
+      "duration_ms": 32.041800004662946,
+      "usage": null,
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": null
+    },
+    {
+      "id": "6d2abb5d5dd843fba6ec62a72aae9199",
+      "trace_id": "6b3065b15a7d4a50aa74899d5d88a395",
+      "run_id": "dcee0bd16dc845278ea51b73cbc401ff",
+      "work_id": null,
+      "timestamp": "2026-10-09T22:37:46.028251+00:00",
+      "mode": "mock",
+      "model": "openai/gpt-4o-mini",
+      "provider": "OpenAI",
+      "transport_endpoint": "https://api.openai.com/v1/chat/completions",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 7461.395499994978,
+      "duration_ms": 1.4931999903637916,
+      "usage": {
+        "prompt_tokens": 12,
+        "completion_tokens": 6,
+        "total_tokens": 18
+      },
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": null
+    }
+  ],
+  "authenticated_status": "NOT_TESTED"
+}

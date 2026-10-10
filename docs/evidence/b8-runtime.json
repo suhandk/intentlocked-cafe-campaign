@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-10-09T02:41:31.093291+00:00",
+  "python": "3.11.9",
+  "python_executable": "D:\\HR2-AI-FB38B877-main\\data\\b8-clean-venv\\Scripts\\python.exe",
+  "python_requires": ">=3.11,<3.12",
+  "uv_version": "uv 0.11.18 (e32666915 2026-06-01 x86_64-pc-windows-msvc)",
+  "node_version": "v24.19.0",
+  "npm_version": "11.16.0 (bundled pnpm dlx launcher)",
+  "backend_packages": {
+    "fastapi": "0.115.12",
+    "pydantic": "2.11.4",
+    "pydantic-settings": "2.9.1",
+    "httpx": "0.28.1",
+    "uvicorn": "0.34.2",
+    "pillow": "11.2.1",
+    "pytest": "8.3.5",
+    "ruff": "0.11.9",
+    "anyio": "4.15.1"
+  },
+  "lockfiles": {
+    "uv.lock": "f90c7036c67bc8648bb6582f4d983c21f9e0a8fd1e4bf442c05f637364876212",
+    "frontend/package-lock.json": "0ceb5f5061eda2dc550af289a0db5724d68697666caa2e6da1857cbc2a0473e5"
+  },
+  "clean_python_path": "data/b8-clean-venv",
+  "clean_frontend_path": "data/b8-clean-frontend",
+  "lockfiles_unchanged": true,
+  "clean_install_status": "PASS",
+  "warnings": [
+    "npm eslint 9.39.1 support deprecation",
+    "unrs-resolver postinstall not automatically approved by npm; lint/build verification required"
+  ]
+}

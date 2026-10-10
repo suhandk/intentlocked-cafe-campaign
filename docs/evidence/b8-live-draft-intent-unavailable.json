@@ -1,0 +1,58 @@
+{
+  "mode": "live",
+  "provider": "Agnes",
+  "captured_at": "2026-10-09T03:56:14.559674+00:00",
+  "scenario": "Hypothetical M0 broad-offer demo, not a real business assertion",
+  "owner_lock": "PENDING",
+  "native_review": "PENDING",
+  "full_workflow": "PENDING",
+  "structured_strategy": "json",
+  "campaign_id": "f9f00cb3fce74af98fe0faec6be74784",
+  "status": "FAILED",
+  "code": "INTENT_UNAVAILABLE",
+  "elapsed_seconds": 9.26,
+  "calls": [
+    {
+      "id": "0dd70c3e3a764941b9d06b9fe70fe394",
+      "trace_id": "da19040d40a34da294ef83adbbd8c349",
+      "run_id": "bda9a00c145c4f5999b8ae354a4eadc9",
+      "work_id": null,
+      "timestamp": "2026-10-09T03:56:19.763304+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.1264000020455569,
+      "duration_ms": 5194.426800000656,
+      "usage": {
+        "prompt_tokens": 3323,
+        "completion_tokens": 326,
+        "total_tokens": 3649
+      },
+      "list_price_estimate_usd": 0.00021505000000000002
+    },
+    {
+      "id": "1b3399785a254c9fa0c907f2e4284b9c",
+      "trace_id": "a1162e6d4fec48178bb8c708e4637944",
+      "run_id": "bda9a00c145c4f5999b8ae354a4eadc9",
+      "work_id": null,
+      "timestamp": "2026-10-09T03:56:23.820446+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 1,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 2308.833399998548,
+      "duration_ms": 1745.4958000016632,
+      "usage": null,
+      "list_price_estimate_usd": null
+    }
+  ]
+}

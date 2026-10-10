@@ -1,0 +1,15 @@
+{
+  "mode": "MOCK",
+  "source": "isolated fixture inference with virtual quota waits",
+  "renderer": "real Chrome canvas and PNG bytes",
+  "exit_code": 0,
+  "tests_selected": [
+    "e2e/website-recovery.spec.ts",
+    "e2e/hackathon-media.spec.ts"
+  ],
+  "elapsed_seconds": 29.38,
+  "live_provider_calls": 0,
+  "paid_video_calls": 0,
+  "cleanup": "PASS",
+  "timing_limit": "Real rendering; virtual waits are not live latency"
+}

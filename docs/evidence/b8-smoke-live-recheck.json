@@ -1,0 +1,144 @@
+{
+  "timestamp": "2026-10-09T03:39:02.254740+00:00",
+  "mode": "live",
+  "schema_version": "b0.1",
+  "provider": "Agnes",
+  "capabilities": [
+    {
+      "capability": "text",
+      "model": "agnes-3.0-flash",
+      "status": "VERIFIED",
+      "details": {
+        "nonempty_text": true,
+        "response_text_omitted": true
+      }
+    },
+    {
+      "capability": "structured_tools",
+      "model": "agnes-3.0-flash",
+      "status": "VERIFIED",
+      "details": {
+        "strategy": "tools",
+        "validated": true
+      }
+    },
+    {
+      "capability": "local_truncation_rejection",
+      "status": "LOCAL_PASSED"
+    },
+    {
+      "capability": "image_1k_download",
+      "model": "agnes-image-2.5-flash",
+      "status": "FAILED",
+      "code": "MEDIA_INVALID",
+      "message": "Media download or validation failed"
+    },
+    {
+      "capability": "public_image_vision",
+      "model": "agnes-3.0-flash",
+      "status": "VERIFIED",
+      "details": {
+        "nonempty_response": true,
+        "quality_approval": false
+      }
+    },
+    {
+      "capability": "video",
+      "status": "NOT_TESTED",
+      "reason": "Disabled by default"
+    },
+    {
+      "capability": "usage",
+      "status": "VERIFIED",
+      "returned_usage_calls": 2,
+      "unknown_usage_calls": 2
+    }
+  ],
+  "calls": [
+    {
+      "id": "7f73b5ea309a45ff96b4837eb4e8ed77",
+      "trace_id": "24a89e748df2488999a9cf807b26a4a0",
+      "run_id": "65ce835b7cd9498a9b2c7590180508bc",
+      "work_id": null,
+      "timestamp": "2026-10-09T03:39:03.002097+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.15559999883407727,
+      "duration_ms": 749.7758000026806,
+      "usage": {
+        "prompt_tokens": 86,
+        "completion_tokens": 10,
+        "total_tokens": 96
+      },
+      "list_price_estimate_usd": 5.7999999999999995e-06
+    },
+    {
+      "id": "5cea67549b534291ab860c1394cfe24d",
+      "trace_id": "e781282d410c4b49b7170d99374047a2",
+      "run_id": "65ce835b7cd9498a9b2c7590180508bc",
+      "work_id": null,
+      "timestamp": "2026-10-09T03:39:11.908936+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 6747.353999999177,
+      "duration_ms": 2154.3182999957935,
+      "usage": {
+        "prompt_tokens": 380,
+        "completion_tokens": 34,
+        "total_tokens": 414
+      },
+      "list_price_estimate_usd": 2.4100000000000003e-05
+    },
+    {
+      "id": "6456cdd6d34144e6a368458e0f58b2fd",
+      "trace_id": "c20eee6d470e4b679440a6d25f62be4b",
+      "run_id": "65ce835b7cd9498a9b2c7590180508bc",
+      "work_id": null,
+      "timestamp": "2026-10-09T03:39:20.957161+00:00",
+      "mode": "live",
+      "model": "agnes-image-2.5-flash",
+      "operation": "image",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.12769999739248306,
+      "duration_ms": 9046.59559999709,
+      "usage": null,
+      "list_price_estimate_usd": 0.01
+    },
+    {
+      "id": "f911144d269d4b7da6aa6f693e2885f0",
+      "trace_id": "6583afef31bf4690a2f1a4ab72cc7ca8",
+      "run_id": "65ce835b7cd9498a9b2c7590180508bc",
+      "work_id": null,
+      "timestamp": "2026-10-09T03:39:26.155305+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.16830000095069408,
+      "duration_ms": 5196.489100002509,
+      "usage": null,
+      "list_price_estimate_usd": null
+    }
+  ],
+  "authenticated_status": "SEE_CAPABILITIES"
+}

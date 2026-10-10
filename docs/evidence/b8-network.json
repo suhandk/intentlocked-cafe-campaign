@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-10-09T02:45:18.283871+00:00",
+  "host": "apihub.agnes-ai.com",
+  "authorization_sent": false,
+  "proxy_environment_present": false,
+  "team_hotspot": "NOT_TESTED",
+  "dns": {
+    "status": "PASS",
+    "addresses": [
+      "104.18.18.62",
+      "104.18.19.62"
+    ]
+  },
+  "direct_https": {
+    "status": "REACHABLE",
+    "http_status": 401,
+    "elapsed_seconds": 0.45
+  }
+}

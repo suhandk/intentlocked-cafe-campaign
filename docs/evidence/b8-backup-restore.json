@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-10-09T03:50:01.359188+00:00",
+  "status": "PASS",
+  "backup_manifest": "data/b8-backup-v2/manifest.json",
+  "restored_database": "data/b8-restored-v2/campaigns.sqlite3",
+  "mode": "cached",
+  "origin": "mock",
+  "restored_authorized_exports": [
+    {
+      "campaign_id": "5824377808fd4a3498d38916f7eeed1a",
+      "revision": 6,
+      "mode": "cached",
+      "source_mode": "mock",
+      "files": [
+        {
+          "item_id": "27f535ce237d44ad92edf7203c3a3bf1",
+          "kind": "text",
+          "sha256": "f2d1196ac6e96d1da1b75c0237d5716cbeec4d8e7c03648a64610371339a3ae3",
+          "bytes": 197
+        },
+        {
+          "item_id": "3b938588d3d7475fbf894c1135cdc8db",
+          "kind": "poster",
+          "sha256": "a8fdcd9da65044a84e166258ac0fbae477ca70c37cd14ad4352d87a94dfcdf16",
+          "bytes": 52773
+        }
+      ]
+    },
+    {
+      "campaign_id": "fb782d17d94e496bafdd6a920335466c",
+      "revision": 5,
+      "mode": "cached",
+      "source_mode": "mock",
+      "files": [
+        {
+          "item_id": "573244c1dcb0d67062cceb9b7e66c712d64b27bd23545dfff94735e39d0a580a",
+          "kind": "text",
+          "sha256": "d6950080b3496f2e32af513a3a9e8b00b923f7836f009664e6ef49890b62c054",
+          "bytes": 197
+        }
+      ]
+    }
+  ],
+  "new_inference_calls": 0,
+  "native_review": "NOT_TESTED"
+}

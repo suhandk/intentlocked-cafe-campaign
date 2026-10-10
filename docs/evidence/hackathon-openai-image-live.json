@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-10-09T23:00:50.798021+00:00",
+  "mode": "live",
+  "model": "gpt-image-2.5-flare-2026-09-08",
+  "provider": "openai",
+  "error": {
+    "code": "AUTH_FAILED",
+    "message": "Configured provider authentication or entitlement failed",
+    "details": {},
+    "trace_id": "60163c4838a644bfbe79bdea740c5d51",
+    "retryable": false
+  },
+  "calls": [
+    {
+      "id": "82d9c2adf10b40eb831edd324c819643",
+      "trace_id": "60163c4838a644bfbe79bdea740c5d51",
+      "run_id": "27e7fea239b64424a68920a63eeb674e",
+      "work_id": null,
+      "timestamp": "2026-10-09T23:00:51.810328+00:00",
+      "mode": "live",
+      "model": "gpt-image-2.5-flare-2026-09-08",
+      "provider": "OpenAI",
+      "transport_endpoint": "https://api.openai.com/v1/images/generations",
+      "operation": "image",
+      "attempt": 1,
+      "repair": 0,
+      "status": "auth_failed",
+      "sent": true,
+      "http_status": 401,
+      "queue_wait_ms": 0.1517999917268753,
+      "duration_ms": 1011.3758000079542,
+      "usage": null,
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": null
+    }
+  ],
+  "status": "FAILED",
+  "vision": {
+    "status": "NOT_TESTED",
+    "reason": "Image request returned HTTP 401"
+  }
+}

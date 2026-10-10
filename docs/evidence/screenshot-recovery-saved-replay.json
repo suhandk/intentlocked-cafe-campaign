@@ -1,0 +1,44 @@
+{
+  "mode": "READ_ONLY_SAVED_RESPONSE_REPLAY",
+  "date": "2026-10-10",
+  "run_id": "1d3d10a0fb2d46fb977a36d8a81d9517",
+  "revision": 27,
+  "provider_calls": 0,
+  "database_modified": false,
+  "all_facts_hidden_from_report": true,
+  "cells": [
+    {
+      "original_reasons": [
+        "G02",
+        "G05",
+        "G07",
+        "G08"
+      ],
+      "added_slot_keys": [
+        "ELIGIBILITY",
+        "ID_RULE",
+        "LOCATION",
+        "MIN_PURCHASE_RULE"
+      ],
+      "new_blocking_reasons": [
+        "G02",
+        "G07",
+        "G08"
+      ],
+      "ready_after_code_check": false
+    },
+    {
+      "original_reasons": [
+        "G05"
+      ],
+      "added_slot_keys": [
+        "ELIGIBILITY",
+        "ID_RULE",
+        "LOCATION",
+        "MIN_PURCHASE_RULE"
+      ],
+      "new_blocking_reasons": [],
+      "ready_after_code_check": true
+    }
+  ]
+}

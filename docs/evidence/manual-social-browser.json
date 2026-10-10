@@ -1,0 +1,18 @@
+{
+  "outcome": "PASS",
+  "mode": "mock",
+  "meta_api_calls": 0,
+  "real_approvals": 0,
+  "publishing_performed": false,
+  "redirect_checks": [
+    "Instagram profile",
+    "Facebook Page",
+    "WhatsApp café chat",
+    "WhatsApp Web"
+  ],
+  "new_tab_destinations": "PASS (intercepted offline)",
+  "external_account_requests": 0,
+  "persistence_reload": "PASS",
+  "clipboard_fallback": "PASS",
+  "changed_selection_hides_links": "PASS"
+}

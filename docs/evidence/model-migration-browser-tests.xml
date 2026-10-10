@@ -1,0 +1,20 @@
+<testsuites id="" name="" tests="5" failures="0" skipped="0" errors="0" time="15.800692000000003">
+<testsuite name="approval-recovery.spec.ts" timestamp="2026-10-09T17:29:11.127Z" hostname="" tests="1" failures="0" skipped="0" time="3.158" errors="0">
+<testcase name="failed audit recovers; exact review, approval, export and reload remain usable" classname="approval-recovery.spec.ts" time="3.158">
+</testcase>
+</testsuite>
+<testsuite name="meta.spec.ts" timestamp="2026-10-09T17:29:11.127Z" hostname="" tests="1" failures="0" skipped="0" time="4.342" errors="0">
+<testcase name="manual publishing persists links, exports exact copy, handles clipboard failure and never calls Meta" classname="meta.spec.ts" time="4.342">
+</testcase>
+</testsuite>
+<testsuite name="planning.spec.ts" timestamp="2026-10-09T17:29:11.127Z" hostname="" tests="2" failures="0" skipped="0" time="2.371" errors="0">
+<testcase name="owner plans before generation: correct calendar, persistence, edit, review and no automatic publish" classname="planning.spec.ts" time="1.088">
+</testcase>
+<testcase name="approved output attaches to the original future plan without a duplicate" classname="planning.spec.ts" time="1.283">
+</testcase>
+</testsuite>
+<testsuite name="video-option.spec.ts" timestamp="2026-10-09T17:29:11.127Z" hostname="" tests="1" failures="0" skipped="0" time="1.076" errors="0">
+<testcase name="unsupported video is explicit and cannot submit despite locked facts" classname="video-option.spec.ts" time="1.076">
+</testcase>
+</testsuite>
+</testsuites>

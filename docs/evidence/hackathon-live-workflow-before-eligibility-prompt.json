@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-10-09T22:31:23.365965+00:00",
+  "owner_review": "SIMULATED_TEST_OPERATOR",
+  "scenario": "Synthetic hackathon test campaign; not a real business approval",
+  "stages": {
+    "lock": "PASS_SIMULATED_OWNER",
+    "strategy": {
+      "status": "completed",
+      "id": "a58a4ecda6674c6f8a77dd2d91c105a7",
+      "error_code": null,
+      "calls": 0,
+      "elapsed_seconds": 0.002175,
+      "notices": []
+    },
+    "previous_partial_generation": {
+      "id": "0e1b179bb7424010a64fa803bc3e67e3",
+      "ready": 2,
+      "total": 3,
+      "preserved": true
+    },
+    "generate": {
+      "status": "completed",
+      "id": "d03610609dfc47d9b2ee4e6c82f73aca",
+      "error_code": null,
+      "calls": 1,
+      "elapsed_seconds": 2.735509,
+      "notices": []
+    },
+    "copy_matrix": {
+      "ready": 3,
+      "total": 3
+    },
+    "optimize": {
+      "status": "completed",
+      "id": "b9bbb5f9c3754f649b769452e70de579",
+      "error_code": null,
+      "calls": 9,
+      "elapsed_seconds": 68.943743,
+      "notices": []
+    },
+    "poster_batch": {
+      "status": "completed",
+      "id": "b724915922f641e1a57ecfa846b4bef9",
+      "error_code": null,
+      "calls": 0,
+      "elapsed_seconds": 1.993873,
+      "notices": []
+    },
+    "item_audit": {
+      "status": "failed",
+      "id": "ba4a8475d8574663920bf7dc530fe05c",
+      "error_code": "ELIGIBILITY: expectation differs from approved fact/provenance",
+      "calls": 1,
+      "elapsed_seconds": 9.478866,
+      "notices": []
+    }
+  },
+  "native_review": "NOT_TESTED",
+  "social_delivery": "NOT_ATTEMPTED",
+  "health": {
+    "status": "ok",
+    "stage": "B7",
+    "mode": "LIVE",
+    "provider": "OpenRouter",
+    "text_model": "openai/gpt-4o-mini",
+    "image_model": "gpt-image-2.5-flare-2026-09-08",
+    "image_provider": "openai",
+    "image_configuration_notice": "Add OPENAI_API_KEY to backend .env and restart, or select local artwork",
+    "image_generation_enabled": false,
+    "vision_supported": false,
+    "live_contract": "NOT_TESTED",
+    "schema_version": "b7.1",
+    "video_enabled": false
+  },
+  "campaign_id": "2dbf44ea8f3f4d08a45fc425fa263111",
+  "live_image": "NOT_TESTED; owner key pending; local artwork selected",
+  "status": "BLOCKED",
+  "error": "item_audit stopped: ELIGIBILITY: expectation differs from approved fact/provenance",
+  "elapsed_seconds": 85.81
+}

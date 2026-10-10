@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-10-09T23:04:01.924108+00:00",
+  "mode": "live",
+  "model": "bytedance-seed/seedream-5-0-flash",
+  "provider": "gateway",
+  "status": "FAILED",
+  "vision": {
+    "status": "NOT_TESTED",
+    "reason": "Image generation failed"
+  },
+  "error": {
+    "code": "PAYMENT_REQUIRED",
+    "message": "Provider credits or payment required",
+    "details": {},
+    "trace_id": "05c9a99e4a2449169d69fedef3e811c8",
+    "retryable": false
+  },
+  "calls": [
+    {
+      "id": "d01dc357dfae45f0b5f22ee85ce62b80",
+      "trace_id": "05c9a99e4a2449169d69fedef3e811c8",
+      "run_id": "db25cef6265745a0be9bab195fcff335",
+      "work_id": null,
+      "timestamp": "2026-10-09T23:04:02.366066+00:00",
+      "mode": "live",
+      "model": "bytedance-seed/seedream-5-0-flash",
+      "provider": "OpenRouter",
+      "transport_endpoint": "https://openrouter.ai/api/v1/images",
+      "operation": "image",
+      "attempt": 1,
+      "repair": 0,
+      "status": "payment_required",
+      "sent": true,
+      "http_status": 402,
+      "queue_wait_ms": 0.10659999679774046,
+      "duration_ms": 343.63820002181455,
+      "usage": null,
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": null
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-10-09T23:02:43.576946+00:00",
+  "scenario": "Synthetic test campaign only",
+  "status": "PASS",
+  "checks": {
+    "ready_8000": {
+      "http_status": 200,
+      "mode": "LIVE",
+      "image_provider": "openai",
+      "openai_authenticated_image": "FAILED_401"
+    },
+    "ready_3000": {
+      "http_status": 200,
+      "mode": "LIVE",
+      "image_provider": "openai",
+      "openai_authenticated_image": "FAILED_401"
+    },
+    "frontend_page": {
+      "http_status": 200
+    },
+    "restored_approved_video": {
+      "http_status": 200,
+      "bytes": 156665,
+      "hash_matches": true,
+      "source": "local_animation",
+      "mode": "cached",
+      "source_mode": "live",
+      "manifest_mode": "cached"
+    },
+    "restored_website_zip": {
+      "http_status": 200,
+      "hash_matches": true,
+      "published": false
+    },
+    "original_owner_campaign": {
+      "revision": 8,
+      "status": "canonical_confirmed",
+      "verification_action": "READ_ONLY",
+      "test_mutations": "NONE; test campaign is separate"
+    }
+  }
+}

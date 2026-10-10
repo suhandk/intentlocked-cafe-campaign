@@ -1,0 +1,9 @@
+{
+  "outcome": "PASS",
+  "mode": "mock",
+  "approval_requests": 1,
+  "old_error_cleared": true,
+  "changed_audit_invalidates_review": true,
+  "export_and_reload": "PASS",
+  "real_campaign_approved": false
+}

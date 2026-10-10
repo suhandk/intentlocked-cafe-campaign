@@ -1,0 +1,15 @@
+{
+  "revision": 6,
+  "poster_id": "e1586bd362c446f0b812bf54ea0aa0f6",
+  "status": "pending",
+  "audit_status": "PASS",
+  "approval_blockers": [],
+  "warnings": [
+    "G14",
+    "r7_ambiguity_0",
+    "r7_ambiguity_1",
+    "r7_ambiguity_2",
+    "r7_promise_0"
+  ],
+  "owner_approval": false
+}

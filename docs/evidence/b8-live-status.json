@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-09T03:41:16.867609+00:00",
+  "initial_live_smoke": "FAILED (bounded transport timeouts)",
+  "recheck_text": "VERIFIED",
+  "recheck_structured_tools": "VERIFIED",
+  "recheck_public_url_vision": "VERIFIED",
+  "image_download": "FAILED",
+  "genuine_cached_campaign": "PENDING_WORKFLOW_AND_OWNER_FORM_REVIEW",
+  "full_live_rehearsals_completed": 0,
+  "native_review": "PENDING",
+  "hotspot_team_check": "NOT_TESTED",
+  "video": "DISABLED"
+}

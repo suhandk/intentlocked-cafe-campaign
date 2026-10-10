@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-09T22:57:51.957Z",
+  "mode": "MOCK",
+  "campaign": "2736b512e4644456a3261a2164caa70c",
+  "job": "c15c4c9175a9413981da83441214d331",
+  "result": "PASS",
+  "rapid_generate": "one job / one copy call",
+  "page_close_reopen": "PASS",
+  "sse_reconnect": "PASS / no new cost",
+  "saved_manifest": "cached / source mock",
+  "mobile_width": 390,
+  "live_inference": "NOT_TESTED"
+}

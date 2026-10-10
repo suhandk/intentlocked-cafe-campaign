@@ -1,0 +1,37 @@
+{
+  "captured_at": "2026-10-09T18:11:01.981251+00:00",
+  "scope": "Website V2 automated verification; private single-owner profile",
+  "backend_full_suite": {
+    "passed": 553,
+    "warnings": [
+      "Existing Starlette/AnyIO deprecation"
+    ],
+    "seconds": 45.82
+  },
+  "website_backend_tests": 45,
+  "frontend_unit_tests": 9,
+  "frontend_typecheck": "PASS",
+  "frontend_lint": "PASS",
+  "frontend_build": "PASS",
+  "ruff_lint": "PASS",
+  "ruff_format": "PASS",
+  "uv_locked_sync": "PASS",
+  "browser_https_wizard": {
+    "passed": 1,
+    "seconds": 9.4,
+    "hosting_source": "EXPLICIT MOCK, no live Netlify request"
+  },
+  "live_netlify_connection": "NOT_RUN_NO_OWNER_HOSTING_CREDENTIAL",
+  "live_netlify_publish": "NOT_RUN",
+  "native_review": "PENDING",
+  "public_deployment": "OUT_OF_SCOPE_NO_AUTHENTICATION",
+  "limitations": [
+    "Read-only connection cannot prove deploy permission",
+    "Netlify PAT may have broader than deploy-only access",
+    "Exact HTML byte verification fails closed if provider transforms HTML",
+    "Website Guardian diagnostic does not supply G14/native campaign approval",
+    "Single-owner private installation only",
+    "Python discards references but cannot promise erasure of transient string allocations"
+  ],
+  "servers_left_running": false
+}

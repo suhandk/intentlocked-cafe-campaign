@@ -1,0 +1,14 @@
+{
+  "id": "42e955923dd84f368916439b83a7aa5d",
+  "status": "completed",
+  "mode": "live",
+  "calls": 2,
+  "max_calls": 48,
+  "elapsed_seconds": 27.416799,
+  "error_code": null,
+  "completed_steps": 2,
+  "max_steps": 2,
+  "list_price_estimate_usd": 0.01,
+  "unknown_cost_calls": 1,
+  "checked_at": "2026-10-09T13:44:31.439612+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-10-09T22:08:48.953930+00:00",
+  "mode": "live",
+  "model": "bytedance-seed/seedream-5-0-flash",
+  "error": {
+    "code": "INVALID_REQUEST",
+    "message": "Provider rejected request (HTTP 402)",
+    "details": {},
+    "trace_id": "bfbeecfbba5b4b44b37c7d6219a7b723",
+    "retryable": false
+  },
+  "calls": [
+    {
+      "id": "469fac70d20a418db658e48810c6452e",
+      "trace_id": "bfbeecfbba5b4b44b37c7d6219a7b723",
+      "run_id": "abe43d81a6984b9ca98bc12fae182ca9",
+      "work_id": null,
+      "timestamp": "2026-10-09T22:08:49.365444+00:00",
+      "mode": "live",
+      "model": "bytedance-seed/seedream-5-0-flash",
+      "operation": "image",
+      "attempt": 1,
+      "repair": 0,
+      "status": "invalid_request",
+      "sent": true,
+      "http_status": 402,
+      "queue_wait_ms": 0.07760000880807638,
+      "duration_ms": 321.89919997472316,
+      "usage": null,
+      "list_price_estimate_usd": null,
+      "provider_reported_cost_usd": null
+    }
+  ]
+}

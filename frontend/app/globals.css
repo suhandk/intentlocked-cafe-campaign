@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "./workspace.css";
+:root { color-scheme: light; }
+body { margin: 0; background: #f5f2e9; color: #24392e; font-family: Arial, Helvetica, sans-serif; }
+button { cursor: pointer; }
+button:disabled { cursor: wait; }
+button:focus-visible, a:focus-visible { outline: 3px solid #ad581f; outline-offset: 5px; }
+::selection { background: #d9e6cc; }
+.field { display: block; width: 100%; min-width: 0; border: 1px solid #a8b6a5; border-radius: 8px; background: #fffef9; padding: 10px 12px; color: #24392e; }
+.field:focus-visible, input:focus-visible { outline: 2px solid #ad581f; outline-offset: 2px; }
+.field:disabled, fieldset:disabled .field { background: #eeeee7; }
+.card { border: 1px solid #cbd1c3; border-radius: 20px; padding: clamp(16px, 3vw, 28px); background: #fffdf7; }
+.primary, .secondary { border-radius: 999px; padding: 11px 20px; font-size: 14px; font-weight: 700; }
+.primary { background: #233d31; color: #fffdf7; }
+.secondary { border: 1px solid #94a88e; background: #eef2e5; color: #233d31; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+input[type=checkbox] { accent-color: #233d31; width: 17px; height: 17px; flex-shrink: 0; }
+.eyebrow { text-transform: uppercase; letter-spacing: .15em; font-size: 11px; font-weight: 700; color: #6a6c58; }
+html { scroll-padding-top: 24px; }
+summary { cursor: pointer; padding: 10px 0; font-weight: 600; }
+summary:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid #ad581f; outline-offset: 3px; }
+.workflow-nav { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.workflow-nav a { border: 1px solid #cbd1c3; padding: 12px; border-radius: 10px; background: #fffdf7; font-size: 13px; }
+.mode-banner { background: #f4ead7; border-radius: 10px; padding: 12px; font-size: 14px; font-weight: 700; }
+[data-saved=true] .card::before, [data-saved=true] article::before { content: 'CACHED · SAVED DEMO OUTPUT'; display: block; margin-bottom: 12px; font-size: 12px; font-weight: 700; }
+@media (max-width: 640px) { .workflow-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); } .workflow-nav a { padding: 10px; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }

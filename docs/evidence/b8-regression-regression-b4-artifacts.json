@@ -1,0 +1,1357 @@
+{
+  "mode": "mock",
+  "native_review": "PENDING",
+  "campaign_id": "1e4c65512df04013b3c9eed60e5177da",
+  "posters": [
+    {
+      "id": "be4e915b07984744bd2d817eb17524a2",
+      "campaign_id": "1e4c65512df04013b3c9eed60e5177da",
+      "variant_id": "8d211449445855ec3974791f3b25fb00c4481404b35919b6abd09598dd8cb687",
+      "campaign_revision": 5,
+      "kind": "poster",
+      "status": "ready",
+      "mime_type": "image/png",
+      "width": 1080,
+      "height": 1080,
+      "byte_count": 75197,
+      "sha256": "6f4e4d77c8350d05ced746da5044d73f672006b6fe8fbebd7f8d5931a861afe6",
+      "fact_hash": "beac69b06fa433e5b3c135c77746256ace83dc352c5f990ad0c99a1359297862",
+      "dependency_hash": "9f800955f2e724a0755d31450deb632a4078896b1033b0d3551917f99045fec2",
+      "content_hash": "dfb71241bb401da266f26422790dda2a5a826ead353746c53b052e8bb2a080b8",
+      "render_hash": "f5de885fd5db4068b298a5040f9497767fb7e0df7e01b57be5860170f6c88429",
+      "dependencies": {
+        "facts": {
+          "CAFE": 4,
+          "LOCATION": 4,
+          "OFFER": 4,
+          "PRODUCT": 4,
+          "DAYS": 4,
+          "DATES": 4,
+          "ELIGIBILITY": 4,
+          "ID_RULE": 2,
+          "TIME_WINDOW": 2,
+          "DINE_IN_RULE": 2,
+          "MIN_PURCHASE_RULE": 2,
+          "COMBINE_RULE": 2
+        },
+        "brand_revision": 1,
+        "prompt_version": "b3.1",
+        "policy_version": "guardian-policy-2.1",
+        "renderer_version": "canvas-b5.1",
+        "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+        "background_hash": "2962bb20817bf5b765507bae1a8d91feb2d838e87eb3ff0de409d191d107fce0",
+        "layout_hash": "e27ffbe4abcdae5e7077d3b3d1f2169197af950820b1b0aafb7a8e230295b45c"
+      },
+      "provenance": "mock",
+      "captured_at": "2026-10-09T03:27:01.156890+00:00",
+      "render_input": {
+        "schema_version": "canvas-input-b4.1",
+        "width": 1080,
+        "height": 1080,
+        "size": "square",
+        "language": "kn",
+        "fields": {
+          "headline": "ಜೊತೆಯಾಗಿ ವಿರಾಮ ಮಾಡೋಣ",
+          "body": "ಭೇಟಿಯಾಗೋಣವೇ?\nನಮ್ಮ ಕೆಫೆ · 2026-10-10 – 2026-10-11 · ಶನಿವಾರ / ಭಾನುವಾರ · ಎಲ್ಲರಿಗೂ · ಬೆಂಗಳೂರು · 20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+          "cta": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+          "alt_text": "ನಮ್ಮ ಕೆಫೆ · ಕಾಫಿ · 20% ರಿಯಾಯಿತಿ"
+        },
+        "offer_forms": [
+          "20% ರಿಯಾಯಿತಿ"
+        ],
+        "background_url": "/api/assets/0c6a5852953a496f9ce7dda41a9efa80",
+        "logo_url": null,
+        "font_urls": {
+          "latin": "/api/render/fonts/NotoSans.ttf",
+          "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+        },
+        "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+        "renderer_version": "canvas-b5.1",
+        "renderer_hash": "bc0180b9db6ec85dd5f7cc561aa8f664ab2d18c96fcf2dc4a54e78f12d767f02",
+        "background_hash": "2962bb20817bf5b765507bae1a8d91feb2d838e87eb3ff0de409d191d107fce0",
+        "logo_hash": null,
+        "layout_hash": "e27ffbe4abcdae5e7077d3b3d1f2169197af950820b1b0aafb7a8e230295b45c"
+      },
+      "validation": {
+        "passed": true,
+        "reasons": [],
+        "font_loaded": true,
+        "grapheme_engine": true,
+        "contrast": 14.933308959426848,
+        "offer_area_ratio": 0.006102158895735878,
+        "safe_area": [
+          64,
+          64,
+          952,
+          952
+        ],
+        "lines": [
+          {
+            "field": "headline",
+            "text": "ಜೊತೆಯಾಗಿ ವಿರಾಮ ಮಾಡೋಣ",
+            "x": 64,
+            "y": 80,
+            "width": 846.6099243164062,
+            "height": 52,
+            "font_size": 62
+          },
+          {
+            "field": "body",
+            "text": "ಭೇಟಿಯಾಗೋಣವೇ?",
+            "x": 64,
+            "y": 200.10000000000002,
+            "width": 292.139892578125,
+            "height": 36,
+            "font_size": 36
+          },
+          {
+            "field": "body",
+            "text": "ನಮ್ಮ ಕೆಫೆ · 2026-10-10 – 2026-10-11 · ಶನಿವಾರ / ಭಾನುವಾರ · ",
+            "x": 64,
+            "y": 255.90000000000003,
+            "width": 934.1276245117188,
+            "height": 45,
+            "font_size": 36
+          },
+          {
+            "field": "body",
+            "text": "ಎಲ್ಲರಿಗೂ · ಬೆಂಗಳೂರು · 20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+            "x": 64,
+            "y": 311.70000000000005,
+            "width": 681.2996826171875,
+            "height": 43,
+            "font_size": 36
+          },
+          {
+            "field": "cta",
+            "text": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+            "x": 64,
+            "y": 391.50000000000006,
+            "width": 355.9318542480469,
+            "height": 44,
+            "font_size": 36
+          }
+        ],
+        "logo_bounds": null,
+        "renderer_version": "canvas-b5.1"
+      },
+      "guardian": {
+        "schema_version": "guardian-report-2.1",
+        "policy_version": "guardian-policy-2.1",
+        "campaign_id": "1e4c65512df04013b3c9eed60e5177da",
+        "campaign_revision": 5,
+        "mode": "asset",
+        "content_hash": "dfb71241bb401da266f26422790dda2a5a826ead353746c53b052e8bb2a080b8",
+        "dependency_hash": "3028704f0ba3ffd97a57b1a953538099ddf3723dea1fbcd4ca5ecac342e7338f",
+        "rendered": {
+          "fields": {
+            "headline": "ಜೊತೆಯಾಗಿ ವಿರಾಮ ಮಾಡೋಣ",
+            "body": "ಭೇಟಿಯಾಗೋಣವೇ?\nನಮ್ಮ ಕೆಫೆ · 2026-10-10 – 2026-10-11 · ಶನಿವಾರ / ಭಾನುವಾರ · ಎಲ್ಲರಿಗೂ · ಬೆಂಗಳೂರು · 20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+            "cta": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+            "alt_text": "ನಮ್ಮ ಕೆಫೆ · ಕಾಫಿ · 20% ರಿಯಾಯಿತಿ"
+          },
+          "spans": [
+            {
+              "field": "body",
+              "start": 13,
+              "end": 22,
+              "template_start": 13,
+              "template_end": 21,
+              "key": "CAFE",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ನಮ್ಮ ಕೆಫೆ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 25,
+              "end": 48,
+              "template_start": 24,
+              "template_end": 33,
+              "key": "DATES",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "2026-10-10 – 2026-10-11",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 51,
+              "end": 67,
+              "template_start": 36,
+              "template_end": 44,
+              "key": "DAYS",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಶನಿವಾರ / ಭಾನುವಾರ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 70,
+              "end": 78,
+              "template_start": 47,
+              "template_end": 62,
+              "key": "ELIGIBILITY",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಎಲ್ಲರಿಗೂ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 81,
+              "end": 89,
+              "template_start": 65,
+              "template_end": 77,
+              "key": "LOCATION",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಬೆಂಗಳೂರು",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 92,
+              "end": 104,
+              "template_start": 80,
+              "template_end": 89,
+              "key": "OFFER",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "20% ರಿಯಾಯಿತಿ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 107,
+              "end": 111,
+              "template_start": 92,
+              "template_end": 103,
+              "key": "PRODUCT",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಕಾಫಿ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "alt_text",
+              "start": 0,
+              "end": 9,
+              "template_start": 0,
+              "template_end": 8,
+              "key": "CAFE",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ನಮ್ಮ ಕೆಫೆ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "alt_text",
+              "start": 12,
+              "end": 16,
+              "template_start": 11,
+              "template_end": 22,
+              "key": "PRODUCT",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಕಾಫಿ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "alt_text",
+              "start": 19,
+              "end": 31,
+              "template_start": 25,
+              "template_end": 34,
+              "key": "OFFER",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "20% ರಿಯಾಯಿತಿ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            }
+          ],
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ]
+        },
+        "checks": [
+          {
+            "rule": "G01",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G02",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G03",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G04",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G05",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G06",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G07",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G08",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G09",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G10",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G11",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "WARN",
+            "findings": []
+          },
+          {
+            "rule": "G12",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": [
+              {
+                "field": "*",
+                "source": "policy",
+                "start": null,
+                "end": null,
+                "quote": "",
+                "message": "Measured canvas bounds validated against safe areas; artifact bound to render hash"
+              }
+            ]
+          },
+          {
+            "rule": "G13",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G14",
+            "applicable": true,
+            "completed": false,
+            "passed": null,
+            "severity": "BLOCK",
+            "findings": [
+              {
+                "field": "*",
+                "source": "policy",
+                "start": null,
+                "end": null,
+                "quote": "",
+                "message": "Blinded Agnes R7 reader pending B5"
+              }
+            ]
+          },
+          {
+            "rule": "G15",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          }
+        ],
+        "status": "INCOMPLETE",
+        "missing_checks": [
+          "G14"
+        ],
+        "warning_ids": [],
+        "integrity": null,
+        "approval_ready": false,
+        "native_review": "PENDING"
+      },
+      "background_id": "0c6a5852953a496f9ce7dda41a9efa80",
+      "logo_id": null,
+      "approval_ready": false,
+      "native_review": "PENDING",
+      "copy_provenance": "mock"
+    },
+    {
+      "id": "db06b6f16da342238604388cc1c85676",
+      "campaign_id": "1e4c65512df04013b3c9eed60e5177da",
+      "variant_id": "8d211449445855ec3974791f3b25fb00c4481404b35919b6abd09598dd8cb687",
+      "campaign_revision": 5,
+      "kind": "poster",
+      "status": "ready",
+      "mime_type": "image/png",
+      "width": 1080,
+      "height": 1920,
+      "byte_count": 98977,
+      "sha256": "d72027f89544ec82dddfe601c6ea771fb1cb4d5c6c744bcf03969feb5e419f0c",
+      "fact_hash": "beac69b06fa433e5b3c135c77746256ace83dc352c5f990ad0c99a1359297862",
+      "dependency_hash": "dcbe4ce61ef8642c53c24465e1abbf664f2ea5cf59579f430e93f813a40203d2",
+      "content_hash": "dfb71241bb401da266f26422790dda2a5a826ead353746c53b052e8bb2a080b8",
+      "render_hash": "e433ec032fafd9a07c5e81b37b72703bcf4bccf4f30bc112700044d9b9371944",
+      "dependencies": {
+        "facts": {
+          "CAFE": 4,
+          "LOCATION": 4,
+          "OFFER": 4,
+          "PRODUCT": 4,
+          "DAYS": 4,
+          "DATES": 4,
+          "ELIGIBILITY": 4,
+          "ID_RULE": 2,
+          "TIME_WINDOW": 2,
+          "DINE_IN_RULE": 2,
+          "MIN_PURCHASE_RULE": 2,
+          "COMBINE_RULE": 2
+        },
+        "brand_revision": 1,
+        "prompt_version": "b3.1",
+        "policy_version": "guardian-policy-2.1",
+        "renderer_version": "canvas-b5.1",
+        "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+        "background_hash": "1c01c996fb95583aacd5c4b195359cb2cbd15428609851f6f7d6b51605c7a16e",
+        "layout_hash": "e27ffbe4abcdae5e7077d3b3d1f2169197af950820b1b0aafb7a8e230295b45c"
+      },
+      "provenance": "mock",
+      "captured_at": "2026-10-09T03:27:08.694470+00:00",
+      "render_input": {
+        "schema_version": "canvas-input-b4.1",
+        "width": 1080,
+        "height": 1920,
+        "size": "story",
+        "language": "kn",
+        "fields": {
+          "headline": "ಜೊತೆಯಾಗಿ ವಿರಾಮ ಮಾಡೋಣ",
+          "body": "ಭೇಟಿಯಾಗೋಣವೇ?\nನಮ್ಮ ಕೆಫೆ · 2026-10-10 – 2026-10-11 · ಶನಿವಾರ / ಭಾನುವಾರ · ಎಲ್ಲರಿಗೂ · ಬೆಂಗಳೂರು · 20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+          "cta": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+          "alt_text": "ನಮ್ಮ ಕೆಫೆ · ಕಾಫಿ · 20% ರಿಯಾಯಿತಿ"
+        },
+        "offer_forms": [
+          "20% ರಿಯಾಯಿತಿ"
+        ],
+        "background_url": "/api/assets/8dd8bb17f7df4c95a61a8bfcca8fff7f",
+        "logo_url": null,
+        "font_urls": {
+          "latin": "/api/render/fonts/NotoSans.ttf",
+          "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+        },
+        "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+        "renderer_version": "canvas-b5.1",
+        "renderer_hash": "bc0180b9db6ec85dd5f7cc561aa8f664ab2d18c96fcf2dc4a54e78f12d767f02",
+        "background_hash": "1c01c996fb95583aacd5c4b195359cb2cbd15428609851f6f7d6b51605c7a16e",
+        "logo_hash": null,
+        "layout_hash": "e27ffbe4abcdae5e7077d3b3d1f2169197af950820b1b0aafb7a8e230295b45c"
+      },
+      "validation": {
+        "passed": true,
+        "reasons": [],
+        "font_loaded": true,
+        "grapheme_engine": true,
+        "contrast": 14.933308959426848,
+        "offer_area_ratio": null,
+        "safe_area": [
+          72,
+          200,
+          936,
+          1480
+        ],
+        "lines": [
+          {
+            "field": "headline",
+            "text": "ಜೊತೆಯಾಗಿ ವಿರಾಮ ",
+            "x": 72,
+            "y": 216,
+            "width": 687.4139404296875,
+            "height": 65,
+            "font_size": 78
+          },
+          {
+            "field": "headline",
+            "text": "ಮಾಡೋಣ",
+            "x": 72,
+            "y": 336.9,
+            "width": 377.67596435546875,
+            "height": 65,
+            "font_size": 78
+          },
+          {
+            "field": "body",
+            "text": "ಭೇಟಿಯಾಗೋಣವೇ?",
+            "x": 72,
+            "y": 481.79999999999995,
+            "width": 357.0599365234375,
+            "height": 43,
+            "font_size": 44
+          },
+          {
+            "field": "body",
+            "text": "ನಮ್ಮ ಕೆಫೆ · 2026-10-10 – 2026-10-11 · ಶನಿವಾರ / ",
+            "x": 72,
+            "y": 550,
+            "width": 921.2279052734375,
+            "height": 54,
+            "font_size": 44
+          },
+          {
+            "field": "body",
+            "text": "ಭಾನುವಾರ · ಎಲ್ಲರಿಗೂ · ಬೆಂಗಳೂರು · 20% ",
+            "x": 72,
+            "y": 618.2,
+            "width": 745.7998657226562,
+            "height": 52,
+            "font_size": 44
+          },
+          {
+            "field": "body",
+            "text": "ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+            "x": 72,
+            "y": 686.4000000000001,
+            "width": 307.3839111328125,
+            "height": 42,
+            "font_size": 44
+          },
+          {
+            "field": "cta",
+            "text": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+            "x": 72,
+            "y": 778.6000000000001,
+            "width": 415.25390625,
+            "height": 50,
+            "font_size": 42
+          }
+        ],
+        "logo_bounds": null,
+        "renderer_version": "canvas-b5.1"
+      },
+      "guardian": {
+        "schema_version": "guardian-report-2.1",
+        "policy_version": "guardian-policy-2.1",
+        "campaign_id": "1e4c65512df04013b3c9eed60e5177da",
+        "campaign_revision": 5,
+        "mode": "asset",
+        "content_hash": "dfb71241bb401da266f26422790dda2a5a826ead353746c53b052e8bb2a080b8",
+        "dependency_hash": "3028704f0ba3ffd97a57b1a953538099ddf3723dea1fbcd4ca5ecac342e7338f",
+        "rendered": {
+          "fields": {
+            "headline": "ಜೊತೆಯಾಗಿ ವಿರಾಮ ಮಾಡೋಣ",
+            "body": "ಭೇಟಿಯಾಗೋಣವೇ?\nನಮ್ಮ ಕೆಫೆ · 2026-10-10 – 2026-10-11 · ಶನಿವಾರ / ಭಾನುವಾರ · ಎಲ್ಲರಿಗೂ · ಬೆಂಗಳೂರು · 20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+            "cta": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+            "alt_text": "ನಮ್ಮ ಕೆಫೆ · ಕಾಫಿ · 20% ರಿಯಾಯಿತಿ"
+          },
+          "spans": [
+            {
+              "field": "body",
+              "start": 13,
+              "end": 22,
+              "template_start": 13,
+              "template_end": 21,
+              "key": "CAFE",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ನಮ್ಮ ಕೆಫೆ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 25,
+              "end": 48,
+              "template_start": 24,
+              "template_end": 33,
+              "key": "DATES",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "2026-10-10 – 2026-10-11",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 51,
+              "end": 67,
+              "template_start": 36,
+              "template_end": 44,
+              "key": "DAYS",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಶನಿವಾರ / ಭಾನುವಾರ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 70,
+              "end": 78,
+              "template_start": 47,
+              "template_end": 62,
+              "key": "ELIGIBILITY",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಎಲ್ಲರಿಗೂ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 81,
+              "end": 89,
+              "template_start": 65,
+              "template_end": 77,
+              "key": "LOCATION",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಬೆಂಗಳೂರು",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 92,
+              "end": 104,
+              "template_start": 80,
+              "template_end": 89,
+              "key": "OFFER",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "20% ರಿಯಾಯಿತಿ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 107,
+              "end": 111,
+              "template_start": 92,
+              "template_end": 103,
+              "key": "PRODUCT",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಕಾಫಿ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "alt_text",
+              "start": 0,
+              "end": 9,
+              "template_start": 0,
+              "template_end": 8,
+              "key": "CAFE",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ನಮ್ಮ ಕೆಫೆ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "alt_text",
+              "start": 12,
+              "end": 16,
+              "template_start": 11,
+              "template_end": 22,
+              "key": "PRODUCT",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಕಾಫಿ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "alt_text",
+              "start": 19,
+              "end": 31,
+              "template_start": 25,
+              "template_end": 34,
+              "key": "OFFER",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "20% ರಿಯಾಯಿತಿ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            }
+          ],
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ]
+        },
+        "checks": [
+          {
+            "rule": "G01",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G02",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G03",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G04",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G05",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G06",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G07",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G08",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G09",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G10",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G11",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "WARN",
+            "findings": []
+          },
+          {
+            "rule": "G12",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": [
+              {
+                "field": "*",
+                "source": "policy",
+                "start": null,
+                "end": null,
+                "quote": "",
+                "message": "Measured canvas bounds validated against safe areas; artifact bound to render hash"
+              }
+            ]
+          },
+          {
+            "rule": "G13",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G14",
+            "applicable": true,
+            "completed": false,
+            "passed": null,
+            "severity": "BLOCK",
+            "findings": [
+              {
+                "field": "*",
+                "source": "policy",
+                "start": null,
+                "end": null,
+                "quote": "",
+                "message": "Blinded Agnes R7 reader pending B5"
+              }
+            ]
+          },
+          {
+            "rule": "G15",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          }
+        ],
+        "status": "INCOMPLETE",
+        "missing_checks": [
+          "G14"
+        ],
+        "warning_ids": [],
+        "integrity": null,
+        "approval_ready": false,
+        "native_review": "PENDING"
+      },
+      "background_id": "8dd8bb17f7df4c95a61a8bfcca8fff7f",
+      "logo_id": null,
+      "approval_ready": false,
+      "native_review": "PENDING",
+      "copy_provenance": "mock"
+    },
+    {
+      "id": "e36fae0e2501498b87f56035f8c04a5f",
+      "campaign_id": "1e4c65512df04013b3c9eed60e5177da",
+      "variant_id": "8d211449445855ec3974791f3b25fb00c4481404b35919b6abd09598dd8cb687",
+      "campaign_revision": 5,
+      "kind": "poster",
+      "status": "ready",
+      "mime_type": "image/png",
+      "width": 1200,
+      "height": 630,
+      "byte_count": 53826,
+      "sha256": "69b07400ae97b0ca146f1672621cdb46e5e0bdbaf0b79106f05615d909890e65",
+      "fact_hash": "beac69b06fa433e5b3c135c77746256ace83dc352c5f990ad0c99a1359297862",
+      "dependency_hash": "3001d08d4afccb793a08d5c1fa1e1d38b8690b9b9cda80b7e345437a33430fa1",
+      "content_hash": "dfb71241bb401da266f26422790dda2a5a826ead353746c53b052e8bb2a080b8",
+      "render_hash": "7b9fe062f4e5edf9fa59d67623dc478fa1e056d58fdf55fa7218d77b28557eb6",
+      "dependencies": {
+        "facts": {
+          "CAFE": 4,
+          "LOCATION": 4,
+          "OFFER": 4,
+          "PRODUCT": 4,
+          "DAYS": 4,
+          "DATES": 4,
+          "ELIGIBILITY": 4,
+          "ID_RULE": 2,
+          "TIME_WINDOW": 2,
+          "DINE_IN_RULE": 2,
+          "MIN_PURCHASE_RULE": 2,
+          "COMBINE_RULE": 2
+        },
+        "brand_revision": 1,
+        "prompt_version": "b3.1",
+        "policy_version": "guardian-policy-2.1",
+        "renderer_version": "canvas-b5.1",
+        "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+        "background_hash": "511cd077d70682a0f423ab93ffa39eab6f219f7cadec47152941e3408f64d6f7",
+        "layout_hash": "e27ffbe4abcdae5e7077d3b3d1f2169197af950820b1b0aafb7a8e230295b45c"
+      },
+      "provenance": "mock",
+      "captured_at": "2026-10-09T03:27:16.164001+00:00",
+      "render_input": {
+        "schema_version": "canvas-input-b4.1",
+        "width": 1200,
+        "height": 630,
+        "size": "landscape",
+        "language": "kn",
+        "fields": {
+          "headline": "ಜೊತೆಯಾಗಿ ವಿರಾಮ ಮಾಡೋಣ",
+          "body": "ಭೇಟಿಯಾಗೋಣವೇ?\nನಮ್ಮ ಕೆಫೆ · 2026-10-10 – 2026-10-11 · ಶನಿವಾರ / ಭಾನುವಾರ · ಎಲ್ಲರಿಗೂ · ಬೆಂಗಳೂರು · 20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+          "cta": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+          "alt_text": "ನಮ್ಮ ಕೆಫೆ · ಕಾಫಿ · 20% ರಿಯಾಯಿತಿ"
+        },
+        "offer_forms": [
+          "20% ರಿಯಾಯಿತಿ"
+        ],
+        "background_url": "/api/assets/5f852aaa6d7d4496a986fdb33916cec3",
+        "logo_url": null,
+        "font_urls": {
+          "latin": "/api/render/fonts/NotoSans.ttf",
+          "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+        },
+        "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+        "renderer_version": "canvas-b5.1",
+        "renderer_hash": "bc0180b9db6ec85dd5f7cc561aa8f664ab2d18c96fcf2dc4a54e78f12d767f02",
+        "background_hash": "511cd077d70682a0f423ab93ffa39eab6f219f7cadec47152941e3408f64d6f7",
+        "logo_hash": null,
+        "layout_hash": "e27ffbe4abcdae5e7077d3b3d1f2169197af950820b1b0aafb7a8e230295b45c"
+      },
+      "validation": {
+        "passed": true,
+        "reasons": [],
+        "font_loaded": true,
+        "grapheme_engine": true,
+        "contrast": 14.933308959426848,
+        "offer_area_ratio": null,
+        "safe_area": [
+          48,
+          48,
+          1104,
+          534
+        ],
+        "lines": [
+          {
+            "field": "headline",
+            "text": "ಜೊತೆಯಾಗಿ ವಿರಾಮ ಮಾಡೋಣ",
+            "x": 48,
+            "y": 64,
+            "width": 628.1298828125,
+            "height": 39,
+            "font_size": 46
+          },
+          {
+            "field": "body",
+            "text": "ಭೇಟಿಯಾಗೋಣವೇ?",
+            "x": 48,
+            "y": 149.3,
+            "width": 235.74888610839844,
+            "height": 29,
+            "font_size": 29
+          },
+          {
+            "field": "body",
+            "text": "ನಮ್ಮ ಕೆಫೆ · 2026-10-10 – 2026-10-11 · ಶನಿವಾರ / ಭಾನುವಾರ · ಎಲ್ಲರಿಗೂ · ಬೆಂಗಳೂರು · 20% ",
+            "x": 48,
+            "y": 194.25,
+            "width": 1098.72265625,
+            "height": 36,
+            "font_size": 29
+          },
+          {
+            "field": "body",
+            "text": "ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+            "x": 48,
+            "y": 239.2,
+            "width": 202.77093505859375,
+            "height": 28,
+            "font_size": 29
+          },
+          {
+            "field": "cta",
+            "text": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+            "x": 48,
+            "y": 298.15,
+            "width": 296.60992431640625,
+            "height": 37,
+            "font_size": 30
+          }
+        ],
+        "logo_bounds": null,
+        "renderer_version": "canvas-b5.1"
+      },
+      "guardian": {
+        "schema_version": "guardian-report-2.1",
+        "policy_version": "guardian-policy-2.1",
+        "campaign_id": "1e4c65512df04013b3c9eed60e5177da",
+        "campaign_revision": 5,
+        "mode": "asset",
+        "content_hash": "dfb71241bb401da266f26422790dda2a5a826ead353746c53b052e8bb2a080b8",
+        "dependency_hash": "3028704f0ba3ffd97a57b1a953538099ddf3723dea1fbcd4ca5ecac342e7338f",
+        "rendered": {
+          "fields": {
+            "headline": "ಜೊತೆಯಾಗಿ ವಿರಾಮ ಮಾಡೋಣ",
+            "body": "ಭೇಟಿಯಾಗೋಣವೇ?\nನಮ್ಮ ಕೆಫೆ · 2026-10-10 – 2026-10-11 · ಶನಿವಾರ / ಭಾನುವಾರ · ಎಲ್ಲರಿಗೂ · ಬೆಂಗಳೂರು · 20% ರಿಯಾಯಿತಿ · ಕಾಫಿ",
+            "cta": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+            "alt_text": "ನಮ್ಮ ಕೆಫೆ · ಕಾಫಿ · 20% ರಿಯಾಯಿತಿ"
+          },
+          "spans": [
+            {
+              "field": "body",
+              "start": 13,
+              "end": 22,
+              "template_start": 13,
+              "template_end": 21,
+              "key": "CAFE",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ನಮ್ಮ ಕೆಫೆ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 25,
+              "end": 48,
+              "template_start": 24,
+              "template_end": 33,
+              "key": "DATES",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "2026-10-10 – 2026-10-11",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 51,
+              "end": 67,
+              "template_start": 36,
+              "template_end": 44,
+              "key": "DAYS",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಶನಿವಾರ / ಭಾನುವಾರ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 70,
+              "end": 78,
+              "template_start": 47,
+              "template_end": 62,
+              "key": "ELIGIBILITY",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಎಲ್ಲರಿಗೂ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 81,
+              "end": 89,
+              "template_start": 65,
+              "template_end": 77,
+              "key": "LOCATION",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಬೆಂಗಳೂರು",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 92,
+              "end": 104,
+              "template_start": 80,
+              "template_end": 89,
+              "key": "OFFER",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "20% ರಿಯಾಯಿತಿ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "body",
+              "start": 107,
+              "end": 111,
+              "template_start": 92,
+              "template_end": 103,
+              "key": "PRODUCT",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಕಾಫಿ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "alt_text",
+              "start": 0,
+              "end": 9,
+              "template_start": 0,
+              "template_end": 8,
+              "key": "CAFE",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ನಮ್ಮ ಕೆಫೆ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "alt_text",
+              "start": 12,
+              "end": 16,
+              "template_start": 11,
+              "template_end": 22,
+              "key": "PRODUCT",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "ಕಾಫಿ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            },
+            {
+              "field": "alt_text",
+              "start": 19,
+              "end": 31,
+              "template_start": 25,
+              "template_end": 34,
+              "key": "OFFER",
+              "version": 4,
+              "language": "kn",
+              "case": "nom",
+              "approved_form": "20% ರಿಯಾಯಿತಿ",
+              "approval_id": "06c898b1e83b41419baf6f6d45767dc4"
+            }
+          ],
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ]
+        },
+        "checks": [
+          {
+            "rule": "G01",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G02",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G03",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G04",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G05",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G06",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G07",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G08",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G09",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G10",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G11",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "WARN",
+            "findings": []
+          },
+          {
+            "rule": "G12",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": [
+              {
+                "field": "*",
+                "source": "policy",
+                "start": null,
+                "end": null,
+                "quote": "",
+                "message": "Measured canvas bounds validated against safe areas; artifact bound to render hash"
+              }
+            ]
+          },
+          {
+            "rule": "G13",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          },
+          {
+            "rule": "G14",
+            "applicable": true,
+            "completed": false,
+            "passed": null,
+            "severity": "BLOCK",
+            "findings": [
+              {
+                "field": "*",
+                "source": "policy",
+                "start": null,
+                "end": null,
+                "quote": "",
+                "message": "Blinded Agnes R7 reader pending B5"
+              }
+            ]
+          },
+          {
+            "rule": "G15",
+            "applicable": true,
+            "completed": true,
+            "passed": true,
+            "severity": "BLOCK",
+            "findings": []
+          }
+        ],
+        "status": "INCOMPLETE",
+        "missing_checks": [
+          "G14"
+        ],
+        "warning_ids": [],
+        "integrity": null,
+        "approval_ready": false,
+        "native_review": "PENDING"
+      },
+      "background_id": "5f852aaa6d7d4496a986fdb33916cec3",
+      "logo_id": null,
+      "approval_ready": false,
+      "native_review": "PENDING",
+      "copy_provenance": "mock"
+    }
+  ]
+}

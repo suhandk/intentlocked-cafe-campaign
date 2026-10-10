@@ -1,0 +1,832 @@
+{
+  "config": {
+    "configFile": "D:\\HR2-AI-FB38B877-main\\frontend\\playwright.config.ts",
+    "rootDir": "D:/HR2-AI-FB38B877-main/frontend/e2e",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/HR2-AI-FB38B877-main/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "D:/HR2-AI-FB38B877-main/frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run start",
+      "url": "http://127.0.0.1:3000",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "delivery.spec.ts",
+      "file": "delivery.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "owner diff, forms, atomic publication, approval and authorized export survive reload",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 123941,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('region', { name: 'Ledger and changes' }).getByText('immutable proposal · proposed')\nExpected: visible\nTimeout: 90000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'Ledger and changes' }).getByText('immutable proposal · proposed')\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('region', { name: 'Ledger and changes' }).getByText('immutable proposal · proposed')\nExpected: visible\nTimeout: 90000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'Ledger and changes' }).getByText('immutable proposal · proposed')\u001b[22m\n\n    at D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\delivery.spec.ts:47:68",
+                    "location": {
+                      "file": "D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\delivery.spec.ts",
+                      "column": 68,
+                      "line": 47
+                    },
+                    "snippet": "  45 |   await changes.getByLabel(\"Owner change request\").fill(\"Make it 15%\");\n  46 |   await changes.getByRole(\"button\", { name: \"Propose change\", exact: true }).click();\n> 47 |   await expect(changes.getByText(\"immutable proposal · proposed\")).toBeVisible({ timeout: 90000 });\n     |                                                                    ^\n  48 |   await changes.screenshot({ path: \"../docs/evidence/redesign-regression-regression-b6-owner-diff.png\" });\n  49 |   const modal=page.getByRole(\"dialog\",{name:\"Confirm the change to locked truth\"});\n  50 |   await modal.getByLabel(\"I confirm this exact diff and its scope.\").check();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\delivery.spec.ts",
+                        "column": 68,
+                        "line": 47
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('region', { name: 'Ledger and changes' }).getByText('immutable proposal · proposed')\nExpected: visible\nTimeout: 90000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 90000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'Ledger and changes' }).getByText('immutable proposal · proposed')\u001b[22m\n\n\n  45 |   await changes.getByLabel(\"Owner change request\").fill(\"Make it 15%\");\n  46 |   await changes.getByRole(\"button\", { name: \"Propose change\", exact: true }).click();\n> 47 |   await expect(changes.getByText(\"immutable proposal · proposed\")).toBeVisible({ timeout: 90000 });\n     |                                                                    ^\n  48 |   await changes.screenshot({ path: \"../docs/evidence/redesign-regression-regression-b6-owner-diff.png\" });\n  49 |   const modal=page.getByRole(\"dialog\",{name:\"Confirm the change to locked truth\"});\n  50 |   await modal.getByLabel(\"I confirm this exact diff and its scope.\").check();\n    at D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\delivery.spec.ts:47:68"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:45:22.361Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\HR2-AI-FB38B877-main\\frontend\\test-results\\delivery-owner-diff-forms--ef894-rized-export-survive-reload\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\delivery.spec.ts",
+                    "column": 68,
+                    "line": 47
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6be646c84a0e17f5bcd7-895e6cd50924755e92d6",
+          "file": "delivery.spec.ts",
+          "line": 11,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "facts.spec.ts",
+      "file": "facts.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "typed clarification, corrected amount, localized review and durable atomic lock",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 12183,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"http://127.0.0.1:3000/?campaign=833dcaf820fe4351a67bd5ff93d1b99b#\u001b[7mbrand-strategy\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"http://127.0.0.1:3000/?campaign=833dcaf820fe4351a67bd5ff93d1b99b#\u001b[7mfacts-lock\u001b[27m\"\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"http://127.0.0.1:3000/?campaign=833dcaf820fe4351a67bd5ff93d1b99b#\u001b[7mbrand-strategy\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"http://127.0.0.1:3000/?campaign=833dcaf820fe4351a67bd5ff93d1b99b#\u001b[7mfacts-lock\u001b[27m\"\u001b[39m\n    at D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\facts.spec.ts:67:22",
+                    "location": {
+                      "file": "D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\facts.spec.ts",
+                      "column": 22,
+                      "line": 67
+                    },
+                    "snippet": "  65 |   await expect(page.getByLabel(\"CAFE en nom\", { exact: true })).toHaveValue(\"Namma Café\");\n  66 |   await expect(page.getByLabel(\"Percent off\")).toHaveValue(\"50\");\n> 67 |   expect(page.url()).toBe(url);\n     |                      ^\n  68 |   await expect(page.getByRole(\"button\", { name: \"Lock approved facts\" })).toHaveCount(0);\n  69 |   await page.getByText(\"Locked by owner\", { exact: true }).scrollIntoViewIfNeeded();\n  70 |   await page.screenshot({ path: \"../docs/evidence/redesign-regression-locked-mobile.png\" });"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\facts.spec.ts",
+                        "column": 22,
+                        "line": 67
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"http://127.0.0.1:3000/?campaign=833dcaf820fe4351a67bd5ff93d1b99b#\u001b[7mbrand-strategy\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"http://127.0.0.1:3000/?campaign=833dcaf820fe4351a67bd5ff93d1b99b#\u001b[7mfacts-lock\u001b[27m\"\u001b[39m\n\n  65 |   await expect(page.getByLabel(\"CAFE en nom\", { exact: true })).toHaveValue(\"Namma Café\");\n  66 |   await expect(page.getByLabel(\"Percent off\")).toHaveValue(\"50\");\n> 67 |   expect(page.url()).toBe(url);\n     |                      ^\n  68 |   await expect(page.getByRole(\"button\", { name: \"Lock approved facts\" })).toHaveCount(0);\n  69 |   await page.getByText(\"Locked by owner\", { exact: true }).scrollIntoViewIfNeeded();\n  70 |   await page.screenshot({ path: \"../docs/evidence/redesign-regression-locked-mobile.png\" });\n    at D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\facts.spec.ts:67:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:47:27.550Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\HR2-AI-FB38B877-main\\frontend\\test-results\\facts-typed-clarification--55b6c-iew-and-durable-atomic-lock\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\facts.spec.ts",
+                    "column": 22,
+                    "line": 67
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e2d071df40628f62d9aa-50a20b2b95cb9c676f87",
+          "file": "facts.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "foundation.spec.ts",
+      "file": "foundation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "real backend health, cost and keyboard-operable trace",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1448,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:47:41.834Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b60d0cacd30be8ae473-b4f1f58a7a9d39ce67c8",
+          "file": "foundation.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "backend failure gives a working retry and clears stale success",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 449,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:47:43.701Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b60d0cacd30be8ae473-f2fed775928f5a27032d",
+          "file": "foundation.spec.ts",
+          "line": 19,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "guardian.spec.ts",
+      "file": "guardian.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Guardian fragments, complete asset readiness and Kannada preservation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12004,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:47:44.166Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2cc6a536f199399a73fe-10f18ceb67a2f82a77a8",
+          "file": "guardian.spec.ts",
+          "line": 7,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "matrix.spec.ts",
+      "file": "matrix.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "stored 27-cell multilingual matrix, real returned previews and reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 42807,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:47:56.190Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7066e7f2e0ac7d296410-26c719aa875c4bf914b4",
+          "file": "matrix.spec.ts",
+          "line": 8,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "optimization.spec.ts",
+      "file": "optimization.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "mock score, critique, permitted edit, verify, compare, retention and stop survive reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 77327,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:48:39.024Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "405024bbc4c170b32af4-1f98351a4f4c8a9b2565",
+          "file": "optimization.spec.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "retained copy renders actual bytes and blinded poster audit measures features",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20624,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:49:56.367Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "405024bbc4c170b32af4-42537ce00bdf67c5776b",
+          "file": "optimization.spec.ts",
+          "line": 77,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "posters.spec.ts",
+      "file": "posters.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "actual persisted poster bytes at all sizes, UI preview identity and reuse",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 150000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 33138,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('region', { name: 'The same pixels, from preview to file' }).getByRole('link', { name: 'Download draft PNG' })\nExpected: \u001b[32m3\u001b[39m\nReceived: \u001b[31m0\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'The same pixels, from preview to file' }).getByRole('link', { name: 'Download draft PNG' })\u001b[22m\n\u001b[2m    9 × locator resolved to 0 elements\u001b[22m\n\u001b[2m      - unexpected value \"0\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('region', { name: 'The same pixels, from preview to file' }).getByRole('link', { name: 'Download draft PNG' })\nExpected: \u001b[32m3\u001b[39m\nReceived: \u001b[31m0\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'The same pixels, from preview to file' }).getByRole('link', { name: 'Download draft PNG' })\u001b[22m\n\u001b[2m    9 × locator resolved to 0 elements\u001b[22m\n\u001b[2m      - unexpected value \"0\"\u001b[22m\n\n    at D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\posters.spec.ts:92:94",
+                    "location": {
+                      "file": "D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\posters.spec.ts",
+                      "column": 94,
+                      "line": 92
+                    },
+                    "snippet": "  90 |   }\n  91 |   expect((await (await request.get(`${base}/cost`)).json()).calls).toBe(before.calls);\n> 92 |   await page.reload(); await expect(panel.getByRole(\"link\", { name: \"Download draft PNG\" })).toHaveCount(3);\n     |                                                                                              ^\n  93 |   await panel.screenshot({ path: \"../docs/evidence/redesign-regression-regression-b4-posters-desktop.png\" });\n  94 |   await page.setViewportSize({ width: 390, height: 844 });\n  95 |   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\posters.spec.ts",
+                        "column": 94,
+                        "line": 92
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('region', { name: 'The same pixels, from preview to file' }).getByRole('link', { name: 'Download draft PNG' })\nExpected: \u001b[32m3\u001b[39m\nReceived: \u001b[31m0\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'The same pixels, from preview to file' }).getByRole('link', { name: 'Download draft PNG' })\u001b[22m\n\u001b[2m    9 × locator resolved to 0 elements\u001b[22m\n\u001b[2m      - unexpected value \"0\"\u001b[22m\n\n\n  90 |   }\n  91 |   expect((await (await request.get(`${base}/cost`)).json()).calls).toBe(before.calls);\n> 92 |   await page.reload(); await expect(panel.getByRole(\"link\", { name: \"Download draft PNG\" })).toHaveCount(3);\n     |                                                                                              ^\n  93 |   await panel.screenshot({ path: \"../docs/evidence/redesign-regression-regression-b4-posters-desktop.png\" });\n  94 |   await page.setViewportSize({ width: 390, height: 844 });\n  95 |   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);\n    at D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\posters.spec.ts:92:94"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:50:17.029Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\HR2-AI-FB38B877-main\\frontend\\test-results\\posters-actual-persisted-p-bc215--preview-identity-and-reuse\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\posters.spec.ts",
+                    "column": 94,
+                    "line": 92
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "b8031d14931e7cb38b99-b06cec9fad13659823a8",
+          "file": "posters.spec.ts",
+          "line": 47,
+          "column": 5
+        },
+        {
+          "title": "grapheme wrapping preserves long Kannada and offer forms in actual PNGs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "parallelIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:51:18.466Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "b8031d14931e7cb38b99-3c4eb6edebdf44a41bcc",
+          "file": "posters.spec.ts",
+          "line": 100,
+          "column": 5
+        },
+        {
+          "title": "slow font waits, missing font blocks and cross-origin URLs are rejected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "parallelIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:51:18.467Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "b8031d14931e7cb38b99-dd955b4244b9df03f2e2",
+          "file": "posters.spec.ts",
+          "line": 121,
+          "column": 5
+        },
+        {
+          "title": "reviewed PNG logo is placed inside safe areas; missing and SVG logos block",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "parallelIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:51:18.467Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "b8031d14931e7cb38b99-b7d0070ff4b4dffe0e78",
+          "file": "posters.spec.ts",
+          "line": 143,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "workflow.spec.ts",
+      "file": "workflow.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "durable generate survives page closure, reconnect, owner approval and explicit saved view",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 14054,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('navigation', { name: 'Campaign workflow' }).getByRole('button')\nExpected: \u001b[32m8\u001b[39m\nReceived: \u001b[31m9\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('navigation', { name: 'Campaign workflow' }).getByRole('button')\u001b[22m\n\u001b[2m    8 × locator resolved to 9 elements\u001b[22m\n\u001b[2m      - unexpected value \"9\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('navigation', { name: 'Campaign workflow' }).getByRole('button')\nExpected: \u001b[32m8\u001b[39m\nReceived: \u001b[31m9\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('navigation', { name: 'Campaign workflow' }).getByRole('button')\u001b[22m\n\u001b[2m    8 × locator resolved to 9 elements\u001b[22m\n\u001b[2m      - unexpected value \"9\"\u001b[22m\n\n    at D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\workflow.spec.ts:20:97",
+                    "location": {
+                      "file": "D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\workflow.spec.ts",
+                      "column": 97,
+                      "line": 20
+                    },
+                    "snippet": "  18 |   expect(response.ok()).toBeTruthy(); campaign = await response.json();\n  19 |   await page.goto(`/?campaign=${campaign.id}`);\n> 20 |   await expect(page.getByRole(\"navigation\", { name: \"Campaign workflow\" }).getByRole(\"button\")).toHaveCount(8);\n     |                                                                                                 ^\n  21 |   const stageIds=[\"speak-type\",\"facts-lock\",\"brand-strategy\",\"campaign-matrix\",\"prediction\",\"guardian\",\"ledger-changes\",\"approve-export\"];\n  22 |   for(const id of stageIds){await stage(page,id);}\n  23 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\workflow.spec.ts",
+                        "column": 97,
+                        "line": 20
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('navigation', { name: 'Campaign workflow' }).getByRole('button')\nExpected: \u001b[32m8\u001b[39m\nReceived: \u001b[31m9\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('navigation', { name: 'Campaign workflow' }).getByRole('button')\u001b[22m\n\u001b[2m    8 × locator resolved to 9 elements\u001b[22m\n\u001b[2m      - unexpected value \"9\"\u001b[22m\n\n\n  18 |   expect(response.ok()).toBeTruthy(); campaign = await response.json();\n  19 |   await page.goto(`/?campaign=${campaign.id}`);\n> 20 |   await expect(page.getByRole(\"navigation\", { name: \"Campaign workflow\" }).getByRole(\"button\")).toHaveCount(8);\n     |                                                                                                 ^\n  21 |   const stageIds=[\"speak-type\",\"facts-lock\",\"brand-strategy\",\"campaign-matrix\",\"prediction\",\"guardian\",\"ledger-changes\",\"approve-export\"];\n  22 |   for(const id of stageIds){await stage(page,id);}\n  23 |\n    at D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\workflow.spec.ts:20:97"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:51:19.115Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\HR2-AI-FB38B877-main\\frontend\\test-results\\workflow-durable-generate--d34cd-val-and-explicit-saved-view\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\HR2-AI-FB38B877-main\\frontend\\e2e\\workflow.spec.ts",
+                    "column": 97,
+                    "line": 20
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c601ceb5ecfc8efa4a14-b58a812e3f1a8c2d937a",
+          "file": "workflow.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "microphone permission denial leaves editable text and accessible navigation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1895,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:51:47.978Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c601ceb5ecfc8efa4a14-e99b74eb8013551415a4",
+          "file": "workflow.spec.ts",
+          "line": 85,
+          "column": 5
+        },
+        {
+          "title": "backend unavailable is an error with actionable reconnection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1106,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:51:50.336Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c601ceb5ecfc8efa4a14-8cc3aa46cf1ef4c32073",
+          "file": "workflow.spec.ts",
+          "line": 107,
+          "column": 5
+        },
+        {
+          "title": "owner cancellation stays terminal and explicit retry finishes only new work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 24044,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:51:51.472Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c601ceb5ecfc8efa4a14-49ab71578427aaf2029d",
+          "file": "workflow.spec.ts",
+          "line": 118,
+          "column": 5
+        },
+        {
+          "title": "reopened pending fact extraction refreshes editable facts without a second job",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14944,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T04:52:15.537Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c601ceb5ecfc8efa4a14-0292a6ee4057c5680ca4",
+          "file": "workflow.spec.ts",
+          "line": 149,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-09T04:45:21.485Z",
+    "duration": 429275.7,
+    "expected": 10,
+    "skipped": 3,
+    "unexpected": 4,
+    "flaky": 0
+  }
+}

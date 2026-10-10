@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A simple Namma Café demo website with a sample menu, opening hours and location.">
+  <meta name="color-scheme" content="light">
+  <title>Namma Café · Demo website</title>
+  <style>
+    :root { --paper:#faf8f2; --ink:#253b31; --muted:#59645d; --line:#d9ddd3; --accent:#805131; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    a { color:inherit; text-underline-offset:4px; }
+    a:focus-visible { outline:3px solid var(--accent); outline-offset:5px; }
+    .wrap { width:min(100% - 40px,1040px); margin-inline:auto; }
+    .demo { margin:0; padding:8px 20px; text-align:center; font-size:12px; background:#e9ede3; color:#3f5045; }
+    .skip { position:absolute; top:0; left:-10000px; padding:12px; background:white; }
+    .skip:focus { left:12px; z-index:2; }
+    header { border-bottom:1px solid var(--line); }
+    .header-inner { min-height:98px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .brand { display:flex; align-items:center; gap:12px; text-decoration:none; }
+    .logo { width:48px; height:48px; flex-shrink:0; }
+    .brand strong { display:block; font-family:Georgia,serif; font-size:24px; letter-spacing:-.5px; }
+    .brand small { display:block; color:var(--muted); font-size:11px; letter-spacing:2px; text-transform:uppercase; }
+    nav { display:flex; flex-wrap:wrap; gap:26px; font-size:14px; }
+    nav a { text-decoration:none; padding:10px 0; }
+    nav a:hover { text-decoration:underline; }
+    .hero { padding:76px 0 72px; max-width:800px; }
+    .eyebrow { margin:0 0 14px; color:var(--accent); font-size:12px; font-weight:650; letter-spacing:2px; text-transform:uppercase; }
+    h1,h2,h3 { font-family:Georgia,"Times New Roman",serif; font-weight:400; line-height:1.15; }
+    h1 { margin:0 0 22px; font-size:clamp(42px,7vw,72px); letter-spacing:-2px; }
+    .intro { max-width:530px; margin:0 0 28px; color:var(--muted); font-size:18px; }
+    .button { display:inline-block; padding:12px 24px; background:var(--ink); color:white; text-decoration:none; border-radius:3px; font-size:14px; }
+    .button:hover { background:#3b5145; }
+    section { padding:52px 0; border-top:1px solid var(--line); scroll-margin-top:24px; }
+    .section-head { display:flex; justify-content:space-between; align-items:baseline; gap:20px; margin-bottom:32px; }
+    h2 { font-size:36px; margin:0; letter-spacing:-.6px; }
+    .note { font-size:13px; color:var(--muted); margin:0; }
+    .menu-grid { display:grid; grid-template-columns:1fr 1fr; gap:70px; }
+    h3 { margin:0 0 18px; font-size:25px; }
+    .menu { margin:0; padding:0; list-style:none; }
+    .menu li { padding:16px 0; border-bottom:1px solid var(--line); }
+    .menu li:first-child { padding-top:0; }
+    .menu-row { display:flex; justify-content:space-between; gap:18px; font-weight:600; }
+    .price { white-space:nowrap; font-variant-numeric:tabular-nums; }
+    .menu p { margin:3px 0 0; color:var(--muted); font-size:14px; }
+    .about { display:grid; grid-template-columns:1fr 1.7fr; gap:60px; }
+    .about p { margin:0; max-width:620px; color:var(--muted); }
+    .visit-grid { display:grid; grid-template-columns:1fr 1fr; gap:70px; margin-top:32px; }
+    address { font-style:normal; margin-bottom:18px; }
+    address span { display:block; color:var(--muted); }
+    .hours { margin:0; }
+    .hours div { display:flex; justify-content:space-between; gap:20px; padding:10px 0; border-bottom:1px solid var(--line); }
+    .hours dt,.hours dd { margin:0; }
+    .hours dd { white-space:nowrap; color:var(--muted); }
+    .location-link { font-size:14px; }
+    footer { padding:26px 0; border-top:1px solid var(--line); }
+    .footer-inner { display:flex; justify-content:space-between; gap:24px; font-size:12px; color:var(--muted); }
+    footer p { margin:0; }
+    @media(max-width:640px) {
+      .header-inner { padding:20px 0; flex-direction:column; align-items:flex-start; gap:12px; }
+      nav { gap:28px; }
+      .hero { padding:48px 0; }
+      h1 { letter-spacing:-1.3px; }
+      section { padding:38px 0; }
+      .section-head { display:block; }
+      .section-head .note { margin-top:10px; }
+      .menu-grid,.about,.visit-grid { grid-template-columns:1fr; gap:30px; }
+      .footer-inner { flex-direction:column; gap:8px; }
+    }
+    @media print { .demo { background:none; } .button,nav,.skip { display:none; } .hero,section { padding-block:24px; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <p class="demo">DEMO WEBSITE · Sample café details, menu prices and opening hours</p>
+  <header>
+    <div class="wrap header-inner">
+      <a class="brand" href="#main" aria-label="Namma Café home">
+        <svg class="logo" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Namma Café coffee cup logo">
+          <rect width="48" height="48" rx="24" fill="#253b31"/>
+          <path d="M13 20h19v7a8 8 0 0 1-8 8h-3a8 8 0 0 1-8-8z" fill="none" stroke="#faf8f2" stroke-width="2"/>
+          <path d="M32 22h3a4 4 0 0 1 0 8h-4M12 38h22M20 10v5M26 9v6" fill="none" stroke="#faf8f2" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span><strong>Namma Café</strong><small>Coffee &amp; conversations</small></span>
+      </a>
+      <nav aria-label="Main navigation"><a href="#menu">Menu</a><a href="#about">About</a><a href="#visit">Visit us</a></nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <div class="hero">
+      <p class="eyebrow">Namma Café · Bengaluru</p>
+      <h1>A little time<br>for coffee.</h1>
+      <p class="intro">A cup for yourself. A conversation with a friend.<br>Make a little room in your day.</p>
+      <a class="button" href="#menu">Explore the menu</a>
+    </div>
+    <section id="menu" aria-labelledby="menu-heading">
+      <div class="section-head"><h2 id="menu-heading">On the menu</h2><p class="note">Illustrative menu · Prices in Indian rupees</p></div>
+      <div class="menu-grid">
+        <div><h3>Coffee &amp; tea</h3><ul class="menu">
+          <li><div class="menu-row"><span>Filter coffee</span><span class="price">₹60</span></div><p>A classic coffee with milk.</p></li>
+          <li><div class="menu-row"><span>Americano</span><span class="price">₹80</span></div><p>Espresso and hot water.</p></li>
+          <li><div class="menu-row"><span>Café latte</span><span class="price">₹120</span></div><p>Espresso with steamed milk.</p></li>
+          <li><div class="menu-row"><span>Masala chai</span><span class="price">₹40</span></div><p>Milk tea with warming spices.</p></li>
+        </ul></div>
+        <div><h3>A little something</h3><ul class="menu">
+          <li><div class="menu-row"><span>Vegetable sandwich</span><span class="price">₹100</span></div><p>A simple vegetable-filled sandwich.</p></li>
+          <li><div class="menu-row"><span>Chocolate brownie</span><span class="price">₹90</span></div><p>A chocolate treat for your coffee break.</p></li>
+          <li><div class="menu-row"><span>Butter toast</span><span class="price">₹50</span></div><p>Toasted bread with butter.</p></li>
+        </ul></div>
+      </div>
+    </section>
+    <section id="about" class="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">Hello from<br>Namma Café.</h2>
+      <p>This sample café page brings the essentials together: a recognisable logo, an easy-to-read menu and the details you need to plan a visit. In an owner’s website, this space introduces their café in their own words.</p>
+    </section>
+    <section id="visit" aria-labelledby="visit-heading">
+      <h2 id="visit-heading">Find your way here</h2>
+      <div class="visit-grid">
+        <div><h3>Location</h3><address><strong>Bengaluru, Karnataka</strong><span>Sample city location, India</span></address><p class="note">An exact café address has not been supplied for this demo.</p><p><a class="location-link" href="https://www.google.com/maps/search/?api=1&amp;query=Bengaluru%2C%20Karnataka" target="_blank" rel="noopener noreferrer">View Bengaluru on Google Maps (opens a new tab)</a></p></div>
+        <div><h3>Opening hours</h3><dl class="hours"><div><dt>Monday–Friday</dt><dd>9:00 am–8:00 pm</dd></div><div><dt>Saturday–Sunday</dt><dd>9:00 am–9:00 pm</dd></div></dl><p class="note" style="margin-top:12px">Sample hours for demonstration only.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap footer-inner"><p>Namma Café · Website generator demo</p><p>Illustrative content. This is not a real business listing.</p></div></footer>
+</body>
+</html>

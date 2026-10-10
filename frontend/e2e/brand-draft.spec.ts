@@ -1,0 +1,25 @@
+import {test,expect} from "@playwright/test";
+import {stage} from "./navigation";
+test("owner brand preferences save through the existing draft API and unsaved edits survive navigation",async({page,request})=>{
+  test.setTimeout(60000);
+  const root="http://127.0.0.1:8000/api/campaigns";
+  let campaign=await (await request.post(root,{data:{languages:["en"],channels:["whatsapp"]}})).json();
+  const base=`${root}/${campaign.id}`;
+  const extracted=await request.post(`${base}/intent`,{data:{expected_revision:campaign.revision,transcript:"Café name: Namma Cafe. Bengaluru. 20 percent off coffee this weekend. Open to all."}});
+  expect(extracted.ok()).toBeTruthy();campaign=await extracted.json();
+  await page.goto(`/?campaign=${campaign.id}`);await stage(page,"facts-lock");
+  await page.getByText("Brand kit · edit before locking",{exact:true}).click();
+  await page.getByLabel("Creative theme",{exact:true}).fill("shared pause");
+  await page.getByLabel("Brand colors (one color per line)",{exact:true}).fill("#213A2F\n#B5603A");
+  await page.getByLabel("Add or edit restrictions (one per line)",{exact:true}).fill("best coffee\nfree cake");
+  await page.getByRole("button",{name:"Remove restriction: free cake",exact:true}).click();
+  const saved=page.waitForResponse(r=>r.url().endsWith("/facts/draft") && r.request().method()==="PUT");
+  await page.getByRole("button",{name:"Save editable facts",exact:true}).click();
+  const response=await saved;expect(response.ok()).toBeTruthy();const current=await response.json();
+  expect(current.brand.colors).toEqual(["#213A2F","#B5603A"]);expect(current.brand.must_not_say).toEqual(["best coffee"]);expect(current.brand.theme).toBe("shared pause");
+  expect(current.facts.find((f:{key:string})=>f.key==="OFFER").canonical.value).toBe(20);
+  await page.getByLabel("Creative theme",{exact:true}).fill("personal ritual");
+  await stage(page,"speak-type");await stage(page,"facts-lock");
+  await expect(page.getByLabel("Creative theme",{exact:true})).toHaveValue("personal ritual");
+  expect((await (await request.get(base)).json()).brand.theme).toBe("shared pause");
+});

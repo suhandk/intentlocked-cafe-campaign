@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-10-09T13:29:36.765417+00:00",
+  "operation": "authenticated_model_inventory",
+  "inference_calls": 0,
+  "http_status": 200,
+  "video_models": [
+    {
+      "id": "agnes-video-2.5-flash",
+      "owned_by": "custom"
+    },
+    {
+      "id": "agnes-video-2.5",
+      "owned_by": "custom"
+    }
+  ]
+}

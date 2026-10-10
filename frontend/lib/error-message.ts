@@ -1,0 +1,1 @@
+export function errorMessage(data:{message?:string;code?:string;trace_id?:string},fallback:string) {return `${data.message ?? fallback}${data.code ? ` · code ${data.code}` : ""}${data.trace_id ? ` · trace_id ${data.trace_id}` : ""}`;}

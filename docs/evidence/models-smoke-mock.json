@@ -1,0 +1,127 @@
+{
+  "timestamp": "2026-10-09T17:24:29.487074+00:00",
+  "mode": "mock",
+  "schema_version": "b0.1",
+  "provider": "kRouter",
+  "capabilities": [
+    {
+      "capability": "text",
+      "model": "ollama/gpt-oss:120b",
+      "status": "MOCK_PASSED",
+      "details": {
+        "nonempty_text": true,
+        "response_text_omitted": true
+      }
+    },
+    {
+      "capability": "structured_tools",
+      "model": "ollama/gpt-oss:120b",
+      "status": "MOCK_PASSED",
+      "details": {
+        "strategy": "tools",
+        "validated": true
+      }
+    },
+    {
+      "capability": "local_truncation_rejection",
+      "status": "LOCAL_PASSED"
+    },
+    {
+      "capability": "image_1k_download",
+      "model": "nb/nanobanana-flash",
+      "status": "MOCK_PASSED",
+      "details": {
+        "filename": "9c5dba47227545b19d66392b3c5eb6f1.png",
+        "sha256": "2962bb20817bf5b765507bae1a8d91feb2d838e87eb3ff0de409d191d107fce0",
+        "bytes": 5339,
+        "width": 1024,
+        "height": 1024,
+        "mime": "image/png"
+      }
+    },
+    {
+      "capability": "public_image_vision",
+      "status": "UNSUPPORTED",
+      "reason": "Selected GPT-OSS model is text-only; mock fixtures are simulations."
+    },
+    {
+      "capability": "video",
+      "status": "UNSUPPORTED",
+      "reason": "No video model is configured"
+    },
+    {
+      "capability": "usage",
+      "status": "MOCK_PASSED",
+      "returned_usage_calls": 2,
+      "unknown_usage_calls": 1
+    }
+  ],
+  "calls": [
+    {
+      "id": "8eb8729c3425487aa244288ec3febe2c",
+      "trace_id": "138dc4fe25b240ac9d227f20a74c5baa",
+      "run_id": "f6ea40e26372451e91b8c0c560e2b233",
+      "work_id": null,
+      "timestamp": "2026-10-09T17:24:29.487074+00:00",
+      "mode": "mock",
+      "model": "ollama/gpt-oss:120b",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.13909998233430088,
+      "duration_ms": 1.445600006263703,
+      "usage": {
+        "prompt_tokens": 12,
+        "completion_tokens": 6,
+        "total_tokens": 18
+      },
+      "list_price_estimate_usd": null
+    },
+    {
+      "id": "c03dfe9a38524fd8952fc627c7aa3d8c",
+      "trace_id": "ec949d026fc34cc7b24df969e67e2a5d",
+      "run_id": "f6ea40e26372451e91b8c0c560e2b233",
+      "work_id": null,
+      "timestamp": "2026-10-09T17:24:36.986053+00:00",
+      "mode": "mock",
+      "model": "ollama/gpt-oss:120b",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 7496.234899997944,
+      "duration_ms": 1.795999996829778,
+      "usage": {
+        "prompt_tokens": 20,
+        "completion_tokens": 8,
+        "total_tokens": 28
+      },
+      "list_price_estimate_usd": null
+    },
+    {
+      "id": "109295642631419dbb20f9e7c4c2d435",
+      "trace_id": "5abe739a65fe41fbac4e9d685bf9196f",
+      "run_id": "f6ea40e26372451e91b8c0c560e2b233",
+      "work_id": null,
+      "timestamp": "2026-10-09T17:24:36.986053+00:00",
+      "mode": "mock",
+      "model": "nb/nanobanana-flash",
+      "operation": "image",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.08379999781027436,
+      "duration_ms": 1.3046000094618648,
+      "usage": null,
+      "list_price_estimate_usd": null
+    }
+  ],
+  "authenticated_status": "NOT_TESTED"
+}

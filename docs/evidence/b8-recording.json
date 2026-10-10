@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-09T04:01:42.905303+00:00",
+  "status": "RECORDED",
+  "mode": "MOCK",
+  "scope": "Actual automated English owner-change, form review, approved export and Guardian blocking integration test; not a full live/multilingual rehearsal",
+  "file": "docs\\evidence\\b8-backup-MOCK.webm",
+  "sha256": "23847fc13f623e2c137c473d2cc7c1b689209e43cad9899729b0e7febd609091",
+  "bytes": 3680941,
+  "playback_probe": "PASS",
+  "source_test": "delivery.spec.ts",
+  "human_native_signoff": "NOT_PERFORMED",
+  "live_rehearsals_completed": 0
+}

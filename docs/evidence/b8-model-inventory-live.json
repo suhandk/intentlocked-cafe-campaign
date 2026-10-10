@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-09T02:46:20.842294+00:00",
+  "provider": "Agnes",
+  "operation": "authenticated_model_inventory",
+  "inference_calls": 0,
+  "key_contents_emitted": false,
+  "http_status": 200,
+  "status": "VERIFIED",
+  "configured_models_listed": {
+    "agnes-3.0-flash": true,
+    "agnes-image-2.5-flash": true
+  }
+}

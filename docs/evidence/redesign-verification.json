@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-10-09",
+  "scope": "frontend redesign only",
+  "mode": "MOCK / explicitly saved MOCK-origin output",
+  "typecheck": "PASS / exit 0",
+  "lint": "PASS / exit 0",
+  "production_build": "PASS / exit 0",
+  "clean_install": "387 packages, npm ci --ignore-scripts; clean typecheck/lint/build PASS",
+  "original_regressions": "PASS / 17 original tests in full 18-test run; extra screenshot test label mismatch fixed and passed in targeted recheck",
+  "targeted_final": "PASS / 3 tests in 1.2 minutes (brand draft, matrix recheck, responsive review)",
+  "lighthouse": {
+    "redesign-lighthouse-approve-export.json": 100,
+    "redesign-lighthouse-brand-strategy.json": 100,
+    "redesign-lighthouse-campaign-matrix.json": 100,
+    "redesign-lighthouse-facts-final.json": 100,
+    "redesign-lighthouse-guardian.json": 100,
+    "redesign-lighthouse-ledger-changes.json": 100,
+    "redesign-lighthouse-prediction.json": 100,
+    "redesign-lighthouse-speak-type.json": 100,
+    "redesign-lighthouse-welcome-final.json": 100
+  },
+  "backend_scripts_tracked_diff_unchanged": true,
+  "frontend_secret_scan": "PASS / 142 files / configured key not emitted",
+  "repository_secret_scan": "PASS / 561 files / actual configured key and defined patterns; private .env excluded",
+  "locks": {
+    "frontend/package-lock.json": "2bb8401c790b2bbb5d40585308089d13fb0a1f3e8bf36bd47b1119dbc3c83f6e",
+    "uv.lock": "f90c7036c67bc8648bb6582f4d983c21f9e0a8fd1e4bf442c05f637364876212"
+  },
+  "manual": "Native Kannada/speech/hotspot/P1 pending; no human sign-off; live R1/R2 issue unchanged",
+  "unique_browser_cases_passed": 19,
+  "screenshots": "Eight stages + modal + trace at 1440/820/390; captured actual mock-origin outputs",
+  "visual_observations": "Desktop and mobile screenshots and actual exported Kannada square PNG inspected; no native semantic sign-off"
+}

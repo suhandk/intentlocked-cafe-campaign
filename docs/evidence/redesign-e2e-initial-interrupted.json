@@ -1,0 +1,10 @@
+{
+  "status": "INTERRUPTED_FOR_FIXES",
+  "mode": "MOCK",
+  "observed_passed": 3,
+  "observed_failed": 5,
+  "serial_skipped": 4,
+  "remaining_not_completed": 5,
+  "reason": "Navigation rollback and outdated inline selectors; stopped after first poster failure. Later runs are recorded separately.",
+  "live_inference": false
+}

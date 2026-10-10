@@ -1,0 +1,5062 @@
+{
+  "captured_at": "2026-10-09T07:27:32.200168+00:00",
+  "mode": "live",
+  "provider": "Agnes",
+  "structured_strategy": "tools",
+  "scenario": "Hypothetical integration test, not a real business campaign",
+  "owner_actions": "SIMULATED_TEST_OPERATOR",
+  "human_signoff": "PENDING",
+  "native_review": "PENDING",
+  "stages": {
+    "R1": "PASS",
+    "R2": "PASS",
+    "test_lock": "PASS_SIMULATED_OWNER",
+    "R3": "PASS",
+    "R4_matrix": {
+      "status": "partial",
+      "ready": 9,
+      "total": 27
+    }
+  },
+  "R1_source": "Persisted genuine live proposal from earlier capture",
+  "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+  "campaign": {
+    "id": "e0163b2ee5824f9aaeedcee02796168a",
+    "revision": 6,
+    "status": "locked",
+    "mode": "live",
+    "languages": [
+      "en",
+      "kn",
+      "kn-Latn"
+    ],
+    "channels": [
+      "instagram",
+      "whatsapp",
+      "facebook"
+    ],
+    "target_audiences": [
+      "Students"
+    ],
+    "transcript": "Café name: Namma Cafe. Bengaluru alli coffee mele 20% off ee weekend. Students ge focus maadona. Offer ellarigu, open to all. Students are the marketing target, not an eligibility restriction.",
+    "facts": [
+      {
+        "key": "CAFE",
+        "canonical": {
+          "kind": "text",
+          "value": "Namma Cafe"
+        },
+        "version": 4,
+        "status": "locked",
+        "source_span": {
+          "start": 0,
+          "end": 22,
+          "quote": "Café name: Namma Cafe."
+        },
+        "source": "R1",
+        "surface": {
+          "en": {
+            "nom": [
+              "Namma Cafe"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "ನಮ್ಮ ಕಫೆ"
+            ],
+            "dat": [
+              "ನಮ್ಮ ಕಫೆಗೆ"
+            ],
+            "gen": [
+              "ನಮ್ಮ ಕಫೆಯ"
+            ],
+            "loc": [
+              "ನಮ್ಮ ಕಫೆಗೆ"
+            ]
+          },
+          "kn-Latn": {
+            "nom": [
+              "Namma Kafe"
+            ],
+            "dat": [
+              "Namma Kafege"
+            ],
+            "gen": [
+              "Namma Kafey"
+            ],
+            "loc": [
+              "Namma Kafege"
+            ]
+          }
+        },
+        "canonical_hash": "7b65cb11f4a45f75922f90cf253ab5be5624f0da46a08ab499e5ff82c050def7",
+        "approved_at": "2026-10-09T06:36:20.734459+00:00",
+        "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+      },
+      {
+        "key": "LOCATION",
+        "canonical": {
+          "kind": "text",
+          "value": "Bengaluru"
+        },
+        "version": 4,
+        "status": "locked",
+        "source_span": {
+          "start": 22,
+          "end": 69,
+          "quote": " Bengaluru alli coffee mele 20% off ee weekend."
+        },
+        "source": "R1",
+        "surface": {
+          "en": {
+            "nom": [
+              "Bengaluru"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "ಬೆಂಗಳೂರು"
+            ],
+            "dat": [
+              "ಬೆಂಗಳೂರಿಗೆ"
+            ],
+            "gen": [
+              "ಬೆಂಗಳೂರಿನ"
+            ],
+            "loc": [
+              "ಬೆಂಗಳೂರಲ್ಲಿ"
+            ]
+          },
+          "kn-Latn": {
+            "nom": [
+              "Bengaluru"
+            ],
+            "dat": [
+              "Bengaluruige"
+            ],
+            "gen": [
+              "Bengaluruina"
+            ],
+            "loc": [
+              "Bengalurulli"
+            ]
+          }
+        },
+        "canonical_hash": "de4c06030f4f532cc1cd7f757bea1f4a0230c0181223a9d9b358926d00c8ed4a",
+        "approved_at": "2026-10-09T06:36:20.734459+00:00",
+        "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+      },
+      {
+        "key": "OFFER",
+        "canonical": {
+          "kind": "percent_off",
+          "value": 20.0,
+          "unit": "percent"
+        },
+        "version": 4,
+        "status": "locked",
+        "source_span": {
+          "start": 22,
+          "end": 69,
+          "quote": " Bengaluru alli coffee mele 20% off ee weekend."
+        },
+        "source": "R1",
+        "surface": {
+          "en": {
+            "nom": [
+              "20% off"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "20% ರಿಯಾಯಿತಿ"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn-Latn": {
+            "nom": [
+              "20% riyayiti"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          }
+        },
+        "canonical_hash": "ebdf5ce45b6a0d971ee7651a875bd319f293b71c932ba92bbf7618446e5a03e3",
+        "approved_at": "2026-10-09T06:36:20.734459+00:00",
+        "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+      },
+      {
+        "key": "PRODUCT",
+        "canonical": {
+          "kind": "text",
+          "value": "coffee"
+        },
+        "version": 4,
+        "status": "locked",
+        "source_span": {
+          "start": 22,
+          "end": 69,
+          "quote": " Bengaluru alli coffee mele 20% off ee weekend."
+        },
+        "source": "R1",
+        "surface": {
+          "en": {
+            "nom": [
+              "coffee"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "ಕಾಫಿ"
+            ],
+            "dat": [
+              "ಕಾಫಿಗೆ"
+            ],
+            "gen": [
+              "ಕಾಫಿಯ"
+            ],
+            "loc": [
+              "ಕಾಫಿಲ್ಲಿ"
+            ]
+          },
+          "kn-Latn": {
+            "nom": [
+              "Kafi"
+            ],
+            "dat": [
+              "Kafiige"
+            ],
+            "gen": [
+              "Kafiya"
+            ],
+            "loc": [
+              "Kafilli"
+            ]
+          }
+        },
+        "canonical_hash": "a3085ac0dadb0ab1d4a88030b832e18c2532edd7884c252cfee17541a8977de6",
+        "approved_at": "2026-10-09T06:36:20.734459+00:00",
+        "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+      },
+      {
+        "key": "DAYS",
+        "canonical": {
+          "kind": "days",
+          "weekdays": [
+            "SAT",
+            "SUN"
+          ]
+        },
+        "version": 4,
+        "status": "locked",
+        "source_span": {
+          "start": 22,
+          "end": 69,
+          "quote": " Bengaluru alli coffee mele 20% off ee weekend."
+        },
+        "source": "derived",
+        "surface": {
+          "en": {
+            "nom": [
+              "Saturday / Sunday"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "ಶನಿವಾರ / ಭಾನುವಾರ"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn-Latn": {
+            "nom": [
+              "Shanivara / Bhanuvara"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          }
+        },
+        "canonical_hash": "38afaceecb9070a29830e0ce0ad06e1020c5d6bb1454a55f1dee999078049cf7",
+        "approved_at": "2026-10-09T06:36:20.734459+00:00",
+        "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+      },
+      {
+        "key": "DATES",
+        "canonical": {
+          "kind": "dates",
+          "start": "2026-10-10",
+          "end": "2026-10-11",
+          "original_phrase": "ee weekend",
+          "timezone": "Asia/Kolkata"
+        },
+        "version": 4,
+        "status": "locked",
+        "source_span": {
+          "start": 22,
+          "end": 69,
+          "quote": " Bengaluru alli coffee mele 20% off ee weekend."
+        },
+        "source": "R1",
+        "surface": {
+          "en": {
+            "nom": [
+              "2026-10-10 to 2026-10-11"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "2026-10-10 to 2026-10-11"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn-Latn": {
+            "nom": [
+              "2026-10-10 to 2026-10-11"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          }
+        },
+        "canonical_hash": "7b7b6f52ecb76fdad24eb4794b46bc246e2317d72ad7b55e770e921663487605",
+        "approved_at": "2026-10-09T06:36:20.734459+00:00",
+        "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+      },
+      {
+        "key": "ELIGIBILITY",
+        "canonical": {
+          "kind": "eligibility",
+          "scope": "all",
+          "description": ""
+        },
+        "version": 4,
+        "status": "locked",
+        "source_span": {
+          "start": 96,
+          "end": 125,
+          "quote": " Offer ellarigu, open to all."
+        },
+        "source": "R1",
+        "surface": {
+          "en": {
+            "nom": [
+              "Open to all"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "ಎಲ್ಲರಿಗೂ"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn-Latn": {
+            "nom": [
+              "ellarigu"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          }
+        },
+        "canonical_hash": "26f9eff5fc2fbfac7fb9c19f5842f96e43a48ee858ae3f28c035cdbdf345a8a6",
+        "approved_at": "2026-10-09T06:36:20.734459+00:00",
+        "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+      },
+      {
+        "key": "ID_RULE",
+        "canonical": null,
+        "version": 2,
+        "status": "not_specified",
+        "source_span": null,
+        "source": "unspecified",
+        "surface": {},
+        "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "TIME_WINDOW",
+        "canonical": null,
+        "version": 2,
+        "status": "not_specified",
+        "source_span": null,
+        "source": "unspecified",
+        "surface": {},
+        "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "DINE_IN_RULE",
+        "canonical": null,
+        "version": 2,
+        "status": "not_specified",
+        "source_span": null,
+        "source": "unspecified",
+        "surface": {},
+        "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "MIN_PURCHASE_RULE",
+        "canonical": null,
+        "version": 2,
+        "status": "not_specified",
+        "source_span": null,
+        "source": "unspecified",
+        "surface": {},
+        "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "COMBINE_RULE",
+        "canonical": null,
+        "version": 2,
+        "status": "not_specified",
+        "source_span": null,
+        "source": "unspecified",
+        "surface": {},
+        "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "approved_at": null,
+        "approval_id": null
+      }
+    ],
+    "brand": {
+      "colors": [],
+      "tone": "",
+      "theme": "",
+      "must_say": [],
+      "must_not_say": []
+    },
+    "brand_revision": 1,
+    "warnings": [
+      {
+        "id": "r2_166463668309",
+        "message": "Kannada inflections for CAFE, LOCATION, and PRODUCT dat/gen/loc are approximate and may require owner validation."
+      },
+      {
+        "id": "r2_3ad266b9cac6",
+        "message": "Romajiization (kn-Latn) uses phonetic approximation and may vary by reader; owner approval is recommended before locking."
+      },
+      {
+        "id": "native_review",
+        "message": "Kannada/Kanglish has not been reviewed by a native speaker. Review each proposed spelling and case form. Human language review remains a separate release gate."
+      }
+    ],
+    "clarifications": [
+      {
+        "key": "ID_RULE",
+        "question": "Is an ID required? Leave unknown unless decided.",
+        "required": false
+      },
+      {
+        "key": "TIME_WINDOW",
+        "question": "Any daily time window?",
+        "required": false
+      },
+      {
+        "key": "DINE_IN_RULE",
+        "question": "Any dine-in or takeaway restriction?",
+        "required": false
+      },
+      {
+        "key": "MIN_PURCHASE_RULE",
+        "question": "Any minimum purchase?",
+        "required": false
+      },
+      {
+        "key": "COMBINE_RULE",
+        "question": "Can this combine with other offers?",
+        "required": false
+      }
+    ],
+    "agent_questions": [],
+    "acknowledged_warning_ids": [
+      "r2_166463668309",
+      "r2_3ad266b9cac6",
+      "native_review"
+    ],
+    "reference_date": "2026-10-09",
+    "timezone": "Asia/Kolkata",
+    "demo_clock": false,
+    "fact_hash": "0c090ecf7d5629842d6e8360f69cb4515d7a6f53afbe23bfc91153d8bcb2f7bd",
+    "approved_at": "2026-10-09T06:36:20.734459+00:00",
+    "native_review": "NOT_REVIEWED",
+    "prompt_version": "b1.1"
+  },
+  "elapsed_seconds": 433.66,
+  "calls": [
+    {
+      "id": "36f1eb34164a454c83360c11dbaa0b9c",
+      "trace_id": "2980d0f9263b4e9c9c758c779c5dc3e6",
+      "run_id": "350c2e2d4f964d5e90d7e6ba1b6dc248",
+      "work_id": null,
+      "timestamp": "2026-10-09T07:27:59.940104+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.12319999223109335,
+      "duration_ms": 27707.820800002082,
+      "usage": {
+        "prompt_tokens": 2654,
+        "completion_tokens": 1755,
+        "total_tokens": 4409
+      },
+      "list_price_estimate_usd": 0.00039595000000000006
+    },
+    {
+      "id": "ef180c503e454eab997208f761c3af55",
+      "trace_id": "e091c9f8109d4e718b448617a15909d3",
+      "run_id": "350c2e2d4f964d5e90d7e6ba1b6dc248",
+      "work_id": null,
+      "timestamp": "2026-10-09T07:28:35.281975+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 1,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.06450001092161983,
+      "duration_ms": 35338.25009998691,
+      "usage": null,
+      "list_price_estimate_usd": null
+    },
+    {
+      "id": "d7ee3b26884e4e228f80b1b5091ef49b",
+      "trace_id": "c61a9727c92f472b9caa63d5f9514e42",
+      "run_id": "350c2e2d4f964d5e90d7e6ba1b6dc248",
+      "work_id": null,
+      "timestamp": "2026-10-09T07:29:04.178669+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 2,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.06510000093840063,
+      "duration_ms": 28895.63929999713,
+      "usage": null,
+      "list_price_estimate_usd": null
+    },
+    {
+      "id": "835367c7f593428bb031c0edd6fd9ac3",
+      "trace_id": "ebdae25c6dc1406d998637f6204a62d6",
+      "run_id": "350c2e2d4f964d5e90d7e6ba1b6dc248",
+      "work_id": null,
+      "timestamp": "2026-10-09T07:34:45.833805+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "failed",
+      "sent": true,
+      "http_status": null,
+      "queue_wait_ms": 0.09750000026542693,
+      "duration_ms": 341601.5069999994,
+      "usage": null,
+      "list_price_estimate_usd": null
+    }
+  ],
+  "run": {
+    "id": "350c2e2d4f964d5e90d7e6ba1b6dc248",
+    "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+    "campaign_revision": 6,
+    "strategy_id": "a6c3cb870e4440d392a44c3f891f9d70",
+    "mode": "live",
+    "status": "partial",
+    "request": {
+      "expected_revision": 6,
+      "strategy_id": "a6c3cb870e4440d392a44c3f891f9d70",
+      "idempotency_key": "live-integration-matrix-1791530852200168800",
+      "audience_ids": [
+        "a6c3cb870e4440d392a44c3f891f9d70-a0",
+        "a6c3cb870e4440d392a44c3f891f9d70-a1",
+        "a6c3cb870e4440d392a44c3f891f9d70-a2"
+      ],
+      "languages": [
+        "en",
+        "kn",
+        "kn-Latn"
+      ],
+      "channels": [
+        "instagram",
+        "whatsapp",
+        "facebook"
+      ],
+      "retry_source_run_id": "cddcebb21612403ba90ebf50b15230b1"
+    },
+    "cells": [
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a0",
+        "language": "en",
+        "channel": "instagram",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "SCHEMA_INVALID"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "SCHEMA_INVALID"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a0",
+        "language": "en",
+        "channel": "whatsapp",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "SCHEMA_INVALID"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "SCHEMA_INVALID"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a0",
+        "language": "en",
+        "channel": "facebook",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "SCHEMA_INVALID"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "SCHEMA_INVALID"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a1",
+        "language": "en",
+        "channel": "instagram",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "SCHEMA_INVALID"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "SCHEMA_INVALID"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a1",
+        "language": "en",
+        "channel": "whatsapp",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "SCHEMA_INVALID"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "SCHEMA_INVALID"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a1",
+        "language": "en",
+        "channel": "facebook",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "SCHEMA_INVALID"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "SCHEMA_INVALID"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a2",
+        "language": "en",
+        "channel": "instagram",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "SCHEMA_INVALID"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "SCHEMA_INVALID"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a2",
+        "language": "en",
+        "channel": "whatsapp",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "SCHEMA_INVALID"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "SCHEMA_INVALID"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a2",
+        "language": "en",
+        "channel": "facebook",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "SCHEMA_INVALID"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "SCHEMA_INVALID"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a0",
+        "language": "kn",
+        "channel": "instagram",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "BUDGET_EXHAUSTED"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "BUDGET_EXHAUSTED"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a0",
+        "language": "kn",
+        "channel": "whatsapp",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "BUDGET_EXHAUSTED"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "BUDGET_EXHAUSTED"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a0",
+        "language": "kn",
+        "channel": "facebook",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "BUDGET_EXHAUSTED"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "BUDGET_EXHAUSTED"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a1",
+        "language": "kn",
+        "channel": "instagram",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "BUDGET_EXHAUSTED"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "BUDGET_EXHAUSTED"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a1",
+        "language": "kn",
+        "channel": "whatsapp",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "BUDGET_EXHAUSTED"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "BUDGET_EXHAUSTED"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a1",
+        "language": "kn",
+        "channel": "facebook",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "BUDGET_EXHAUSTED"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "BUDGET_EXHAUSTED"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a2",
+        "language": "kn",
+        "channel": "instagram",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "BUDGET_EXHAUSTED"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "BUDGET_EXHAUSTED"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a2",
+        "language": "kn",
+        "channel": "whatsapp",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "BUDGET_EXHAUSTED"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "BUDGET_EXHAUSTED"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a2",
+        "language": "kn",
+        "channel": "facebook",
+        "state": "blocked",
+        "variant": null,
+        "reasons": [
+          "BUDGET_EXHAUSTED"
+        ],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": [
+              "BUDGET_EXHAUSTED"
+            ]
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a0",
+        "language": "kn-Latn",
+        "channel": "instagram",
+        "state": "ready",
+        "variant": {
+          "id": "998a8aac70ce295c1eff4755e9c43c00e5c80524a3aee6f1a9bf6c32522ec92e",
+          "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+          "campaign_revision": 6,
+          "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a0",
+          "language": "kn-Latn",
+          "channel": "instagram",
+          "template": {
+            "headline": "Study pause, {{CAFE|nom}} teerku",
+            "body": "{{LOCATION|nom}} madiya {{CAFE|loc}} maade ari, {{PRODUCT|nom}} naakina study reset gaavbe. {{OFFER|nom}} thaginda {{ELIGIBILITY|nom}} karo {{PRODUCT|nom}} gaava. {{DAYS|nom}} days, {{DATES|nom}} days. {{CAFE|nom}} teerku visheshavina moment.",
+            "cta": "{{CAFE|loc}} maade {{PRODUCT|nom}} try aava",
+            "hashtags": [
+              "studyreset",
+              "cafepause",
+              "focus",
+              "kn-Latn"
+            ],
+            "alt_text": "{{CAFE|nom}} paasina promotional message: {{PRODUCT|nom}}, {{OFFER|nom}}, {{ELIGIBILITY|nom}}, {{DAYS|nom}} days, {{DATES|nom}} days, {{LOCATION|nom}}."
+          },
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ],
+          "fact_hash": "0c090ecf7d5629842d6e8360f69cb4515d7a6f53afbe23bfc91153d8bcb2f7bd",
+          "dependency_hash": "aa743c0aecf358facf7691ef9c5d8aced5e0d7ca22042c622528b7cf7d43daad",
+          "content_hash": "45ba9d983305ae536142f6e3501ce48cc946db13f3c3f21b837477f0af5ada99",
+          "render_hash": null,
+          "status": "pending",
+          "parent_id": null,
+          "dependencies": {
+            "facts": {
+              "CAFE": 4,
+              "LOCATION": 4,
+              "OFFER": 4,
+              "PRODUCT": 4,
+              "DAYS": 4,
+              "DATES": 4,
+              "ELIGIBILITY": 4,
+              "ID_RULE": 2,
+              "TIME_WINDOW": 2,
+              "DINE_IN_RULE": 2,
+              "MIN_PURCHASE_RULE": 2,
+              "COMBINE_RULE": 2
+            },
+            "brand_revision": 1,
+            "prompt_version": "b3.1",
+            "policy_version": "guardian-policy-2.1",
+            "renderer_version": null,
+            "font_hash": null,
+            "background_hash": null,
+            "layout_hash": null
+          },
+          "report": {
+            "schema_version": "guardian-report-2.1",
+            "policy_version": "guardian-policy-2.1",
+            "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+            "campaign_revision": 6,
+            "mode": "asset",
+            "content_hash": "45ba9d983305ae536142f6e3501ce48cc946db13f3c3f21b837477f0af5ada99",
+            "dependency_hash": "b09ab134b9a3615a869b4c61aa72547140930e346ec8280ecc75374a03897e6d",
+            "rendered": {
+              "fields": {
+                "headline": "Study pause, Namma Kafe teerku",
+                "body": "Bengaluru madiya Namma Kafege maade ari, Kafi naakina study reset gaavbe. 20% riyayiti thaginda ellarigu karo Kafi gaava. Shanivara / Bhanuvara days, 2026-10-10 to 2026-10-11 days. Namma Kafe teerku visheshavina moment.",
+                "cta": "Namma Kafege maade Kafi try aava",
+                "hashtags.0": "studyreset",
+                "hashtags.1": "cafepause",
+                "hashtags.2": "focus",
+                "hashtags.3": "kn-Latn",
+                "alt_text": "Namma Kafe paasina promotional message: Kafi, 20% riyayiti, ellarigu, Shanivara / Bhanuvara days, 2026-10-10 to 2026-10-11 days, Bengaluru."
+              },
+              "spans": [
+                {
+                  "field": "headline",
+                  "start": 13,
+                  "end": 23,
+                  "template_start": 13,
+                  "template_end": 25,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 0,
+                  "end": 9,
+                  "template_start": 0,
+                  "template_end": 16,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 17,
+                  "end": 29,
+                  "template_start": 24,
+                  "template_end": 36,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 41,
+                  "end": 45,
+                  "template_start": 48,
+                  "template_end": 63,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 74,
+                  "end": 86,
+                  "template_start": 92,
+                  "template_end": 105,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 96,
+                  "end": 104,
+                  "template_start": 115,
+                  "template_end": 134,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 110,
+                  "end": 114,
+                  "template_start": 140,
+                  "template_end": 155,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 122,
+                  "end": 143,
+                  "template_start": 163,
+                  "template_end": 175,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 150,
+                  "end": 174,
+                  "template_start": 182,
+                  "template_end": 195,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 181,
+                  "end": 191,
+                  "template_start": 202,
+                  "template_end": 214,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 0,
+                  "end": 12,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 19,
+                  "end": 23,
+                  "template_start": 19,
+                  "template_end": 34,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 0,
+                  "end": 10,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 40,
+                  "end": 44,
+                  "template_start": 42,
+                  "template_end": 57,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 46,
+                  "end": 58,
+                  "template_start": 59,
+                  "template_end": 72,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 60,
+                  "end": 68,
+                  "template_start": 74,
+                  "template_end": 93,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 70,
+                  "end": 91,
+                  "template_start": 95,
+                  "template_end": 107,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 98,
+                  "end": 122,
+                  "template_start": 114,
+                  "template_end": 127,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 129,
+                  "end": 138,
+                  "template_start": 134,
+                  "template_end": 150,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                }
+              ],
+              "slots_used": [
+                "CAFE",
+                "DATES",
+                "DAYS",
+                "ELIGIBILITY",
+                "LOCATION",
+                "OFFER",
+                "PRODUCT"
+              ]
+            },
+            "checks": [
+              {
+                "rule": "G01",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G02",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G03",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G04",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G05",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G06",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G07",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G08",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G09",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G10",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G11",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "WARN",
+                "findings": []
+              },
+              {
+                "rule": "G12",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G13",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G14",
+                "applicable": true,
+                "completed": false,
+                "passed": null,
+                "severity": "BLOCK",
+                "findings": [
+                  {
+                    "field": "*",
+                    "source": "policy",
+                    "start": null,
+                    "end": null,
+                    "quote": "",
+                    "message": "Blinded Agnes R7 reader pending B5"
+                  }
+                ]
+              },
+              {
+                "rule": "G15",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              }
+            ],
+            "status": "INCOMPLETE",
+            "missing_checks": [
+              "G14"
+            ],
+            "warning_ids": [],
+            "integrity": null,
+            "approval_ready": false,
+            "native_review": "PENDING"
+          },
+          "mode": "live",
+          "baseline": true
+        },
+        "reasons": [],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a0",
+        "language": "kn-Latn",
+        "channel": "whatsapp",
+        "state": "ready",
+        "variant": {
+          "id": "a36324b9625422fe5a9b0b67dbb38e98c1ecfb6d52ba7932859416594cd79075",
+          "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+          "campaign_revision": 6,
+          "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a0",
+          "language": "kn-Latn",
+          "channel": "whatsapp",
+          "template": {
+            "headline": "Study reset break: {{CAFE|nom}}",
+            "body": "{{LOCATION|nom}} maade {{CAFE|loc}} teerku {{PRODUCT|nom}} naakina study reset. {{OFFER|nom}} thaginda {{ELIGIBILITY|nom}} karo {{PRODUCT|nom}}. Days: {{DAYS|nom}}. Dates: {{DATES|nom}}. {{CAFE|nom}} teerku aa ari.",
+            "cta": "{{CAFE|loc}} maade {{PRODUCT|nom}} enjoy aava",
+            "hashtags": [],
+            "alt_text": ""
+          },
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ],
+          "fact_hash": "0c090ecf7d5629842d6e8360f69cb4515d7a6f53afbe23bfc91153d8bcb2f7bd",
+          "dependency_hash": "57af8d04139288c796001fbf5547126ce8783f147b1fee8e122517cdba81f658",
+          "content_hash": "55f87c30b00b13d79e723df9ea8891caa78a7bf0f786ced0dbbf3cffe67eaab3",
+          "render_hash": null,
+          "status": "pending",
+          "parent_id": null,
+          "dependencies": {
+            "facts": {
+              "CAFE": 4,
+              "LOCATION": 4,
+              "OFFER": 4,
+              "PRODUCT": 4,
+              "DAYS": 4,
+              "DATES": 4,
+              "ELIGIBILITY": 4,
+              "ID_RULE": 2,
+              "TIME_WINDOW": 2,
+              "DINE_IN_RULE": 2,
+              "MIN_PURCHASE_RULE": 2,
+              "COMBINE_RULE": 2
+            },
+            "brand_revision": 1,
+            "prompt_version": "b3.1",
+            "policy_version": "guardian-policy-2.1",
+            "renderer_version": null,
+            "font_hash": null,
+            "background_hash": null,
+            "layout_hash": null
+          },
+          "report": {
+            "schema_version": "guardian-report-2.1",
+            "policy_version": "guardian-policy-2.1",
+            "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+            "campaign_revision": 6,
+            "mode": "asset",
+            "content_hash": "55f87c30b00b13d79e723df9ea8891caa78a7bf0f786ced0dbbf3cffe67eaab3",
+            "dependency_hash": "35754d0fd7adcabd04677fcb319f355cbdef14d59137ed2b881b92fc380119b8",
+            "rendered": {
+              "fields": {
+                "headline": "Study reset break: Namma Kafe",
+                "body": "Bengaluru maade Namma Kafege teerku Kafi naakina study reset. 20% riyayiti thaginda ellarigu karo Kafi. Days: Shanivara / Bhanuvara. Dates: 2026-10-10 to 2026-10-11. Namma Kafe teerku aa ari.",
+                "cta": "Namma Kafege maade Kafi enjoy aava",
+                "alt_text": ""
+              },
+              "spans": [
+                {
+                  "field": "headline",
+                  "start": 19,
+                  "end": 29,
+                  "template_start": 19,
+                  "template_end": 31,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 0,
+                  "end": 9,
+                  "template_start": 0,
+                  "template_end": 16,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 16,
+                  "end": 28,
+                  "template_start": 23,
+                  "template_end": 35,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 36,
+                  "end": 40,
+                  "template_start": 43,
+                  "template_end": 58,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 62,
+                  "end": 74,
+                  "template_start": 80,
+                  "template_end": 93,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 84,
+                  "end": 92,
+                  "template_start": 103,
+                  "template_end": 122,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 98,
+                  "end": 102,
+                  "template_start": 128,
+                  "template_end": 143,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 110,
+                  "end": 131,
+                  "template_start": 151,
+                  "template_end": 163,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 140,
+                  "end": 164,
+                  "template_start": 172,
+                  "template_end": 185,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 166,
+                  "end": 176,
+                  "template_start": 187,
+                  "template_end": 199,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 0,
+                  "end": 12,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 19,
+                  "end": 23,
+                  "template_start": 19,
+                  "template_end": 34,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                }
+              ],
+              "slots_used": [
+                "CAFE",
+                "DATES",
+                "DAYS",
+                "ELIGIBILITY",
+                "LOCATION",
+                "OFFER",
+                "PRODUCT"
+              ]
+            },
+            "checks": [
+              {
+                "rule": "G01",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G02",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G03",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G04",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G05",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G06",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G07",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G08",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G09",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G10",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G11",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "WARN",
+                "findings": []
+              },
+              {
+                "rule": "G12",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G13",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G14",
+                "applicable": true,
+                "completed": false,
+                "passed": null,
+                "severity": "BLOCK",
+                "findings": [
+                  {
+                    "field": "*",
+                    "source": "policy",
+                    "start": null,
+                    "end": null,
+                    "quote": "",
+                    "message": "Blinded Agnes R7 reader pending B5"
+                  }
+                ]
+              },
+              {
+                "rule": "G15",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              }
+            ],
+            "status": "INCOMPLETE",
+            "missing_checks": [
+              "G14"
+            ],
+            "warning_ids": [],
+            "integrity": null,
+            "approval_ready": false,
+            "native_review": "PENDING"
+          },
+          "mode": "live",
+          "baseline": true
+        },
+        "reasons": [],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a0",
+        "language": "kn-Latn",
+        "channel": "facebook",
+        "state": "ready",
+        "variant": {
+          "id": "1e95c02a466ec96058a0b6e6a5c6e569d681f2dab7b88fcdd58bfc6d94300a28",
+          "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+          "campaign_revision": 6,
+          "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a0",
+          "language": "kn-Latn",
+          "channel": "facebook",
+          "template": {
+            "headline": "{{CAFE|nom}} maade study reset",
+            "body": "{{LOCATION|nom}} teerku {{CAFE|loc}} maade {{PRODUCT|nom}} naakina natural break. {{OFFER|nom}} thaginda {{ELIGIBILITY|nom}} karo {{PRODUCT|nom}} gaava. {{DAYS|nom}} days aa ari. {{DATES|nom}} days. {{CAFE|nom}} teerku visheshavina pause moment.",
+            "cta": "{{CAFE|loc}} teerku {{PRODUCT|nom}} try aava",
+            "hashtags": [
+              "studyreset",
+              "cafepause",
+              "focusbreak"
+            ],
+            "alt_text": "{{CAFE|nom}} promotional message: {{PRODUCT|nom}} karo {{OFFER|nom}}, {{ELIGIBILITY|nom}}, {{DAYS|nom}} days, {{DATES|nom}} days, {{LOCATION|nom}} teerku."
+          },
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ],
+          "fact_hash": "0c090ecf7d5629842d6e8360f69cb4515d7a6f53afbe23bfc91153d8bcb2f7bd",
+          "dependency_hash": "e4d523ba3785130e3a2dcc97d2286daf7c932e6dcedcc1a05b53e65231e436e9",
+          "content_hash": "0e79f051b3b4170b7736375d6bd6b24b1c5712aa6b913755a7dcac288a107d59",
+          "render_hash": null,
+          "status": "pending",
+          "parent_id": null,
+          "dependencies": {
+            "facts": {
+              "CAFE": 4,
+              "LOCATION": 4,
+              "OFFER": 4,
+              "PRODUCT": 4,
+              "DAYS": 4,
+              "DATES": 4,
+              "ELIGIBILITY": 4,
+              "ID_RULE": 2,
+              "TIME_WINDOW": 2,
+              "DINE_IN_RULE": 2,
+              "MIN_PURCHASE_RULE": 2,
+              "COMBINE_RULE": 2
+            },
+            "brand_revision": 1,
+            "prompt_version": "b3.1",
+            "policy_version": "guardian-policy-2.1",
+            "renderer_version": null,
+            "font_hash": null,
+            "background_hash": null,
+            "layout_hash": null
+          },
+          "report": {
+            "schema_version": "guardian-report-2.1",
+            "policy_version": "guardian-policy-2.1",
+            "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+            "campaign_revision": 6,
+            "mode": "asset",
+            "content_hash": "0e79f051b3b4170b7736375d6bd6b24b1c5712aa6b913755a7dcac288a107d59",
+            "dependency_hash": "335fd18b5bc6b7aae1d600d7c857f3c2b7e4903bfe964e9f19aa10fa517c2bda",
+            "rendered": {
+              "fields": {
+                "headline": "Namma Kafe maade study reset",
+                "body": "Bengaluru teerku Namma Kafege maade Kafi naakina natural break. 20% riyayiti thaginda ellarigu karo Kafi gaava. Shanivara / Bhanuvara days aa ari. 2026-10-10 to 2026-10-11 days. Namma Kafe teerku visheshavina pause moment.",
+                "cta": "Namma Kafege teerku Kafi try aava",
+                "hashtags.0": "studyreset",
+                "hashtags.1": "cafepause",
+                "hashtags.2": "focusbreak",
+                "alt_text": "Namma Kafe promotional message: Kafi karo 20% riyayiti, ellarigu, Shanivara / Bhanuvara days, 2026-10-10 to 2026-10-11 days, Bengaluru teerku."
+              },
+              "spans": [
+                {
+                  "field": "headline",
+                  "start": 0,
+                  "end": 10,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 0,
+                  "end": 9,
+                  "template_start": 0,
+                  "template_end": 16,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 17,
+                  "end": 29,
+                  "template_start": 24,
+                  "template_end": 36,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 36,
+                  "end": 40,
+                  "template_start": 43,
+                  "template_end": 58,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 64,
+                  "end": 76,
+                  "template_start": 82,
+                  "template_end": 95,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 86,
+                  "end": 94,
+                  "template_start": 105,
+                  "template_end": 124,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 100,
+                  "end": 104,
+                  "template_start": 130,
+                  "template_end": 145,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 112,
+                  "end": 133,
+                  "template_start": 153,
+                  "template_end": 165,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 147,
+                  "end": 171,
+                  "template_start": 179,
+                  "template_end": 192,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 178,
+                  "end": 188,
+                  "template_start": 199,
+                  "template_end": 211,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 0,
+                  "end": 12,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 20,
+                  "end": 24,
+                  "template_start": 20,
+                  "template_end": 35,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 0,
+                  "end": 10,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 32,
+                  "end": 36,
+                  "template_start": 34,
+                  "template_end": 49,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 42,
+                  "end": 54,
+                  "template_start": 55,
+                  "template_end": 68,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 56,
+                  "end": 64,
+                  "template_start": 70,
+                  "template_end": 89,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 66,
+                  "end": 87,
+                  "template_start": 91,
+                  "template_end": 103,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 94,
+                  "end": 118,
+                  "template_start": 110,
+                  "template_end": 123,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 125,
+                  "end": 134,
+                  "template_start": 130,
+                  "template_end": 146,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                }
+              ],
+              "slots_used": [
+                "CAFE",
+                "DATES",
+                "DAYS",
+                "ELIGIBILITY",
+                "LOCATION",
+                "OFFER",
+                "PRODUCT"
+              ]
+            },
+            "checks": [
+              {
+                "rule": "G01",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G02",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G03",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G04",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G05",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G06",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G07",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G08",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G09",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G10",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G11",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "WARN",
+                "findings": []
+              },
+              {
+                "rule": "G12",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G13",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G14",
+                "applicable": true,
+                "completed": false,
+                "passed": null,
+                "severity": "BLOCK",
+                "findings": [
+                  {
+                    "field": "*",
+                    "source": "policy",
+                    "start": null,
+                    "end": null,
+                    "quote": "",
+                    "message": "Blinded Agnes R7 reader pending B5"
+                  }
+                ]
+              },
+              {
+                "rule": "G15",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              }
+            ],
+            "status": "INCOMPLETE",
+            "missing_checks": [
+              "G14"
+            ],
+            "warning_ids": [],
+            "integrity": null,
+            "approval_ready": false,
+            "native_review": "PENDING"
+          },
+          "mode": "live",
+          "baseline": true
+        },
+        "reasons": [],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a1",
+        "language": "kn-Latn",
+        "channel": "instagram",
+        "state": "ready",
+        "variant": {
+          "id": "cb3a6ac8fad95b8a63b1404cb12c642131d1c52a7568749c8ba6db8b92d658c8",
+          "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+          "campaign_revision": 6,
+          "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a1",
+          "language": "kn-Latn",
+          "channel": "instagram",
+          "template": {
+            "headline": "{{CAFE|nom}} teerku family pause",
+            "body": "{{LOCATION|nom}} maade {{CAFE|loc}} teerku {{PRODUCT|nom}} naakina shared moment. {{OFFER|nom}} thaginda {{ELIGIBILITY|nom}} karo {{PRODUCT|nom}} gaava. {{DAYS|nom}} days, {{DATES|nom}} days. Family ke saath warm break.",
+            "cta": "{{CAFE|loc}} teerku family ke saath {{PRODUCT|nom}} aava",
+            "hashtags": [
+              "familypause",
+              "sharedmoment",
+              "warmbreak",
+              "kn-Latn"
+            ],
+            "alt_text": "{{CAFE|nom}} promotional message: {{PRODUCT|nom}}, {{OFFER|nom}}, {{ELIGIBILITY|nom}}, {{DAYS|nom}} days, {{DATES|nom}} days, {{LOCATION|nom}} teerku family pause."
+          },
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ],
+          "fact_hash": "0c090ecf7d5629842d6e8360f69cb4515d7a6f53afbe23bfc91153d8bcb2f7bd",
+          "dependency_hash": "c1278caf31b0e72d2af56c1c3527e2e9583c9ad80a7fb1872771232722f39f27",
+          "content_hash": "e4eecdea0b8898601d169383f89205ed60cd319b22ca3a6a2c06d35bbd24d247",
+          "render_hash": null,
+          "status": "pending",
+          "parent_id": null,
+          "dependencies": {
+            "facts": {
+              "CAFE": 4,
+              "LOCATION": 4,
+              "OFFER": 4,
+              "PRODUCT": 4,
+              "DAYS": 4,
+              "DATES": 4,
+              "ELIGIBILITY": 4,
+              "ID_RULE": 2,
+              "TIME_WINDOW": 2,
+              "DINE_IN_RULE": 2,
+              "MIN_PURCHASE_RULE": 2,
+              "COMBINE_RULE": 2
+            },
+            "brand_revision": 1,
+            "prompt_version": "b3.1",
+            "policy_version": "guardian-policy-2.1",
+            "renderer_version": null,
+            "font_hash": null,
+            "background_hash": null,
+            "layout_hash": null
+          },
+          "report": {
+            "schema_version": "guardian-report-2.1",
+            "policy_version": "guardian-policy-2.1",
+            "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+            "campaign_revision": 6,
+            "mode": "asset",
+            "content_hash": "e4eecdea0b8898601d169383f89205ed60cd319b22ca3a6a2c06d35bbd24d247",
+            "dependency_hash": "7a36fb85792669a0b9bed3010de7c0c3908925bf30b32fada69b3ed8451521d2",
+            "rendered": {
+              "fields": {
+                "headline": "Namma Kafe teerku family pause",
+                "body": "Bengaluru maade Namma Kafege teerku Kafi naakina shared moment. 20% riyayiti thaginda ellarigu karo Kafi gaava. Shanivara / Bhanuvara days, 2026-10-10 to 2026-10-11 days. Family ke saath warm break.",
+                "cta": "Namma Kafege teerku family ke saath Kafi aava",
+                "hashtags.0": "familypause",
+                "hashtags.1": "sharedmoment",
+                "hashtags.2": "warmbreak",
+                "hashtags.3": "kn-Latn",
+                "alt_text": "Namma Kafe promotional message: Kafi, 20% riyayiti, ellarigu, Shanivara / Bhanuvara days, 2026-10-10 to 2026-10-11 days, Bengaluru teerku family pause."
+              },
+              "spans": [
+                {
+                  "field": "headline",
+                  "start": 0,
+                  "end": 10,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 0,
+                  "end": 9,
+                  "template_start": 0,
+                  "template_end": 16,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 16,
+                  "end": 28,
+                  "template_start": 23,
+                  "template_end": 35,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 36,
+                  "end": 40,
+                  "template_start": 43,
+                  "template_end": 58,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 64,
+                  "end": 76,
+                  "template_start": 82,
+                  "template_end": 95,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 86,
+                  "end": 94,
+                  "template_start": 105,
+                  "template_end": 124,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 100,
+                  "end": 104,
+                  "template_start": 130,
+                  "template_end": 145,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 112,
+                  "end": 133,
+                  "template_start": 153,
+                  "template_end": 165,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 140,
+                  "end": 164,
+                  "template_start": 172,
+                  "template_end": 185,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 0,
+                  "end": 12,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 36,
+                  "end": 40,
+                  "template_start": 36,
+                  "template_end": 51,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 0,
+                  "end": 10,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 32,
+                  "end": 36,
+                  "template_start": 34,
+                  "template_end": 49,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 38,
+                  "end": 50,
+                  "template_start": 51,
+                  "template_end": 64,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 52,
+                  "end": 60,
+                  "template_start": 66,
+                  "template_end": 85,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 62,
+                  "end": 83,
+                  "template_start": 87,
+                  "template_end": 99,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 90,
+                  "end": 114,
+                  "template_start": 106,
+                  "template_end": 119,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 121,
+                  "end": 130,
+                  "template_start": 126,
+                  "template_end": 142,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                }
+              ],
+              "slots_used": [
+                "CAFE",
+                "DATES",
+                "DAYS",
+                "ELIGIBILITY",
+                "LOCATION",
+                "OFFER",
+                "PRODUCT"
+              ]
+            },
+            "checks": [
+              {
+                "rule": "G01",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G02",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G03",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G04",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G05",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G06",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G07",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G08",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G09",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G10",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G11",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "WARN",
+                "findings": []
+              },
+              {
+                "rule": "G12",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G13",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G14",
+                "applicable": true,
+                "completed": false,
+                "passed": null,
+                "severity": "BLOCK",
+                "findings": [
+                  {
+                    "field": "*",
+                    "source": "policy",
+                    "start": null,
+                    "end": null,
+                    "quote": "",
+                    "message": "Blinded Agnes R7 reader pending B5"
+                  }
+                ]
+              },
+              {
+                "rule": "G15",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              }
+            ],
+            "status": "INCOMPLETE",
+            "missing_checks": [
+              "G14"
+            ],
+            "warning_ids": [],
+            "integrity": null,
+            "approval_ready": false,
+            "native_review": "PENDING"
+          },
+          "mode": "live",
+          "baseline": true
+        },
+        "reasons": [],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a1",
+        "language": "kn-Latn",
+        "channel": "whatsapp",
+        "state": "ready",
+        "variant": {
+          "id": "d122664d2d5bff45ec23bb5f29ec63c1ee4937dc6a166c4ba73727e45fe9bb69",
+          "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+          "campaign_revision": 6,
+          "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a1",
+          "language": "kn-Latn",
+          "channel": "whatsapp",
+          "template": {
+            "headline": "Family shared pause: {{CAFE|nom}}",
+            "body": "{{LOCATION|nom}} maade {{CAFE|loc}} teerku {{PRODUCT|nom}} naakina family moment. {{OFFER|nom}} thaginda {{ELIGIBILITY|nom}} karo {{PRODUCT|nom}}. Days: {{DAYS|nom}}. Dates: {{DATES|nom}}. {{CAFE|nom}} teerku warm break.",
+            "cta": "{{CAFE|loc}} teerku family ke saath {{PRODUCT|nom}} aava",
+            "hashtags": [],
+            "alt_text": ""
+          },
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ],
+          "fact_hash": "0c090ecf7d5629842d6e8360f69cb4515d7a6f53afbe23bfc91153d8bcb2f7bd",
+          "dependency_hash": "ca68930d73593a7adc24832cc0617dd35add607b8e7ef7267bf1e29c97a3c672",
+          "content_hash": "096edd24e8c17606a69c2edb3d981513609aa62de14158d62e495b7541a3ceeb",
+          "render_hash": null,
+          "status": "pending",
+          "parent_id": null,
+          "dependencies": {
+            "facts": {
+              "CAFE": 4,
+              "LOCATION": 4,
+              "OFFER": 4,
+              "PRODUCT": 4,
+              "DAYS": 4,
+              "DATES": 4,
+              "ELIGIBILITY": 4,
+              "ID_RULE": 2,
+              "TIME_WINDOW": 2,
+              "DINE_IN_RULE": 2,
+              "MIN_PURCHASE_RULE": 2,
+              "COMBINE_RULE": 2
+            },
+            "brand_revision": 1,
+            "prompt_version": "b3.1",
+            "policy_version": "guardian-policy-2.1",
+            "renderer_version": null,
+            "font_hash": null,
+            "background_hash": null,
+            "layout_hash": null
+          },
+          "report": {
+            "schema_version": "guardian-report-2.1",
+            "policy_version": "guardian-policy-2.1",
+            "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+            "campaign_revision": 6,
+            "mode": "asset",
+            "content_hash": "096edd24e8c17606a69c2edb3d981513609aa62de14158d62e495b7541a3ceeb",
+            "dependency_hash": "fa0d49fa70951463ad5602ff97efa4bdccabe6c4f5713ac8ed0e3d3af8a7fd85",
+            "rendered": {
+              "fields": {
+                "headline": "Family shared pause: Namma Kafe",
+                "body": "Bengaluru maade Namma Kafege teerku Kafi naakina family moment. 20% riyayiti thaginda ellarigu karo Kafi. Days: Shanivara / Bhanuvara. Dates: 2026-10-10 to 2026-10-11. Namma Kafe teerku warm break.",
+                "cta": "Namma Kafege teerku family ke saath Kafi aava",
+                "alt_text": ""
+              },
+              "spans": [
+                {
+                  "field": "headline",
+                  "start": 21,
+                  "end": 31,
+                  "template_start": 21,
+                  "template_end": 33,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 0,
+                  "end": 9,
+                  "template_start": 0,
+                  "template_end": 16,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 16,
+                  "end": 28,
+                  "template_start": 23,
+                  "template_end": 35,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 36,
+                  "end": 40,
+                  "template_start": 43,
+                  "template_end": 58,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 64,
+                  "end": 76,
+                  "template_start": 82,
+                  "template_end": 95,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 86,
+                  "end": 94,
+                  "template_start": 105,
+                  "template_end": 124,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 100,
+                  "end": 104,
+                  "template_start": 130,
+                  "template_end": 145,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 112,
+                  "end": 133,
+                  "template_start": 153,
+                  "template_end": 165,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 142,
+                  "end": 166,
+                  "template_start": 174,
+                  "template_end": 187,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 168,
+                  "end": 178,
+                  "template_start": 189,
+                  "template_end": 201,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 0,
+                  "end": 12,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 36,
+                  "end": 40,
+                  "template_start": 36,
+                  "template_end": 51,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                }
+              ],
+              "slots_used": [
+                "CAFE",
+                "DATES",
+                "DAYS",
+                "ELIGIBILITY",
+                "LOCATION",
+                "OFFER",
+                "PRODUCT"
+              ]
+            },
+            "checks": [
+              {
+                "rule": "G01",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G02",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G03",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G04",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G05",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G06",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G07",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G08",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G09",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G10",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G11",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "WARN",
+                "findings": []
+              },
+              {
+                "rule": "G12",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G13",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G14",
+                "applicable": true,
+                "completed": false,
+                "passed": null,
+                "severity": "BLOCK",
+                "findings": [
+                  {
+                    "field": "*",
+                    "source": "policy",
+                    "start": null,
+                    "end": null,
+                    "quote": "",
+                    "message": "Blinded Agnes R7 reader pending B5"
+                  }
+                ]
+              },
+              {
+                "rule": "G15",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              }
+            ],
+            "status": "INCOMPLETE",
+            "missing_checks": [
+              "G14"
+            ],
+            "warning_ids": [],
+            "integrity": null,
+            "approval_ready": false,
+            "native_review": "PENDING"
+          },
+          "mode": "live",
+          "baseline": true
+        },
+        "reasons": [],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a1",
+        "language": "kn-Latn",
+        "channel": "facebook",
+        "state": "ready",
+        "variant": {
+          "id": "214ccdbfa2958fa3f42f4e38af1663ad91a3d73dcf39fc5938a34993480a422a",
+          "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+          "campaign_revision": 6,
+          "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a1",
+          "language": "kn-Latn",
+          "channel": "facebook",
+          "template": {
+            "headline": "{{CAFE|nom}} maade family pause",
+            "body": "{{LOCATION|nom}} teerku {{CAFE|loc}} maade {{PRODUCT|nom}} naakina shared family moment. {{OFFER|nom}} thaginda {{ELIGIBILITY|nom}} karo {{PRODUCT|nom}} gaava. {{DAYS|nom}} days aa ari. {{DATES|nom}} days. {{CAFE|nom}} teerku family ke saath warm break.",
+            "cta": "{{CAFE|loc}} teerku family ke saath {{PRODUCT|nom}} try aava",
+            "hashtags": [
+              "familypause",
+              "sharedmoment",
+              "warmbreak"
+            ],
+            "alt_text": "{{CAFE|nom}} promotional message: {{PRODUCT|nom}} karo {{OFFER|nom}}, {{ELIGIBILITY|nom}}, {{DAYS|nom}} days, {{DATES|nom}} days, {{LOCATION|nom}} teerku family pause."
+          },
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ],
+          "fact_hash": "0c090ecf7d5629842d6e8360f69cb4515d7a6f53afbe23bfc91153d8bcb2f7bd",
+          "dependency_hash": "e48ab898b92c0ec5454d740ef51338b77029708d1a9cfc5254ae3f1a76a03ea1",
+          "content_hash": "50bec086fefaae483c9342d5be83f3c3c4359ff4628492f9f7d4aca34776fa1b",
+          "render_hash": null,
+          "status": "pending",
+          "parent_id": null,
+          "dependencies": {
+            "facts": {
+              "CAFE": 4,
+              "LOCATION": 4,
+              "OFFER": 4,
+              "PRODUCT": 4,
+              "DAYS": 4,
+              "DATES": 4,
+              "ELIGIBILITY": 4,
+              "ID_RULE": 2,
+              "TIME_WINDOW": 2,
+              "DINE_IN_RULE": 2,
+              "MIN_PURCHASE_RULE": 2,
+              "COMBINE_RULE": 2
+            },
+            "brand_revision": 1,
+            "prompt_version": "b3.1",
+            "policy_version": "guardian-policy-2.1",
+            "renderer_version": null,
+            "font_hash": null,
+            "background_hash": null,
+            "layout_hash": null
+          },
+          "report": {
+            "schema_version": "guardian-report-2.1",
+            "policy_version": "guardian-policy-2.1",
+            "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+            "campaign_revision": 6,
+            "mode": "asset",
+            "content_hash": "50bec086fefaae483c9342d5be83f3c3c4359ff4628492f9f7d4aca34776fa1b",
+            "dependency_hash": "d4b9b31b4f46a271cb7516209cf1aa4eb1d1506fc324fa148672a69e6dee2ec9",
+            "rendered": {
+              "fields": {
+                "headline": "Namma Kafe maade family pause",
+                "body": "Bengaluru teerku Namma Kafege maade Kafi naakina shared family moment. 20% riyayiti thaginda ellarigu karo Kafi gaava. Shanivara / Bhanuvara days aa ari. 2026-10-10 to 2026-10-11 days. Namma Kafe teerku family ke saath warm break.",
+                "cta": "Namma Kafege teerku family ke saath Kafi try aava",
+                "hashtags.0": "familypause",
+                "hashtags.1": "sharedmoment",
+                "hashtags.2": "warmbreak",
+                "alt_text": "Namma Kafe promotional message: Kafi karo 20% riyayiti, ellarigu, Shanivara / Bhanuvara days, 2026-10-10 to 2026-10-11 days, Bengaluru teerku family pause."
+              },
+              "spans": [
+                {
+                  "field": "headline",
+                  "start": 0,
+                  "end": 10,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 0,
+                  "end": 9,
+                  "template_start": 0,
+                  "template_end": 16,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 17,
+                  "end": 29,
+                  "template_start": 24,
+                  "template_end": 36,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 36,
+                  "end": 40,
+                  "template_start": 43,
+                  "template_end": 58,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 71,
+                  "end": 83,
+                  "template_start": 89,
+                  "template_end": 102,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 93,
+                  "end": 101,
+                  "template_start": 112,
+                  "template_end": 131,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 107,
+                  "end": 111,
+                  "template_start": 137,
+                  "template_end": 152,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 119,
+                  "end": 140,
+                  "template_start": 160,
+                  "template_end": 172,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 154,
+                  "end": 178,
+                  "template_start": 186,
+                  "template_end": 199,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 185,
+                  "end": 195,
+                  "template_start": 206,
+                  "template_end": 218,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 0,
+                  "end": 12,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 36,
+                  "end": 40,
+                  "template_start": 36,
+                  "template_end": 51,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 0,
+                  "end": 10,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 32,
+                  "end": 36,
+                  "template_start": 34,
+                  "template_end": 49,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 42,
+                  "end": 54,
+                  "template_start": 55,
+                  "template_end": 68,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 56,
+                  "end": 64,
+                  "template_start": 70,
+                  "template_end": 89,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 66,
+                  "end": 87,
+                  "template_start": 91,
+                  "template_end": 103,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 94,
+                  "end": 118,
+                  "template_start": 110,
+                  "template_end": 123,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 125,
+                  "end": 134,
+                  "template_start": 130,
+                  "template_end": 146,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                }
+              ],
+              "slots_used": [
+                "CAFE",
+                "DATES",
+                "DAYS",
+                "ELIGIBILITY",
+                "LOCATION",
+                "OFFER",
+                "PRODUCT"
+              ]
+            },
+            "checks": [
+              {
+                "rule": "G01",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G02",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G03",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G04",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G05",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G06",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G07",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G08",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G09",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G10",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G11",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "WARN",
+                "findings": []
+              },
+              {
+                "rule": "G12",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G13",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G14",
+                "applicable": true,
+                "completed": false,
+                "passed": null,
+                "severity": "BLOCK",
+                "findings": [
+                  {
+                    "field": "*",
+                    "source": "policy",
+                    "start": null,
+                    "end": null,
+                    "quote": "",
+                    "message": "Blinded Agnes R7 reader pending B5"
+                  }
+                ]
+              },
+              {
+                "rule": "G15",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              }
+            ],
+            "status": "INCOMPLETE",
+            "missing_checks": [
+              "G14"
+            ],
+            "warning_ids": [],
+            "integrity": null,
+            "approval_ready": false,
+            "native_review": "PENDING"
+          },
+          "mode": "live",
+          "baseline": true
+        },
+        "reasons": [],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a2",
+        "language": "kn-Latn",
+        "channel": "instagram",
+        "state": "ready",
+        "variant": {
+          "id": "7aa57e5aed58067288513516bdce58a183918eb536c6bbcb5c527c4ad01a24ed",
+          "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+          "campaign_revision": 6,
+          "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a2",
+          "language": "kn-Latn",
+          "channel": "instagram",
+          "template": {
+            "headline": "{{CAFE|nom}} teerku refined unwind",
+            "body": "{{LOCATION|nom}} maade {{CAFE|loc}} teerku {{PRODUCT|nom}} naakina calm pause. {{OFFER|nom}} thaginda {{ELIGIBILITY|nom}} karo {{PRODUCT|nom}} gaava. {{DAYS|nom}} days, {{DATES|nom}} days. {{CAFE|nom}} teerku refined moment.",
+            "cta": "{{CAFE|loc}} teerku {{PRODUCT|nom}} unwind aava",
+            "hashtags": [
+              "refinedunwind",
+              "calm pause",
+              "professionalbreak",
+              "kn-Latn"
+            ],
+            "alt_text": "{{CAFE|nom}} promotional message: {{PRODUCT|nom}}, {{OFFER|nom}}, {{ELIGIBILITY|nom}}, {{DAYS|nom}} days, {{DATES|nom}} days, {{LOCATION|nom}} teerku refined unwind."
+          },
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ],
+          "fact_hash": "0c090ecf7d5629842d6e8360f69cb4515d7a6f53afbe23bfc91153d8bcb2f7bd",
+          "dependency_hash": "983c1695ce617d5b60491a752fdf8146361f7580680232a816d532325f060478",
+          "content_hash": "395b7eb0303f9b18b13dc2526b3691b633ca554cbc785a74f6d4199a08e6ed08",
+          "render_hash": null,
+          "status": "pending",
+          "parent_id": null,
+          "dependencies": {
+            "facts": {
+              "CAFE": 4,
+              "LOCATION": 4,
+              "OFFER": 4,
+              "PRODUCT": 4,
+              "DAYS": 4,
+              "DATES": 4,
+              "ELIGIBILITY": 4,
+              "ID_RULE": 2,
+              "TIME_WINDOW": 2,
+              "DINE_IN_RULE": 2,
+              "MIN_PURCHASE_RULE": 2,
+              "COMBINE_RULE": 2
+            },
+            "brand_revision": 1,
+            "prompt_version": "b3.1",
+            "policy_version": "guardian-policy-2.1",
+            "renderer_version": null,
+            "font_hash": null,
+            "background_hash": null,
+            "layout_hash": null
+          },
+          "report": {
+            "schema_version": "guardian-report-2.1",
+            "policy_version": "guardian-policy-2.1",
+            "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+            "campaign_revision": 6,
+            "mode": "asset",
+            "content_hash": "395b7eb0303f9b18b13dc2526b3691b633ca554cbc785a74f6d4199a08e6ed08",
+            "dependency_hash": "828abe3e9615d71bddee9151b1f44e7768f312346ee099849974242c43e0bed6",
+            "rendered": {
+              "fields": {
+                "headline": "Namma Kafe teerku refined unwind",
+                "body": "Bengaluru maade Namma Kafege teerku Kafi naakina calm pause. 20% riyayiti thaginda ellarigu karo Kafi gaava. Shanivara / Bhanuvara days, 2026-10-10 to 2026-10-11 days. Namma Kafe teerku refined moment.",
+                "cta": "Namma Kafege teerku Kafi unwind aava",
+                "hashtags.0": "refinedunwind",
+                "hashtags.1": "calm pause",
+                "hashtags.2": "professionalbreak",
+                "hashtags.3": "kn-Latn",
+                "alt_text": "Namma Kafe promotional message: Kafi, 20% riyayiti, ellarigu, Shanivara / Bhanuvara days, 2026-10-10 to 2026-10-11 days, Bengaluru teerku refined unwind."
+              },
+              "spans": [
+                {
+                  "field": "headline",
+                  "start": 0,
+                  "end": 10,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 0,
+                  "end": 9,
+                  "template_start": 0,
+                  "template_end": 16,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 16,
+                  "end": 28,
+                  "template_start": 23,
+                  "template_end": 35,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 36,
+                  "end": 40,
+                  "template_start": 43,
+                  "template_end": 58,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 61,
+                  "end": 73,
+                  "template_start": 79,
+                  "template_end": 92,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 83,
+                  "end": 91,
+                  "template_start": 102,
+                  "template_end": 121,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 97,
+                  "end": 101,
+                  "template_start": 127,
+                  "template_end": 142,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 109,
+                  "end": 130,
+                  "template_start": 150,
+                  "template_end": 162,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 137,
+                  "end": 161,
+                  "template_start": 169,
+                  "template_end": 182,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 168,
+                  "end": 178,
+                  "template_start": 189,
+                  "template_end": 201,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 0,
+                  "end": 12,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 20,
+                  "end": 24,
+                  "template_start": 20,
+                  "template_end": 35,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 0,
+                  "end": 10,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 32,
+                  "end": 36,
+                  "template_start": 34,
+                  "template_end": 49,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 38,
+                  "end": 50,
+                  "template_start": 51,
+                  "template_end": 64,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 52,
+                  "end": 60,
+                  "template_start": 66,
+                  "template_end": 85,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 62,
+                  "end": 83,
+                  "template_start": 87,
+                  "template_end": 99,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 90,
+                  "end": 114,
+                  "template_start": 106,
+                  "template_end": 119,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 121,
+                  "end": 130,
+                  "template_start": 126,
+                  "template_end": 142,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                }
+              ],
+              "slots_used": [
+                "CAFE",
+                "DATES",
+                "DAYS",
+                "ELIGIBILITY",
+                "LOCATION",
+                "OFFER",
+                "PRODUCT"
+              ]
+            },
+            "checks": [
+              {
+                "rule": "G01",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G02",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G03",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G04",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G05",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G06",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G07",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G08",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G09",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G10",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G11",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "WARN",
+                "findings": []
+              },
+              {
+                "rule": "G12",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G13",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G14",
+                "applicable": true,
+                "completed": false,
+                "passed": null,
+                "severity": "BLOCK",
+                "findings": [
+                  {
+                    "field": "*",
+                    "source": "policy",
+                    "start": null,
+                    "end": null,
+                    "quote": "",
+                    "message": "Blinded Agnes R7 reader pending B5"
+                  }
+                ]
+              },
+              {
+                "rule": "G15",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              }
+            ],
+            "status": "INCOMPLETE",
+            "missing_checks": [
+              "G14"
+            ],
+            "warning_ids": [],
+            "integrity": null,
+            "approval_ready": false,
+            "native_review": "PENDING"
+          },
+          "mode": "live",
+          "baseline": true
+        },
+        "reasons": [],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a2",
+        "language": "kn-Latn",
+        "channel": "whatsapp",
+        "state": "ready",
+        "variant": {
+          "id": "accdc134f1e7e574d06cffaf6806689deba12f79c008f07847bed0b04af16a8a",
+          "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+          "campaign_revision": 6,
+          "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a2",
+          "language": "kn-Latn",
+          "channel": "whatsapp",
+          "template": {
+            "headline": "Unwind at {{CAFE|nom}}",
+            "body": "{{LOCATION|nom}} maade {{CAFE|loc}} teerku {{PRODUCT|nom}} naakina calm unwind. {{OFFER|nom}} thaginda {{ELIGIBILITY|nom}} karo {{PRODUCT|nom}}. Days: {{DAYS|nom}}. Dates: {{DATES|nom}}. {{CAFE|nom}} teerku refined pause.",
+            "cta": "{{CAFE|loc}} teerku {{PRODUCT|nom}} unwind aava",
+            "hashtags": [],
+            "alt_text": ""
+          },
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ],
+          "fact_hash": "0c090ecf7d5629842d6e8360f69cb4515d7a6f53afbe23bfc91153d8bcb2f7bd",
+          "dependency_hash": "c381ccd8c46c91239ad6f939ae2fb981bed404f64426f5b4a4ec27f93b783701",
+          "content_hash": "2a31375b2b04fab2959703c93e1477428ed5400f5352632e875b0e6f5e519b0c",
+          "render_hash": null,
+          "status": "pending",
+          "parent_id": null,
+          "dependencies": {
+            "facts": {
+              "CAFE": 4,
+              "LOCATION": 4,
+              "OFFER": 4,
+              "PRODUCT": 4,
+              "DAYS": 4,
+              "DATES": 4,
+              "ELIGIBILITY": 4,
+              "ID_RULE": 2,
+              "TIME_WINDOW": 2,
+              "DINE_IN_RULE": 2,
+              "MIN_PURCHASE_RULE": 2,
+              "COMBINE_RULE": 2
+            },
+            "brand_revision": 1,
+            "prompt_version": "b3.1",
+            "policy_version": "guardian-policy-2.1",
+            "renderer_version": null,
+            "font_hash": null,
+            "background_hash": null,
+            "layout_hash": null
+          },
+          "report": {
+            "schema_version": "guardian-report-2.1",
+            "policy_version": "guardian-policy-2.1",
+            "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+            "campaign_revision": 6,
+            "mode": "asset",
+            "content_hash": "2a31375b2b04fab2959703c93e1477428ed5400f5352632e875b0e6f5e519b0c",
+            "dependency_hash": "a0307fb8f8cf141170caa6fbdb8147a59ecea58bf64ad7d712a948053da07580",
+            "rendered": {
+              "fields": {
+                "headline": "Unwind at Namma Kafe",
+                "body": "Bengaluru maade Namma Kafege teerku Kafi naakina calm unwind. 20% riyayiti thaginda ellarigu karo Kafi. Days: Shanivara / Bhanuvara. Dates: 2026-10-10 to 2026-10-11. Namma Kafe teerku refined pause.",
+                "cta": "Namma Kafege teerku Kafi unwind aava",
+                "alt_text": ""
+              },
+              "spans": [
+                {
+                  "field": "headline",
+                  "start": 10,
+                  "end": 20,
+                  "template_start": 10,
+                  "template_end": 22,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 0,
+                  "end": 9,
+                  "template_start": 0,
+                  "template_end": 16,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 16,
+                  "end": 28,
+                  "template_start": 23,
+                  "template_end": 35,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 36,
+                  "end": 40,
+                  "template_start": 43,
+                  "template_end": 58,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 62,
+                  "end": 74,
+                  "template_start": 80,
+                  "template_end": 93,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 84,
+                  "end": 92,
+                  "template_start": 103,
+                  "template_end": 122,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 98,
+                  "end": 102,
+                  "template_start": 128,
+                  "template_end": 143,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 110,
+                  "end": 131,
+                  "template_start": 151,
+                  "template_end": 163,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 140,
+                  "end": 164,
+                  "template_start": 172,
+                  "template_end": 185,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 166,
+                  "end": 176,
+                  "template_start": 187,
+                  "template_end": 199,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 0,
+                  "end": 12,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 20,
+                  "end": 24,
+                  "template_start": 20,
+                  "template_end": 35,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                }
+              ],
+              "slots_used": [
+                "CAFE",
+                "DATES",
+                "DAYS",
+                "ELIGIBILITY",
+                "LOCATION",
+                "OFFER",
+                "PRODUCT"
+              ]
+            },
+            "checks": [
+              {
+                "rule": "G01",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G02",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G03",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G04",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G05",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G06",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G07",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G08",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G09",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G10",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G11",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "WARN",
+                "findings": []
+              },
+              {
+                "rule": "G12",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G13",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G14",
+                "applicable": true,
+                "completed": false,
+                "passed": null,
+                "severity": "BLOCK",
+                "findings": [
+                  {
+                    "field": "*",
+                    "source": "policy",
+                    "start": null,
+                    "end": null,
+                    "quote": "",
+                    "message": "Blinded Agnes R7 reader pending B5"
+                  }
+                ]
+              },
+              {
+                "rule": "G15",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              }
+            ],
+            "status": "INCOMPLETE",
+            "missing_checks": [
+              "G14"
+            ],
+            "warning_ids": [],
+            "integrity": null,
+            "approval_ready": false,
+            "native_review": "PENDING"
+          },
+          "mode": "live",
+          "baseline": true
+        },
+        "reasons": [],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a2",
+        "language": "kn-Latn",
+        "channel": "facebook",
+        "state": "ready",
+        "variant": {
+          "id": "b8790ac9dcb35cdfd7d88812628d83563e95d544c997beab147e95ea379a1edc",
+          "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+          "campaign_revision": 6,
+          "audience_id": "a6c3cb870e4440d392a44c3f891f9d70-a2",
+          "language": "kn-Latn",
+          "channel": "facebook",
+          "template": {
+            "headline": "{{CAFE|nom}} maade unwind moment",
+            "body": "{{LOCATION|nom}} teerku {{CAFE|loc}} maade {{PRODUCT|nom}} naakina calm unwind. {{OFFER|nom}} thaginda {{ELIGIBILITY|nom}} karo {{PRODUCT|nom}} gaava. {{DAYS|nom}} days aa ari. {{DATES|nom}} days. {{CAFE|nom}} teerku refined pause moment.",
+            "cta": "{{CAFE|loc}} teerku {{PRODUCT|nom}} unwind aava",
+            "hashtags": [
+              "refinedunwind",
+              "calm pause",
+              "professionalbreak"
+            ],
+            "alt_text": "{{CAFE|nom}} promotional message: {{PRODUCT|nom}} karo {{OFFER|nom}}, {{ELIGIBILITY|nom}}, {{DAYS|nom}} days, {{DATES|nom}} days, {{LOCATION|nom}} teerku unwind."
+          },
+          "slots_used": [
+            "CAFE",
+            "DATES",
+            "DAYS",
+            "ELIGIBILITY",
+            "LOCATION",
+            "OFFER",
+            "PRODUCT"
+          ],
+          "fact_hash": "0c090ecf7d5629842d6e8360f69cb4515d7a6f53afbe23bfc91153d8bcb2f7bd",
+          "dependency_hash": "b81bca9c10da787b5929697528caa0821386596fd37e9c038a57750b279a581f",
+          "content_hash": "ea0f4f8a4fc750743d55a2ee558b5cc5d424ffdc5cfaf957939d75dac7849052",
+          "render_hash": null,
+          "status": "pending",
+          "parent_id": null,
+          "dependencies": {
+            "facts": {
+              "CAFE": 4,
+              "LOCATION": 4,
+              "OFFER": 4,
+              "PRODUCT": 4,
+              "DAYS": 4,
+              "DATES": 4,
+              "ELIGIBILITY": 4,
+              "ID_RULE": 2,
+              "TIME_WINDOW": 2,
+              "DINE_IN_RULE": 2,
+              "MIN_PURCHASE_RULE": 2,
+              "COMBINE_RULE": 2
+            },
+            "brand_revision": 1,
+            "prompt_version": "b3.1",
+            "policy_version": "guardian-policy-2.1",
+            "renderer_version": null,
+            "font_hash": null,
+            "background_hash": null,
+            "layout_hash": null
+          },
+          "report": {
+            "schema_version": "guardian-report-2.1",
+            "policy_version": "guardian-policy-2.1",
+            "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+            "campaign_revision": 6,
+            "mode": "asset",
+            "content_hash": "ea0f4f8a4fc750743d55a2ee558b5cc5d424ffdc5cfaf957939d75dac7849052",
+            "dependency_hash": "463edaa74e21acaaeaf6e5e428b0a28aef440779011d670b04cb030b7622ab9a",
+            "rendered": {
+              "fields": {
+                "headline": "Namma Kafe maade unwind moment",
+                "body": "Bengaluru teerku Namma Kafege maade Kafi naakina calm unwind. 20% riyayiti thaginda ellarigu karo Kafi gaava. Shanivara / Bhanuvara days aa ari. 2026-10-10 to 2026-10-11 days. Namma Kafe teerku refined pause moment.",
+                "cta": "Namma Kafege teerku Kafi unwind aava",
+                "hashtags.0": "refinedunwind",
+                "hashtags.1": "calm pause",
+                "hashtags.2": "professionalbreak",
+                "alt_text": "Namma Kafe promotional message: Kafi karo 20% riyayiti, ellarigu, Shanivara / Bhanuvara days, 2026-10-10 to 2026-10-11 days, Bengaluru teerku unwind."
+              },
+              "spans": [
+                {
+                  "field": "headline",
+                  "start": 0,
+                  "end": 10,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 0,
+                  "end": 9,
+                  "template_start": 0,
+                  "template_end": 16,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 17,
+                  "end": 29,
+                  "template_start": 24,
+                  "template_end": 36,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 36,
+                  "end": 40,
+                  "template_start": 43,
+                  "template_end": 58,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 62,
+                  "end": 74,
+                  "template_start": 80,
+                  "template_end": 93,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 84,
+                  "end": 92,
+                  "template_start": 103,
+                  "template_end": 122,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 98,
+                  "end": 102,
+                  "template_start": 128,
+                  "template_end": 143,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 110,
+                  "end": 131,
+                  "template_start": 151,
+                  "template_end": 163,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 145,
+                  "end": 169,
+                  "template_start": 177,
+                  "template_end": 190,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "body",
+                  "start": 176,
+                  "end": 186,
+                  "template_start": 197,
+                  "template_end": 209,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 0,
+                  "end": 12,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "loc",
+                  "approved_form": "Namma Kafege",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "cta",
+                  "start": 20,
+                  "end": 24,
+                  "template_start": 20,
+                  "template_end": 35,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 0,
+                  "end": 10,
+                  "template_start": 0,
+                  "template_end": 12,
+                  "key": "CAFE",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Namma Kafe",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 32,
+                  "end": 36,
+                  "template_start": 34,
+                  "template_end": 49,
+                  "key": "PRODUCT",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Kafi",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 42,
+                  "end": 54,
+                  "template_start": 55,
+                  "template_end": 68,
+                  "key": "OFFER",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "20% riyayiti",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 56,
+                  "end": 64,
+                  "template_start": 70,
+                  "template_end": 89,
+                  "key": "ELIGIBILITY",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "ellarigu",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 66,
+                  "end": 87,
+                  "template_start": 91,
+                  "template_end": 103,
+                  "key": "DAYS",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Shanivara / Bhanuvara",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 94,
+                  "end": 118,
+                  "template_start": 110,
+                  "template_end": 123,
+                  "key": "DATES",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "2026-10-10 to 2026-10-11",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                },
+                {
+                  "field": "alt_text",
+                  "start": 125,
+                  "end": 134,
+                  "template_start": 130,
+                  "template_end": 146,
+                  "key": "LOCATION",
+                  "version": 4,
+                  "language": "kn-Latn",
+                  "case": "nom",
+                  "approved_form": "Bengaluru",
+                  "approval_id": "e0783d784c684a758bcff1f1a81e9ad1"
+                }
+              ],
+              "slots_used": [
+                "CAFE",
+                "DATES",
+                "DAYS",
+                "ELIGIBILITY",
+                "LOCATION",
+                "OFFER",
+                "PRODUCT"
+              ]
+            },
+            "checks": [
+              {
+                "rule": "G01",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G02",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G03",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G04",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G05",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G06",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G07",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G08",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G09",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G10",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G11",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "WARN",
+                "findings": []
+              },
+              {
+                "rule": "G12",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G13",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              },
+              {
+                "rule": "G14",
+                "applicable": true,
+                "completed": false,
+                "passed": null,
+                "severity": "BLOCK",
+                "findings": [
+                  {
+                    "field": "*",
+                    "source": "policy",
+                    "start": null,
+                    "end": null,
+                    "quote": "",
+                    "message": "Blinded Agnes R7 reader pending B5"
+                  }
+                ]
+              },
+              {
+                "rule": "G15",
+                "applicable": true,
+                "completed": true,
+                "passed": true,
+                "severity": "BLOCK",
+                "findings": []
+              }
+            ],
+            "status": "INCOMPLETE",
+            "missing_checks": [
+              "G14"
+            ],
+            "warning_ids": [],
+            "integrity": null,
+            "approval_ready": false,
+            "native_review": "PENDING"
+          },
+          "mode": "live",
+          "baseline": true
+        },
+        "reasons": [],
+        "attempts": [
+          {
+            "attempt": 1,
+            "reasons": []
+          }
+        ]
+      }
+    ],
+    "calls_used": 4,
+    "error_code": null,
+    "created_at": "2026-10-09T07:27:32.211811+00:00",
+    "updated_at": "2026-10-09T07:34:45.850294+00:00"
+  },
+  "status": "CAPTURED"
+}

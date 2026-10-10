@@ -1,0 +1,254 @@
+[
+  {
+    "schema_version": "canvas-input-b4.1",
+    "width": 1080,
+    "height": 1080,
+    "size": "square",
+    "language": "en",
+    "fields": {
+      "headline": "A little pause,\njust for you",
+      "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+      "cta": "Come say hello",
+      "alt_text": "Namma Cafe · coffee"
+    },
+    "offer_forms": [
+      "20% off"
+    ],
+    "background_url": "/api/assets/editorial-square",
+    "logo_url": null,
+    "font_urls": {
+      "latin": "/api/render/fonts/NotoSans.ttf",
+      "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+    },
+    "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+    "renderer_version": "canvas-pinterest-b1.0",
+    "renderer_hash": "2a417bbd8515448477766089162d825ca31cbdbcecf76524b580bc15ba66ed59",
+    "background_hash": "2ea2a7f47bae0cb86c66391d7d43039fbb38d7eb907e4eff7198381073292c4f",
+    "logo_hash": null,
+    "layout_hash": "f1d0e2c0f661cec6467f69bfe4134f27f52c0512bcd64f1079854ba80320d493"
+  },
+  {
+    "schema_version": "canvas-input-b4.1",
+    "width": 1080,
+    "height": 1080,
+    "size": "square",
+    "language": "kn",
+    "fields": {
+      "headline": "ನಿಮ್ಮದೇ ಪುಟ್ಟ ವಿರಾಮ",
+      "body": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ\nನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು\n2026-10-10 – 2026-10-11\nಶನಿವಾರ / ಭಾನುವಾರ\nಎಲ್ಲರಿಗೂ",
+      "cta": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+      "alt_text": "ನಮ್ಮ ಕೆಫೆ · ಕಾಫಿ"
+    },
+    "offer_forms": [
+      "20% ರಿಯಾಯಿತಿ"
+    ],
+    "background_url": "/api/assets/editorial-square",
+    "logo_url": null,
+    "font_urls": {
+      "latin": "/api/render/fonts/NotoSans.ttf",
+      "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+    },
+    "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+    "renderer_version": "canvas-pinterest-b1.0",
+    "renderer_hash": "2a417bbd8515448477766089162d825ca31cbdbcecf76524b580bc15ba66ed59",
+    "background_hash": "2ea2a7f47bae0cb86c66391d7d43039fbb38d7eb907e4eff7198381073292c4f",
+    "logo_hash": null,
+    "layout_hash": "f1d0e2c0f661cec6467f69bfe4134f27f52c0512bcd64f1079854ba80320d493"
+  },
+  {
+    "schema_version": "canvas-input-b4.1",
+    "width": 1080,
+    "height": 1080,
+    "size": "square",
+    "language": "kn-Latn",
+    "fields": {
+      "headline": "Nimma putta viraama",
+      "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nShanivara / Bhanuvara\nOpen to all",
+      "cta": "Banni, joteyaagona!",
+      "alt_text": "Namma Cafe · coffee"
+    },
+    "offer_forms": [
+      "20% off"
+    ],
+    "background_url": "/api/assets/editorial-square",
+    "logo_url": null,
+    "font_urls": {
+      "latin": "/api/render/fonts/NotoSans.ttf",
+      "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+    },
+    "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+    "renderer_version": "canvas-pinterest-b1.0",
+    "renderer_hash": "2a417bbd8515448477766089162d825ca31cbdbcecf76524b580bc15ba66ed59",
+    "background_hash": "2ea2a7f47bae0cb86c66391d7d43039fbb38d7eb907e4eff7198381073292c4f",
+    "logo_hash": null,
+    "layout_hash": "f1d0e2c0f661cec6467f69bfe4134f27f52c0512bcd64f1079854ba80320d493"
+  },
+  {
+    "schema_version": "canvas-input-b4.1",
+    "width": 1080,
+    "height": 1920,
+    "size": "story",
+    "language": "en",
+    "fields": {
+      "headline": "A little pause,\njust for you",
+      "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+      "cta": "Come say hello",
+      "alt_text": "Namma Cafe · coffee"
+    },
+    "offer_forms": [
+      "20% off"
+    ],
+    "background_url": "/api/assets/editorial-story",
+    "logo_url": null,
+    "font_urls": {
+      "latin": "/api/render/fonts/NotoSans.ttf",
+      "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+    },
+    "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+    "renderer_version": "canvas-pinterest-b1.0",
+    "renderer_hash": "2a417bbd8515448477766089162d825ca31cbdbcecf76524b580bc15ba66ed59",
+    "background_hash": "af259211a5dbf13908fec526fa8cff04f05115a180e5ee51ad2abed7de2647b5",
+    "logo_hash": null,
+    "layout_hash": "f1d0e2c0f661cec6467f69bfe4134f27f52c0512bcd64f1079854ba80320d493"
+  },
+  {
+    "schema_version": "canvas-input-b4.1",
+    "width": 1080,
+    "height": 1920,
+    "size": "story",
+    "language": "kn",
+    "fields": {
+      "headline": "ನಿಮ್ಮದೇ ಪುಟ್ಟ ವಿರಾಮ",
+      "body": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ\nನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು\n2026-10-10 – 2026-10-11\nಶನಿವಾರ / ಭಾನುವಾರ\nಎಲ್ಲರಿಗೂ",
+      "cta": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+      "alt_text": "ನಮ್ಮ ಕೆಫೆ · ಕಾಫಿ"
+    },
+    "offer_forms": [
+      "20% ರಿಯಾಯಿತಿ"
+    ],
+    "background_url": "/api/assets/editorial-story",
+    "logo_url": null,
+    "font_urls": {
+      "latin": "/api/render/fonts/NotoSans.ttf",
+      "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+    },
+    "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+    "renderer_version": "canvas-pinterest-b1.0",
+    "renderer_hash": "2a417bbd8515448477766089162d825ca31cbdbcecf76524b580bc15ba66ed59",
+    "background_hash": "af259211a5dbf13908fec526fa8cff04f05115a180e5ee51ad2abed7de2647b5",
+    "logo_hash": null,
+    "layout_hash": "f1d0e2c0f661cec6467f69bfe4134f27f52c0512bcd64f1079854ba80320d493"
+  },
+  {
+    "schema_version": "canvas-input-b4.1",
+    "width": 1080,
+    "height": 1920,
+    "size": "story",
+    "language": "kn-Latn",
+    "fields": {
+      "headline": "Nimma putta viraama",
+      "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nShanivara / Bhanuvara\nOpen to all",
+      "cta": "Banni, joteyaagona!",
+      "alt_text": "Namma Cafe · coffee"
+    },
+    "offer_forms": [
+      "20% off"
+    ],
+    "background_url": "/api/assets/editorial-story",
+    "logo_url": null,
+    "font_urls": {
+      "latin": "/api/render/fonts/NotoSans.ttf",
+      "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+    },
+    "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+    "renderer_version": "canvas-pinterest-b1.0",
+    "renderer_hash": "2a417bbd8515448477766089162d825ca31cbdbcecf76524b580bc15ba66ed59",
+    "background_hash": "af259211a5dbf13908fec526fa8cff04f05115a180e5ee51ad2abed7de2647b5",
+    "logo_hash": null,
+    "layout_hash": "f1d0e2c0f661cec6467f69bfe4134f27f52c0512bcd64f1079854ba80320d493"
+  },
+  {
+    "schema_version": "canvas-input-b4.1",
+    "width": 1200,
+    "height": 630,
+    "size": "landscape",
+    "language": "en",
+    "fields": {
+      "headline": "A little pause,\njust for you",
+      "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+      "cta": "Come say hello",
+      "alt_text": "Namma Cafe · coffee"
+    },
+    "offer_forms": [
+      "20% off"
+    ],
+    "background_url": "/api/assets/editorial-landscape",
+    "logo_url": null,
+    "font_urls": {
+      "latin": "/api/render/fonts/NotoSans.ttf",
+      "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+    },
+    "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+    "renderer_version": "canvas-pinterest-b1.0",
+    "renderer_hash": "2a417bbd8515448477766089162d825ca31cbdbcecf76524b580bc15ba66ed59",
+    "background_hash": "b568b4803bff29d3c7a0c6a6bba01adcb53d1033dea7b4716ea075df7a3b7d21",
+    "logo_hash": null,
+    "layout_hash": "f1d0e2c0f661cec6467f69bfe4134f27f52c0512bcd64f1079854ba80320d493"
+  },
+  {
+    "schema_version": "canvas-input-b4.1",
+    "width": 1200,
+    "height": 630,
+    "size": "landscape",
+    "language": "kn",
+    "fields": {
+      "headline": "ನಿಮ್ಮದೇ ಪುಟ್ಟ ವಿರಾಮ",
+      "body": "20% ರಿಯಾಯಿತಿ · ಕಾಫಿ\nನಮ್ಮ ಕೆಫೆ · ಬೆಂಗಳೂರು\n2026-10-10 – 2026-10-11\nಶನಿವಾರ / ಭಾನುವಾರ\nಎಲ್ಲರಿಗೂ",
+      "cta": "ಬನ್ನಿ, ಜೊತೆಯಾಗೋಣ!",
+      "alt_text": "ನಮ್ಮ ಕೆಫೆ · ಕಾಫಿ"
+    },
+    "offer_forms": [
+      "20% ರಿಯಾಯಿತಿ"
+    ],
+    "background_url": "/api/assets/editorial-landscape",
+    "logo_url": null,
+    "font_urls": {
+      "latin": "/api/render/fonts/NotoSans.ttf",
+      "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+    },
+    "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+    "renderer_version": "canvas-pinterest-b1.0",
+    "renderer_hash": "2a417bbd8515448477766089162d825ca31cbdbcecf76524b580bc15ba66ed59",
+    "background_hash": "b568b4803bff29d3c7a0c6a6bba01adcb53d1033dea7b4716ea075df7a3b7d21",
+    "logo_hash": null,
+    "layout_hash": "f1d0e2c0f661cec6467f69bfe4134f27f52c0512bcd64f1079854ba80320d493"
+  },
+  {
+    "schema_version": "canvas-input-b4.1",
+    "width": 1200,
+    "height": 630,
+    "size": "landscape",
+    "language": "kn-Latn",
+    "fields": {
+      "headline": "Nimma putta viraama",
+      "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nShanivara / Bhanuvara\nOpen to all",
+      "cta": "Banni, joteyaagona!",
+      "alt_text": "Namma Cafe · coffee"
+    },
+    "offer_forms": [
+      "20% off"
+    ],
+    "background_url": "/api/assets/editorial-landscape",
+    "logo_url": null,
+    "font_urls": {
+      "latin": "/api/render/fonts/NotoSans.ttf",
+      "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+    },
+    "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+    "renderer_version": "canvas-pinterest-b1.0",
+    "renderer_hash": "2a417bbd8515448477766089162d825ca31cbdbcecf76524b580bc15ba66ed59",
+    "background_hash": "b568b4803bff29d3c7a0c6a6bba01adcb53d1033dea7b4716ea075df7a3b7d21",
+    "logo_hash": null,
+    "layout_hash": "f1d0e2c0f661cec6467f69bfe4134f27f52c0512bcd64f1079854ba80320d493"
+  }
+]

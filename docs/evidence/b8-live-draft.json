@@ -1,0 +1,121 @@
+{
+  "mode": "live",
+  "provider": "Agnes",
+  "captured_at": "2026-10-09T06:25:08.453405+00:00",
+  "scenario": "Hypothetical M0 broad-offer demo, not a real business assertion",
+  "owner_lock": "PENDING",
+  "native_review": "PENDING",
+  "full_workflow": "PENDING",
+  "structured_strategy": "json",
+  "campaign_id": "27d552fe8b66405c836e27eec33dd71d",
+  "ambiguous_brief": "Café name: Namma Cafe. Bengaluru alli coffee mele 20% off ee weekend. Students ge focus maadona.",
+  "clarification_questions": [
+    {
+      "key": "LOCATION",
+      "question": "Please supply location before locking.",
+      "required": true
+    },
+    {
+      "key": "PRODUCT",
+      "question": "Please supply product before locking.",
+      "required": true
+    },
+    {
+      "key": "ELIGIBILITY",
+      "question": "Are students the marketing focus, or is the offer students-only? Choose open to all or an exact restriction.",
+      "required": true
+    },
+    {
+      "key": "ID_RULE",
+      "question": "Is an ID required? Leave unknown unless decided.",
+      "required": false
+    },
+    {
+      "key": "TIME_WINDOW",
+      "question": "Any daily time window?",
+      "required": false
+    },
+    {
+      "key": "DINE_IN_RULE",
+      "question": "Any dine-in or takeaway restriction?",
+      "required": false
+    },
+    {
+      "key": "MIN_PURCHASE_RULE",
+      "question": "Any minimum purchase?",
+      "required": false
+    },
+    {
+      "key": "COMBINE_RULE",
+      "question": "Can this combine with other offers?",
+      "required": false
+    }
+  ],
+  "clarified_brief": "Café name: Namma Cafe. Bengaluru alli coffee mele 20% off ee weekend. Students ge focus maadona. Offer ellarigu, open to all. Students are the initial marketing target, not an eligibility restriction.",
+  "status": "FAILED",
+  "code": "REVIEW_REQUIRED",
+  "elapsed_seconds": 26.26,
+  "calls": [
+    {
+      "id": "1dbb1453e83947f8aba2150e5e8a1e80",
+      "trace_id": "58d28702d5a848b797c70c7fb1596d16",
+      "run_id": "516f06e043fc4046a85057eb11f8dbb2",
+      "work_id": null,
+      "timestamp": "2026-10-09T06:25:18.475189+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.1269999993382953,
+      "duration_ms": 10007.297899996047,
+      "usage": {
+        "prompt_tokens": 3323,
+        "completion_tokens": 433,
+        "total_tokens": 3756
+      },
+      "list_price_estimate_usd": 0.00023110000000000003
+    },
+    {
+      "id": "68a65fac6a174d339ec6f93a3033a3e1",
+      "trace_id": "d6d88241cd5442e2837017d3e1db73a2",
+      "run_id": "516f06e043fc4046a85057eb11f8dbb2",
+      "work_id": null,
+      "timestamp": "2026-10-09T06:25:25.212415+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 1,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.13819999730912969,
+      "duration_ms": 6746.77569999767,
+      "usage": null,
+      "list_price_estimate_usd": null
+    },
+    {
+      "id": "bc5c0b6b6909443f8b08c95de214e759",
+      "trace_id": "f9d83b3e719e40d19172fa2d44935921",
+      "run_id": "ad7574539c444e2da99eed9e5c9156da",
+      "work_id": null,
+      "timestamp": "2026-10-09T06:25:34.733102+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 730.6740000058198,
+      "duration_ms": 8759.882799997285,
+      "usage": null,
+      "list_price_estimate_usd": null
+    }
+  ]
+}

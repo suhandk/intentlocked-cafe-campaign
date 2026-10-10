@@ -1,0 +1,36 @@
+{
+  "captured_at": "2026-10-09T06:34:04.288902+00:00",
+  "mode": "live",
+  "provider": "Agnes",
+  "scenario": "Hypothetical integration test, not a real business campaign",
+  "owner_actions": "SIMULATED_TEST_OPERATOR",
+  "human_signoff": "PENDING",
+  "native_review": "PENDING",
+  "stages": {},
+  "R1_source": "Fresh genuine live proposal",
+  "campaign_id": "41c02639d6e84a2cb270068563a9d5ab",
+  "status": "BLOCKED",
+  "error": "Live canonical facts differ from test expectations",
+  "elapsed_seconds": 29.34,
+  "calls": [
+    {
+      "id": "5825f14f6e764dfab78d58ed63658a89",
+      "trace_id": "1a8ff4cffd614fa083586fdd821769f3",
+      "run_id": "0c5991f5540d44fdbc34e59874fb862d",
+      "work_id": null,
+      "timestamp": "2026-10-09T06:34:33.624288+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.1300999865634367,
+      "duration_ms": 29328.960600003484,
+      "usage": null,
+      "list_price_estimate_usd": null
+    }
+  ]
+}

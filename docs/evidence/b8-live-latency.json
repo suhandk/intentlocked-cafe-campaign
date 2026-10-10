@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-10-09T03:37:32.653852+00:00",
+  "mode": "live",
+  "model": "agnes-3.0-flash",
+  "purpose": "one bounded latency diagnostic after repeated 30s timeouts",
+  "max_calls": 1,
+  "deadline_seconds": 100,
+  "http_timeout_seconds": 90,
+  "response_text_omitted": true,
+  "status": "VERIFIED",
+  "nonempty": true,
+  "elapsed_seconds": 3.14,
+  "calls": [
+    {
+      "id": "2ae5b605ff5a4e72aa2ce3d90539005e",
+      "trace_id": "acac3cc126794cf89aef1c54e4dd6bb2",
+      "run_id": "5a4f93f77eb34aa8ab53cf35ee2dac1d",
+      "work_id": null,
+      "timestamp": "2026-10-09T03:37:35.791166+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.14519999967887998,
+      "duration_ms": 3137.135599994508,
+      "usage": {
+        "prompt_tokens": 78,
+        "completion_tokens": 2,
+        "total_tokens": 80
+      },
+      "list_price_estimate_usd": 4.2000000000000004e-06
+    }
+  ]
+}

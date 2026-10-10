@@ -1,0 +1,620 @@
+{
+  "captured_at": "2026-10-09T06:35:39.868976+00:00",
+  "mode": "live",
+  "provider": "Agnes",
+  "scenario": "Hypothetical integration test, not a real business campaign",
+  "owner_actions": "SIMULATED_TEST_OPERATOR",
+  "human_signoff": "PENDING",
+  "native_review": "PENDING",
+  "stages": {
+    "R1": "PASS",
+    "R2": "PASS",
+    "test_lock": "PASS_SIMULATED_OWNER",
+    "R3": "PASS"
+  },
+  "R1_source": "Fresh genuine live proposal",
+  "campaign_id": "e0163b2ee5824f9aaeedcee02796168a",
+  "reviewed_test_warnings": [],
+  "campaign": {
+    "id": "e0163b2ee5824f9aaeedcee02796168a",
+    "revision": 5,
+    "status": "forms_review",
+    "mode": "live",
+    "languages": [
+      "en",
+      "kn",
+      "kn-Latn"
+    ],
+    "channels": [
+      "instagram",
+      "whatsapp",
+      "facebook"
+    ],
+    "target_audiences": [
+      "Students"
+    ],
+    "transcript": "Café name: Namma Cafe. Bengaluru alli coffee mele 20% off ee weekend. Students ge focus maadona. Offer ellarigu, open to all. Students are the marketing target, not an eligibility restriction.",
+    "facts": [
+      {
+        "key": "CAFE",
+        "canonical": {
+          "kind": "text",
+          "value": "Namma Cafe"
+        },
+        "version": 3,
+        "status": "proposed",
+        "source_span": {
+          "start": 0,
+          "end": 22,
+          "quote": "Café name: Namma Cafe."
+        },
+        "source": "R1",
+        "surface": {
+          "en": {
+            "nom": [
+              "Namma Cafe"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "ನಮ್ಮ ಕಫೆ"
+            ],
+            "dat": [
+              "ನಮ್ಮ ಕಫೆಗೆ"
+            ],
+            "gen": [
+              "ನಮ್ಮ ಕಫೆಯ"
+            ],
+            "loc": [
+              "ನಮ್ಮ ಕಫೆಗೆ"
+            ]
+          },
+          "kn-Latn": {
+            "nom": [
+              "Namma Kafe"
+            ],
+            "dat": [
+              "Namma Kafege"
+            ],
+            "gen": [
+              "Namma Kafey"
+            ],
+            "loc": [
+              "Namma Kafege"
+            ]
+          }
+        },
+        "canonical_hash": "7b65cb11f4a45f75922f90cf253ab5be5624f0da46a08ab499e5ff82c050def7",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "LOCATION",
+        "canonical": {
+          "kind": "text",
+          "value": "Bengaluru"
+        },
+        "version": 3,
+        "status": "proposed",
+        "source_span": {
+          "start": 22,
+          "end": 69,
+          "quote": " Bengaluru alli coffee mele 20% off ee weekend."
+        },
+        "source": "R1",
+        "surface": {
+          "en": {
+            "nom": [
+              "Bengaluru"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "ಬೆಂಗಳೂರು"
+            ],
+            "dat": [
+              "ಬೆಂಗಳೂರಿಗೆ"
+            ],
+            "gen": [
+              "ಬೆಂಗಳೂರಿನ"
+            ],
+            "loc": [
+              "ಬೆಂಗಳೂರಲ್ಲಿ"
+            ]
+          },
+          "kn-Latn": {
+            "nom": [
+              "Bengaluru"
+            ],
+            "dat": [
+              "Bengaluruige"
+            ],
+            "gen": [
+              "Bengaluruina"
+            ],
+            "loc": [
+              "Bengalurulli"
+            ]
+          }
+        },
+        "canonical_hash": "de4c06030f4f532cc1cd7f757bea1f4a0230c0181223a9d9b358926d00c8ed4a",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "OFFER",
+        "canonical": {
+          "kind": "percent_off",
+          "value": 20.0,
+          "unit": "percent"
+        },
+        "version": 3,
+        "status": "proposed",
+        "source_span": {
+          "start": 22,
+          "end": 69,
+          "quote": " Bengaluru alli coffee mele 20% off ee weekend."
+        },
+        "source": "R1",
+        "surface": {
+          "en": {
+            "nom": [
+              "20% off"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "20% ರಿಯಾಯಿತಿ"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn-Latn": {
+            "nom": [
+              "20% riyayiti"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          }
+        },
+        "canonical_hash": "ebdf5ce45b6a0d971ee7651a875bd319f293b71c932ba92bbf7618446e5a03e3",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "PRODUCT",
+        "canonical": {
+          "kind": "text",
+          "value": "coffee"
+        },
+        "version": 3,
+        "status": "proposed",
+        "source_span": {
+          "start": 22,
+          "end": 69,
+          "quote": " Bengaluru alli coffee mele 20% off ee weekend."
+        },
+        "source": "R1",
+        "surface": {
+          "en": {
+            "nom": [
+              "coffee"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "ಕಾಫಿ"
+            ],
+            "dat": [
+              "ಕಾಫಿಗೆ"
+            ],
+            "gen": [
+              "ಕಾಫಿಯ"
+            ],
+            "loc": [
+              "ಕಾಫಿಲ್ಲಿ"
+            ]
+          },
+          "kn-Latn": {
+            "nom": [
+              "Kafi"
+            ],
+            "dat": [
+              "Kafiige"
+            ],
+            "gen": [
+              "Kafiya"
+            ],
+            "loc": [
+              "Kafilli"
+            ]
+          }
+        },
+        "canonical_hash": "a3085ac0dadb0ab1d4a88030b832e18c2532edd7884c252cfee17541a8977de6",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "DAYS",
+        "canonical": {
+          "kind": "days",
+          "weekdays": [
+            "SAT",
+            "SUN"
+          ]
+        },
+        "version": 3,
+        "status": "proposed",
+        "source_span": {
+          "start": 22,
+          "end": 69,
+          "quote": " Bengaluru alli coffee mele 20% off ee weekend."
+        },
+        "source": "derived",
+        "surface": {
+          "en": {
+            "nom": [
+              "Saturday / Sunday"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "ಶನಿವಾರ / ಭಾನುವಾರ"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn-Latn": {
+            "nom": [
+              "Shanivara / Bhanuvara"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          }
+        },
+        "canonical_hash": "38afaceecb9070a29830e0ce0ad06e1020c5d6bb1454a55f1dee999078049cf7",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "DATES",
+        "canonical": {
+          "kind": "dates",
+          "start": "2026-10-10",
+          "end": "2026-10-11",
+          "original_phrase": "ee weekend",
+          "timezone": "Asia/Kolkata"
+        },
+        "version": 3,
+        "status": "proposed",
+        "source_span": {
+          "start": 22,
+          "end": 69,
+          "quote": " Bengaluru alli coffee mele 20% off ee weekend."
+        },
+        "source": "R1",
+        "surface": {
+          "en": {
+            "nom": [
+              "2026-10-10 to 2026-10-11"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "2026-10-10 to 2026-10-11"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn-Latn": {
+            "nom": [
+              "2026-10-10 to 2026-10-11"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          }
+        },
+        "canonical_hash": "7b7b6f52ecb76fdad24eb4794b46bc246e2317d72ad7b55e770e921663487605",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "ELIGIBILITY",
+        "canonical": {
+          "kind": "eligibility",
+          "scope": "all",
+          "description": ""
+        },
+        "version": 3,
+        "status": "proposed",
+        "source_span": {
+          "start": 96,
+          "end": 125,
+          "quote": " Offer ellarigu, open to all."
+        },
+        "source": "R1",
+        "surface": {
+          "en": {
+            "nom": [
+              "Open to all"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn": {
+            "nom": [
+              "ಎಲ್ಲರಿಗೂ"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          },
+          "kn-Latn": {
+            "nom": [
+              "ellarigu"
+            ],
+            "dat": null,
+            "gen": null,
+            "loc": null
+          }
+        },
+        "canonical_hash": "26f9eff5fc2fbfac7fb9c19f5842f96e43a48ee858ae3f28c035cdbdf345a8a6",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "ID_RULE",
+        "canonical": null,
+        "version": 2,
+        "status": "not_specified",
+        "source_span": null,
+        "source": "unspecified",
+        "surface": {},
+        "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "TIME_WINDOW",
+        "canonical": null,
+        "version": 2,
+        "status": "not_specified",
+        "source_span": null,
+        "source": "unspecified",
+        "surface": {},
+        "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "DINE_IN_RULE",
+        "canonical": null,
+        "version": 2,
+        "status": "not_specified",
+        "source_span": null,
+        "source": "unspecified",
+        "surface": {},
+        "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "MIN_PURCHASE_RULE",
+        "canonical": null,
+        "version": 2,
+        "status": "not_specified",
+        "source_span": null,
+        "source": "unspecified",
+        "surface": {},
+        "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "approved_at": null,
+        "approval_id": null
+      },
+      {
+        "key": "COMBINE_RULE",
+        "canonical": null,
+        "version": 2,
+        "status": "not_specified",
+        "source_span": null,
+        "source": "unspecified",
+        "surface": {},
+        "canonical_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "approved_at": null,
+        "approval_id": null
+      }
+    ],
+    "brand": {
+      "colors": [],
+      "tone": "",
+      "theme": "",
+      "must_say": [],
+      "must_not_say": []
+    },
+    "brand_revision": 1,
+    "warnings": [
+      {
+        "id": "r2_166463668309",
+        "message": "Kannada inflections for CAFE, LOCATION, and PRODUCT dat/gen/loc are approximate and may require owner validation."
+      },
+      {
+        "id": "r2_3ad266b9cac6",
+        "message": "Romajiization (kn-Latn) uses phonetic approximation and may vary by reader; owner approval is recommended before locking."
+      },
+      {
+        "id": "native_review",
+        "message": "Kannada/Kanglish has not been reviewed by a native speaker. Review each proposed spelling and case form. Human language review remains a separate release gate."
+      }
+    ],
+    "clarifications": [
+      {
+        "key": "ID_RULE",
+        "question": "Is an ID required? Leave unknown unless decided.",
+        "required": false
+      },
+      {
+        "key": "TIME_WINDOW",
+        "question": "Any daily time window?",
+        "required": false
+      },
+      {
+        "key": "DINE_IN_RULE",
+        "question": "Any dine-in or takeaway restriction?",
+        "required": false
+      },
+      {
+        "key": "MIN_PURCHASE_RULE",
+        "question": "Any minimum purchase?",
+        "required": false
+      },
+      {
+        "key": "COMBINE_RULE",
+        "question": "Can this combine with other offers?",
+        "required": false
+      }
+    ],
+    "agent_questions": [],
+    "acknowledged_warning_ids": [],
+    "reference_date": "2026-10-09",
+    "timezone": "Asia/Kolkata",
+    "demo_clock": false,
+    "fact_hash": null,
+    "approved_at": null,
+    "native_review": "NOT_REVIEWED",
+    "prompt_version": "b1.1"
+  },
+  "elapsed_seconds": 51.06,
+  "calls": [
+    {
+      "id": "3c1814032cb84d90818f601a7a5a4ad6",
+      "trace_id": "ca2a4e737c8f4c978245064241dcdba8",
+      "run_id": "75ad2569c0794241b1a940fb4e906836",
+      "work_id": null,
+      "timestamp": "2026-10-09T06:35:49.171930+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.19469999824650586,
+      "duration_ms": 9294.395999997505,
+      "usage": {
+        "prompt_tokens": 3719,
+        "completion_tokens": 458,
+        "total_tokens": 4177
+      },
+      "list_price_estimate_usd": 0.00025465000000000004
+    },
+    {
+      "id": "e175571824254495b7d8d86a74062084",
+      "trace_id": "a66fb4eb2e1748aca96ce61abf0e1b53",
+      "run_id": "75ad2569c0794241b1a940fb4e906836",
+      "work_id": null,
+      "timestamp": "2026-10-09T06:35:50.554031+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 1,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.13110000872984529,
+      "duration_ms": 1384.321399993496,
+      "usage": null,
+      "list_price_estimate_usd": null
+    },
+    {
+      "id": "7e055a4cd1d84b0dbc5d709c508757d2",
+      "trace_id": "54269901bb3449aeb13aeb1343044b2f",
+      "run_id": "75ad2569c0794241b1a940fb4e906836",
+      "work_id": null,
+      "timestamp": "2026-10-09T06:36:07.041800+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 2,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 6121.385899998131,
+      "duration_ms": 10360.940899990965,
+      "usage": null,
+      "list_price_estimate_usd": null
+    },
+    {
+      "id": "71ad1aa9cde342c7b422afaf4e7e4671",
+      "trace_id": "ca7569b54ab64390a662bd3e2d3ad0d9",
+      "run_id": "47788c5df1cb4edabd1974ff87f4d2b1",
+      "work_id": null,
+      "timestamp": "2026-10-09T06:36:20.713825+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.07369999366346747,
+      "duration_ms": 13657.194800005527,
+      "usage": {
+        "prompt_tokens": 2327,
+        "completion_tokens": 734,
+        "total_tokens": 3061
+      },
+      "list_price_estimate_usd": 0.00022645
+    },
+    {
+      "id": "084a04a6656147688deb100b75b0b648",
+      "trace_id": "13d4707ff6354686935438f91cf7a4de",
+      "run_id": "d1500195629b400785db425a4d837795",
+      "work_id": null,
+      "timestamp": "2026-10-09T06:36:30.917014+00:00",
+      "mode": "live",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.08079998951870948,
+      "duration_ms": 10179.322500000126,
+      "usage": {
+        "prompt_tokens": 1628,
+        "completion_tokens": 464,
+        "total_tokens": 2092
+      },
+      "list_price_estimate_usd": 0.000151
+    }
+  ]
+}

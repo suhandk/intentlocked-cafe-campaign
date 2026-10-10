@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-10-08T17:35:10.922980+00:00",
+  "mode": "mock",
+  "schema_version": "b0.1",
+  "provider": "Agnes",
+  "capabilities": [
+    {
+      "capability": "text",
+      "model": "agnes-3.0-flash",
+      "status": "MOCK_PASSED",
+      "details": {
+        "nonempty_text": true,
+        "response_text_omitted": true
+      }
+    },
+    {
+      "capability": "structured_tools",
+      "model": "agnes-3.0-flash",
+      "status": "MOCK_PASSED",
+      "details": {
+        "strategy": "tools",
+        "validated": true
+      }
+    },
+    {
+      "capability": "local_truncation_rejection",
+      "status": "LOCAL_PASSED"
+    },
+    {
+      "capability": "image_1k_download",
+      "model": "agnes-image-2.5-flash",
+      "status": "MOCK_PASSED",
+      "details": {
+        "filename": "d307e8182e1f4ed68354674998553737.png",
+        "sha256": "2962bb20817bf5b765507bae1a8d91feb2d838e87eb3ff0de409d191d107fce0",
+        "bytes": 5339,
+        "width": 1024,
+        "height": 1024,
+        "mime": "image/png"
+      }
+    },
+    {
+      "capability": "public_image_vision",
+      "model": "agnes-3.0-flash",
+      "status": "MOCK_PASSED",
+      "details": {
+        "nonempty_response": true,
+        "quality_approval": false
+      }
+    },
+    {
+      "capability": "video",
+      "status": "NOT_TESTED",
+      "reason": "Disabled by default"
+    },
+    {
+      "capability": "usage",
+      "status": "MOCK_PASSED",
+      "returned_usage_calls": 3,
+      "unknown_usage_calls": 1
+    }
+  ],
+  "calls": [
+    {
+      "id": "5a183a786cb743bbb2391d219fb3e2bf",
+      "trace_id": "80b9aab2e30d406f8316897746c4f5c2",
+      "run_id": "11ad0ba6098344b38959cdba96d659ae",
+      "timestamp": "2026-10-08T17:35:10.923982+00:00",
+      "mode": "mock",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.15109998639672995,
+      "duration_ms": 1.04750000173226,
+      "usage": {
+        "prompt_tokens": 12,
+        "completion_tokens": 6,
+        "total_tokens": 18
+      },
+      "list_price_estimate_usd": 1.5e-06
+    },
+    {
+      "id": "9676aa595fab4dd0a977f31a9e2aa5e4",
+      "trace_id": "86ad07b7907148de99d212862442c22f",
+      "run_id": "11ad0ba6098344b38959cdba96d659ae",
+      "timestamp": "2026-10-08T17:35:18.428522+00:00",
+      "mode": "mock",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 7499.310000013793,
+      "duration_ms": 2.150199987227097,
+      "usage": {
+        "prompt_tokens": 20,
+        "completion_tokens": 8,
+        "total_tokens": 28
+      },
+      "list_price_estimate_usd": 2.2e-06
+    },
+    {
+      "id": "ae03e7c46a2f4bf1845e4b18ac9563d4",
+      "trace_id": "920ca99dab2d40448abd7724d9c14aee",
+      "run_id": "11ad0ba6098344b38959cdba96d659ae",
+      "timestamp": "2026-10-08T17:35:18.428522+00:00",
+      "mode": "mock",
+      "model": "agnes-image-2.5-flash",
+      "operation": "image",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 0.1616999797988683,
+      "duration_ms": 0.7799000013619661,
+      "usage": null,
+      "list_price_estimate_usd": 0.01
+    },
+    {
+      "id": "e95f092fbd0c492ab9955b4bdc2ce9ff",
+      "trace_id": "3f8655df381e49cbbc9d303fce821d92",
+      "run_id": "11ad0ba6098344b38959cdba96d659ae",
+      "timestamp": "2026-10-08T17:35:25.943183+00:00",
+      "mode": "mock",
+      "model": "agnes-3.0-flash",
+      "operation": "text",
+      "attempt": 1,
+      "repair": 0,
+      "status": "http_completed",
+      "sent": true,
+      "http_status": 200,
+      "queue_wait_ms": 7463.682000001427,
+      "duration_ms": 1.584999990882352,
+      "usage": {
+        "prompt_tokens": 12,
+        "completion_tokens": 6,
+        "total_tokens": 18
+      },
+      "list_price_estimate_usd": 1.5e-06
+    }
+  ],
+  "authenticated_status": "NOT_TESTED"
+}

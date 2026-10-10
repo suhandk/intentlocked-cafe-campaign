@@ -1,0 +1,18 @@
+<testsuites id="" name="" tests="5" failures="0" skipped="0" errors="0" time="11.275688999999998">
+<testsuite name="approval-recovery.spec.ts" timestamp="2026-10-09T21:57:03.685Z" hostname="" tests="1" failures="0" skipped="0" time="3.043" errors="0">
+<testcase name="failed audit recovers; exact review, approval, export and reload remain usable" classname="approval-recovery.spec.ts" time="3.043">
+</testcase>
+</testsuite>
+<testsuite name="intent-recovery.spec.ts" timestamp="2026-10-09T21:57:03.685Z" hostname="" tests="2" failures="0" skipped="0" time="1.478" errors="0">
+<testcase name="intent failure preserves the brief and supports an explicit edited retry" classname="intent-recovery.spec.ts" time="0.594">
+</testcase>
+<testcase name="intent failure preserves the brief and supports manual fact entry" classname="intent-recovery.spec.ts" time="0.884">
+</testcase>
+</testsuite>
+<testsuite name="surface-recovery.spec.ts" timestamp="2026-10-09T21:57:03.685Z" hostname="" tests="2" failures="0" skipped="0" time="2.338" errors="0">
+<testcase name="failed wording loads the current revision and retries without losing confirmed facts" classname="surface-recovery.spec.ts" time="1.185">
+</testcase>
+<testcase name="failed wording loads the current revision and requires renewed fact confirmation" classname="surface-recovery.spec.ts" time="1.153">
+</testcase>
+</testsuite>
+</testsuites>

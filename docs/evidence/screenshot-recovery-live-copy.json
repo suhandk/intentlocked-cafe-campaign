@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-09T20:47:16.530719+00:00",
+  "mode": "LIVE",
+  "text_model": "openai/gpt-4o-mini",
+  "work_id": "956f93ccb60347e39f59fb99a852b0ca",
+  "run_id": "d60a7802a1d6436a90ee1fb086d88066",
+  "status": "partial",
+  "error_code": null,
+  "source_retry_selection_preserved": true,
+  "facts_and_approvals_changed": false,
+  "drafts_ready": 1,
+  "drafts_requested": 2,
+  "copy_calls": 3,
+  "elapsed_seconds": 17.638438,
+  "remaining_rules": [
+    "G02",
+    "G07",
+    "G08"
+  ]
+}

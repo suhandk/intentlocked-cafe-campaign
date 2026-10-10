@@ -1,0 +1,3541 @@
+{
+  "timestamp": "2026-10-10T00:02:06.083Z",
+  "outcome": "PASS",
+  "mode": "mock",
+  "records": [
+    {
+      "poster": {
+        "id": "9d601269e2554015badbbea6ee042270",
+        "campaign_id": "6ec0bb1c5b494f4894440d979365ac9b",
+        "variant_id": "5020f8ac35442b81a3f2772cd3a098975790cc325ffe89b188f7641a7deca5db",
+        "campaign_revision": 5,
+        "kind": "poster",
+        "status": "ready",
+        "mime_type": "image/png",
+        "width": 1080,
+        "height": 1080,
+        "byte_count": 186229,
+        "sha256": "b231011fecb05b6fdc12b8629ba105f3a5b0cb012d37d605c7595b582dc4061a",
+        "fact_hash": "5b450a9a7dda20eb9b1f06318e10dbece6d3b0c261e3d4f235ae4cd713264c98",
+        "dependency_hash": "6ea1d10b2fe42dfbc69f90488fc09cf4b6322095682f4b7777ab856e79ea16d7",
+        "content_hash": "8f71867b11c68c19c930c3f7db8df650d0a5dce2015eb00ad3fba4c0b6fc6005",
+        "render_hash": "05708af377a8b5b8f3ea568204bffb0cdb3434d0fd6f98197c2d8fa8184eea7c",
+        "dependencies": {
+          "facts": {
+            "CAFE": 4,
+            "LOCATION": 4,
+            "OFFER": 4,
+            "PRODUCT": 4,
+            "DAYS": 4,
+            "DATES": 4,
+            "ELIGIBILITY": 4,
+            "ID_RULE": 2,
+            "TIME_WINDOW": 2,
+            "DINE_IN_RULE": 2,
+            "MIN_PURCHASE_RULE": 2,
+            "COMBINE_RULE": 2
+          },
+          "brand_revision": 1,
+          "prompt_version": "b5.1",
+          "policy_version": "guardian-policy-2.1",
+          "renderer_version": "canvas-modern-cafe-b1.0",
+          "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+          "background_hash": "58b930e4fde6634818d8bdb48691e994d6d472e015cad269cd04ed49ce9c05f9",
+          "layout_hash": "f70c680f6d4e00b060d666456e65bd8b2487dbb632fb9ed3d15988728e5a8908"
+        },
+        "provenance": "deterministic",
+        "captured_at": "2026-10-10T00:01:57.445743+00:00",
+        "render_input": {
+          "schema_version": "canvas-input-b4.1",
+          "width": 1080,
+          "height": 1080,
+          "size": "square",
+          "language": "en",
+          "fields": {
+            "headline": "20% off · Make room for a shared pause",
+            "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+            "cta": "Come along!",
+            "alt_text": "Namma Cafe · coffee · 20% off"
+          },
+          "offer_forms": [
+            "20% off"
+          ],
+          "background_url": "/api/assets/3d395fcc9b644c6fbf7db6a5c7ddbb7c",
+          "logo_url": null,
+          "font_urls": {
+            "latin": "/api/render/fonts/NotoSans.ttf",
+            "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+          },
+          "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+          "renderer_version": "canvas-modern-cafe-b1.0",
+          "renderer_hash": "88c7c80e3b5655dcdb5d19e18c5d4b500c53b5fb866dd054a324ecf034bf9a00",
+          "background_hash": "58b930e4fde6634818d8bdb48691e994d6d472e015cad269cd04ed49ce9c05f9",
+          "logo_hash": null,
+          "layout_hash": "f70c680f6d4e00b060d666456e65bd8b2487dbb632fb9ed3d15988728e5a8908"
+        },
+        "validation": {
+          "passed": true,
+          "reasons": [],
+          "font_loaded": true,
+          "grapheme_engine": true,
+          "contrast": 7.877824993604728,
+          "offer_area_ratio": 0.029685819466254676,
+          "safe_area": [
+            64,
+            64,
+            952,
+            952
+          ],
+          "lines": [
+            {
+              "field": "headline",
+              "text": "20% off · Make room ",
+              "x": 64,
+              "y": 64,
+              "width": 500.8798828125,
+              "height": 38,
+              "font_size": 48
+            },
+            {
+              "field": "headline",
+              "text": "for a shared pause",
+              "x": 64,
+              "y": 129.28,
+              "width": 442.7999267578125,
+              "height": 49,
+              "font_size": 48
+            },
+            {
+              "field": "body",
+              "text": "20% off · ",
+              "x": 64,
+              "y": 212.56,
+              "width": 446.5919494628906,
+              "height": 75,
+              "font_size": 96
+            },
+            {
+              "field": "body",
+              "text": "coffee",
+              "x": 64,
+              "y": 343.12,
+              "width": 310.84796142578125,
+              "height": 75,
+              "font_size": 96
+            },
+            {
+              "field": "body",
+              "text": "Namma Cafe · Bengaluru",
+              "x": 64,
+              "y": 478.68,
+              "width": 319.03179931640625,
+              "height": 28,
+              "font_size": 27
+            },
+            {
+              "field": "body",
+              "text": "2026-10-10 – 2026-10-11",
+              "x": 64,
+              "y": 520.4000000000001,
+              "width": 309.41998291015625,
+              "height": 21,
+              "font_size": 27
+            },
+            {
+              "field": "body",
+              "text": "Saturday / Sunday",
+              "x": 64,
+              "y": 562.1200000000001,
+              "width": 231.56686401367188,
+              "height": 28,
+              "font_size": 27
+            },
+            {
+              "field": "body",
+              "text": "Open to all",
+              "x": 64,
+              "y": 603.8400000000001,
+              "width": 138.80690002441406,
+              "height": 28,
+              "font_size": 27
+            },
+            {
+              "field": "cta",
+              "text": "Come along!",
+              "x": 64,
+              "y": 656.5600000000002,
+              "width": 176.49392700195312,
+              "height": 29,
+              "font_size": 29
+            }
+          ],
+          "logo_bounds": null,
+          "renderer_version": "canvas-modern-cafe-b1.0"
+        },
+        "guardian": {
+          "schema_version": "guardian-report-2.1",
+          "policy_version": "guardian-policy-2.1",
+          "campaign_id": "6ec0bb1c5b494f4894440d979365ac9b",
+          "campaign_revision": 5,
+          "mode": "asset",
+          "content_hash": "8f71867b11c68c19c930c3f7db8df650d0a5dce2015eb00ad3fba4c0b6fc6005",
+          "dependency_hash": "93b26d9ca7b28aa246797f819f0cc47b4921e45e34b758969aaeee1af588ebc0",
+          "rendered": {
+            "fields": {
+              "headline": "20% off · Make room for a shared pause",
+              "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+              "cta": "Come along!",
+              "alt_text": "Namma Cafe · coffee · 20% off"
+            },
+            "spans": [
+              {
+                "field": "headline",
+                "start": 0,
+                "end": 7,
+                "template_start": 0,
+                "template_end": 9,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 0,
+                "end": 7,
+                "template_start": 0,
+                "template_end": 9,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 10,
+                "end": 16,
+                "template_start": 12,
+                "template_end": 23,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 17,
+                "end": 27,
+                "template_start": 24,
+                "template_end": 32,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 30,
+                "end": 39,
+                "template_start": 35,
+                "template_end": 47,
+                "key": "LOCATION",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Bengaluru",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 40,
+                "end": 63,
+                "template_start": 48,
+                "template_end": 57,
+                "key": "DATES",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "2026-10-10 – 2026-10-11",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 64,
+                "end": 81,
+                "template_start": 58,
+                "template_end": 66,
+                "key": "DAYS",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Saturday / Sunday",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 82,
+                "end": 93,
+                "template_start": 67,
+                "template_end": 82,
+                "key": "ELIGIBILITY",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Open to all",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 0,
+                "end": 10,
+                "template_start": 0,
+                "template_end": 8,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 13,
+                "end": 19,
+                "template_start": 11,
+                "template_end": 22,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 22,
+                "end": 29,
+                "template_start": 25,
+                "template_end": 34,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              }
+            ],
+            "slots_used": [
+              "CAFE",
+              "DATES",
+              "DAYS",
+              "ELIGIBILITY",
+              "LOCATION",
+              "OFFER",
+              "PRODUCT"
+            ]
+          },
+          "checks": [
+            {
+              "rule": "G01",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G02",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G03",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G04",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G05",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G06",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G07",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G08",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G09",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G10",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G11",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "WARN",
+              "findings": []
+            },
+            {
+              "rule": "G12",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": [
+                {
+                  "field": "*",
+                  "source": "policy",
+                  "start": null,
+                  "end": null,
+                  "quote": "",
+                  "message": "Measured canvas bounds validated against safe areas; artifact bound to render hash"
+                }
+              ]
+            },
+            {
+              "rule": "G13",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G14",
+              "applicable": true,
+              "completed": false,
+              "passed": null,
+              "severity": "BLOCK",
+              "findings": [
+                {
+                  "field": "*",
+                  "source": "policy",
+                  "start": null,
+                  "end": null,
+                  "quote": "",
+                  "message": "Blinded Configured provider R7 reader pending B5"
+                }
+              ]
+            },
+            {
+              "rule": "G15",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            }
+          ],
+          "status": "INCOMPLETE",
+          "missing_checks": [
+            "G14"
+          ],
+          "warning_ids": [],
+          "integrity": null,
+          "approval_ready": false,
+          "native_review": "PENDING"
+        },
+        "background_id": "3d395fcc9b644c6fbf7db6a5c7ddbb7c",
+        "logo_id": null,
+        "approval_ready": false,
+        "native_review": "PENDING",
+        "copy_provenance": "mock"
+      },
+      "audit": {
+        "id": "ff1eb723de9d48ab90b6d7fcba6116de",
+        "campaign_id": "6ec0bb1c5b494f4894440d979365ac9b",
+        "campaign_revision": 5,
+        "content_hash": "8f71867b11c68c19c930c3f7db8df650d0a5dce2015eb00ad3fba4c0b6fc6005",
+        "dependency_hash": "93b26d9ca7b28aa246797f819f0cc47b4921e45e34b758969aaeee1af588ebc0",
+        "artifact_hash": "b231011fecb05b6fdc12b8629ba105f3a5b0cb012d37d605c7595b582dc4061a",
+        "status": "PASS",
+        "findings": [],
+        "warning_ids": [],
+        "reader": {
+          "expectations": [
+            {
+              "key": "CAFE",
+              "state": "stated",
+              "canonical": {
+                "kind": "text",
+                "value": "Namma Cafe"
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 17,
+                  "end": 27,
+                  "quote": "Namma Cafe"
+                }
+              ]
+            },
+            {
+              "key": "LOCATION",
+              "state": "stated",
+              "canonical": {
+                "kind": "text",
+                "value": "Bengaluru"
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 30,
+                  "end": 39,
+                  "quote": "Bengaluru"
+                }
+              ]
+            },
+            {
+              "key": "OFFER",
+              "state": "stated",
+              "canonical": {
+                "kind": "percent_off",
+                "value": 20,
+                "unit": "percent"
+              },
+              "evidence": [
+                {
+                  "field": "headline",
+                  "start": 0,
+                  "end": 8,
+                  "quote": "20% off "
+                }
+              ]
+            },
+            {
+              "key": "PRODUCT",
+              "state": "stated",
+              "canonical": {
+                "kind": "text",
+                "value": "coffee"
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 10,
+                  "end": 16,
+                  "quote": "coffee"
+                }
+              ]
+            },
+            {
+              "key": "DAYS",
+              "state": "stated",
+              "canonical": {
+                "kind": "days",
+                "weekdays": [
+                  "SAT",
+                  "SUN"
+                ]
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 64,
+                  "end": 81,
+                  "quote": "Saturday / Sunday"
+                }
+              ]
+            },
+            {
+              "key": "DATES",
+              "state": "stated",
+              "canonical": {
+                "kind": "dates",
+                "start": "2026-10-10",
+                "end": "2026-10-11",
+                "original_phrase": "customer text",
+                "timezone": "Asia/Kolkata"
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 40,
+                  "end": 63,
+                  "quote": "2026-10-10 – 2026-10-11"
+                }
+              ]
+            },
+            {
+              "key": "ELIGIBILITY",
+              "state": "stated",
+              "canonical": {
+                "kind": "eligibility",
+                "scope": "all",
+                "description": ""
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 82,
+                  "end": 93,
+                  "quote": "Open to all"
+                }
+              ]
+            },
+            {
+              "key": "ID_RULE",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            },
+            {
+              "key": "TIME_WINDOW",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            },
+            {
+              "key": "DINE_IN_RULE",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            },
+            {
+              "key": "MIN_PURCHASE_RULE",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            },
+            {
+              "key": "COMBINE_RULE",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            }
+          ],
+          "other_promises": [],
+          "ambiguities": [],
+          "back_translation": "MOCK bounded fixture extraction; unsupported text is not inferred."
+        },
+        "guardian": {
+          "schema_version": "guardian-report-2.1",
+          "policy_version": "guardian-policy-2.1",
+          "campaign_id": "6ec0bb1c5b494f4894440d979365ac9b",
+          "campaign_revision": 5,
+          "mode": "asset",
+          "content_hash": "8f71867b11c68c19c930c3f7db8df650d0a5dce2015eb00ad3fba4c0b6fc6005",
+          "dependency_hash": "93b26d9ca7b28aa246797f819f0cc47b4921e45e34b758969aaeee1af588ebc0",
+          "rendered": {
+            "fields": {
+              "headline": "20% off · Make room for a shared pause",
+              "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+              "cta": "Come along!",
+              "alt_text": "Namma Cafe · coffee · 20% off"
+            },
+            "spans": [
+              {
+                "field": "headline",
+                "start": 0,
+                "end": 7,
+                "template_start": 0,
+                "template_end": 9,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 0,
+                "end": 7,
+                "template_start": 0,
+                "template_end": 9,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 10,
+                "end": 16,
+                "template_start": 12,
+                "template_end": 23,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 17,
+                "end": 27,
+                "template_start": 24,
+                "template_end": 32,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 30,
+                "end": 39,
+                "template_start": 35,
+                "template_end": 47,
+                "key": "LOCATION",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Bengaluru",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 40,
+                "end": 63,
+                "template_start": 48,
+                "template_end": 57,
+                "key": "DATES",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "2026-10-10 – 2026-10-11",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 64,
+                "end": 81,
+                "template_start": 58,
+                "template_end": 66,
+                "key": "DAYS",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Saturday / Sunday",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 82,
+                "end": 93,
+                "template_start": 67,
+                "template_end": 82,
+                "key": "ELIGIBILITY",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Open to all",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 0,
+                "end": 10,
+                "template_start": 0,
+                "template_end": 8,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 13,
+                "end": 19,
+                "template_start": 11,
+                "template_end": 22,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 22,
+                "end": 29,
+                "template_start": 25,
+                "template_end": 34,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              }
+            ],
+            "slots_used": [
+              "CAFE",
+              "DATES",
+              "DAYS",
+              "ELIGIBILITY",
+              "LOCATION",
+              "OFFER",
+              "PRODUCT"
+            ]
+          },
+          "checks": [
+            {
+              "rule": "G01",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G02",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G03",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G04",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G05",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G06",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G07",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G08",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G09",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G10",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G11",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "WARN",
+              "findings": []
+            },
+            {
+              "rule": "G12",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": [
+                {
+                  "field": "*",
+                  "source": "policy",
+                  "start": null,
+                  "end": null,
+                  "quote": "",
+                  "message": "Measured canvas bounds validated against safe areas; artifact bound to render hash"
+                }
+              ]
+            },
+            {
+              "rule": "G13",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G14",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G15",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            }
+          ],
+          "status": "PASS",
+          "missing_checks": [],
+          "warning_ids": [],
+          "integrity": 100,
+          "approval_ready": false,
+          "native_review": "PENDING"
+        },
+        "provenance": [
+          {
+            "field": "headline",
+            "start": 0,
+            "end": 7,
+            "template_start": 0,
+            "template_end": 9,
+            "key": "OFFER",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "20% off",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 0,
+            "end": 7,
+            "template_start": 0,
+            "template_end": 9,
+            "key": "OFFER",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "20% off",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 10,
+            "end": 16,
+            "template_start": 12,
+            "template_end": 23,
+            "key": "PRODUCT",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "coffee",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 17,
+            "end": 27,
+            "template_start": 24,
+            "template_end": 32,
+            "key": "CAFE",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Namma Cafe",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 30,
+            "end": 39,
+            "template_start": 35,
+            "template_end": 47,
+            "key": "LOCATION",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Bengaluru",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 40,
+            "end": 63,
+            "template_start": 48,
+            "template_end": 57,
+            "key": "DATES",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "2026-10-10 – 2026-10-11",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 64,
+            "end": 81,
+            "template_start": 58,
+            "template_end": 66,
+            "key": "DAYS",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Saturday / Sunday",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 82,
+            "end": 93,
+            "template_start": 67,
+            "template_end": 82,
+            "key": "ELIGIBILITY",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Open to all",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "alt_text",
+            "start": 0,
+            "end": 10,
+            "template_start": 0,
+            "template_end": 8,
+            "key": "CAFE",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Namma Cafe",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "alt_text",
+            "start": 13,
+            "end": 19,
+            "template_start": 11,
+            "template_end": 22,
+            "key": "PRODUCT",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "coffee",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "alt_text",
+            "start": 22,
+            "end": 29,
+            "template_start": 25,
+            "template_end": 34,
+            "key": "OFFER",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "20% off",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          }
+        ],
+        "call": {
+          "role": "R7",
+          "cache_key": "088bb37f059221802f5a26fa25e02bd8420e76761da8e224ab52cd541a206fa2",
+          "provenance": "mock",
+          "source_mode": "mock",
+          "captured_at": "2026-10-10T00:01:59.296751+00:00",
+          "model": "openai/gpt-4o-mini",
+          "prompt_hash": "ccf7568c22c6a0e64ff5bd810a9baa514e2c5d9c6686beae3e190d651edfe61a",
+          "input_hash": "212d67ccb4847802d99ca85cb77a4f581bbb201ed8f920769c7748c2a5992798",
+          "output_hash": "bb33c40bb6989384c58bf56005d6ca0730281385efcc094e344a874b54ae1772",
+          "call_ids": [
+            "65b5fa8e92bc418ba5863d645a7a055f"
+          ],
+          "error_code": null,
+          "elapsed_ms": 0
+        },
+        "measured_features": [
+          {
+            "name": "offer_first_line",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Approved OFFER span entirely within first line/80 characters"
+          },
+          {
+            "name": "cta_presence",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Nonempty customer-facing CTA"
+          },
+          {
+            "name": "channel_length_fit",
+            "applicable": true,
+            "value": 100,
+            "measurement": "171 code points / product budget 600"
+          },
+          {
+            "name": "required_fact_completeness",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Guardian G05 required visible facts/conditions"
+          },
+          {
+            "name": "script_fit",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Guardian G11 script-fit check; native review remains pending"
+          },
+          {
+            "name": "text_contrast",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Measured contrast 7.87782"
+          },
+          {
+            "name": "offer_area",
+            "applicable": true,
+            "value": 20,
+            "measurement": "Measured line area 2.97%; target 6–18%"
+          }
+        ],
+        "remote_vision": "NOT_TESTED",
+        "approval_ready": false
+      }
+    },
+    {
+      "poster": {
+        "id": "8674ecd8e5d54a25b40f9121ef4ecd12",
+        "campaign_id": "6ec0bb1c5b494f4894440d979365ac9b",
+        "variant_id": "5020f8ac35442b81a3f2772cd3a098975790cc325ffe89b188f7641a7deca5db",
+        "campaign_revision": 5,
+        "kind": "poster",
+        "status": "ready",
+        "mime_type": "image/png",
+        "width": 1080,
+        "height": 1920,
+        "byte_count": 270074,
+        "sha256": "25e598ee62305911e6b4b852586ed2d0c44176842d45513ee370d7502d255755",
+        "fact_hash": "5b450a9a7dda20eb9b1f06318e10dbece6d3b0c261e3d4f235ae4cd713264c98",
+        "dependency_hash": "ffc11296cd82a455d1677e6a5439399ffb24bc7393ae31e3928e3445f98536ee",
+        "content_hash": "8f71867b11c68c19c930c3f7db8df650d0a5dce2015eb00ad3fba4c0b6fc6005",
+        "render_hash": "60bc9fa3528980cf88ddfb05938812e0779953716922b023e1ea76ba939be25b",
+        "dependencies": {
+          "facts": {
+            "CAFE": 4,
+            "LOCATION": 4,
+            "OFFER": 4,
+            "PRODUCT": 4,
+            "DAYS": 4,
+            "DATES": 4,
+            "ELIGIBILITY": 4,
+            "ID_RULE": 2,
+            "TIME_WINDOW": 2,
+            "DINE_IN_RULE": 2,
+            "MIN_PURCHASE_RULE": 2,
+            "COMBINE_RULE": 2
+          },
+          "brand_revision": 1,
+          "prompt_version": "b5.1",
+          "policy_version": "guardian-policy-2.1",
+          "renderer_version": "canvas-modern-cafe-b1.0",
+          "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+          "background_hash": "b3fdeef5723925f7c9c06e2bc5d6eaed0a39575063ba60ef407b34fe0181f698",
+          "layout_hash": "f70c680f6d4e00b060d666456e65bd8b2487dbb632fb9ed3d15988728e5a8908"
+        },
+        "provenance": "deterministic",
+        "captured_at": "2026-10-10T00:02:01.397534+00:00",
+        "render_input": {
+          "schema_version": "canvas-input-b4.1",
+          "width": 1080,
+          "height": 1920,
+          "size": "story",
+          "language": "en",
+          "fields": {
+            "headline": "20% off · Make room for a shared pause",
+            "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+            "cta": "Come along!",
+            "alt_text": "Namma Cafe · coffee · 20% off"
+          },
+          "offer_forms": [
+            "20% off"
+          ],
+          "background_url": "/api/assets/1d86c9a9dec4433eb16e50f1adbf9066",
+          "logo_url": null,
+          "font_urls": {
+            "latin": "/api/render/fonts/NotoSans.ttf",
+            "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+          },
+          "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+          "renderer_version": "canvas-modern-cafe-b1.0",
+          "renderer_hash": "88c7c80e3b5655dcdb5d19e18c5d4b500c53b5fb866dd054a324ecf034bf9a00",
+          "background_hash": "b3fdeef5723925f7c9c06e2bc5d6eaed0a39575063ba60ef407b34fe0181f698",
+          "logo_hash": null,
+          "layout_hash": "f70c680f6d4e00b060d666456e65bd8b2487dbb632fb9ed3d15988728e5a8908"
+        },
+        "validation": {
+          "passed": true,
+          "reasons": [],
+          "font_loaded": true,
+          "grapheme_engine": true,
+          "contrast": 7.877824993604728,
+          "offer_area_ratio": 0.023031537466579013,
+          "safe_area": [
+            72,
+            200,
+            936,
+            1480
+          ],
+          "lines": [
+            {
+              "field": "headline",
+              "text": "20% off · Make ",
+              "x": 72,
+              "y": 200,
+              "width": 466.4259033203125,
+              "height": 49,
+              "font_size": 62
+            },
+            {
+              "field": "headline",
+              "text": "room for a ",
+              "x": 72,
+              "y": 284.32,
+              "width": 340.37994384765625,
+              "height": 49,
+              "font_size": 62
+            },
+            {
+              "field": "headline",
+              "text": "shared pause",
+              "x": 72,
+              "y": 368.64,
+              "width": 412.1138916015625,
+              "height": 63,
+              "font_size": 62
+            },
+            {
+              "field": "body",
+              "text": "20% off · ",
+              "x": 72,
+              "y": 470.96000000000004,
+              "width": 511.71990966796875,
+              "height": 86,
+              "font_size": 110
+            },
+            {
+              "field": "body",
+              "text": "coffee",
+              "x": 72,
+              "y": 620.5600000000001,
+              "width": 356.17999267578125,
+              "height": 86,
+              "font_size": 110
+            },
+            {
+              "field": "body",
+              "text": "Namma Cafe · Bengaluru",
+              "x": 72,
+              "y": 775.1600000000001,
+              "width": 389.9278869628906,
+              "height": 34,
+              "font_size": 33
+            },
+            {
+              "field": "body",
+              "text": "2026-10-10 – 2026-10-11",
+              "x": 72,
+              "y": 825.0400000000001,
+              "width": 378.1798095703125,
+              "height": 25,
+              "font_size": 33
+            },
+            {
+              "field": "body",
+              "text": "Saturday / Sunday",
+              "x": 72,
+              "y": 874.9200000000001,
+              "width": 282.6929016113281,
+              "height": 33,
+              "font_size": 33
+            },
+            {
+              "field": "body",
+              "text": "Open to all",
+              "x": 72,
+              "y": 924.8000000000001,
+              "width": 169.65293884277344,
+              "height": 33,
+              "font_size": 33
+            },
+            {
+              "field": "cta",
+              "text": "Come along!",
+              "x": 72,
+              "y": 985.6800000000001,
+              "width": 219.09591674804688,
+              "height": 37,
+              "font_size": 36
+            }
+          ],
+          "logo_bounds": null,
+          "renderer_version": "canvas-modern-cafe-b1.0"
+        },
+        "guardian": {
+          "schema_version": "guardian-report-2.1",
+          "policy_version": "guardian-policy-2.1",
+          "campaign_id": "6ec0bb1c5b494f4894440d979365ac9b",
+          "campaign_revision": 5,
+          "mode": "asset",
+          "content_hash": "8f71867b11c68c19c930c3f7db8df650d0a5dce2015eb00ad3fba4c0b6fc6005",
+          "dependency_hash": "93b26d9ca7b28aa246797f819f0cc47b4921e45e34b758969aaeee1af588ebc0",
+          "rendered": {
+            "fields": {
+              "headline": "20% off · Make room for a shared pause",
+              "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+              "cta": "Come along!",
+              "alt_text": "Namma Cafe · coffee · 20% off"
+            },
+            "spans": [
+              {
+                "field": "headline",
+                "start": 0,
+                "end": 7,
+                "template_start": 0,
+                "template_end": 9,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 0,
+                "end": 7,
+                "template_start": 0,
+                "template_end": 9,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 10,
+                "end": 16,
+                "template_start": 12,
+                "template_end": 23,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 17,
+                "end": 27,
+                "template_start": 24,
+                "template_end": 32,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 30,
+                "end": 39,
+                "template_start": 35,
+                "template_end": 47,
+                "key": "LOCATION",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Bengaluru",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 40,
+                "end": 63,
+                "template_start": 48,
+                "template_end": 57,
+                "key": "DATES",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "2026-10-10 – 2026-10-11",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 64,
+                "end": 81,
+                "template_start": 58,
+                "template_end": 66,
+                "key": "DAYS",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Saturday / Sunday",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 82,
+                "end": 93,
+                "template_start": 67,
+                "template_end": 82,
+                "key": "ELIGIBILITY",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Open to all",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 0,
+                "end": 10,
+                "template_start": 0,
+                "template_end": 8,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 13,
+                "end": 19,
+                "template_start": 11,
+                "template_end": 22,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 22,
+                "end": 29,
+                "template_start": 25,
+                "template_end": 34,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              }
+            ],
+            "slots_used": [
+              "CAFE",
+              "DATES",
+              "DAYS",
+              "ELIGIBILITY",
+              "LOCATION",
+              "OFFER",
+              "PRODUCT"
+            ]
+          },
+          "checks": [
+            {
+              "rule": "G01",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G02",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G03",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G04",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G05",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G06",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G07",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G08",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G09",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G10",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G11",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "WARN",
+              "findings": []
+            },
+            {
+              "rule": "G12",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": [
+                {
+                  "field": "*",
+                  "source": "policy",
+                  "start": null,
+                  "end": null,
+                  "quote": "",
+                  "message": "Measured canvas bounds validated against safe areas; artifact bound to render hash"
+                }
+              ]
+            },
+            {
+              "rule": "G13",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G14",
+              "applicable": true,
+              "completed": false,
+              "passed": null,
+              "severity": "BLOCK",
+              "findings": [
+                {
+                  "field": "*",
+                  "source": "policy",
+                  "start": null,
+                  "end": null,
+                  "quote": "",
+                  "message": "Blinded Configured provider R7 reader pending B5"
+                }
+              ]
+            },
+            {
+              "rule": "G15",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            }
+          ],
+          "status": "INCOMPLETE",
+          "missing_checks": [
+            "G14"
+          ],
+          "warning_ids": [],
+          "integrity": null,
+          "approval_ready": false,
+          "native_review": "PENDING"
+        },
+        "background_id": "1d86c9a9dec4433eb16e50f1adbf9066",
+        "logo_id": null,
+        "approval_ready": false,
+        "native_review": "PENDING",
+        "copy_provenance": "mock"
+      },
+      "audit": {
+        "id": "0a494e08d2254861b7d8cd484ef9d960",
+        "campaign_id": "6ec0bb1c5b494f4894440d979365ac9b",
+        "campaign_revision": 5,
+        "content_hash": "8f71867b11c68c19c930c3f7db8df650d0a5dce2015eb00ad3fba4c0b6fc6005",
+        "dependency_hash": "93b26d9ca7b28aa246797f819f0cc47b4921e45e34b758969aaeee1af588ebc0",
+        "artifact_hash": "25e598ee62305911e6b4b852586ed2d0c44176842d45513ee370d7502d255755",
+        "status": "PASS",
+        "findings": [],
+        "warning_ids": [],
+        "reader": {
+          "expectations": [
+            {
+              "key": "CAFE",
+              "state": "stated",
+              "canonical": {
+                "kind": "text",
+                "value": "Namma Cafe"
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 17,
+                  "end": 27,
+                  "quote": "Namma Cafe"
+                }
+              ]
+            },
+            {
+              "key": "LOCATION",
+              "state": "stated",
+              "canonical": {
+                "kind": "text",
+                "value": "Bengaluru"
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 30,
+                  "end": 39,
+                  "quote": "Bengaluru"
+                }
+              ]
+            },
+            {
+              "key": "OFFER",
+              "state": "stated",
+              "canonical": {
+                "kind": "percent_off",
+                "value": 20,
+                "unit": "percent"
+              },
+              "evidence": [
+                {
+                  "field": "headline",
+                  "start": 0,
+                  "end": 8,
+                  "quote": "20% off "
+                }
+              ]
+            },
+            {
+              "key": "PRODUCT",
+              "state": "stated",
+              "canonical": {
+                "kind": "text",
+                "value": "coffee"
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 10,
+                  "end": 16,
+                  "quote": "coffee"
+                }
+              ]
+            },
+            {
+              "key": "DAYS",
+              "state": "stated",
+              "canonical": {
+                "kind": "days",
+                "weekdays": [
+                  "SAT",
+                  "SUN"
+                ]
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 64,
+                  "end": 81,
+                  "quote": "Saturday / Sunday"
+                }
+              ]
+            },
+            {
+              "key": "DATES",
+              "state": "stated",
+              "canonical": {
+                "kind": "dates",
+                "start": "2026-10-10",
+                "end": "2026-10-11",
+                "original_phrase": "customer text",
+                "timezone": "Asia/Kolkata"
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 40,
+                  "end": 63,
+                  "quote": "2026-10-10 – 2026-10-11"
+                }
+              ]
+            },
+            {
+              "key": "ELIGIBILITY",
+              "state": "stated",
+              "canonical": {
+                "kind": "eligibility",
+                "scope": "all",
+                "description": ""
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 82,
+                  "end": 93,
+                  "quote": "Open to all"
+                }
+              ]
+            },
+            {
+              "key": "ID_RULE",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            },
+            {
+              "key": "TIME_WINDOW",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            },
+            {
+              "key": "DINE_IN_RULE",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            },
+            {
+              "key": "MIN_PURCHASE_RULE",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            },
+            {
+              "key": "COMBINE_RULE",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            }
+          ],
+          "other_promises": [],
+          "ambiguities": [],
+          "back_translation": "MOCK bounded fixture extraction; unsupported text is not inferred."
+        },
+        "guardian": {
+          "schema_version": "guardian-report-2.1",
+          "policy_version": "guardian-policy-2.1",
+          "campaign_id": "6ec0bb1c5b494f4894440d979365ac9b",
+          "campaign_revision": 5,
+          "mode": "asset",
+          "content_hash": "8f71867b11c68c19c930c3f7db8df650d0a5dce2015eb00ad3fba4c0b6fc6005",
+          "dependency_hash": "93b26d9ca7b28aa246797f819f0cc47b4921e45e34b758969aaeee1af588ebc0",
+          "rendered": {
+            "fields": {
+              "headline": "20% off · Make room for a shared pause",
+              "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+              "cta": "Come along!",
+              "alt_text": "Namma Cafe · coffee · 20% off"
+            },
+            "spans": [
+              {
+                "field": "headline",
+                "start": 0,
+                "end": 7,
+                "template_start": 0,
+                "template_end": 9,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 0,
+                "end": 7,
+                "template_start": 0,
+                "template_end": 9,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 10,
+                "end": 16,
+                "template_start": 12,
+                "template_end": 23,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 17,
+                "end": 27,
+                "template_start": 24,
+                "template_end": 32,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 30,
+                "end": 39,
+                "template_start": 35,
+                "template_end": 47,
+                "key": "LOCATION",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Bengaluru",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 40,
+                "end": 63,
+                "template_start": 48,
+                "template_end": 57,
+                "key": "DATES",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "2026-10-10 – 2026-10-11",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 64,
+                "end": 81,
+                "template_start": 58,
+                "template_end": 66,
+                "key": "DAYS",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Saturday / Sunday",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 82,
+                "end": 93,
+                "template_start": 67,
+                "template_end": 82,
+                "key": "ELIGIBILITY",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Open to all",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 0,
+                "end": 10,
+                "template_start": 0,
+                "template_end": 8,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 13,
+                "end": 19,
+                "template_start": 11,
+                "template_end": 22,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 22,
+                "end": 29,
+                "template_start": 25,
+                "template_end": 34,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              }
+            ],
+            "slots_used": [
+              "CAFE",
+              "DATES",
+              "DAYS",
+              "ELIGIBILITY",
+              "LOCATION",
+              "OFFER",
+              "PRODUCT"
+            ]
+          },
+          "checks": [
+            {
+              "rule": "G01",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G02",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G03",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G04",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G05",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G06",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G07",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G08",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G09",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G10",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G11",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "WARN",
+              "findings": []
+            },
+            {
+              "rule": "G12",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": [
+                {
+                  "field": "*",
+                  "source": "policy",
+                  "start": null,
+                  "end": null,
+                  "quote": "",
+                  "message": "Measured canvas bounds validated against safe areas; artifact bound to render hash"
+                }
+              ]
+            },
+            {
+              "rule": "G13",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G14",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G15",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            }
+          ],
+          "status": "PASS",
+          "missing_checks": [],
+          "warning_ids": [],
+          "integrity": 100,
+          "approval_ready": false,
+          "native_review": "PENDING"
+        },
+        "provenance": [
+          {
+            "field": "headline",
+            "start": 0,
+            "end": 7,
+            "template_start": 0,
+            "template_end": 9,
+            "key": "OFFER",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "20% off",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 0,
+            "end": 7,
+            "template_start": 0,
+            "template_end": 9,
+            "key": "OFFER",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "20% off",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 10,
+            "end": 16,
+            "template_start": 12,
+            "template_end": 23,
+            "key": "PRODUCT",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "coffee",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 17,
+            "end": 27,
+            "template_start": 24,
+            "template_end": 32,
+            "key": "CAFE",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Namma Cafe",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 30,
+            "end": 39,
+            "template_start": 35,
+            "template_end": 47,
+            "key": "LOCATION",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Bengaluru",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 40,
+            "end": 63,
+            "template_start": 48,
+            "template_end": 57,
+            "key": "DATES",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "2026-10-10 – 2026-10-11",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 64,
+            "end": 81,
+            "template_start": 58,
+            "template_end": 66,
+            "key": "DAYS",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Saturday / Sunday",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 82,
+            "end": 93,
+            "template_start": 67,
+            "template_end": 82,
+            "key": "ELIGIBILITY",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Open to all",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "alt_text",
+            "start": 0,
+            "end": 10,
+            "template_start": 0,
+            "template_end": 8,
+            "key": "CAFE",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Namma Cafe",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "alt_text",
+            "start": 13,
+            "end": 19,
+            "template_start": 11,
+            "template_end": 22,
+            "key": "PRODUCT",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "coffee",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "alt_text",
+            "start": 22,
+            "end": 29,
+            "template_start": 25,
+            "template_end": 34,
+            "key": "OFFER",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "20% off",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          }
+        ],
+        "call": {
+          "role": "R7",
+          "cache_key": "12679023496331ec4a48bdcdb0fb748bb8d4787b939e020bbe03fc488ae140b5",
+          "provenance": "mock",
+          "source_mode": "mock",
+          "captured_at": "2026-10-10T00:02:01.422709+00:00",
+          "model": "openai/gpt-4o-mini",
+          "prompt_hash": "ccf7568c22c6a0e64ff5bd810a9baa514e2c5d9c6686beae3e190d651edfe61a",
+          "input_hash": "212d67ccb4847802d99ca85cb77a4f581bbb201ed8f920769c7748c2a5992798",
+          "output_hash": "bb33c40bb6989384c58bf56005d6ca0730281385efcc094e344a874b54ae1772",
+          "call_ids": [
+            "1e82150044d046cba2195ec2bbcf60c9"
+          ],
+          "error_code": null,
+          "elapsed_ms": 0
+        },
+        "measured_features": [
+          {
+            "name": "offer_first_line",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Approved OFFER span entirely within first line/80 characters"
+          },
+          {
+            "name": "cta_presence",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Nonempty customer-facing CTA"
+          },
+          {
+            "name": "channel_length_fit",
+            "applicable": true,
+            "value": 100,
+            "measurement": "171 code points / product budget 600"
+          },
+          {
+            "name": "required_fact_completeness",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Guardian G05 required visible facts/conditions"
+          },
+          {
+            "name": "script_fit",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Guardian G11 script-fit check; native review remains pending"
+          },
+          {
+            "name": "text_contrast",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Measured contrast 7.87782"
+          },
+          {
+            "name": "offer_area",
+            "applicable": true,
+            "value": 20,
+            "measurement": "Measured line area 2.30%; target 6–18%"
+          }
+        ],
+        "remote_vision": "NOT_TESTED",
+        "approval_ready": false
+      }
+    },
+    {
+      "poster": {
+        "id": "0efaef2c800544dbb8782d165d65336a",
+        "campaign_id": "6ec0bb1c5b494f4894440d979365ac9b",
+        "variant_id": "5020f8ac35442b81a3f2772cd3a098975790cc325ffe89b188f7641a7deca5db",
+        "campaign_revision": 5,
+        "kind": "poster",
+        "status": "ready",
+        "mime_type": "image/png",
+        "width": 1200,
+        "height": 630,
+        "byte_count": 158563,
+        "sha256": "eeb75e10efff3fa776895f9f60445727713368caaeef9c9da1e2b3ae497b18f8",
+        "fact_hash": "5b450a9a7dda20eb9b1f06318e10dbece6d3b0c261e3d4f235ae4cd713264c98",
+        "dependency_hash": "55a2b379ac6402ecb51870219ed20be2c6fb3c2ee58c36c6292443e2d54c0965",
+        "content_hash": "8f71867b11c68c19c930c3f7db8df650d0a5dce2015eb00ad3fba4c0b6fc6005",
+        "render_hash": "84cc116a8c10ddd462832368f0f17b857090a989a0da88b97821637e8d49c7af",
+        "dependencies": {
+          "facts": {
+            "CAFE": 4,
+            "LOCATION": 4,
+            "OFFER": 4,
+            "PRODUCT": 4,
+            "DAYS": 4,
+            "DATES": 4,
+            "ELIGIBILITY": 4,
+            "ID_RULE": 2,
+            "TIME_WINDOW": 2,
+            "DINE_IN_RULE": 2,
+            "MIN_PURCHASE_RULE": 2,
+            "COMBINE_RULE": 2
+          },
+          "brand_revision": 1,
+          "prompt_version": "b5.1",
+          "policy_version": "guardian-policy-2.1",
+          "renderer_version": "canvas-modern-cafe-b1.0",
+          "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+          "background_hash": "160247f0117b8775bd5f24aae4ae8c70ac5e37730923e75716f355d24205aca6",
+          "layout_hash": "f70c680f6d4e00b060d666456e65bd8b2487dbb632fb9ed3d15988728e5a8908"
+        },
+        "provenance": "deterministic",
+        "captured_at": "2026-10-10T00:02:03.455681+00:00",
+        "render_input": {
+          "schema_version": "canvas-input-b4.1",
+          "width": 1200,
+          "height": 630,
+          "size": "landscape",
+          "language": "en",
+          "fields": {
+            "headline": "20% off · Make room for a shared pause",
+            "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+            "cta": "Come along!",
+            "alt_text": "Namma Cafe · coffee · 20% off"
+          },
+          "offer_forms": [
+            "20% off"
+          ],
+          "background_url": "/api/assets/fc4c57db6ca843bcb3c70b5c43bb73ee",
+          "logo_url": null,
+          "font_urls": {
+            "latin": "/api/render/fonts/NotoSans.ttf",
+            "kannada": "/api/render/fonts/NotoSansKannada.ttf"
+          },
+          "font_hash": "ad4e3c992313439c29f2d82dc461eccb079b9f446c657d52474da2c8ee3c79bb",
+          "renderer_version": "canvas-modern-cafe-b1.0",
+          "renderer_hash": "88c7c80e3b5655dcdb5d19e18c5d4b500c53b5fb866dd054a324ecf034bf9a00",
+          "background_hash": "160247f0117b8775bd5f24aae4ae8c70ac5e37730923e75716f355d24205aca6",
+          "logo_hash": null,
+          "layout_hash": "f70c680f6d4e00b060d666456e65bd8b2487dbb632fb9ed3d15988728e5a8908"
+        },
+        "validation": {
+          "passed": true,
+          "reasons": [],
+          "font_loaded": true,
+          "grapheme_engine": true,
+          "contrast": 7.877824993604728,
+          "offer_area_ratio": 0.020719058990478517,
+          "safe_area": [
+            48,
+            48,
+            1104,
+            534
+          ],
+          "lines": [
+            {
+              "field": "headline",
+              "text": "20% off · Make room for a shared ",
+              "x": 48,
+              "y": 48,
+              "width": 600.479736328125,
+              "height": 29,
+              "font_size": 36
+            },
+            {
+              "field": "headline",
+              "text": "pause",
+              "x": 48,
+              "y": 96.96000000000001,
+              "width": 107.27996826171875,
+              "height": 29,
+              "font_size": 36
+            },
+            {
+              "field": "body",
+              "text": "20% off · coffee",
+              "x": 48,
+              "y": 163.92000000000002,
+              "width": 489.179931640625,
+              "height": 49,
+              "font_size": 62
+            },
+            {
+              "field": "body",
+              "text": "Namma Cafe · Bengaluru",
+              "x": 48,
+              "y": 253.24,
+              "width": 295.39990234375,
+              "height": 26,
+              "font_size": 25
+            },
+            {
+              "field": "body",
+              "text": "2026-10-10 – 2026-10-11",
+              "x": 48,
+              "y": 292.24,
+              "width": 286.499755859375,
+              "height": 20,
+              "font_size": 25
+            },
+            {
+              "field": "body",
+              "text": "Saturday / Sunday",
+              "x": 48,
+              "y": 331.24,
+              "width": 214.52493286132812,
+              "height": 25,
+              "font_size": 25
+            },
+            {
+              "field": "body",
+              "text": "Open to all",
+              "x": 48,
+              "y": 370.24,
+              "width": 128.52496337890625,
+              "height": 25,
+              "font_size": 25
+            },
+            {
+              "field": "cta",
+              "text": "Come along!",
+              "x": 48,
+              "y": 420.24,
+              "width": 158.2359161376953,
+              "height": 27,
+              "font_size": 26
+            }
+          ],
+          "logo_bounds": null,
+          "renderer_version": "canvas-modern-cafe-b1.0"
+        },
+        "guardian": {
+          "schema_version": "guardian-report-2.1",
+          "policy_version": "guardian-policy-2.1",
+          "campaign_id": "6ec0bb1c5b494f4894440d979365ac9b",
+          "campaign_revision": 5,
+          "mode": "asset",
+          "content_hash": "8f71867b11c68c19c930c3f7db8df650d0a5dce2015eb00ad3fba4c0b6fc6005",
+          "dependency_hash": "93b26d9ca7b28aa246797f819f0cc47b4921e45e34b758969aaeee1af588ebc0",
+          "rendered": {
+            "fields": {
+              "headline": "20% off · Make room for a shared pause",
+              "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+              "cta": "Come along!",
+              "alt_text": "Namma Cafe · coffee · 20% off"
+            },
+            "spans": [
+              {
+                "field": "headline",
+                "start": 0,
+                "end": 7,
+                "template_start": 0,
+                "template_end": 9,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 0,
+                "end": 7,
+                "template_start": 0,
+                "template_end": 9,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 10,
+                "end": 16,
+                "template_start": 12,
+                "template_end": 23,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 17,
+                "end": 27,
+                "template_start": 24,
+                "template_end": 32,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 30,
+                "end": 39,
+                "template_start": 35,
+                "template_end": 47,
+                "key": "LOCATION",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Bengaluru",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 40,
+                "end": 63,
+                "template_start": 48,
+                "template_end": 57,
+                "key": "DATES",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "2026-10-10 – 2026-10-11",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 64,
+                "end": 81,
+                "template_start": 58,
+                "template_end": 66,
+                "key": "DAYS",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Saturday / Sunday",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 82,
+                "end": 93,
+                "template_start": 67,
+                "template_end": 82,
+                "key": "ELIGIBILITY",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Open to all",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 0,
+                "end": 10,
+                "template_start": 0,
+                "template_end": 8,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 13,
+                "end": 19,
+                "template_start": 11,
+                "template_end": 22,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 22,
+                "end": 29,
+                "template_start": 25,
+                "template_end": 34,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              }
+            ],
+            "slots_used": [
+              "CAFE",
+              "DATES",
+              "DAYS",
+              "ELIGIBILITY",
+              "LOCATION",
+              "OFFER",
+              "PRODUCT"
+            ]
+          },
+          "checks": [
+            {
+              "rule": "G01",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G02",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G03",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G04",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G05",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G06",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G07",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G08",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G09",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G10",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G11",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "WARN",
+              "findings": []
+            },
+            {
+              "rule": "G12",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": [
+                {
+                  "field": "*",
+                  "source": "policy",
+                  "start": null,
+                  "end": null,
+                  "quote": "",
+                  "message": "Measured canvas bounds validated against safe areas; artifact bound to render hash"
+                }
+              ]
+            },
+            {
+              "rule": "G13",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G14",
+              "applicable": true,
+              "completed": false,
+              "passed": null,
+              "severity": "BLOCK",
+              "findings": [
+                {
+                  "field": "*",
+                  "source": "policy",
+                  "start": null,
+                  "end": null,
+                  "quote": "",
+                  "message": "Blinded Configured provider R7 reader pending B5"
+                }
+              ]
+            },
+            {
+              "rule": "G15",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            }
+          ],
+          "status": "INCOMPLETE",
+          "missing_checks": [
+            "G14"
+          ],
+          "warning_ids": [],
+          "integrity": null,
+          "approval_ready": false,
+          "native_review": "PENDING"
+        },
+        "background_id": "fc4c57db6ca843bcb3c70b5c43bb73ee",
+        "logo_id": null,
+        "approval_ready": false,
+        "native_review": "PENDING",
+        "copy_provenance": "mock"
+      },
+      "audit": {
+        "id": "3b56b06571cc429eb901bf88e109030b",
+        "campaign_id": "6ec0bb1c5b494f4894440d979365ac9b",
+        "campaign_revision": 5,
+        "content_hash": "8f71867b11c68c19c930c3f7db8df650d0a5dce2015eb00ad3fba4c0b6fc6005",
+        "dependency_hash": "93b26d9ca7b28aa246797f819f0cc47b4921e45e34b758969aaeee1af588ebc0",
+        "artifact_hash": "eeb75e10efff3fa776895f9f60445727713368caaeef9c9da1e2b3ae497b18f8",
+        "status": "PASS",
+        "findings": [],
+        "warning_ids": [],
+        "reader": {
+          "expectations": [
+            {
+              "key": "CAFE",
+              "state": "stated",
+              "canonical": {
+                "kind": "text",
+                "value": "Namma Cafe"
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 17,
+                  "end": 27,
+                  "quote": "Namma Cafe"
+                }
+              ]
+            },
+            {
+              "key": "LOCATION",
+              "state": "stated",
+              "canonical": {
+                "kind": "text",
+                "value": "Bengaluru"
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 30,
+                  "end": 39,
+                  "quote": "Bengaluru"
+                }
+              ]
+            },
+            {
+              "key": "OFFER",
+              "state": "stated",
+              "canonical": {
+                "kind": "percent_off",
+                "value": 20,
+                "unit": "percent"
+              },
+              "evidence": [
+                {
+                  "field": "headline",
+                  "start": 0,
+                  "end": 8,
+                  "quote": "20% off "
+                }
+              ]
+            },
+            {
+              "key": "PRODUCT",
+              "state": "stated",
+              "canonical": {
+                "kind": "text",
+                "value": "coffee"
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 10,
+                  "end": 16,
+                  "quote": "coffee"
+                }
+              ]
+            },
+            {
+              "key": "DAYS",
+              "state": "stated",
+              "canonical": {
+                "kind": "days",
+                "weekdays": [
+                  "SAT",
+                  "SUN"
+                ]
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 64,
+                  "end": 81,
+                  "quote": "Saturday / Sunday"
+                }
+              ]
+            },
+            {
+              "key": "DATES",
+              "state": "stated",
+              "canonical": {
+                "kind": "dates",
+                "start": "2026-10-10",
+                "end": "2026-10-11",
+                "original_phrase": "customer text",
+                "timezone": "Asia/Kolkata"
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 40,
+                  "end": 63,
+                  "quote": "2026-10-10 – 2026-10-11"
+                }
+              ]
+            },
+            {
+              "key": "ELIGIBILITY",
+              "state": "stated",
+              "canonical": {
+                "kind": "eligibility",
+                "scope": "all",
+                "description": ""
+              },
+              "evidence": [
+                {
+                  "field": "body",
+                  "start": 82,
+                  "end": 93,
+                  "quote": "Open to all"
+                }
+              ]
+            },
+            {
+              "key": "ID_RULE",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            },
+            {
+              "key": "TIME_WINDOW",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            },
+            {
+              "key": "DINE_IN_RULE",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            },
+            {
+              "key": "MIN_PURCHASE_RULE",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            },
+            {
+              "key": "COMBINE_RULE",
+              "state": "not_stated",
+              "canonical": null,
+              "evidence": []
+            }
+          ],
+          "other_promises": [],
+          "ambiguities": [],
+          "back_translation": "MOCK bounded fixture extraction; unsupported text is not inferred."
+        },
+        "guardian": {
+          "schema_version": "guardian-report-2.1",
+          "policy_version": "guardian-policy-2.1",
+          "campaign_id": "6ec0bb1c5b494f4894440d979365ac9b",
+          "campaign_revision": 5,
+          "mode": "asset",
+          "content_hash": "8f71867b11c68c19c930c3f7db8df650d0a5dce2015eb00ad3fba4c0b6fc6005",
+          "dependency_hash": "93b26d9ca7b28aa246797f819f0cc47b4921e45e34b758969aaeee1af588ebc0",
+          "rendered": {
+            "fields": {
+              "headline": "20% off · Make room for a shared pause",
+              "body": "20% off · coffee\nNamma Cafe · Bengaluru\n2026-10-10 – 2026-10-11\nSaturday / Sunday\nOpen to all",
+              "cta": "Come along!",
+              "alt_text": "Namma Cafe · coffee · 20% off"
+            },
+            "spans": [
+              {
+                "field": "headline",
+                "start": 0,
+                "end": 7,
+                "template_start": 0,
+                "template_end": 9,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 0,
+                "end": 7,
+                "template_start": 0,
+                "template_end": 9,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 10,
+                "end": 16,
+                "template_start": 12,
+                "template_end": 23,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 17,
+                "end": 27,
+                "template_start": 24,
+                "template_end": 32,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 30,
+                "end": 39,
+                "template_start": 35,
+                "template_end": 47,
+                "key": "LOCATION",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Bengaluru",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 40,
+                "end": 63,
+                "template_start": 48,
+                "template_end": 57,
+                "key": "DATES",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "2026-10-10 – 2026-10-11",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 64,
+                "end": 81,
+                "template_start": 58,
+                "template_end": 66,
+                "key": "DAYS",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Saturday / Sunday",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "body",
+                "start": 82,
+                "end": 93,
+                "template_start": 67,
+                "template_end": 82,
+                "key": "ELIGIBILITY",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Open to all",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 0,
+                "end": 10,
+                "template_start": 0,
+                "template_end": 8,
+                "key": "CAFE",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "Namma Cafe",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 13,
+                "end": 19,
+                "template_start": 11,
+                "template_end": 22,
+                "key": "PRODUCT",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "coffee",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              },
+              {
+                "field": "alt_text",
+                "start": 22,
+                "end": 29,
+                "template_start": 25,
+                "template_end": 34,
+                "key": "OFFER",
+                "version": 4,
+                "language": "en",
+                "case": "nom",
+                "approved_form": "20% off",
+                "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+              }
+            ],
+            "slots_used": [
+              "CAFE",
+              "DATES",
+              "DAYS",
+              "ELIGIBILITY",
+              "LOCATION",
+              "OFFER",
+              "PRODUCT"
+            ]
+          },
+          "checks": [
+            {
+              "rule": "G01",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G02",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G03",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G04",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G05",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G06",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G07",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G08",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G09",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G10",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G11",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "WARN",
+              "findings": []
+            },
+            {
+              "rule": "G12",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": [
+                {
+                  "field": "*",
+                  "source": "policy",
+                  "start": null,
+                  "end": null,
+                  "quote": "",
+                  "message": "Measured canvas bounds validated against safe areas; artifact bound to render hash"
+                }
+              ]
+            },
+            {
+              "rule": "G13",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G14",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            },
+            {
+              "rule": "G15",
+              "applicable": true,
+              "completed": true,
+              "passed": true,
+              "severity": "BLOCK",
+              "findings": []
+            }
+          ],
+          "status": "PASS",
+          "missing_checks": [],
+          "warning_ids": [],
+          "integrity": 100,
+          "approval_ready": false,
+          "native_review": "PENDING"
+        },
+        "provenance": [
+          {
+            "field": "headline",
+            "start": 0,
+            "end": 7,
+            "template_start": 0,
+            "template_end": 9,
+            "key": "OFFER",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "20% off",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 0,
+            "end": 7,
+            "template_start": 0,
+            "template_end": 9,
+            "key": "OFFER",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "20% off",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 10,
+            "end": 16,
+            "template_start": 12,
+            "template_end": 23,
+            "key": "PRODUCT",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "coffee",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 17,
+            "end": 27,
+            "template_start": 24,
+            "template_end": 32,
+            "key": "CAFE",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Namma Cafe",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 30,
+            "end": 39,
+            "template_start": 35,
+            "template_end": 47,
+            "key": "LOCATION",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Bengaluru",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 40,
+            "end": 63,
+            "template_start": 48,
+            "template_end": 57,
+            "key": "DATES",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "2026-10-10 – 2026-10-11",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 64,
+            "end": 81,
+            "template_start": 58,
+            "template_end": 66,
+            "key": "DAYS",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Saturday / Sunday",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "body",
+            "start": 82,
+            "end": 93,
+            "template_start": 67,
+            "template_end": 82,
+            "key": "ELIGIBILITY",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Open to all",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "alt_text",
+            "start": 0,
+            "end": 10,
+            "template_start": 0,
+            "template_end": 8,
+            "key": "CAFE",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "Namma Cafe",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "alt_text",
+            "start": 13,
+            "end": 19,
+            "template_start": 11,
+            "template_end": 22,
+            "key": "PRODUCT",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "coffee",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          },
+          {
+            "field": "alt_text",
+            "start": 22,
+            "end": 29,
+            "template_start": 25,
+            "template_end": 34,
+            "key": "OFFER",
+            "version": 4,
+            "language": "en",
+            "case": "nom",
+            "approved_form": "20% off",
+            "approval_id": "2227ca6a0fb847b88498478de498e1c9"
+          }
+        ],
+        "call": {
+          "role": "R7",
+          "cache_key": "6634ef29fcd511c19f360561646519952956ed9e9495a0e17589f7159cff5fed",
+          "provenance": "mock",
+          "source_mode": "mock",
+          "captured_at": "2026-10-10T00:02:03.464602+00:00",
+          "model": "openai/gpt-4o-mini",
+          "prompt_hash": "ccf7568c22c6a0e64ff5bd810a9baa514e2c5d9c6686beae3e190d651edfe61a",
+          "input_hash": "212d67ccb4847802d99ca85cb77a4f581bbb201ed8f920769c7748c2a5992798",
+          "output_hash": "bb33c40bb6989384c58bf56005d6ca0730281385efcc094e344a874b54ae1772",
+          "call_ids": [
+            "7d76aed74bef4bb990d1201338be28b7"
+          ],
+          "error_code": null,
+          "elapsed_ms": 0
+        },
+        "measured_features": [
+          {
+            "name": "offer_first_line",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Approved OFFER span entirely within first line/80 characters"
+          },
+          {
+            "name": "cta_presence",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Nonempty customer-facing CTA"
+          },
+          {
+            "name": "channel_length_fit",
+            "applicable": true,
+            "value": 100,
+            "measurement": "171 code points / product budget 600"
+          },
+          {
+            "name": "required_fact_completeness",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Guardian G05 required visible facts/conditions"
+          },
+          {
+            "name": "script_fit",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Guardian G11 script-fit check; native review remains pending"
+          },
+          {
+            "name": "text_contrast",
+            "applicable": true,
+            "value": 100,
+            "measurement": "Measured contrast 7.87782"
+          },
+          {
+            "name": "offer_area",
+            "applicable": true,
+            "value": 20,
+            "measurement": "Measured line area 2.07%; target 6–18%"
+          }
+        ],
+        "remote_vision": "NOT_TESTED",
+        "approval_ready": false
+      }
+    }
+  ]
+}

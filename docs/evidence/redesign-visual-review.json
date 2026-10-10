@@ -1,0 +1,158 @@
+{
+  "timestamp": "2026-10-09T05:32:53.655Z",
+  "mode": "MOCK",
+  "observations": [
+    {
+      "width": 1440,
+      "stage": "speak-type",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 1440,
+      "stage": "facts-lock",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 1440,
+      "stage": "brand-strategy",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 1440,
+      "stage": "campaign-matrix",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 1440,
+      "stage": "prediction",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 1440,
+      "stage": "guardian",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 1440,
+      "stage": "ledger-changes",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 1440,
+      "stage": "approve-export",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 820,
+      "stage": "speak-type",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 820,
+      "stage": "facts-lock",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 820,
+      "stage": "brand-strategy",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 820,
+      "stage": "campaign-matrix",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 820,
+      "stage": "prediction",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 820,
+      "stage": "guardian",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 820,
+      "stage": "ledger-changes",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 820,
+      "stage": "approve-export",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 390,
+      "stage": "speak-type",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 390,
+      "stage": "facts-lock",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 390,
+      "stage": "brand-strategy",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 390,
+      "stage": "campaign-matrix",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 390,
+      "stage": "prediction",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 390,
+      "stage": "guardian",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 390,
+      "stage": "ledger-changes",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    },
+    {
+      "width": 390,
+      "stage": "approve-export",
+      "campaign": "6936e62fce7f46cfb9ff7b7f258e43cb",
+      "source": "MOCK persisted regression outputs"
+    }
+  ],
+  "kannada_campaign": "e5608ec6679a479eb5de2121de994c7f",
+  "errors": [],
+  "focus_trap": "PASS",
+  "immutable_cancel": "facts preserved",
+  "reduced_motion": "PASS",
+  "saved_inference_and_approval": "disabled",
+  "native_review": "PENDING; no human sign-off",
+  "lighthouse": "measured separately"
+}

@@ -13,7 +13,6 @@ animated videos and a downloadable website—with owner review before export.
 
 <img src="docs/images/cafe-design-reference.png" alt="User-supplied café design reference: cream paper, forest-green brush accents, gold offer typography and coffee photography" width="600" />
 
-<sub><strong>Design inspiration supplied by the project owner.</strong> This is a reference, not generated project output. Its café name, 25% offer and food items are not imported into campaigns.</sub>
 
 </div>
 
